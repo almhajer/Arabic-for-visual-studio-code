@@ -1,0 +1,61 @@
+{
+    "": [
+        "--------------------------------------------------------------------------------------------",
+        "حقوق الطبع والنشر (c) شركة Microsoft. جميع الحقوق محفوظة.",
+        "مرخص بموجب ترخيص MIT. راجع License.txt في جذر المشروع لمزيد من معلومات الترخيص.",
+        "--------------------------------------------------------------------------------------------",
+        "لا تقم بتحرير هذا الملف. تم إنشاؤه بواسطة الآلة."
+    ],
+    "version": "1.0.0",
+    "contents": {
+        "bundle": {
+            "Callers Of": "المستدعين من",
+            "Calls From": "المكالمات من",
+            "No results.": "لا توجد نتائج.",
+            "No results. Try running a previous search again:": "لا توجد نتائج. حاول تنفيذ البحث السابق مرة أخرى:",
+            "Open Call": "فتح المكالمة",
+            "Open Reference": "فتح المرجع",
+            "Open Type": "فتح النوع",
+            "References": "المراجع",
+            "Rerun": "إعادة التنفيذ",
+            "Select previous reference search": "اختيار البحث المرجعي السابق",
+            "Subtypes Of": "الأنواع الفرعية من",
+            "Supertypes Of": "الأنواع العليا من",
+            "{0} result in {1} file": "{0} نتيجة في {1} ملف",
+            "{0} result in {1} files": "{0} نتيجة في {1} ملفات",
+            "{0} results in {1} file": "{0} نتائج في {1} ملف",
+            "{0} results in {1} files": "{0} نتائج في {1} ملفات"
+        },
+        "package": {
+            "cmd.category.references": "المراجع",
+            "cmd.references-view.clear": "مسح",
+            "cmd.references-view.clearHistory": "مسح السجل",
+            "cmd.references-view.copy": "نسخ",
+            "cmd.references-view.copyAll": "نسخ الكل",
+            "cmd.references-view.copyPath": "نسخ المسار",
+            "cmd.references-view.findImplementations": "البحث عن كل التطبيقات",
+            "cmd.references-view.findReferences": "البحث عن كل المراجع",
+            "cmd.references-view.next": "الذهاب إلى المرجع التالي",
+            "cmd.references-view.pickFromHistory": "عرض السجل",
+            "cmd.references-view.prev": "الذهاب إلى المرجع السابق",
+            "cmd.references-view.refind": "إعادة التنفيذ",
+            "cmd.references-view.refresh": "تحديث",
+            "cmd.references-view.removeCallItem": "إلغاء",
+            "cmd.references-view.removeReferenceItem": "إلغاء",
+            "cmd.references-view.removeTypeItem": "إلغاء",
+            "cmd.references-view.showCallHierarchy": "عرض تسلسل المكالمات",
+            "cmd.references-view.showIncomingCalls": "عرض المكالمات الواردة",
+            "cmd.references-view.showOutgoingCalls": "عرض المكالمات الصادرة",
+            "cmd.references-view.showSubtypes": "عرض الأنواع الفرعية",
+            "cmd.references-view.showSupertypes": "عرض الأنواع العليا",
+            "cmd.references-view.showTypeHierarchy": "عرض تسلسل الأنواع",
+            "config.references.preferredLocation": "التحكم في ما إذا كان يجب استدعاء \"عرض المراجع\" أو \"البحث عن المراجع\" عند اختيار المراجع من CodeLens.",
+            "config.references.preferredLocation.peek": "عرض المراجع في محرر الفحص.",
+            "config.references.preferredLocation.view": "عرض المراجع في عرض مستقل.",
+            "container.title": "المراجع",
+            "description": "عرض نتائج البحث كعرض مستقل وثابت في الشريط الجانبي",
+            "displayName": "عرض بحث المراجع",
+            "view.title": "نتائج بحث المراجع"
+        }
+    }
+}
