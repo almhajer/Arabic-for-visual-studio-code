@@ -1,0 +1,39 @@
+{
+    "": [
+        "--------------------------------------------------------------------------------------------",
+        "حقوق الطبع والنشر (c) مايكروسوفت كوربوريشن. جميع الحقوق محفوظة.",
+        "مرخص بموجب رخصة MIT. راجع ملف License.txt في جذر المشروع لمزيد من معلومات الرخصة.",
+        "--------------------------------------------------------------------------------------------",
+        "لا تقم بتحرير هذا الملف. تم توليده بواسطة الآلة."
+    ],
+    "version": "1.0.0",
+    "contents": {
+        "bundle": {
+            "Continue to GitHub": "الاستمرار في GitHub",
+            "Continue to GitHub to create a Personal Access Token (PAT)": "الاستمرار مع GitHub لإنشاء رمز وصول شخصي (PAT)",
+            "Copy & Continue to GitHub": "نسخ واستمرار إلى GitHub",
+            "GitHub Enterprise Server URI is not a valid URI: {0}": "عنوان URI لخادم GitHub Enterprise غير صالح: {0}",
+            "Having trouble logging in? Would you like to try a different way? ({0})": "هل تواجه مشاكل في تسجيل الدخول؟ هل ترغب في تجربة طريقة مختلفة؟ ({0})",
+            "No": "لا",
+            "Open [{0}]({0}) in a new tab and paste your one-time code: {1}/The [{0}]({0}) will be a url and the {1} will be a code, e.g. 123-456{Locked=\"[{0}]({0})\"}": "افتح [{0}]({0}) في تبويب جديد والصق رمز الاستخدام لمرة واحدة: {1}",
+            "Sign in failed: {0}": "فشل تسجيل الدخول: {0}",
+            "Sign out failed: {0}": "فشل تسجيل الخروج: {0}",
+            "Signing in to {0}.../The {0} will be a url, e.g. github.com": "جاري تسجيل الدخول إلى {0}...",
+            "To finish authenticating, navigate to GitHub and paste in the above one-time code.": "لإتمام عملية المصادقة، انتقل إلى GitHub والصق رمز الاستخدام لمرة واحدة أعلاه.",
+            "To finish authenticating, navigate to GitHub to create a PAT then paste the PAT into the input box.": "لإتمام عملية المصادقة، انتقل إلى GitHub لإنشاء رمز وصول شخصي (PAT) ثم الصق الـ PAT في مربع الإدخال.",
+            "Yes": "نعم",
+            "You have not yet finished authorizing this extension to use GitHub. Would you like to try a different way? ({0})": "لم تنتهِ بعد من تفويض هذه الإضافة لاستخدام GitHub. هل ترغب في تجربة طريقة مختلفة؟ ({0})",
+            "Your Code: {0}/The {0} will be a code, e.g. 123-456": "رمزك: {0}",
+            "device code": "رمز الجهاز",
+            "local server": "الخادم المحلي",
+            "personal access token": "رمز الوصول الشخصي",
+            "url handler": "معالج الـ URL"
+        },
+        "package": {
+            "config.github-enterprise.title": "مصادقة خادم GHE.com و GitHub Enterprise",
+            "config.github-enterprise.uri.description": "عنوان URI لمثيل GHE.com أو خادم GitHub Enterprise.\r\n\r\nأمثلة:\r\n* GHE.com: 'https://octocat.ghe.com`\r\n* خادم GitHub Enterprise: 'https://github.octocat.com`\r\n\r\n> **ملاحظة:** يجب _ألا_ يكون عنوان URI لخدمة GitHub.com. إذا كانت حسابك موجودة على GitHub.com أو كنت مستخدمًا موجهًا لـ GitHub Enterprise، فلا حاجة إلى أي إعدادات إضافية ويمكنك تسجيل الدخول إلى GitHub مباشرة.",
+            "description": "موفر المصادقة لـ GitHub",
+            "displayName": "مصادقة GitHub"
+        }
+    }
+}

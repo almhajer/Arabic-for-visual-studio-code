@@ -1,0 +1,55 @@
+{
+    "": [
+        "--------------------------------------------------------------------------------------------",
+        "حقوق الطبع والنشر (c) Microsoft Corporation. جميع الحقوق محفوظة.",
+        "مرخص بموجب ترخيص MIT. راجع License.txt في جذر المشروع للحصول على معلومات الترخيص.",
+        "--------------------------------------------------------------------------------------------",
+        "لا تقم بتعديل هذا الملف. تم إنشاؤه آليًا."
+    ],
+    "version": "1.0.0",
+    "contents": {
+        "bundle": {
+            "Authorization code is required.": "رمز التفويض مطلوب.",
+            "Error validating custom environment setting: {0}": "خطأ في التحقق من إعداد البيئة المخصصة: {0}",
+            "Having trouble logging in? Would you like to try a different way? ({0})": "هل تواجه مشكلة في تسجيل الدخول؟ هل ترغب في المحاولة بطريقة أخرى؟ ({0})",
+            "Microsoft Account configuration has been changed.": "تم تغيير إعدادات حساب Microsoft.",
+            "Microsoft Authentication": "مصادقة Microsoft",
+            "Microsoft Sovereign Cloud Authentication": "مصادقة السحابة السيادية من Microsoft",
+            "No": "لا",
+            "Open settings": "فتح الإعدادات",
+            "Paste authorization code here...": "الصق رمز التفويض هنا...",
+            "Provide the authorization code to complete the sign in flow.": "قم بتوفير رمز التفويض لإكمال عملية تسجيل الدخول.",
+            "Reload": "إعادة تحميل",
+            "Signing in to Microsoft...": "تسجيل الدخول إلى Microsoft...",
+            "Signing in to your account...": "تسجيل الدخول إلى حسابك...",
+            "The environment `{0}` is not a valid environment.": "البيئة `{0}` ليست بيئة صالحة.",
+            "Yes": "نعم",
+            "You have been signed out because reading stored authentication information failed.": "تم تسجيل خروجك لأن قراءة معلومات المصادقة المخزنة فشلت.",
+            "You have not yet finished authorizing this extension to use your Microsoft Account. Would you like to try a different way? ({0})": "لم تكمل بعد تفويض هذا الامتداد لاستخدام حساب Microsoft الخاص بك. هل ترغب في المحاولة بطريقة مختلفة؟ ({0})",
+            "You must also specify a custom environment in order to use the custom environment auth provider.": "يجب عليك أيضًا تحديد بيئة مخصصة لاستخدام موفر المصادقة للبيئة المخصصة."
+        },
+        "package": {
+            "description": "موفر المصادقة من Microsoft",
+            "displayName": "حساب Microsoft",
+            "microsoft-authentication.clientIdVersion.description": "نسخة معرّف العميل لحساب Microsoft الذي سيتم استخدامه لتسجيل الدخول باستخدام حساب Microsoft. قم بتغييره فقط إذا طُلب منك ذلك. القيمة الافتراضية هي \"v1\".",
+            "microsoft-authentication.clientIdVersion.enumDescriptions.v1": "استخدم معرّف العميل لحساب Microsoft v1 لتسجيل الدخول باستخدام حساب Microsoft.",
+            "microsoft-authentication.clientIdVersion.enumDescriptions.v2": "استخدم معرّف العميل لحساب Microsoft v2 لتسجيل الدخول باستخدام حساب Microsoft.",
+            "microsoft-authentication.implementation.description": "تنفيذ المصادقة الذي سيتم استخدامه لتسجيل الدخول باستخدام حساب Microsoft.\r\n\r\n*ملاحظة: التنفيذ \"الكلاسيكي\" قد تم إيقافه وسيتم إزالته، مع هذا الإعداد، في إصدار مستقبلي. إذا كانت الطريقة \"الكلاسيكية\" فقط هي التي تعمل، [افتح قضية](command:workbench.action.openIssueReporter) وشرح ما الذي تحاول تسجيل الدخول إليه.*",
+            "microsoft-authentication.implementation.enumDescriptions.classic": "(مؤرشف) استخدم تدفق المصادقة الكلاسيكي لتسجيل الدخول باستخدام حساب Microsoft.",
+            "microsoft-authentication.implementation.enumDescriptions.msal": "استخدم مكتبة المصادقة من Microsoft (MSAL) لتسجيل الدخول باستخدام حساب Microsoft.",
+            "microsoft-sovereign-cloud.customEnvironment.activeDirectoryEndpointUrl.description": "نقطة نهاية Active Directory للسحابة السيادية المخصصة.",
+            "microsoft-sovereign-cloud.customEnvironment.activeDirectoryResourceId.description": "معرف المورد لـ Active Directory للسحابة السيادية المخصصة.",
+            "microsoft-sovereign-cloud.customEnvironment.description": "الإعدادات المخصصة للسحابة السيادية التي سيتم استخدامها مع موفر المصادقة للسحابة السيادية من Microsoft. جنبًا إلى جنب مع الإعداد `#microsoft-sovereign-cloud.environment#` في \"مخصص\"، هذه الإعدادات ضرورية لاستخدام هذه الميزة.",
+            "microsoft-sovereign-cloud.customEnvironment.managementEndpointUrl.description": "نقطة نهاية الإدارة للسحابة السيادية المخصصة.",
+            "microsoft-sovereign-cloud.customEnvironment.name.description": "اسم السحابة السيادية المخصصة.",
+            "microsoft-sovereign-cloud.customEnvironment.portalUrl.description": "عنوان URL للبوابة للسحابة السيادية المخصصة.",
+            "microsoft-sovereign-cloud.customEnvironment.resourceManagerEndpointUrl.description": "نقطة نهاية مدير الموارد للسحابة السيادية المخصصة.",
+            "microsoft-sovereign-cloud.environment.description": "السحابة السيادية التي سيتم استخدامها للمصادقة. إذا اخترت \"مخصص\"، يجب عليك أيضًا إعداد الإعداد `#microsoft-sovereign-cloud.customEnvironment#`.",
+            "microsoft-sovereign-cloud.environment.enumDescriptions.AzureChinaCloud": "Azure China",
+            "microsoft-sovereign-cloud.environment.enumDescriptions.AzureUSGovernment": "Azure حكومة الولايات المتحدة",
+            "microsoft-sovereign-cloud.environment.enumDescriptions.custom": "سحابة سيادية مخصصة من Microsoft",
+            "signIn": "تسجيل الدخول",
+            "signOut": "تسجيل الخروج"
+        }
+    }
+}

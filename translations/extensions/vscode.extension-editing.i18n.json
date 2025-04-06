@@ -1,0 +1,33 @@
+{
+    "": [
+        "--------------------------------------------------------------------------------------------",
+        "حقوق الطبع والنشر (c) Microsoft Corporation. جميع الحقوق محفوظة.",
+        "مرخص بموجب رخصة MIT. راجع ملف License.txt في جذر المشروع لمعلومات الرخصة.",
+        "--------------------------------------------------------------------------------------------",
+        "لا تقم بتحرير هذا الملف. هو مولد آلي."
+    ],
+    "version": "1.0.0",
+    "contents": {
+        "bundle": {
+            "Data URLs are not a valid image source.": "عناوين URL للبيانات ليست مصدر صورة صالحًا.",
+            "Embedded SVGs are not a valid image source.": "الـ SVG المدمج ليس مصدر صورة صالحًا.",
+            "Error parsing the when-clause:": "خطأ في تحليل جملة when:",
+            "Images must use the HTTPS protocol.": "يجب أن تستخدم الصور بروتوكول HTTPS.",
+            "Language specific editor settings": "إعدادات المحرر الخاصة باللغة",
+            "Override editor settings for language": "تجاوز إعدادات المحرر للغة",
+            "Relative badge URLs require a repository with HTTPS protocol to be specified in this package.json.": "عناوين URL للشارات النسبية تتطلب تحديد مستودع مع بروتوكول HTTPS في هذا الملف package.json.",
+            "Relative image URLs require a repository with HTTPS protocol to be specified in the package.json.": "عناوين URL للصور النسبية تتطلب تحديد مستودع مع بروتوكول HTTPS في الملف package.json.",
+            "Remove activation event": "إزالة حدث التفعيل",
+            "SVGs are not a valid image source.": "الـ SVG ليست مصدر صورة صالحًا.",
+            "This activation event can be removed as VS Code generates these automatically from your package.json contribution declarations.": "يمكن إزالة حدث التفعيل هذا حيث يقوم VS Code بإنشائها تلقائيًا من إعلانات المساهمة في package.json.",
+            "This activation event can be removed for extensions targeting engine version ^1.75 as VS Code will generate these automatically from your package.json contribution declarations.": "يمكن إزالة حدث التفعيل هذا للإضافات المستهدفة لإصدار المحرك ^1.75 حيث سيقوم VS Code بإنشائها تلقائيًا من إعلانات المساهمة في package.json.",
+            "This activation event cannot be explicitly listed by your extension.": "لا يمكن لإضافتك سرد حدث التفعيل هذا بشكل صريح.",
+            "This proposal cannot be used because for this extension the product defines a fixed set of API proposals. You can test your extension but before publishing you MUST reach out to the VS Code team.": "لا يمكن استخدام هذا الاقتراح لأن المنتج لهذه الإضافة يحدد مجموعة ثابتة من مقترحات API. يمكنك اختبار الإضافة، ولكن قبل نشرها يجب عليك التواصل مع فريق VS Code.",
+            "Using '*' activation is usually a bad idea as it impacts performance.": "استخدام تفعيل \"*\" عادةً ما يكون فكرة سيئة لأنه يؤثر على الأداء."
+        },
+        "package": {
+            "description": "يوفر وظيفة اكتشاف الأخطاء لإنشاء الإضافات.",
+            "displayName": "إنشاء الإضافات"
+        }
+    }
+}

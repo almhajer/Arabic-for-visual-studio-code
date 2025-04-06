@@ -1,0 +1,31 @@
+{
+    "": [
+        "--------------------------------------------------------------------------------------------",
+        "حقوق الطبع والنشر (c) Microsoft Corporation. جميع الحقوق محفوظة.",
+        "مرخص بموجب ترخيص MIT. راجع License.txt في جذر المشروع للحصول على معلومات الترخيص.",
+        "--------------------------------------------------------------------------------------------",
+        "لا تقم بتعديل هذا الملف. تم إنشاؤه آليًا."
+    ],
+    "version": "1.0.0",
+    "contents": {
+        "bundle": {
+            "Cannot validate since a PHP installation could not be found. Use the setting 'php.validate.executablePath' to configure the PHP executable.": "لا يمكن التحقق لأن تثبيت PHP لم يتم العثور عليه. استخدم الإعداد \"php.validate.executablePath\" لتكوين القابل للتنفيذ الخاص بـ PHP.",
+            "Cannot validate since no PHP executable is set. Use the setting 'php.validate.executablePath' to configure the PHP executable.": "لا يمكن التحقق لأنه لم يتم تعيين أي قابل للتنفيذ لـ PHP. استخدم الإعداد \"php.validate.executablePath\" لتكوين القابل للتنفيذ الخاص بـ PHP.",
+            "Cannot validate since {0} is not a valid php executable. Use the setting 'php.validate.executablePath' to configure the PHP executable.": "لا يمكن التحقق لأن {0} ليس قابلًا للتنفيذ صالحًا لـ PHP. استخدم الإعداد \"php.validate.executablePath\" لتكوين القابل للتنفيذ لـ PHP.",
+            "Failed to run php using path: {0}. Reason is unknown.": "فشل في تشغيل PHP باستخدام المسار: {0}. السبب غير معروف.",
+            "Open Settings": "فتح الإعدادات"
+        },
+        "package": {
+            "command.untrustValidationExecutable": "عدم السماح بالتنفيذ للتحقق من بي اتش بي (كإعداد لمساحة العمل)",
+            "commands.categroy.php": "بي اتش بي",
+            "configuration.suggest.basic": "التحكم في تمكين الاقتراحات المدمجة للغة بي اتش بي. تساعد المساعدة في اقتراح المتغيرات والخيارات العالمية لـ بي اتش بي.",
+            "configuration.title": "بي اتش بي",
+            "configuration.validate.enable": "تمكين أو تعطيل التحقق المدمج لـ بي اتش بي.",
+            "configuration.validate.executablePath": "يشير إلى القابل للتنفيذ لـ بي اتش بي.",
+            "configuration.validate.run": "يشير إلى ما إذا كان يتم تشغيل linter عند الحفظ أو الكتابة.",
+            "description": "يوفر دعمًا قويًا للغة لملفات بي اتش بي.",
+            "displayName": "ميزات لغة بي اتش بي",
+            "workspaceTrust": "تتطلب الإضافة ثقة مساحة العمل عندما يقوم الإعداد \"php.validate.executablePath\" بتحميل نسخة من بي اتش بي في مساحة العمل."
+        }
+    }
+}

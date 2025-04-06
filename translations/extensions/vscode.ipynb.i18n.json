@@ -1,0 +1,29 @@
+{
+    "": [
+        "--------------------------------------------------------------------------------------------",
+        "حقوق الطبع والنشر (c) مايكروسوفت كوربوريشن. جميع الحقوق محفوظة.",
+        "مرخص بموجب رخصة MIT. راجع ملف License.txt في جذر المشروع لمزيد من معلومات الرخصة.",
+        "--------------------------------------------------------------------------------------------",
+        "لا تقم بتحرير هذا الملف. تم توليده بواسطة الآلة."
+    ],
+    "version": "1.0.0",
+    "contents": {
+        "bundle": {
+            "Insert Image as Attachment": "إدراج الصورة كملف مرفق"
+        },
+        "package": {
+            "addCellOutputToChat.title": "إضافة مخرجات الخلية إلى الدردشة",
+            "cleanInvalidImageAttachment.title": "تنظيف مرجع المرفق للصورة غير الصالحة",
+            "copyCellOutput.title": "نسخ مخرجات الخلية",
+            "description": "يوفر الدعم الأساسي لفتح وقراءة ملفات .ipynb من دفتر Jupyter.",
+            "displayName": "دعم .ipynb",
+            "ipynb.experimental.serialization": "ميزة تجريبية لتحويل دفتر Jupyter إلى سلسلة بيانات في خيط عمل.",
+            "ipynb.pasteImagesAsAttachments.enabled": "تمكين أو تعطيل لصق الصور في خلايا Markdown في ملفات .ipynb. يتم إدراج الصور الملصوقة كملفات مرفقة في الخلية.",
+            "markdownAttachmentRenderer.displayName": "عارض مرفقات خلية ipynb لـ Markdown",
+            "newUntitledIpynb.shortTitle": "دفتر Jupyter",
+            "newUntitledIpynb.title": "دفتر Jupyter جديد",
+            "openCellOutput.title": "فتح مخرجات الخلية في محرر نصوص",
+            "openIpynbInNotebookEditor.title": "فتح ملف IPYNB في محرر الدفاتر"
+        }
+    }
+}

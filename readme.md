@@ -26,9 +26,21 @@ VS Code.
 
 **المساهمون الرئيسيون::**
 
-
-* Abdulkafi alhassan
-* Bashier alhassan
-* Shukri alhassan
-
+* بشير الحسن
+* عبدالكافي الحسن
+* شكري الحسن
+* عبدالقادر الحسن
 **توكل علي الله وابدأ علي بركته!**
+الدعاء لوالدي ولجميع المسلمين
+
+نرجو زيارتنا عبر
+www.4Techs.net
+او متجر الاضافات الخاص بنا
+لبرمجة صفحات الهوتمل بالعربي
+https://marketplace.visualstudio.com/items?itemName=Arabic-language.arabictohtml
+
+
+اضافة اللغة العربية
+
+
+https://marketplace.visualstudio.com/items?itemName=Arabic-language.vscode-ar

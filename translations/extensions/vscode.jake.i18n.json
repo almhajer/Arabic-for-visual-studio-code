@@ -1,0 +1,24 @@
+{
+    "": [
+        "--------------------------------------------------------------------------------------------",
+        "حقوق الطبع والنشر (c) مايكروسوفت كوربوريشن. جميع الحقوق محفوظة.",
+        "مرخص بموجب رخصة MIT. راجع ملف License.txt في جذر المشروع لمزيد من معلومات الرخصة.",
+        "--------------------------------------------------------------------------------------------",
+        "لا تقم بتحرير هذا الملف. تم توليده بواسطة الآلة."
+    ],
+    "version": "1.0.0",
+    "contents": {
+        "bundle": {
+            "Auto detecting Jake for folder {0} failed with error: {1}', this.workspaceFolder.name, err.error ? err.error.toString() : 'unknown": "فشل الكشف التلقائي عن Jake للمجلد {0}: {1}', this.workspaceFolder.name, err.error ? err.error.toString() : 'غير معروف",
+            "Go to output": "الانتقال إلى المخرجات",
+            "Problem finding jake tasks. See the output for more information.": "مشكلة في العثور على مهام jake. راجع المخرجات للحصول على مزيد من المعلومات."
+        },
+        "package": {
+            "config.jake.autoDetect": "يُتحكم في تفعيل الكشف عن مهام Jake. يمكن أن يؤدي الكشف عن مهام Jake إلى تنفيذ ملفات أي مجلد عمل مفتوح.",
+            "description": "إضافة تضيف وظيفة Jake إلى VS Code.",
+            "displayName": "وظيفة Jake لـ VS Code",
+            "jake.taskDefinition.file.description": "ملف Jake الذي يوفر المهمة. يمكن تجاهله.",
+            "jake.taskDefinition.type.description": "المهمة التي سيتم تخصيصها لـ Jake."
+        }
+    }
+}

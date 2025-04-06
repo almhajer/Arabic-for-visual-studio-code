@@ -1,0 +1,40 @@
+{
+    "": [
+        "--------------------------------------------------------------------------------------------",
+        "حقوق الطبع والنشر (c) Microsoft Corporation. جميع الحقوق محفوظة.",
+        "مرخص بموجب ترخيص MIT. راجع License.txt في جذر المشروع للحصول على معلومات الترخيص.",
+        "--------------------------------------------------------------------------------------------",
+        "لا تقم بتعديل هذا الملف. تم إنشاؤه آليًا."
+    ],
+    "version": "1.0.0",
+    "contents": {
+        "bundle": {
+            "An error occurred while loading the audio file.": "حدث خطأ أثناء تحميل ملف الصوت.",
+            "An error occurred while loading the image.": "حدث خطأ أثناء تحميل الصورة.",
+            "An error occurred while loading the video file.": "حدث خطأ أثناء تحميل ملف الفيديو.",
+            "Image Binary Size": "حجم الصورة الثنائي",
+            "Image Size": "حجم الصورة",
+            "Image Zoom": "تكبير الصورة",
+            "Open file using VS Code's standard text/binary editor?": "هل ترغب في فتح الملف باستخدام المحرر القياسي للنصوص/الملفات الثنائية في VS Code؟",
+            "Select zoom level": "حدد مستوى التكبير",
+            "Whole Image": "الصورة بالكامل",
+            "{0}B": "{0} بايت",
+            "{0}GB": "{0} جيجابايت",
+            "{0}KB": "{0} كيلوبايت",
+            "{0}MB": "{0} ميجابايت",
+            "{0}TB": "{0} تيرابايت"
+        },
+        "package": {
+            "command.copyImage": "نسخ",
+            "command.zoomIn": "تكبير",
+            "command.zoomOut": "تصغير",
+            "customEditor.audioPreview.displayName": "معاينة الصوت",
+            "customEditor.imagePreview.displayName": "معاينة الصورة",
+            "customEditor.videoPreview.displayName": "معاينة الفيديو",
+            "description": "يوفر معاينات مدمجة في VS Code للصور والصوت والفيديو",
+            "displayName": "معاينة الوسائط",
+            "videoPreviewerAutoPlay": "ابدأ تشغيل الفيديوهات تلقائيًا عند كتم الصوت.",
+            "videoPreviewerLoop": "إعادة تشغيل الفيديوهات تلقائيًا."
+        }
+    }
+}

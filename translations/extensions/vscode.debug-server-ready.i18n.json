@@ -1,0 +1,31 @@
+{
+    "": [
+        "--------------------------------------------------------------------------------------------",
+        "حقوق الطبع والنشر (c) Microsoft Corporation. جميع الحقوق محفوظة.",
+        "مرخص بموجب رخصة MIT. راجع ملف License.txt في جذر المشروع لمعلومات الرخصة.",
+        "--------------------------------------------------------------------------------------------",
+        "لا تقم بتحرير هذا الملف. هو مولد آلي."
+    ],
+    "version": "1.0.0",
+    "contents": {
+        "bundle": {
+            "Format uri ('{0}') must contain exactly one substitution placeholder.": "يجب أن يحتوي URI التنسيق ('{0}') على عنصر نائب واحد فقط.",
+            "Format uri ('{0}') uses a substitution placeholder but pattern did not capture anything.": "يستخدم URI التنسيق ('{0}') عنصر نائب للتبديل ولكن النمط لم يلتقط أي شيء."
+        },
+        "package": {
+            "debug.server.ready.action.debugWithChrome.description": "ابدأ في التصحيح باستخدام \"مصحح الأخطاء لجوجل كروم\".",
+            "debug.server.ready.action.description": "ماذا تفعل مع URI عندما يكون الخادم جاهزًا.",
+            "debug.server.ready.action.openExternally.description": "افتح URI خارجيًا باستخدام التطبيق الافتراضي.",
+            "debug.server.ready.action.startDebugging.description": "شغّل تكوين بدء آخر.",
+            "debug.server.ready.debugConfig.description": "تكوين التصحيح الذي سيتم تنفيذه.",
+            "debug.server.ready.debugConfigName.description": "اسم تكوين البدء الذي سيتم تنفيذه.",
+            "debug.server.ready.killOnServerStop.description": "إيقاف الجلسة الثانوية عند إيقاف الجلسة الرئيسية.",
+            "debug.server.ready.pattern.description": "يصبح الخادم جاهزًا إذا ظهر هذا النمط في وحدة تحكم التصحيح. يجب أن يتضمن أول مجموعة التقاط URI أو رقم المنفذ.",
+            "debug.server.ready.serverReadyAction.description": "اتخذ إجراء على URI عندما يكون برنامج الخادم في عملية تصحيح الأخطاء جاهزًا (يتم الإشارة إلى ذلك من خلال إرسال مخرجات مثل \"الاستماع على المنفذ 3000\" أو \"الآن يستمع على: https://localhost:5001\" إلى وحدة تحكم التصحيح).",
+            "debug.server.ready.uriFormat.description": "سلسلة تنسيق تُستخدم لبناء URI من رقم منفذ. يتم استبدال أول \"%s\" برقم المنفذ.",
+            "debug.server.ready.webRoot.description": "القيمة الممررة إلى تكوين التصحيح لمصحح الأخطاء لجوجل كروم.",
+            "description": "افتح URI في المتصفح إذا كان الخادم تحت التصحيح جاهزًا.",
+            "displayName": "إجراء جاهز للخادم"
+        }
+    }
+}

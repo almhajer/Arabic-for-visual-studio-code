@@ -1,0 +1,24 @@
+{
+    "": [
+        "--------------------------------------------------------------------------------------------",
+        "حقوق الطبع والنشر (c) Microsoft Corporation. جميع الحقوق محفوظة.",
+        "مرخص بموجب رخصة MIT. راجع ملف License.txt في جذر المشروع لمعلومات الرخصة.",
+        "--------------------------------------------------------------------------------------------",
+        "لا تقم بتحرير هذا الملف. هو مولد آلي."
+    ],
+    "version": "1.0.0",
+    "contents": {
+        "bundle": {
+            "Auto detecting gulp for folder {0} failed with error: {1}', this.workspaceFolder.name, err.error ? err.error.toString() : 'unknown": "فشل الكشف التلقائي عن gulp للمجلد {0}: {1}', this.workspaceFolder.name, err.error ? err.error.toString() : 'غير معروف",
+            "Go to output": "انتقل إلى الإخراج",
+            "Problem finding gulp tasks. See the output for more information.": "مشكلة في العثور على مهام gulp. راجع الإخراج لمزيد من المعلومات."
+        },
+        "package": {
+            "config.gulp.autoDetect": "يتحكم في تمكين اكتشاف مهام Gulp. يمكن لاكتشاف مهام Gulp أن يتسبب في تنفيذ الملفات في أي مساحة عمل مفتوحة.",
+            "description": "إضافة لإضافة وظائف Gulp إلى VSCode.",
+            "displayName": "دعم Gulp لـ VSCode",
+            "gulp.taskDefinition.file.description": "ملف Gulp الذي يوفر المهمة. يمكن تركه فارغًا.",
+            "gulp.taskDefinition.type.description": "المهمة الخاصة بـ Gulp التي سيتم تخصيصها."
+        }
+    }
+}

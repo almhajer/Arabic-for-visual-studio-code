@@ -1,0 +1,49 @@
+{
+    "": [
+        "--------------------------------------------------------------------------------------------",
+        "حقوق الطبع والنشر (c) Microsoft Corporation. جميع الحقوق محفوظة.",
+        "مرخص بموجب ترخيص MIT. راجع License.txt في جذر المشروع للحصول على معلومات الترخيص.",
+        "--------------------------------------------------------------------------------------------",
+        "لا تقم بتعديل هذا الملف. تم إنشاؤه آليًا."
+    ],
+    "version": "1.0.0",
+    "contents": {
+        "bundle": {
+            "(Current Change)": "(التغيير الحالي)",
+            "(Incoming Change)": "(التغيير الوارد)",
+            "Accept Both Changes": "قبول كلا التغييرين",
+            "Accept Current Change": "قبول التغيير الحالي",
+            "Accept Incoming Change": "قبول التغيير الوارد",
+            "Compare Changes": "مقارنة التغييرات",
+            "Editor cursor is not within a merge conflict": "مؤشر التحرير ليس ضمن تعارض دمج",
+            "Editor cursor is within the common ancestors block, please move it to either the \"current\" or \"incoming\" block": "مؤشر التحرير داخل كتلة الأسلاف المشتركة، يرجى تحريكه إلى كتلة \"التغيير الحالي\" أو \"التغيير الوارد\"",
+            "Editor cursor is within the merge conflict splitter, please move it to either the \"current\" or \"incoming\" block": "مؤشر التحرير داخل فاصل تعارض الدمج، يرجى تحريكه إلى كتلة \"التغيير الحالي\" أو \"التغيير الوارد\"",
+            "No merge conflicts found in this file": "لم يتم العثور على تعارضات دمج في هذا الملف",
+            "No other merge conflicts within this file": "لا توجد تعارضات دمج أخرى في هذا الملف",
+            "{0}: Current Changes ↔ Incoming Changes": "{0}: التغييرات الحالية ↔ التغييرات الواردة"
+        },
+        "package": {
+            "command.accept.all-both": "قبول كلا التغييرين",
+            "command.accept.all-current": "قبول جميع التغييرات الحالية",
+            "command.accept.all-incoming": "قبول جميع التغييرات الواردة",
+            "command.accept.both": "قبول كلا التغييرين",
+            "command.accept.current": "قبول التغييرات الحالية",
+            "command.accept.incoming": "قبول التغييرات الواردة",
+            "command.accept.selection": "قبول التحديد",
+            "command.category": "تعارض الدمج",
+            "command.compare": "مقارنة التعارض الحالي",
+            "command.next": "التعارض التالي",
+            "command.previous": "التعارض السابق",
+            "config.autoNavigateNextConflictEnabled": "يحدد ما إذا كان يتم الانتقال تلقائيًا إلى التعارض التالي من نفس النوع بعد حل تعارض دمج.",
+            "config.codeLensEnabled": "إنشاء CodeLens لكتل تعارض دمج في المحرر.",
+            "config.decoratorsEnabled": "إنشاء عناصر تزيين لكتل تعارض دمج في المحرر.",
+            "config.diffViewPosition": "يحدد المكان الذي يجب أن تظهر فيه عرض الاختلافات عند مقارنة التغييرات في تعارضات الدمج.",
+            "config.diffViewPosition.below": "افتح عرض الاختلافات أسفل مجموعة المحرر الحالية.",
+            "config.diffViewPosition.beside": "افتح عرض الاختلافات بجانب مجموعة المحرر الحالية.",
+            "config.diffViewPosition.current": "افتح عرض الاختلافات في مجموعة المحرر الحالية.",
+            "config.title": "تعارض الدمج",
+            "description": "إبراز الأوامر والتغييرات لتعارضات الدمج المدخلة.",
+            "displayName": "تعارض الدمج"
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "": [
+        "--------------------------------------------------------------------------------------------",
+        "حقوق الطبع والنشر (c) Microsoft Corporation. جميع الحقوق محفوظة.",
+        "مرخص بموجب رخصة MIT. راجع ملف License.txt في جذر المشروع لمعلومات الترخيص.",
+        "--------------------------------------------------------------------------------------------",
+        "لا تقم بتحرير هذا الملف. تم إنشاؤه بواسطة الآلة."
+    ],
+    "version": "1.0.0",
+    "contents": {
+        "bundle": {
+            "Always": "دائمًا",
+            "Auto Attach: Always": "الربط التلقائي: دائمًا",
+            "Auto Attach: Disabled": "الربط التلقائي: معطل",
+            "Auto Attach: Smart": "الربط التلقائي: ذكي",
+            "Auto Attach: With Flag": "الربط التلقائي: مع العلامة",
+            "Auto attach is disabled and not shown in status bar": "الربط التلقائي معطل ولا يظهر في شريط الحالة",
+            "Auto attach to every Node.js process launched in the terminal": "الربط التلقائي بكل عملية Node.js تُشغل في الطرفية",
+            "Auto attach when running scripts that aren't in a node_modules folder": "الربط التلقائي عند تشغيل السكربتات التي ليست في مجلد node_modules",
+            "Automatically attach to node.js processes in debug mode": "الربط التلقائي بعمليات node.js في وضع التصحيح",
+            "Debug Auto Attach": "التصحيح عبر الربط التلقائي",
+            "Disabled": "معطل",
+            "Only With Flag": "فقط مع العلامة",
+            "Only auto attach when the `--inspect` flag is given": "الربط التلقائي فقط عند توفير العلامة `--inspect`.",
+            "Re-enable auto attach": "إعادة تمكين الربط التلقائي",
+            "Smart": "ذكي",
+            "Temporarily disable auto attach in this session": "تعطيل الربط التلقائي مؤقتًا في هذه الجلسة",
+            "Toggle auto attach in this workspace": "التبديل بين الربط التلقائي في هذه المساحة",
+            "Toggle auto attach on this machine": "التبديل بين الربط التلقائي على هذه الآلة"
+        },
+        "package": {
+            "description": "مساعد لوظيفة الربط التلقائي عندما تكون إضافات التصحيح لـ node.js معطلة.",
+            "displayName": "الربط التلقائي لـ node.js في وضع التصحيح",
+            "toggle.auto.attach": "التبديل بين الربط التلقائي"
+        }
+    }
+}
