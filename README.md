@@ -30,13 +30,18 @@ VS Code.
 * عبدالكافي الحسن
 * شكري الحسن
 * عبدالقادر الحسن
+
 **توكل علي الله وابدأ علي بركته!**
+لاتنسونا من 
+
 الدعاء لوالدي ولجميع المسلمين
 
 نرجو زيارتنا عبر
 www.4Techs.net
 او متجر الاضافات الخاص بنا
+
 لبرمجة صفحات الهوتمل بالعربي
+
 https://marketplace.visualstudio.com/items?itemName=Arabic-language.arabictohtml
 
 
