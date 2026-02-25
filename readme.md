@@ -194,14 +194,7 @@ graph LR
     D --> E[اختيار: Configure Display Language]
     E --> F[اختيار العربية]
     F --> G[🎉 تم التفعيل!]
-    
-    style A fill:#667eea,color:#fff,stroke:#333,stroke-width:2px
-    style B fill:#764ba2,color:#fff,stroke:#333,stroke-width:2px
-    style C fill:#f093fb,color:#fff,stroke:#333,stroke-width:2px
-    style D fill:#f5576c,color:#fff,stroke:#333,stroke-width:2px
-    style E fill:#4facfe,color:#fff,stroke:#333,stroke-width:2px
-    style F fill:#00f2fe,color:#fff,stroke:#333,stroke-width:2px
-    style G fill:#43e97b,color:#fff,stroke:#333,stroke-width:2px
+
 ```
 
 ### 📝 خطوات التفصيلية
