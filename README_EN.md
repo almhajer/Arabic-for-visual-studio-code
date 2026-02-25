@@ -189,61 +189,7 @@ graph LR
     C --> D[Type: display]
     D --> E[Select: Configure Display Language]
     E --> F[Select Arabic]
-    F --> G[🎉 Activated!]    # سجل دخول gh إذا لم تفعل
-    gh auth login
-    
-    # فورك واستنساخ المستودع
-    gh repo fork almhajer/Arabic-for-visual-studio-code --clone=true
-    cd Arabic-for-visual-studio-code
-    
-    # أنشئ فرع للتعديلات
-    git checkout -b feat/add-arabic-default-lang
-    
-    # (افتح المشروع في VS Code وأجرِ التعديلات المطلوبة)
-    code .
-    
-    # بعد التعديل:
-    git add .
-    git commit -m "Add Arabic to default display languages and translations"
-    git push --set-upstream origin feat/add-arabic-default-lang
-    
-    # أنشئ ملف نصي يحتوي وصف الـ PR ثم أنشئ الـ PR
-    cat > pr_body.txt <<'PR'
-    Thank you for maintaining this project.
-    
-    This pull request proposes adding Arabic language support to Visual Studio Code’s default language list.
-    
-    Changes Included
-    
-    Add Arabic translations for VSCode UI strings
-    
-    Enable Arabic to appear in the default language selection list
-    
-    Improve accessibility for Arabic-speaking users
-    
-    Purpose
-    
-    This change helps Arabic-speaking developers use VSCode with a more natural and localized experience, improving usability and accessibility.
-    
-    How to Test
-    
-    Pull the latest changes from this branch
-    
-    Build and run VSCode
-    
-    Open Display Language Settings
-    
-    Verify that Arabic appears in the available languages list
-    
-    Switch to Arabic and verify UI translations
-    
-    Repository:
-    https://github.com/almhajer/Arabic-for-visual-studio-code
-    
-    Thank you for your time and review.
-    PR
-    
-    gh pr create --title "Add Arabic Language Support as Default Display Language" --body-file pr_body.txt --base main
+    F --> G[🎉 Activated!]
 ```
 
 ### 📝 Detailed Steps
