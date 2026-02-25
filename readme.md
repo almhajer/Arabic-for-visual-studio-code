@@ -172,7 +172,7 @@
 
 <div align="center">
 
-[![تثبيت من VSIX](https://img.shields.io/badge/تنزيل-مباشر-blue?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=Arabic-language.vscode-ar)
+[![تثبيت من VSIX](https://img.shields.io/badge/Download-Direct-blue?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=Arabic-language.vscode-ar)
 
 </div>
 
@@ -222,7 +222,7 @@ graph LR
 
 <div align="center">
 
-[![الوثائق الرسمية](https://img.shields.io/badge/الوثائق-الرسمية-blue?style=for-the-badge)](https://go.microsoft.com/fwlink/?LinkId=761051)
+[![الوثائق الرسمية](https://img.shields.io/badge/Official-Documentation-blue?style=for-the-badge)](https://go.microsoft.com/fwlink/?LinkId=761051)
 
 </div>
 
