@@ -168,7 +168,7 @@
 
 <div align="center">
 
-[![تثبيت من VSIX](https://img.shields.io/badge/📥-تنزيل-مباشر-blue?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=Arabic-language.vscode-ar)
+[![تثبيت من VSIX](https://img.shields.io/badge/تنزيل-مباشر-blue?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=Arabic-language.vscode-ar)
 
 </div>
 
@@ -218,7 +218,7 @@ graph LR
 
 <div align="center">
 
-[![الوثائق الرسمية](https://img.shields.io/badge/📖-الوثائق-الرسمية-blue?style=for-the-badge)](https://go.microsoft.com/fwlink/?LinkId=761051)
+[![الوثائق الرسمية](https://img.shields.io/badge/الوثائق-الرسمية-blue?style=for-the-badge)](https://go.microsoft.com/fwlink/?LinkId=761051)
 
 </div>
 
@@ -343,8 +343,8 @@ graph LR
 
 | الرابط | الوصف |
 |:------:|:------|
-| [![4Techs.net](https://img.shields.io/badge/🌐-4Techs.net-blue?style=for-the-badge)](http://www.4Techs.net) | الموقع الرسمي |
-| [![VS Marketplace](https://img.shields.io/badge/📦-VS%20Marketplace-green?style=for-the-badge)](https://marketplace.visualstudio.com/publishers/Arabic-language) | صفحة الناشر |
+| [![4Techs.net](https://img.shields.io/badge/4Techs.net-blue?style=for-the-badge)](http://www.4Techs.net) | الموقع الرسمي |
+| [![VS Marketplace](https://img.shields.io/badge/VS%20Marketplace-green?style=for-the-badge)](https://marketplace.visualstudio.com/publishers/Arabic-language) | صفحة الناشر |
 
 </div>
 
@@ -387,7 +387,7 @@ graph LR
 
 <div style="margin: 20px 0;">
 
-[![4tiko.net](https://img.shields.io/badge/🌐-4tiko.net-007ACC?style=for-the-badge&logo=internet-explorer&logoColor=white)](http://www.4tiko.net)
+[![4tiko.net](https://img.shields.io/badge/4tiko.net-007ACC?style=for-the-badge&logo=internet-explorer&logoColor=white)](http://www.4tiko.net)
 
 </div>
 
@@ -436,8 +436,8 @@ MIT License
 
 <div style="margin-top: 20px;">
 
-[![4Techs.net](https://img.shields.io/badge/🌐-4Techs.net-blue?style=for-the-badge)](http://www.4Techs.net)
-[![VS Marketplace](https://img.shields.io/badge/📦-VS%20Marketplace-green?style=for-the-badge)](https://marketplace.visualstudio.com/publishers/Arabic-language)
+[![4Techs.net](https://img.shields.io/badge/4Techs.net-blue?style=for-the-badge)](http://www.4Techs.net)
+[![VS Marketplace](https://img.shields.io/badge/VS%20Marketplace-green?style=for-the-badge)](https://marketplace.visualstudio.com/publishers/Arabic-language)
 
 </div>
 
