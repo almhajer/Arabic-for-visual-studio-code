@@ -1932,25 +1932,25 @@
 			"action.unicodeHighlight.disableHighlightingInStrings": "إيقاف إبراز الأحرف في السلاسل",
 			"action.unicodeHighlight.disableHighlightingOfAmbiguousCharacters": "إيقاف إبراز الأحرف الغامضة",
 			"action.unicodeHighlight.disableHighlightingOfInvisibleCharacters": "إيقاف إبراز الأحرف غير المرئية",
-			"action.unicodeHighlight.disableHighlightingOfNonBasicAsciiCharacters": "إيقاف إبراز الأحرف غير ASCII الأساسية",
+			"action.unicodeHighlight.disableHighlightingOfNonBasicAsciiCharacters": "إيقاف إبراز الأحرف غير أسكي الأساسية",
 			"action.unicodeHighlight.showExcludeOptions": "عرض خيارات الاستبعاد",
 			"unicodeHighlight.adjustSettings": "ضبط الإعدادات",
-			"unicodeHighlight.allowCommonCharactersInLanguage": "السماح بأحرف Unicode الأكثر شيوعاً في اللغة \"{0}\"",
+			"unicodeHighlight.allowCommonCharactersInLanguage": "السماح بأحرف  تلميحات الكود الأكثر شيوعاً في اللغة \"{0}\"",
 			"unicodeHighlight.characterIsAmbiguous": "قد يُخلط بين الحرف {0} والحرف {1}، وهو أكثر شيوعاً في الكود المصدري.",
-			"unicodeHighlight.characterIsAmbiguousASCII": "قد يُخلط بين الحرف {0} والحرف ASCII {1}، وهو أكثر شيوعاً في الكود المصدري.",
+			"unicodeHighlight.characterIsAmbiguousASCII": "قد يُخلط بين الحرف {0} والحرف أسكي {1}، وهو أكثر شيوعاً في الكود المصدري.",
 			"unicodeHighlight.characterIsInvisible": "الحرف {0} غير مرئي.",
-			"unicodeHighlight.characterIsNonBasicAscii": "الحرف {0} ليس حرف ASCII أساسي.",
-			"unicodeHighlight.configureUnicodeHighlightOptions": "تكوين خيارات تمييز Unicode",
+			"unicodeHighlight.characterIsNonBasicAscii": "الحرف {0} ليس حرف أسكي أساسي.",
+			"unicodeHighlight.configureUnicodeHighlightOptions": "تكوين خيارات تمييز يونيكود",
 			"unicodeHighlight.disableHighlightingInComments.shortLabel": "إيقاف الإبراز في التعليقات",
 			"unicodeHighlight.disableHighlightingInStrings.shortLabel": "إيقاف الإبراز في السلاسل",
 			"unicodeHighlight.disableHighlightingOfAmbiguousCharacters.shortLabel": "إيقاف الإبراز الغامض",
 			"unicodeHighlight.disableHighlightingOfInvisibleCharacters.shortLabel": "إيقاف التمييز غير المرئي",
-			"unicodeHighlight.disableHighlightingOfNonBasicAsciiCharacters.shortLabel": "إيقاف الإبراز غير ASCII",
+			"unicodeHighlight.disableHighlightingOfNonBasicAsciiCharacters.shortLabel": "إيقاف الإبراز غير أسكي",
 			"unicodeHighlight.excludeCharFromBeingHighlighted": "استبعاد {0} من الإبراز",
 			"unicodeHighlight.excludeInvisibleCharFromBeingHighlighted": "استبعاد إبراز {0} (حرف غير مرئي)",
-			"unicodeHighlighting.thisDocumentHasManyAmbiguousUnicodeCharacters": "يحتوي هذا المستند على العديد من أحرف Unicode الغامضة.",
-			"unicodeHighlighting.thisDocumentHasManyInvisibleUnicodeCharacters": "يحتوي هذا المستند على العديد من أحرف Unicode غير المرئية.",
-			"unicodeHighlighting.thisDocumentHasManyNonBasicAsciiUnicodeCharacters": "يحتوي هذا المستند على العديد من أحرف Unicode غير ASCII الأساسية.",
+			"unicodeHighlighting.thisDocumentHasManyAmbiguousUnicodeCharacters": "يحتوي هذا المستند على العديد من أحرف يونيكود الغامضة.",
+			"unicodeHighlighting.thisDocumentHasManyInvisibleUnicodeCharacters": "يحتوي هذا المستند على العديد من أحرف يونيكود غير المرئية.",
+			"unicodeHighlighting.thisDocumentHasManyNonBasicAsciiUnicodeCharacters": "يحتوي هذا المستند على العديد من أحرف يونيكود غير أسكي الأساسية.",
 			"warningIcon": "أيقونة تعرض مع رسالة تحذير في محرر الإضافات."
 		},
 		"vs/editor/contrib/unusualLineTerminators/browser/unusualLineTerminators": {
@@ -2164,7 +2164,7 @@
 			"addMcp": "يضيف تعريف خادم بروتوكول سياق النموذج إلى ملف تعريف المستخدم. يقبل مدخلات JSON على النحو '{\"name\":\"server-name\",\"command\":...}'",
 			"category": "تصفية الإضافات المثبتة بناءً على الفئة المقدمة، عند استخدام --list-extensions.",
 			"chatMaximize": "تكبير عرض جلسة المحادثة.",
-			"chatMode": "الوضع الذي سيتم استخدامه لجلسة المحادثة. الخيارات المتاحة: 'ask' أو 'edit' أو 'agent' أو معرف وضع مخصص. القيمة الافتراضية هي 'agent'.",
+			"chatMode": "الوضع الذي سيتم استخدامه لجلسة المحادثة. الخيارات المتاحة: 'سؤال' أو 'تحرير' أو 'وكيل' أو معرف وضع مخصص. القيمة الافتراضية هي 'وكيل'.",
 			"cliDataDir": "الدليل الذي يجب تخزين بيانات التعريف الخاصة بـ CLI فيه.",
 			"cliPrompt": "استعلام",
 			"deprecated.useInstead": "استخدم {0} بدلاً من ذلك.",
@@ -2173,7 +2173,7 @@
 			"disableExtension": "تعطيل الإضافة المقدرة. هذا الخيار غير دائم ولا ينطبق إلا عند فتح الأمر نافذة جديدة.",
 			"disableExtensions": "تعطيل جميع الإضافات المثبتة. هذا الخيار غير دائم ولا يكون فعالاً إلا عند فتح الأمر نافذة جديدة.",
 			"disableGPU": "تعطيل تسريع الأجهزة لـ وحدة معالجة الرسومات.",
-			"disableLCDText": "تعطيل عرض خطوط DESCRIPT.",
+			"disableLCDText": "تعطيل عرض نصوص الشاشة منخفضة التباين",
 			"experimentalApis": "تفعيل ميزات API المقترحة للإضافات. يمكن استلام معرف إضافة واحد أو أكثر لتفعيلها بشكل منفرد.",
 			"extensionHomePath": "تعيين المسار الجذري للإضافات.",
 			"extensionsManagement": "إدارة الإضافات",
@@ -2186,7 +2186,7 @@
 			"listExtensions": "قائمة الإضافات المثبتة.",
 			"locale": "الإعدادات المحلية للاستخدام (مثال: fr-FR أو en-US).",
 			"locateShellIntegrationPath": "يطبع المسار إلى سكريبت تكامل الغلاف في الطرفية. القيم المسموح بها هي 'bash' أو 'pwsh' أو 'zsh' أو 'fish'.",
-			"log": "مستوى التسجيل للاستخدام. القيمة الافتراضية هي 'info'. القيم المسموح بها هي 'critical' و 'error' و 'warn' و 'info' و 'debug' و 'trace' و 'off'. يمكنك أيضاً تكوين مستوى السجل لإضافة عن طريق تمرير معرف الإضافة ومستوى السجل بالتنسيق التالي: '${publisher}.${name}:${logLevel}'. على سبيل المثال: 'vscode.csharp:trace'. يمكن استلام إدخال واحد أو أكثر من هذا النوع.",
+			"log": "مستوى التسجيل للاستخدام. القيمة الافتراضية هي 'معلومات'. القيم المسموح بها هي 'حرج' و 'خطأ' و 'تحذير' و 'معلومات' و 'تصحيح الأخطاء' و 'تتبع' و 'إيقاف'. يمكنك أيضًا ضبط مستوى السجل للإضافة عن طريق تمرير معرف الناشر واسم الإضافة ومستوى السجل بالصيغة التالية: '${publisher}.${name}:${logLevel}'. على سبيل المثال: 'vscode.csharp:تتبع'. يمكن قبول مدخل واحد أو أكثر من هذا النوع.",
 			"mcp": "بروتوكول سياق النموذج",
 			"merge": "قم بإجراء دمج ثلاثي عن طريق توفير مسارات لنسختين معدلتين من ملف، للأصل المشترك للنسختين المعدلتين ولملف الإخراج لحفظ نتائج الدمج.",
 			"newWindow": "إجبار فتح نافذة جديدة.",
@@ -2345,8 +2345,8 @@
 			"extensionDescription.version": "الخاصية '{0}' إلزامية ويجب أن تكون من النوع 'string'",
 			"notSemver": "إصدار الإضافة غير متوافق مع SemVer.",
 			"versionMismatch": "الإضافة غير متوافقة مع الكود {0}. الإضافة تتطلب {1}.",
-			"versionSpecificity1": "الإصدار المحدد في 'engines.vscode' ({0}) غير دقيق بما فيه الكفاية. لإصدارات vscode قبل 1.0.0، حدد على الأقل الإصدارين الرئيسي والثانوي المطلوبين. على سبيل المثال: ^0.10.0 أو 0.10.x أو 0.11.0، إلخ.",
-			"versionSpecificity2": "الإصدار المحدد في 'engines.vscode' ({0}) غير دقيق بما فيه الكفاية. لإصدارات vscode بعد 1.0.0، حدد على الأقل الإصدار الرئيسي المطلوب. على سبيل المثال: ^1.10.0 أو 1.10.x أو 1.x.x أو 2.x.x، إلخ.",
+			"versionSpecificity1": "الإصدار المحدد في 'engines.vscode' ({0}) غير دقيق بما فيه الكفاية. لإصدارات فيجوال كود قبل 1.0.0، حدد على الأقل الإصدارين الرئيسي والثانوي المطلوبين. على سبيل المثال: ^0.10.0 أو 0.10.x أو 0.11.0، إلخ.",
+			"versionSpecificity2": "الإصدار المحدد في 'engines.vscode' ({0}) غير دقيق بما فيه الكفاية. لإصدارات فيجوال كود بعد 1.0.0، حدد على الأقل الإصدار الرئيسي المطلوب. على سبيل المثال: ^1.10.0 أو 1.10.x أو 1.x.x أو 2.x.x، إلخ.",
 			"versionSyntax": "لا يمكن تحليل القيمة {0} من `engines.vscode`. الرجاء استخدام، على سبيل المثال: ^1.22.0 أو ^1.22.x، ..."
 		},
 		"vs/platform/externalTerminal/node/externalTerminalService": {
@@ -2438,7 +2438,7 @@
 		"vs/platform/keyboardLayout/common/keyboardConfig": {
 			"dispatch": "يتحكم في منطق توزيع نقرات المفاتيح لاستخدام 'code' (موصى به) أو 'keyCode'.",
 			"keyboardConfigurationTitle": "لوحة المفاتيح",
-			"mapAltGrToCtrlAlt": "يتحكم فيما إذا كان يجب معاملة معدل AltGraph+ على أنه Ctrl+Alt+."
+			"mapAltGrToCtrlAlt": "يتحكم فيما إذا كان يجب التعامل مع AltGraph+ كمعدل Ctrl+Alt+."
 		},
 		"vs/platform/languagePacks/common/languagePacks": {
 			"currentDisplayLanguage": " (الحالي)"
@@ -2454,7 +2454,7 @@
 			"defaultFindMatchTypeSettingKey": "يتحكم في نوع المطابقة المستخدم عند البحث في القوائم والأشجار في بنك الاختبار.",
 			"defaultFindMatchTypeSettingKey.contiguous": "استخدم المطابقات المتجاورة عند البحث.",
 			"defaultFindMatchTypeSettingKey.fuzzy": "استخدم المطابقة التقريبية عند البحث.",
-			"defaultFindModeSettingKey": "يتحكم في وضع البحث الافتراضي للقوائم والأشجار في Workbench.",
+			"defaultFindModeSettingKey": "يتحكم في وضع البحث الافتراضي للقوائم والأشجار في بيئة العمل.",
 			"defaultFindModeSettingKey.filter": "تصفية العناصر عند البحث.",
 			"defaultFindModeSettingKey.highlight": "إبراز العناصر عند البحث. التنقل للأعلى والأسفل يمر فقط عبر العناصر المميزة.",
 			"expand mode": "يتحكم في كيفية توسيع مجلدات الشجرة عند النقر على أسماء المجلدات. لاحظ أن بعض الأشجار والقوائم قد تختار تجاهل هذا الإعداد، إذا لم يكن قابلاً للتطبيق.",
@@ -3089,10 +3089,10 @@
 			"enableWindowsBackgroundUpdatesTitle": "تمكين تحديثات الخلفية على نظام التشغيل ويندوز",
 			"manual": "تعطيل التحقق التلقائي من الخلفية للحصول على التحديثات. تتوفر التحديثات إذا قمت بالتحقق منها يدويًا.",
 			"none": "قم بإيقاف تشغيل التحديثات.",
-			"showReleaseNotes": "عرض ملاحظات الإصدار بعد التحديث. يتم تنزيل ملاحظات الإصدار من خدمة Microsoft عبر الإنترنت.",
+			"showReleaseNotes": "عرض ملاحظات الإصدار بعد التحديث. يتم تنزيل ملاحظات الإصدار من خدمة مايكروسوفت عبر الإنترنت.",
 			"start": "التحقق من وجود تحديثات فقط عند بدء التشغيل. تعطيل عمليات التحقق من التحديث التلقائي في الخلفية.",
 			"updateConfigurationTitle": "للتحديث",
-			"updateMode": "اختر ما إذا كنت تريد تلقي التحديثات التلقائية. يتطلب إعادة التشغيل بعد التغيير. يتم استرداد التحديثات من خدمة Microsoft عبر الإنترنت."
+			"updateMode": "اختر ما إذا كنت تريد تلقي التحديثات التلقائية. يتطلب إعادة التشغيل بعد التغيير. يتم استرداد التحديثات من خدمة مايكروسوفت عبر الإنترنت."
 		},
 		"vs/platform/userDataProfile/common/userDataProfile": {
 			"defaultProfile": "افتراضيا"
@@ -4772,7 +4772,7 @@
 			"enableNaturalLanguageSearch": "يحدد ما إذا كان يجب أن تتضمن لوحة الأوامر أوامر مماثلة. يجب تثبيت ملحق يوفر دعم اللغة الطبيعية.",
 			"enablePreview": "يتيح لك التحكم في استخدام وضع المعاينة عند فتح المحررين. يوجد محرر وضع Max Preview واحد لكل مجموعة محرر. يعرض هذا المحرر اسم الملف الخاص به بخط مائل على عنوانه أو علامة التبويب الخاصة به وفي عرض Open Editors. يتم استبدال محتوياته بالمحرر التالي المفتوح في وضع المعاينة. إذا قمت بإجراء تغيير في محرر وضع المعاينة، فسيتم الاحتفاظ به، كما هو الحال مع النقر المزدوج فوق التسمية الخاصة به، أو خيار \"Keep Open\" في قائمة سياق التسمية الخاصة به. يؤدي فتح ملف بالنقر المزدوج من Explorer إلى الاحتفاظ بمحرره على الفور.",
 			"enablePreviewFromCodeNavigation": "يتحكم في ما إذا كان المحررون سيبقون في المعاينة عند بدء التنقل في التعليمات البرمجية من هؤلاء المحررين. لا تظل برامج تحرير المعاينة مفتوحة ويتم إعادة استخدامها حتى يتم تعيينها بشكل صريح لتظل مفتوحة (على سبيل المثال، عن طريق النقر المزدوج أو التحرير). يتم تجاهل هذه القيمة عندما لا يتم تعيين {0} على {1}.",
-			"enablePreviewFromQuickOpen": "يحدد ما إذا كان المحررون الذين تم فتحهم من عرض Quick Open كمحرري معاينة. لا تظل برامج تحرير المعاينة مفتوحة ويتم إعادة استخدامها حتى يتم تعيينها بشكل صريح لتظل مفتوحة (على سبيل المثال، عن طريق النقر المزدوج أو التحرير). عند التمكين، اضغط باستمرار على مفتاح Ctrl قبل التحديد لفتح محرر كغير معاينة. يتم تجاهل هذه القيمة عندما لا يتم تعيين {0} على {1}.",
+			"enablePreviewFromQuickOpen": "يحدد ما إذا كان المحررون الذين تم فتحهم من عرض الفتح السريع كمحرري معاينة. لا تظل برامج تحرير المعاينة مفتوحة ويتم إعادة استخدامها حتى يتم تعيينها بشكل صريح لتظل مفتوحة (على سبيل المثال، عن طريق النقر المزدوج أو التحرير). عند التمكين، اضغط باستمرار على مفتاح Ctrl قبل التحديد لفتح محرر كغير معاينة. يتم تجاهل هذه القيمة عندما لا يتم تعيين {0} على {1}.",
 			"exclude": "قم بتكوين المسارات أو [الأنماط العامة](https://aka.ms/vscode-glob-patterns) لاستبعاد الملفات من سجل الملفات المحلي. يتم دائمًا تقييم نماذج Glob وفقًا لمسار مجلد مساحة العمل ما لم تكن مسارات مطلقة. ليس لتغيير هذا الإعداد أي تأثير على إدخالات محفوظات الملفات المحلية الموجودة.",
 			"focusRecentEditorAfterClose": "التحكم في إغلاق المحررين بترتيب آخر استخدام أو من اليسار إلى اليمين.",
 			"focusedView": "${focusedView}: اسم العرض الذي يتم التركيز عليه حاليًا.",
@@ -4947,7 +4947,7 @@
 			"workbench.panel.opensMaximized.never": "لا تفتح اللوحة على نطاق واسع أبدًا.",
 			"workbench.panel.opensMaximized.preserve": "افتح اللوحة في الحالة التي كانت عليها قبل إغلاقها.",
 			"workbench.panel.output": "عرض الإخراج",
-			"workbench.quickOpen.preserveInput": "يحدد ما إذا كان يجب استعادة آخر إدخال تم كتابته في Quick Open في المرة التالية التي يتم فيها فتحه.",
+			"workbench.quickOpen.preserveInput": "يحدد ما إذا كان يجب استعادة آخر إدخال تم كتابته في الفتح السريع في المرة التالية التي يتم فيها فتحه.",
 			"workbench.reduceMotion": "يتحكم في ما إذا كان يجب عرض المعيار مع عدد أقل من الرسوم المتحركة.",
 			"workbench.reduceMotion.auto": "يتم العرض بحركة أقل اعتمادًا على تكوين نظام التشغيل",
 			"workbench.reduceMotion.off": "لا تعرض مع انخفاض الحركة",
@@ -5256,11 +5256,11 @@
 			"toggleDevTools": "تفعيل/تعطيل أدوات التطوير"
 		},
 		"vs/workbench/electron-browser/actions/installActions": {
-			"install": "تثبيت الأمر '{0}' في PATH",
+			"install": "تثبيت الأمر '{0}' في مسار النظام",
 			"shellCommand": "أمر shell",
-			"successFrom": "تم إلغاء تثبيت أمر shell '{0}' بنجاح من PATH.",
-			"successIn": "تم تثبيت أمر shell '{0}' بنجاح في PATH.",
-			"uninstall": "إلغاء تثبيت الأمر '{0}' من PATH"
+			"successFrom": "تم إلغاء تثبيت أمر shell '{0}' بنجاح من مسار النظام.",
+			"successIn": "تم تثبيت أمر shell '{0}' بنجاح في مسار النظام.",
+			"uninstall": "إلغاء تثبيت الأمر '{0}' من مسار النظام"
 		},
 		"vs/workbench/electron-browser/actions/windowActions": {
 			"close": "إغلاق النافذة",
@@ -5655,8 +5655,8 @@
 			"noTrustedExtensions": "لم يتم استخدام هذا الحساب من قبل أي إضافة.",
 			"notUsed": "لم يستخدم هذا الحساب",
 			"pickAccount": "اختر حسابًا لإدارة الإضافات الموثوقة له",
-			"trustedExtensionTooltip": "هذه الإضافة موثوقة من Microsoft وتتمتع دائمًا بالوصول إلى هذا الحساب",
-			"trustedExtensions": "معتمد من Microsoft",
+			"trustedExtensionTooltip": "هذه الإضافة موثوقة من مايكروسوفت وتتمتع دائمًا بالوصول إلى هذا الحساب",
+			"trustedExtensions": "معتمد من مايكروسوفت",
 			"viewExtensionDetails": "عرض تفاصيل الإضافة"
 		},
 		"vs/workbench/contrib/authentication/browser/actions/manageTrustedMcpServersForAccountAction": {
@@ -5670,8 +5670,8 @@
 			"noTrustedMcpServers": "لم يتم استخدام هذا الحساب من قبل أي خادم MCP.",
 			"notUsed": "لم يستخدم هذا الحساب",
 			"pickAccount": "اختر حسابًا لإدارة خوادم MCP الموثوقة له",
-			"trustedMcpServerTooltip": "هذا خادم MCP موثوق من Microsoft ويملك دائمًا حق الوصول إلى هذا الحساب",
-			"trustedMcpServers": "معتمد من Microsoft"
+			"trustedMcpServerTooltip": "هذا خادم MCP موثوق من مايكروسوفت ويملك دائمًا حق الوصول إلى هذا الحساب",
+			"trustedMcpServers": "معتمد من مايكروسوفت"
 		},
 		"vs/workbench/contrib/authentication/browser/actions/signOutOfAccountAction": {
 			"signOut": "&&تسجيل الخروج",
@@ -5784,7 +5784,7 @@
 			"chat.focusMostRecentTerminalOutput": "لتركيز إخراج آخر أداة طرفية في المحادثة، استخدم أمر تركيز على أحدث إخراج طرفية محادثة {0}.",
 			"chat.inspectResponse": "في مربع الإدخال، افحص آخر رد في العرض الميسر {0}.",
 			"chat.overview": "يتكون عرض المحادثة السريعة من منطقة إدخال وقائمة بالطلبات/الردود. تُستخدم منطقة الإدخال لإرسال الاستعلامات بينما تعرض القائمة الردود.",
-			"chat.progressVerbosity": "عند معالجة طلب المحادثة، سيتم سماع تحديثات مفصلة للتقدم إذا استغرق الطلب أكثر من 4 ثوانٍ. يتضمن ذلك معلومات مثل النص الذي تم البحث عنه لـ <search term> مع X من النتائج، أو إنشاء ملف <file_name> أو قراءة ملف <file path>. يمكن تعطيل هذا الخيار عبر accessibility.verboseChatProgressUpdates.",
+			"chat.progressVerbosity": "عند معالجة طلب المحادثة، سيتم سماع تحديثات مفصلة للتقدم إذا استغرق الطلب أكثر من 4 ثوانٍ. يتضمن ذلك معلومات مثل النص الذي تم البحث عنه لـ <search term> مع X من النتائج، أو إنشاء ملف <اسم الملف> أو قراءة ملف < مسار النظام>. يمكن تعطيل هذا الخيار عبر accessibility.verboseChatProgressUpdates.",
 			"chat.requestHistory": "في منطقة الإدخال، استخدم الأسهم لأعلى ولأسفل للتنقل عبر سجل الطلبات. عدّل الإدخال واضغط Enter أو زر الإرسال لإرسال طلب جديد.",
 			"chat.showHiddenTerminals": "إذا كانت هناك طرفيات محادثة مخفية، يمكنك عرضها باستخدام أمر إظهار الطرفيات المخفية {0}.",
 			"chat.signals": "يمكن تعديل إشارات إمكانية الوصول عبر الإعدادات باستخدام البادئة signals.chat. افتراضيًا، إذا استغرق الطلب أكثر من 4 ثوانٍ، سيتم سماع صوت يشير إلى استمرار المعالجة.",
@@ -5987,7 +5987,7 @@
 			"noLanguageModels": "عذراً، لم يتم العثور على أي نموذج لغة يتطلب مصادقة.",
 			"noLanguageModelsDetail": "لا يوجد حالياً أي نموذج لغة يتطلب مصادقة.",
 			"openExtension": "فتح الإضافة",
-			"trustedExtension": "موثوق من Microsoft"
+			"trustedExtension": "موثوق من مايكروسوفت"
 		},
 		"vs/workbench/contrib/chat/browser/actions/chatMoveActions": {
 			"chat.openInEditor.label": "نقل المحادثة إلى منطقة المحرر",
@@ -8930,7 +8930,7 @@
 			"miEmmetExpandAbbreviation": "Emmet: توسيع الاختصار"
 		},
 		"vs/workbench/contrib/experiments/browser/experiments.contribution": {
-			"workbench.enableExperiments": "يجلب الميزات التجريبية للتشغيل من خدمة عبر الإنترنت من Microsoft."
+			"workbench.enableExperiments": "يجلب الميزات التجريبية للتشغيل من خدمة عبر الإنترنت من مايكروسوفت."
 		},
 		"vs/workbench/contrib/extensions/browser/abstractRuntimeExtensionsEditor": {
 			"copy id": "نسخ المعرف ({0})",
@@ -9086,7 +9086,7 @@
 			"extensionUpdates": "عرض تحديثات الإضافة",
 			"extensions": "الإضافات",
 			"extensions.affinity": "تكوّن إضافة لتشغيلها في مضيف إضافة آخر.",
-			"extensions.autoUpdate": "يتحكم في سلوك التحديث التلقائي للإضافات. يتم جلب التحديثات من خدمة Microsoft عبر الإنترنت.",
+			"extensions.autoUpdate": "يتحكم في سلوك التحديث التلقائي للإضافات. يتم جلب التحديثات من خدمة مايكروسوفت عبر الإنترنت.",
 			"extensions.autoUpdate.enabled": "قم بتنزيل وتثبيت التحديثات تلقائياً فقط للإضافات المفعلة.",
 			"extensions.autoUpdate.false": "الإضافات لا يتم تحديثها تلقائياً.",
 			"extensions.autoUpdate.true": "يقوم بتنزيل وتثبيت التحديثات تلقائياً لجميع الإضافات.",
@@ -9099,7 +9099,7 @@
 			"extensions.supportUntrustedWorkspaces.version": "يُحدد إصدار الإضافة الذي يجب تطبيق الاستبدال عليه. إذا لم يتم تحديد شيء، يتم تطبيق الاستبدال بغض النظر عن إصدار الإضافة.",
 			"extensions.supportVirtualWorkspaces": "استبدل دعم إضافة من قبل مساحات العمل الافتراضية.",
 			"extensions.verifySignature": "عند تفعيل هذا الخيار، يتم التحقق من توقيع الإضافات قبل تثبيتها.",
-			"extensionsCheckUpdates": "عند التفعيل، يتحقق تلقائياً من الإضافات لتحديثاتها. إذا كانت الإضافة تحديثاً، يتم وضع علامة عليها كقديمة في عرض الإضافات. يتم جلب التحديثات من خدمة عبر الإنترنت من Microsoft.",
+			"extensionsCheckUpdates": "عند التفعيل، يتحقق تلقائياً من الإضافات لتحديثاتها. إذا كانت الإضافة تحديثاً، يتم وضع علامة عليها كقديمة في عرض الإضافات. يتم جلب التحديثات من خدمة عبر الإنترنت من مايكروسوفت.",
 			"extensionsCloseExtensionDetailsOnViewChange": "إذا تم تفعيل هذا الخيار، يتم إغلاق المحررات التي تحتوي على تفاصيل الإضافة تلقائياً عندما تخرج من عرض الإضافات.",
 			"extensionsConfigurationTitle": "الإضافات",
 			"extensionsDeferredStartupFinishedActivation": "عند تفعيل هذا الخيار، يتم تفعيل الإضافات التي تعلن عن حدث التفعيل 'onStartupFinished' بعد مهلة انتهاء.",
@@ -10058,7 +10058,7 @@
 			"sortOrderLexicographicOptions": "يتحكم في الفرز المعجمي لأسماء الملفات والمجلدات في المستكشف.",
 			"sortOrderLexicographicOptions.default": "الأسماء بالأحرف الكبيرة والصغيرة غير منفصلة.",
 			"sortOrderLexicographicOptions.lower": "الأسماء بالأحرف الصغيرة مُجمّعة قبل الأسماء بالأحرف الكبيرة.",
-			"sortOrderLexicographicOptions.unicode": "الأسماء مُرتبة بترتيب Unicode.",
+			"sortOrderLexicographicOptions.unicode": "الأسماء مُرتبة بترتيب  تلميحات الكود.",
 			"sortOrderLexicographicOptions.upper": "الأسماء بالأحرف الكبيرة مُجمّعة قبل الأسماء بالأحرف الصغيرة.",
 			"sortOrderReverse": "يتحكم فيما إذا كان يجب عكس ترتيب الفرز للملفات والمجلدات.",
 			"textFileEditor": "محرر الملفات النصية",
@@ -12652,7 +12652,7 @@
 			"previewIndicatorDescription": "إعداد إصدار تجريبي: هذا الإعداد يتحكم في ميزة جديدة لا تزال قيد التحسين، لكنها جاهزة للاستخدام. التعليقات مرحب بها."
 		},
 		"vs/workbench/contrib/preferences/common/preferencesContribution": {
-			"enableNaturalLanguageSettingsSearch": "يتحكم فيما إذا كنت تريد تفعيل وضع البحث باللغة الطبيعية لإعدادات التحكم. البحث باللغة الطبيعية مضمون بواسطة خدمة Microsoft على الإنترنت.",
+			"enableNaturalLanguageSettingsSearch": "يتحكم فيما إذا كنت تريد تفعيل وضع البحث باللغة الطبيعية لإعدادات التحكم. البحث باللغة الطبيعية مضمون بواسطة خدمة مايكروسوفت على الإنترنت.",
 			"settingsSearchTocBehavior": "يتحكم في سلوك جدول المحتويات لمحرر الإعدادات أثناء البحث. إذا تم تعديل هذا الإعداد في محرر الإعدادات، سيأخذ مفعوله مرة واحدة يتم تعديل استعلام البحث.",
 			"settingsSearchTocBehavior.filter": "تصفية جدول المحتويات على الفئات التي لديها إعدادات مطابقة فقط. انقر على فئة لتصفية النتائج على هذه الفئة.",
 			"settingsSearchTocBehavior.hide": "إخفاء جدول المحتويات أثناء البحث.",
@@ -13326,10 +13326,10 @@
 		"vs/workbench/contrib/search/browser/search.contribution": {
 			"anythingQuickAccess": "الوصول إلى الملف",
 			"anythingQuickAccessPlaceholder": "البحث عن ملفات بالاسم (أضف {0} للوصول إلى السطر أو {1} للوصول إلى الرمز)",
-			"exclude": "تكوين [نماذج glob](https://code.visualstudio.com/docs/editor/codebasics#_advanced-search-options) لاستبعاد الملفات والمجلدات في عمليات البحث النصي الكامل والبحث عن الملفات في الفتح السريع. لاستبعاد الملفات من القائمة المفتوحة مؤخراً في quick open، يجب أن تكون النماذج مطلقة (مثال `**/node_modules/**`). يرث جميع نماذج Glob من الإعداد `#files.exclude#`.",
+			"exclude": "تكوين [نماذج glob](https://code.visualstudio.com/docs/editor/codebasics#_advanced-search-options) لاستبعاد الملفات والمجلدات في عمليات البحث النصي الكامل والبحث عن الملفات في الفتح السريع. لاستبعاد الملفات من القائمة المفتوحة مؤخراً في الفتح السريع، يجب أن تكون النماذج مطلقة (مثال `**/node_modules/**`). يرث جميع نماذج Glob من الإعداد `#files.exclude#`.",
 			"exclude.boolean": "نمط Glob الذي يجب أن تتطابق معه مسارات الملفات. عيّن القيمة true أو false لتفعيل أو تعطيل النمط.",
 			"exclude.when": "فحص إضافي على الأخوة لملف مطابق. استخدم \\$(basename) كمتغير لاسم الملف المطابق.",
-			"filterSortOrder": "يتحكم في أمر ترتيب سجل المحرر في وضع Quick Open أثناء التصفية.",
+			"filterSortOrder": "يتحكم في أمر ترتيب سجل المحرر في وضع الفتح السريع أثناء التصفية.",
 			"filterSortOrder.default": "إدخالات السجل مرتبة حسب الصلة بناءً على قيمة التصفية المستخدمة. الإدخالات الأكثر صلة تظهر أولاً.",
 			"filterSortOrder.recency": "إدخالات السجل مرتبة حسب التاريخ. آخر الإدخلات المفتوحة معروضة أولاً.",
 			"maintainFileSearchCacheDeprecated": "تم الاحتفاظ بذاكرة التخزين المؤقت للبحث في مضيف الإضافة الذي لا يتوقف أبداً. هذا الإعداد لم يعد ضرورياً.",
@@ -14198,7 +14198,7 @@
 			"jshint": "المشاكل المتعلقة بـ JSHint",
 			"jshint-stylish": "المشاكل المتعلقة بالمنسق stylish لـ JSHint",
 			"lessCompile": "مشاكل أقل",
-			"msCompile": "مشاكل المترجم Microsoft"
+			"msCompile": "مشاكل المترجم مايكروسوفت"
 		},
 		"vs/workbench/contrib/tasks/common/taskConfiguration": {
 			"ConfigurationParser.invalidArg": "خطأ: وسيط الأمر يجب أن يكون سلسلة أو سلسلة بين علامات اقتباس. القيمة المقدمة:\r\n{0}",
@@ -14568,7 +14568,7 @@
 			"terminal.integrated.allowedLinkSchemes": "مصفوفة سلاسل تحتوي على مخططات URI التي يُسمح للتيرمنال بفتح روابط فيها. افتراضياً، يُسمح فقط بمجموعة فرعية صغيرة من المخططات الممكنة لأسباب أمنية.",
 			"terminal.integrated.altClickMovesCursor": "عند تفعيله، alt/option + نقر يعيد وضع مؤشر الأمر تحت الماوس عندما {0} معيّن على {1} (افتراضي). قد لا يعمل بشكل موثوق بناءً على shell.",
 			"terminal.integrated.bellDuration": "عدد مللي ثانية عرض جرس التنبيه في تبويب تيرمنال عند تشغيله.",
-			"terminal.integrated.commandsToSkipShell": "مجموعة معرفات الأوامر التي لا يتم إرسال تركيبات مفاتيحها إلى shell ولكن يتم التعامل معها دائماً بواسطة فيجوال كود. يتيح هذا لتركيبات المفاتيح التي تُستهلك عادة بواسطة shell إنتاج نفس النتيجة كما في موضع لا يكون فيه للتيرمنال تركيز، مثلاً `Ctrl+P` لبدء Quick Open.\r\n\r\n\r\n\r\nيتم تجاهل العديد من الأوامر افتراضياً. لتجاوز قيمة افتراضية وتمرير تركيبة المفاتيح لهذا الأمر إلى shell، أضف الأمر مسبوقاً بالحرف `-`. مثلاً، أضف `-workbench.action.quickOpen` للسماح بالتركيبة `Ctrl+P` للوصول إلى shell.\r\n\r\n\r\n\r\nالقائمة التالية للأوامر المُتجاهلة افتراضياً مقطوعة عند عرضها في محرر الإعدادات. لرؤية القائمة الكاملة، {1} ثم ابحث عن الأمر الأول في القائمة أدناه.\r\n\r\n&nbsp;\r\n\r\nالأوامر المُتجاهلة افتراضياً:\r\n\r\n{0}",
+			"terminal.integrated.commandsToSkipShell": "مجموعة معرفات الأوامر التي لا يتم إرسال تركيبات مفاتيحها إلى shell ولكن يتم التعامل معها دائماً بواسطة فيجوال كود. يتيح هذا لتركيبات المفاتيح التي تُستهلك عادة بواسطة shell إنتاج نفس النتيجة كما في موضع لا يكون فيه للتيرمنال تركيز، مثلاً `Ctrl+P` لبدء الفتح السريع.\r\n\r\n\r\n\r\nيتم تجاهل العديد من الأوامر افتراضياً. لتجاوز قيمة افتراضية وتمرير تركيبة المفاتيح لهذا الأمر إلى shell، أضف الأمر مسبوقاً بالحرف `-`. مثلاً، أضف `-workbench.action.quickOpen` للسماح بالتركيبة `Ctrl+P` للوصول إلى shell.\r\n\r\n\r\n\r\nالقائمة التالية للأوامر المُتجاهلة افتراضياً مقطوعة عند عرضها في محرر الإعدادات. لرؤية القائمة الكاملة، {1} ثم ابحث عن الأمر الأول في القائمة أدناه.\r\n\r\n&nbsp;\r\n\r\nالأوامر المُتجاهلة افتراضياً:\r\n\r\n{0}",
 			"terminal.integrated.confirmOnExit": "يتحكم فيما إذا كان يجب تأكيد إغلاق النافذة إذا كانت هناك جلسات تيرمنال نشطة. المحطات الخلفية مثل تلك المُطلَقة بواسطة بعض الإضافات لا تُطلق التأكيد.",
 			"terminal.integrated.confirmOnExit.always": "أكد دائماً وجود محطات.",
 			"terminal.integrated.confirmOnExit.hasChildProcesses": "أكد إذا كانت هناك محطات لديها عمليات فرعية.",
@@ -14692,9 +14692,9 @@
 			"terminal.integrated.tabs.showActiveTerminal.never": "عدم عرض التيرمينال النشطة أبداً",
 			"terminal.integrated.tabs.showActiveTerminal.singleTerminal": "عرض التيرمينال النشطة عندما تكون التيرمينال الوحيدة المفتوحة",
 			"terminal.integrated.tabs.showActiveTerminal.singleTerminalOrNarrow": "عرض التيرمينال النشطة عندما تكون التيرمينال الوحيدة المفتوحة أو عندما يكون عرض التبويبات في حالة عرض ضيقة بدون نص",
-			"terminal.integrated.unicodeVersion": "يتحكم في إصدار Unicode لاستخدامه عند تقييم عرض الأحرف في التيرمينال. إذا كنت تواجه emojis أو أحرف واسعة أخرى لا تحتل الكمية المناسبة (كثيرة جداً أو قليلة جداً) من المسافات الأمامية أو الخلفية، يمكنك محاولة تكييف هذا الإعداد.",
-			"terminal.integrated.unicodeVersion.eleven": "إصدار 11 من Unicode. هذا الإصدار يوفر دعماً أفضل على الأنظمة الحديثة التي تستخدم إصدارات حديثة من Unicode.",
-			"terminal.integrated.unicodeVersion.six": "إصدار 6 من Unicode. هذا إصدار سابق يجب أن يعمل بشكل أفضل على الأنظمة القديمة.",
+			"terminal.integrated.unicodeVersion": "يتحكم في إصدار  تلميحات الكود لاستخدامه عند تقييم عرض الأحرف في التيرمينال. إذا كنت تواجه emojis أو أحرف واسعة أخرى لا تحتل الكمية المناسبة (كثيرة جداً أو قليلة جداً) من المسافات الأمامية أو الخلفية، يمكنك محاولة تكييف هذا الإعداد.",
+			"terminal.integrated.unicodeVersion.eleven": "إصدار 11 من  تلميحات الكود. هذا الإصدار يوفر دعماً أفضل على الأنظمة الحديثة التي تستخدم إصدارات حديثة من  تلميحات الكود.",
+			"terminal.integrated.unicodeVersion.six": "إصدار 6 من  تلميحات الكود. هذا إصدار سابق يجب أن يعمل بشكل أفضل على الأنظمة القديمة.",
 			"terminal.integrated.windowsEnableConpty": "يشير إلى ما إذا كان يجب استخدام ConPTY لاتصال عمليات تيرمنال ويندوز (يتطلب ويندوز 10 build 18309+). يتم استخدام Winpty إذا كان هذا الإعداد false.",
 			"terminal.integrated.windowsUseConptyDll": "يشير إلى ما إذا كان يجب استخدام conpty.dll التجريبي (v1.22.250204002) المُزوّد مع فيجوال كود، بدلاً من ذلك المُزوّد مع ويندوز.",
 			"terminal.integrated.wordSeparators": "سلسلة تحتوي على جميع الأحرف التي يجب اعتبارها فواصل كلمات عند النقر المزدوج لتحديد كلمة وفي كشف رابط \"word\" الاحتياطي. بما أن هذا يُستخدم لكشف الروابط، بما في ذلك أحرف مثل ':' المُستخدمة عند كشف الروابط، مما يؤدي إلى أن جزء السطر والعمود للروابط، مثل 'file:10:5'، يتم تجاهله.",
@@ -15303,7 +15303,7 @@
 			"installExtension": "تثبيت الإضافة",
 			"terminal.voice.detail": "دعم الميكروفون يتطلب هذه الإضافة.",
 			"terminal.voice.enableSpeechExtension": "هل تريد تفعيل إضافة التعرف على الصوت؟",
-			"terminal.voice.installSpeechExtension": "هل ترغب في تثبيت إضافة 'فيجوال كود Speech' من 'Microsoft'؟",
+			"terminal.voice.installSpeechExtension": "هل ترغب في تثبيت إضافة 'فيجوال كود الكلام' من 'مايكروسوفت'؟",
 			"workbench.action.terminal.startDictation": "بدء الإملاء في التيرمينال",
 			"workbench.action.terminal.stopDictation": "إيقاف الإملاء في التيرمينال"
 		},
@@ -16837,7 +16837,7 @@
 			"activityWarningBadge.foreground": "لون مقدمة شارة نشاط التحذير"
 		},
 		"vs/workbench/services/assignment/common/assignmentService": {
-			"workbench.enableExperiments": "يسترد الميزات التجريبية للتنفيذ من خدمة عبر الإنترنت من Microsoft."
+			"workbench.enableExperiments": "يسترد الميزات التجريبية للتنفيذ من خدمة عبر الإنترنت من مايكروسوفت."
 		},
 		"vs/workbench/services/authentication/browser/authenticationExtensionsService": {
 			"accessRequest": "منح الوصول إلى {1} لـ {0}... (1)",
@@ -17380,23 +17380,23 @@
 			"I cannot reproduce": "لا يمكنني إعادة الإنتاج",
 			"Stop": "إيقاف",
 			"This is Bad": "يمكنني إعادة الإنتاج",
-			"ask to download insiders": "حاول تنزيل وإعادة إنتاج المشكلة في {0} insiders.",
-			"ask to reproduce issue": "حاول إعادة إنتاج المشكلة في {0} insiders وتحقق مما إذا كانت المشكلة موجودة.",
-			"bad": "يمكنني إعادة الإنتاج",
-			"detail.start": "استكشاف الأخطاء وإصلاحها هو عملية تتيح لك تحديد سبب المشكلة. سبب المشكلة قد يكون تكوين غير صحيح، بسبب إضافة أو يكون {0} نفسه.\r\n\r\nأثناء العملية، تعيد النافذة التحميل عدة مرات. في كل مرة يجب عليك تأكيد ما إذا كانت المشكلة لا تزال موجودة.",
-			"download insiders": "تنزيل {0} insiders",
-			"empty.profile": "استكشاف الأخطاء وإصلاحها نشط وأعاد تكويناتك الافتراضية مؤقتاً. تحقق إذا كنت لا تزال تستطيع إعادة إنتاج المشكلة وتابع باختيار من بين هذه الخيارات.",
-			"good": "لا يمكنني إعادة الإنتاج",
+			"ask to download insiders": "حاول تنزيل إصدار المعاينة ({0}) وإعادة إنتاج المشكلة.",
+			"ask to reproduce issue": "حاول إعادة إنتاج المشكلة في إصدار المعاينة ({0}) وتحقق مما إذا كانت المشكلة ما زالت موجودة.",
+			"bad": "يمكنني إعادة إنتاج المشكلة",
+			"detail.start": "استكشاف الأخطاء وإصلاحها هي عملية تساعدك على تحديد سبب المشكلة. قد يكون سبب المشكلة تكوينًا غير صحيح، أو إضافة برمجية، أو حتى {0} نفسه.\r\n\r\nأثناء العملية، ستتم إعادة تحميل النافذة عدة مرات. وفي كل مرة يجب عليك تأكيد ما إذا كانت المشكلة ما زالت موجودة.",
+			"download insiders": "تنزيل إصدار المعاينة {0}",
+			"empty.profile": "استكشاف الأخطاء وإصلاحها نشط وقد أعاد مؤقتًا تطبيق إعداداتك الافتراضية. تحقق مما إذا كنت لا تزال قادرًا على إعادة إنتاج المشكلة ثم اختر أحد هذه الخيارات.",
+			"good": "لا يمكنني إعادة إنتاج المشكلة",
 			"issue is in core": "استكشاف الأخطاء وإصلاحها حدد أن المشكلة تتعلق بـ {0}.",
-			"issue is with configuration": "استكشاف الأخطاء وإصلاحها لاحظ أن المشكلة ناتجة عن تكويناتك. الإبلاغ عن المشكلة عن طريق تصدير تكويناتك باستخدام الأمر 'تصدير الملف التعريفي' ومشاركة الملف في تقرير المشكلة.",
+			"issue is with configuration": "استكشاف الأخطاء وإصلاحها لاحظ أن المشكلة ناتجة عن إعدادات التكوين لديك. يمكنك الإبلاغ عن المشكلة عن طريق تصدير إعداداتك باستخدام أمر 'تصدير الملف التعريفي' ومشاركة الملف في تقرير المشكلة.",
 			"msg": "&&استكشاف الأخطاء وإصلاحها",
-			"profile.extensions.disabled": "استكشاف الأخطاء وإصلاحها نشط وأوقف مؤقتاً جميع الإضافات المثبتة. تحقق إذا كنت لا تزال تستطيع إعادة إنتاج المشكلة وتابع باختيار من بين هذه الخيارات.",
+			"profile.extensions.disabled": "استكشاف الأخطاء وإصلاحها نشط وقد أوقف مؤقتًا جميع الإضافات المثبتة. تحقق مما إذا كنت لا تزال قادرًا على إعادة إنتاج المشكلة ثم اختر أحد هذه الخيارات.",
 			"report anyway": "الإبلاغ عن المشكلة على أي حال",
 			"stop": "إيقاف",
 			"title.stop": "إيقاف استكشاف الأخطاء وإصلاحها",
 			"troubleshoot issue": "استكشاف الأخطاء وإصلاح المشكلة",
 			"troubleshootIssue": "استكشاف الأخطاء وإصلاح المشكلة...",
-			"use insiders": "هذا يعني على الأرجح أن المشكلة قد تم حلها بالفعل وستكون متاحة في إصدار قادم. يمكنك استخدام {0} insiders بأمان حتى توفر الإصدار المستقر الجديد."
+			"use insiders": "غالبًا يعني ذلك أن المشكلة قد تم حلها وستتوفر في إصدار قادم. يمكنك استخدام إصدار المعاينة {0} بأمان حتى يتوفر الإصدار المستقر الجديد."
 		},
 		"vs/workbench/services/keybinding/browser/keybindingService": {
 			"invalid.keybindings": "'contributes.{0}' غير صالح: {1}",
@@ -17408,8 +17408,8 @@
 			"keybindings.json.title": "تكوين تركيبات المفاتيح",
 			"keybindings.json.when": "الشرط عندما يكون المفتاح نشطاً.",
 			"nonempty": "قيمة غير فارغة متوقعة.",
-			"optstring": "الخاصية '{0}' يمكن حذفها أو يجب أن تكون من النوع 'string'",
-			"requirestring": "الخاصية '{0}' إلزامية ويجب أن تكون من النوع 'string'",
+			"optstring": "الخاصية '{0}' يمكن حذفها أو يجب أن تكون من النوع 'نص'",
+			"requirestring": "الخاصية '{0}' إلزامية ويجب أن تكون من النوع 'نص'",
 			"unboundCommands": "إليك أوامر أخرى متاحة: ",
 			"vscode.extension.contributes.keybindings": "يضيف تركيبات المفاتيح.",
 			"vscode.extension.contributes.keybindings.args": "الوسائط لتمريرها إلى الأمر المطلوب تنفيذه.",
@@ -17649,7 +17649,7 @@
 		"vs/workbench/services/textfile/common/textFileEditorModel": {
 			"saveParticipants": "جاري حفظ '{0}'",
 			"saveTextFile": "جاري الكتابة في الملف...",
-			"textFileCreate.source": "تم تعديل ترميز الملف"
+			"textFileCreate.source": "مصدر إنشاء الملف النصي"
 		},
 		"vs/workbench/services/textfile/common/textFileEditorModelManager": {
 			"genericSaveError": "فشل حفظ '{0}': {1}"
@@ -17699,7 +17699,7 @@
 			"error.icon.font": "تم تجاهل تعريف أيقونة: '{0}'. خط غير معروف.",
 			"error.icon.fontCharacter": "تم تجاهل '{0}' من تعريف الأيقونة: يجب تعريفه",
 			"error.invalidformat": "تنسيق غير صالح لملف موضوع أيقونات المنتج: كائن متوقع.",
-			"error.missingProperties": "تنسيق غير صالح لملف موضوع أيقونات المنتج: يجب أن يحتوي على iconDefinitions وخطوط.",
+			"error.missingProperties": "تنسيق غير صالح لملف سمة أيقونات المنتج: يجب أن يحتوي على تعريفات الأيقونات والخطوط.",
 			"error.noFontSrc": "لا يوجد مصدر خط صالح في الخط '{0}'. تم تجاهل تعريف الخط.",
 			"error.parseicondefs": "مشاكل أثناء معالجة تعريفات أيقونات المنتج في {0}: \r\n{1}"
 		},
@@ -17761,7 +17761,7 @@
 			"schema.fileExtensions": "يربط امتدادات الملفات بالأيقونات. مفتاح الكائن هو اسم امتداد الملف. اسم الامتداد هو آخر قطعة من اسم الملف بعد آخر نقطة (بدون النقطة). تتم مقارنة الامتدادات دون مراعاة حالة الأحرف.",
 			"schema.fileName": "معرف تعريف أيقونة للارتباط.",
 			"schema.fileNames": "يربط أسماء الملفات بالأيقونات. مفتاح الكائن هو اسم الملف الكامل، بدون قطع المسار. يمكن أن يتضمن اسم الملف نقاطاً وامتداد ملف محتمل. لا يسمح بنمط أو حرف بدل. مطابقة اسم الملف لا تراعي حالة الأحرف.",
-			"schema.folder": "أيقونة المجلد للمجلدات المطوية. إذا لم يكن folderExpanded معرفاً، يطبق أيضاً على المجلدات الموسعة.",
+			"schema.folder": "أيقونة المجلد للمجلدات المطوية. إذا لم يكن المجلد الجذر موسع معرفاً، يطبق أيضاً على المجلدات الموسعة.",
 			"schema.folderExpanded": "أيقونة المجلد للمجلدات الموسعة. أيقونة المجلد الموسعة اختيارية. إذا لم يتم تعريفها، يتم عرض أيقونة المجلد الافتراضية.",
 			"schema.folderName": "معرف تعريف أيقونة للارتباط.",
 			"schema.folderNameExpanded": "معرف تعريف أيقونة للارتباط.",
@@ -17786,7 +17786,7 @@
 			"schema.languageId": "معرف تعريف أيقونة للارتباط.",
 			"schema.languageIds": "يربط اللغات بالأيقونات. مفتاح الكائن هو معرف اللغة المعرف في نقطة مساهمة اللغة.",
 			"schema.light": "ارتباطات اختيارية لأيقونات الملفات في مواضع الألوان الفاتحة.",
-			"schema.rootFolder": "أيقونة المجلد للمجلدات الجذر المطوية، وإذا لم يكن rootFolderExpanded معرفاً، أيضاً للمجلدات الجذر الموسعة.",
+			"schema.rootFolder": "أيقونة المجلد للمجلدات الجذر المطوية، وإذا لم يكن المجلد الجذر موسع معرفاً، أيضاً للمجلدات الجذر الموسعة.",
 			"schema.rootFolderExpanded": "أيقونة المجلد للمجلدات الجذر الموسعة. أيقونة المجلد الجذر الموسعة اختيارية. إذا لم يتم تعريفها، سيتم عرض الأيقونة المعرفة للمجلد الجذر.",
 			"schema.rootFolderNameExpanded": "معرف تعريف أيقونة للارتباط.",
 			"schema.rootFolderNames": "يربط أسماء المجلدات الجذر بالأيقونات. مفتاح الكائن هو اسم المجلد الجذر. لا يسمح بنمط أو حرف بدل. مطابقة اسم المجلد الجذر ليست حساسة لحالة الأحرف.",
@@ -17795,7 +17795,7 @@
 			"schema.src": "موقع الخط."
 		},
 		"vs/workbench/services/themes/common/iconExtensionPoint": {
-			"contributes.icon.default": "الأيقونة الافتراضية. إما مرجع إلى ThemeIcon موجود أو أيقونة تأتي من خط أيقونات.",
+			"contributes.icon.default": "الأيقونة الافتراضية. إما مرجع إلى أيقونة السمة موجود أو أيقونة تأتي من خط أيقونات.",
 			"contributes.icon.default.fontCharacter": "حرف الأيقونة في خط الأيقونات.",
 			"contributes.icon.default.fontPath": "مسار الوصول لخط الأيقونات الذي يحدد الأيقونة.",
 			"contributes.icon.description": "وصف الأيقونة الموضوعية",
@@ -17831,7 +17831,7 @@
 			"editorColors.keywords": "يحدد ألوان وأنماط الكلمات الرئيسية.",
 			"editorColors.numbers": "يحدد ألوان وأنماط الحروف الرقمية للأرقام.",
 			"editorColors.semanticHighlighting": "يشير إلى ما إذا كان يجب تفعيل تمييز الدلالي لهذا الموضوع.",
-			"editorColors.semanticHighlighting.deprecationMessage": "استخدم 'enabled' في الإعداد 'editor.semanticTokenColorCustomizations' بدلاً من ذلك.",
+			"editorColors.semanticHighlighting.deprecationMessage": "استخدم 'مفعّل' في الإعداد 'editor.semanticTokenColorCustomizations' بدلاً من ذلك.",
 			"editorColors.semanticHighlighting.deprecationMessageMarkdown": "استخدم 'مفعّل' في الإعداد {0} بدلاً من ذلك.",
 			"editorColors.semanticHighlighting.enabled": "يشير إلى ما إذا كان التلوين الدلالي مفعلاً أو معطلاً لهذا الموضوع",
 			"editorColors.semanticHighlighting.rules": "قواعد نمط الرموز الدلالية لهذا الموضوع.",
