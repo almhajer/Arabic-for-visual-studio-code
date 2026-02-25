@@ -190,14 +190,6 @@ graph LR
     D --> E[Select: Configure Display Language]
     E --> F[Select Arabic]
     F --> G[🎉 Activated!]
-    
-    style A fill:#667eea,color:#fff
-    style B fill:#764ba2,color:#fff
-    style C fill:#f093fb,color:#fff
-    style D fill:#f5576c,color:#fff
-    style E fill:#4facfe,color:#fff
-    style F fill:#00f2fe,color:#fff
-    style G fill:#43e97b,color:#fff
 ```
 
 ### 📝 Detailed Steps
