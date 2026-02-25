@@ -4,7 +4,7 @@
 
 <div align="center">
 
-![Version](https://img.shields.io/badge/version-0.0.7-blue?style=for-the-badge&logo=visual-studio-code)
+![Version](https://img.shields.io/badge/version-0.0.8-blue?style=for-the-badge&logo=visual-studio-code)
 ![VS Code](https://img.shields.io/badge/VS%20Code-1.0.0+-green?style=for-the-badge&logo=visual-studio-code)
 ![License](https://img.shields.io/badge/license-MIT-orange?style=for-the-badge&logo=opensource)
 
@@ -195,13 +195,13 @@ graph LR
     E --> F[اختيار العربية]
     F --> G[🎉 تم التفعيل!]
     
-    style A fill:#667eea,color:#fff
-    style B fill:#764ba2,color:#fff
-    style C fill:#f093fb,color:#fff
-    style D fill:#f5576c,color:#fff
-    style E fill:#4facfe,color:#fff
-    style F fill:#00f2fe,color:#fff
-    style G fill:#43e97b,color:#fff
+    style A fill:#667eea,color:#fff,stroke:#333,stroke-width:2px
+    style B fill:#764ba2,color:#fff,stroke:#333,stroke-width:2px
+    style C fill:#f093fb,color:#fff,stroke:#333,stroke-width:2px
+    style D fill:#f5576c,color:#fff,stroke:#333,stroke-width:2px
+    style E fill:#4facfe,color:#fff,stroke:#333,stroke-width:2px
+    style F fill:#00f2fe,color:#fff,stroke:#333,stroke-width:2px
+    style G fill:#43e97b,color:#fff,stroke:#333,stroke-width:2px
 ```
 
 ### 📝 خطوات التفصيلية
