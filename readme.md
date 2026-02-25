@@ -139,14 +139,14 @@
 
 <div align="center">
 
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 10px; color: #333;">
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; border-radius: 15px; color: white; box-shadow: 0 10px 30px rgba(0,0,0,0.2); margin: 20px 0;">
 
-```
-1️⃣ افتح VS Code
-2️⃣ اضغط Ctrl+Shift+X (أو Cmd+Shift+X على Mac)
-3️⃣ ابحث عن "Arabic Language Pack"
-4️⃣ اضغط "Install" ✅
-```
+| الخطوة | الإجراء |
+|:------:|:--------|
+| 1️⃣ | افتح VS Code |
+| 2️⃣ | اضغط `Ctrl+Shift+X` (أو `Cmd+Shift+X` على Mac) |
+| 3️⃣ | ابحث عن "Arabic Language Pack" |
+| 4️⃣ | اضغط "Install" ✅ |
 
 </div>
 
@@ -156,15 +156,15 @@
 
 <div align="center">
 
-<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 20px; border-radius: 10px; color: #333;">
+<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 30px; border-radius: 15px; color: white; box-shadow: 0 10px 30px rgba(0,0,0,0.2); margin: 20px 0;">
 
-```
-1️⃣ حمّل ملف .vsix من الرابط أدناه
-2️⃣ افتح VS Code
-3️⃣ اضغط Ctrl+Shift+P (أو Cmd+Shift+P على Mac)
-4️⃣ اكتب "Extensions: Install from VSIX"
-5️⃣ اختر الملف المحمّل ✅
-```
+| الخطوة | الإجراء |
+|:------:|:--------|
+| 1️⃣ | حمّل ملف `.vsix` من الرابط أدناه |
+| 2️⃣ | افتح VS Code |
+| 3️⃣ | اضغط `Ctrl+Shift+P` (أو `Cmd+Shift+P` على Mac) |
+| 4️⃣ | اكتب "Extensions: Install from VSIX" |
+| 5️⃣ | اختر الملف المحمّل ✅ |
 
 </div>
 
