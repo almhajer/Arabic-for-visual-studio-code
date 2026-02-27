@@ -9,8 +9,8 @@
 	"version": "1.0.0",
 	"contents": {
 		"package": {
-			"description": "يوفر تمييزاً للصياغة ومطابقة الأقواس في ملفات شيل سكربت.",
-			"displayName": "أساسيات لغة شيل سكربت"
+			"description": "يوفر تمييز الصياغة ومطابقة الأقواس في ملفات Shell Script.",
+			"displayName": "أساسيات لغة Shell Script"
 		}
 	}
 }

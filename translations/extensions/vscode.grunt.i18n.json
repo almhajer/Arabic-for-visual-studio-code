@@ -16,7 +16,7 @@
 		"package": {
 			"config.grunt.autoDetect": "يتحكم في تفعيل الكشف عن مهام Grunt. قد يؤدي الكشف عن مهام Grunt إلى تنفيذ ملفات في مساحة عمل مفتوحة.",
 			"description": "ملحق لإضافة وظائف Grunt إلى فيجوال كود.",
-"displayName": "دعم Grunt لـ فيجوال كود",
+			"displayName": "دعم Grunt لـ فيجوال كود",
 			"grunt.taskDefinition.args.description": "وسائط سطر الأوامر لتمريرها إلى مهمة grunt",
 			"grunt.taskDefinition.file.description": "ملف Grunt الذي يوفر المهمة. يمكن حذفه.",
 			"grunt.taskDefinition.type.description": "مهمة Grunt المراد تخصيصها."

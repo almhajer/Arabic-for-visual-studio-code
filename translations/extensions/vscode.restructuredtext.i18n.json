@@ -9,7 +9,7 @@
 	"version": "1.0.0",
 	"contents": {
 		"package": {
-			"description": "يوفر تمييزاً للصياغة في ملفات reStructuredText.",
+			"description": "يوفر تمييز الصياغة في ملفات reStructuredText.",
 			"displayName": "أساسيات لغة reStructuredText"
 		}
 	}

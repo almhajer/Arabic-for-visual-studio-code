@@ -9,9 +9,9 @@
 	"version": "1.0.0",
 	"contents": {
 		"package": {
-			"description": "سمة ليلة الغد الزرقاء لـ فيجوال كود",
-			"displayName": "سمة ليلة غد",
-			"themeLabel": "ليلة غد"
+			"description": "سمة \"ليلة الغد الزرقاء\" لبرنامج Visual Studio Code",
+			"displayName": "سمة ليلة الغد",
+			"themeLabel": "ليلة الغد"
 		}
 	}
 }

@@ -23,8 +23,8 @@
 		},
 		"package": {
 			"command.api.getRemoteSources": "الحصول على المصادر البعيدة",
-			"description": "مساهمات ومحددات ثابتة لـ قت.",
-			"displayName": "قاعدة قيت"
+			"description": "مساهمات ومحددات ثابتة لـ Git.",
+			"displayName": "قاعدة Git"
 		}
 	}
 }

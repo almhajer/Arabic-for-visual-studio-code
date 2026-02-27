@@ -9,8 +9,8 @@
 	"version": "1.0.0",
 	"contents": {
 		"package": {
-			"description": "يوفر تمييزاً للصياغة ومطابقة الأقواس في ملفات روبي.",
-			"displayName": "أساسيات لغة روبي"
+			"description": "يوفر تمييز الصياغة ومطابقة الأقواس في ملفات Ruby.",
+			"displayName": "أساسيات لغة Ruby"
 		}
 	}
 }

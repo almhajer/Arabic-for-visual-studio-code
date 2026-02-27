@@ -14,10 +14,10 @@
 			"An error occurred while loading video file.": "حدث خطأ أثناء تحميل ملف الفيديو.",
 			"Image Binary Size": "الحجم الثنائي للصورة",
 			"Image Size": "حجم الصورة",
-			"Image Zoom": "تكبير الصورة",
-			"Open file using VS Code's standard text/binary editor?": "فتح الملف باستخدام محرر النصوص/الثنائي القياسي لـ فيجوال كود؟",
+			"Image Zoom": "مستوى تكبير الصورة",
+			"Open file using VS Code's standard text/binary editor?": "هل تريد فتح الملف باستخدام محرر النصوص/الثنائي القياسي في VS Code؟",
 			"Select zoom level": "تحديد مستوى التكبير",
-			"Whole Image": "الصورة الكاملة",
+			"Whole Image": "الصورة بالكامل",
 			"{0}B": "{0} بايت",
 			"{0}GB": "{0} جيجابايت",
 			"{0}KB": "{0} كيلوبايت",
@@ -25,18 +25,18 @@
 			"{0}TB": "{0} تيرابايت"
 		},
 		"package": {
-			"command.copyImage": "نسخ",
-			"command.reopenAsPreview": "إعادة الفتح كمعاينة للصورة",
-			"command.reopenAsText": "إعادة الفتح كنص مصدر",
+			"command.copyImage": "نسخ الصورة",
+			"command.reopenAsPreview": "إعادة الفتح كمعاينة",
+			"command.reopenAsText": "إعادة الفتح كنص",
 			"command.zoomIn": "تكبير",
 			"command.zoomOut": "تصغير",
 			"customEditor.audioPreview.displayName": "معاينة الصوت",
 			"customEditor.imagePreview.displayName": "معاينة الصورة",
 			"customEditor.videoPreview.displayName": "معاينة الفيديو",
-			"description": "يوفر معاينات مدمجة لـ فيجوال كود للصور والصوت والفيديو",
-			"displayName": "معاينة الوسائط المتعددة",
-			"videoPreviewerAutoPlay": "بدء تشغيل الفيديوهات تلقائياً في وضع الصامت.",
-			"videoPreviewerLoop": "إعادة تشغيل الفيديوهات تلقائياً في حلقة."
+			"description": "يوفر معاينات مدمجة للصور والصوت والفيديو في VS Code.",
+			"displayName": "معاينة الوسائط",
+			"videoPreviewerAutoPlay": "تشغيل مقاطع الفيديو تلقائيًا في وضع كتم الصوت.",
+			"videoPreviewerLoop": "إعادة تشغيل مقاطع الفيديو تلقائيًا بشكل متكرر."
 		}
 	}
 }

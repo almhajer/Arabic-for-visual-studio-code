@@ -9,7 +9,7 @@
 	"version": "1.0.0",
 	"contents": {
 		"package": {
-			"description": "سمة ضوء هادئ لـ فيجوال كود",
+			"description": "سمة هادئة للضوء لـ Visual Studio Code",
 			"displayName": "سمة ضوء هادئ",
 			"themeLabel": "هادئ"
 		}

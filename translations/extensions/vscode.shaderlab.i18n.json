@@ -9,8 +9,8 @@
 	"version": "1.0.0",
 	"contents": {
 		"package": {
-			"description": "يوفر تمييزاً للصياغة ومطابقة الأقواس في ملفات مختبر التظليل.",
-			"displayName": "أساسيات لغة مختبر التظليل"
+			"description": "يوفر تمييز الصياغة ومطابقة الأقواس في ملفات Shader Lab.",
+			"displayName": "أساسيات لغة Shader Lab"
 		}
 	}
 }

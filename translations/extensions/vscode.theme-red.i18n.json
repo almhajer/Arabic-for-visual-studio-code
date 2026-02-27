@@ -9,9 +9,9 @@
 	"version": "1.0.0",
 	"contents": {
 		"package": {
-			"description": "سمة احمر لـ فيجوال كود",
-			"displayName": "سمة أحمر",
-			"themeLabel": "أحمر"
+			"description": "سمة \"الأحمر\" لبرنامج Visual Studio Code",
+			"displayName": "سمة الأحمر",
+			"themeLabel": "الأحمر"
 		}
 	}
 }

@@ -9,7 +9,7 @@
 	"version": "1.0.0",
 	"contents": {
 		"package": {
-			"description": "سمة كيمبلي الداكنة لـ فيجوال ستوديو كود",
+			"description": "سمة كيمبلي الداكنة لـ Visual Studio Code",
 			"displayName": "سمة كيمبلي",
 			"themeLabel": "كيمبلي"
 		}

@@ -9,7 +9,7 @@
 	"version": "1.0.0",
 	"contents": {
 		"package": {
-			"description": "سمة أبيس لـ فيجوال ستوديو كود",
+			"description": "سمة أبيس لـ Visual Studio Code",
 			"displayName": "سمة أبيس",
 			"themeLabel": "أبيس"
 		}

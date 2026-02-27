@@ -11,13 +11,13 @@
 		"bundle": {
 			"Auto detecting Jake for folder {0} failed with error: {1}', this.workspaceFolder.name, err.error ? err.error.toString() : 'unknown": "فشل الكشف التلقائي عن Jake للمجلد {0} بالخطأ: {1}', this.workspaceFolder.name, err.error ? err.error.toString() : 'غير معروف",
 			"Go to output": "الانتقال إلى الإخراج",
-			"Problem finding jake tasks. See the output for more information.": "مشكلة في العثور على مهام jake. راجع الإخراج لمزيد من المعلومات."
+			"Problem finding jake tasks. See the output for more information.": "حدثت مشكلة في العثور على مهام Jake. راجع الإخراج للحصول على مزيد من المعلومات."
 		},
 		"package": {
-			"config.jake.autoDetect": "يتحكم في تفعيل الكشف عن مهام Jake. قد يؤدي الكشف عن مهام Jake إلى تنفيذ ملفات في مساحة عمل مفتوحة.",
-			"description": "ملحق لإضافة وظائف Jake إلى فيجوال كود.",
-"displayName": "دعم Jake لـ فيجوال كود",
-			"jake.taskDefinition.file.description": "ملف Jake الذي يوفر المهمة. يمكن حذفه.",
+			"config.jake.autoDetect": "يتحكم في تمكين الكشف التلقائي عن مهام Jake. قد يؤدي الكشف عن مهام Jake إلى تنفيذ ملفات في مساحة العمل المفتوحة.",
+			"description": "إضافة مهام Jake إلى VS Code.",
+			"displayName": "دعم Jake لـ VS Code",
+			"jake.taskDefinition.file.description": "ملف Jake الذي يوفر المهمة. يمكن أن يكون اختيارياً.",
 			"jake.taskDefinition.type.description": "مهمة Jake المراد تخصيصها."
 		}
 	}

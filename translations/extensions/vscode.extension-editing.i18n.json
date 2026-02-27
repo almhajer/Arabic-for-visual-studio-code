@@ -9,24 +9,24 @@
 	"version": "1.0.0",
 	"contents": {
 		"bundle": {
-			"Data URLs are not a valid image source.": "عناوين الرابط للبيانات ليست مصدر صور صالح.",
+			"Data URLs are not a valid image source.": "عناوين URL للبيانات ليست مصدر صور صالح.",
 			"Embedded SVGs are not a valid image source.": "ملفات SVG المضمنة ليست مصدر صور صالح.",
-			"Error parsing the when-clause:": "خطأ في تحليل جملة عندما:",
+			"Error parsing the when-clause:": "خطأ أثناء تحليل جملة الشرط:",
 			"Images must use the HTTPS protocol.": "يجب أن تستخدم الصور بروتوكول HTTPS.",
 			"Language specific editor settings": "إعدادات المحرر الخاصة باللغة",
-			"Override editor settings for language": "استبدال إعدادات المحرر للغة",
-			"Relative badge URLs require a repository with HTTPS protocol to be specified in this package.json.": "تتطلب عناوين الرابط للشارات النسبية مستودعاً ببروتوكول HTTPS ليتم تحديده في package.json.",
-			"Relative image URLs require a repository with HTTPS protocol to be specified in the package.json.": "تتطلب عناوين الرابط للصور النسبية مستودعاً ببروتوكول HTTPS ليتم تحديده في package.json.",
+			"Override editor settings for language": "تجاوز إعدادات المحرر للغة",
+			"Relative badge URLs require a repository with HTTPS protocol to be specified in this package.json.": "تتطلب روابط الشارات النسبية مستودعاً يستخدم بروتوكول HTTPS ليتم تحديده في package.json.",
+			"Relative image URLs require a repository with HTTPS protocol to be specified in the package.json.": "تتطلب روابط الصور النسبية مستودعاً يستخدم بروتوكول HTTPS ليتم تحديده في package.json.",
 			"Remove activation event": "إزالة حدث التنشيط",
 			"SVGs are not a valid image source.": "ملفات SVG ليست مصدر صور صالح.",
-			"This activation event can be removed as VS Code generates these automatically from your package.json contribution declarations.": "يمكن إزالة حدث التنشيط هذا، حيث يقوم فيجوال كود بإنشائه تلقائياً من تصريحات المساهمة في package.json.",
-			"This activation event can be removed for extensions targeting engine version ^1.75.0 as VS Code will generate these automatically from your package.json contribution declarations.": "يمكن إزالة حدث التنشيط هذا للملحقات التي تستهدف إصدار المحرك ^1.75.0، حيث سيقوم فيجوال كود بإنشائه تلقائياً من تصريحات المساهمة في package.json.",
+			"This activation event can be removed as VS Code generates these automatically from your package.json contribution declarations.": "يمكن إزالة حدث التنشيط هذا لأن فيجوال ستوديو كود يولّدها تلقائياً من تعريفات المساهمات في package.json.",
+			"This activation event can be removed for extensions targeting engine version ^1.75.0 as VS Code will generate these automatically from your package.json contribution declarations.": "يمكن إزالة حدث التنشيط هذا للملحقات التي تستهدف محرك الإصدار ^1.75.0 لأن فيجوال ستوديو كود سيولّدها تلقائياً من تعريفات المساهمات في package.json.",
 			"This activation event cannot be explicitly listed by your extension.": "لا يمكن إدراج حدث التنشيط هذا صراحةً من قبل ملحقك.",
-			"This proposal cannot be used because for this extension the product defines a fixed set of API proposals. You can test your extension but before publishing you MUST reach out to the VS Code team.": "لا يمكن استخدام هذه المقترحة لأن هذا الملحق يحدد مجموعة ثابتة من مقترحات API. يمكنك اختبار ملحقك ولكن قبل النشر يجب عليك التواصل مع فريق فيجوال كود.",
+			"This proposal cannot be used because for this extension the product defines a fixed set of API proposals. You can test your extension but before publishing you MUST reach out to the VS Code team.": "لا يمكن استخدام هذا الاقتراح لأن المنتج يحدد مجموعة ثابتة من مقترحات واجهة برمجة التطبيقات. يمكنك اختبار الملحق لكن قبل النشر يجب التواصل مع فريق VS Code.",
 			"Using '*' activation is usually a bad idea as it impacts performance.": "استخدام التنشيط '*' عادةً فكرة سيئة لأنه يؤثر على الأداء."
 		},
 		"package": {
-			"description": "يوفر وظائف التحقق من الكود لإنشاء الملحقات.",
+			"description": "يوفر وظائف التحقق من الكود لإنشاء ملحقات VS Code.",
 			"displayName": "إنشاء الملحقات"
 		}
 	}

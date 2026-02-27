@@ -9,9 +9,9 @@
 	"version": "1.0.0",
 	"contents": {
 		"package": {
-			"description": "سمة ظلام مُشمس لـ فيجوال كود",
-			"displayName": "سمة تم تشميسها",
-			"themeLabel": "تسمية تم تشميسها"
+			"description": "سمة \"الظلام المشمس\" لبرنامج Visual Studio Code",
+			"displayName": "سمة الظلام المشمس",
+			"themeLabel": "الظلام المشمس"
 		}
 	}
 }

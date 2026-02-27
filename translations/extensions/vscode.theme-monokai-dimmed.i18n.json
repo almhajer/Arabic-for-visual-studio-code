@@ -9,7 +9,7 @@
 	"version": "1.0.0",
 	"contents": {
 		"package": {
-			"description": "سمة مونوكاي المعتّمة لـ فيجوال ستوديو كود",
+			"description": "سمة مونوكاي المعتمة لـ Visual Studio Code",
 			"displayName": "سمة مونوكاي",
 			"themeLabel": "مونوكاي"
 		}

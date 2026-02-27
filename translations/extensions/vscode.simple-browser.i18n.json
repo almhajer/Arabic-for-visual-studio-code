@@ -10,7 +10,7 @@
 	"contents": {
 		"bundle": {
 			"Back": "رجوع",
-			"Enter url to visit": "أدخل الرابط لزيارته",
+			"Enter url to visit": "أدخل عنوان URL للزيارة",
 			"Focus Lock": "قفل التركيز",
 			"Forward": "التالي",
 			"Open in browser": "فتح في المتصفح",
@@ -20,8 +20,8 @@
 			"https://example.com": "https://example.com"
 		},
 		"package": {
-			"configuration.focusLockIndicator.enabled.description": "تفعيل/تعطيل المؤشر العائم الذي يظهر عندما يكون التركيز في المتصفح البسيط.",
-			"description": "عرض ويب مدمج للغاية لعرض محتوى الويب.",
+			"configuration.focusLockIndicator.enabled.description": "تفعيل أو تعطيل المؤشر العائم الذي يظهر عند قفل التركيز في المتصفح البسيط.",
+			"description": "عرض ويب مدمج بسيط لعرض محتوى الويب.",
 			"displayName": "المتصفح البسيط"
 		}
 	}

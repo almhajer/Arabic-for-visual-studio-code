@@ -9,23 +9,30 @@
 	"version": "1.0.0",
 	"contents": {
 		"bundle": {
-			"Format uri ('{0}') must contain exactly one substitution placeholder.": "يجب أن يحتوي تنسيق الرابط ('{0}') على عنصر بديل واحد بالضبط.",
-			"Format uri ('{0}') uses a substitution placeholder but pattern did not capture anything.": "يستخدم تنسيق الرابط ('{0}') عنصراً بديلاً ولكن النمط لم يلتقط أي شيء."
+			"Always": "دائماً",
+			"Auto Attach: Always": "الإرفاق التلقائي: دائماً",
+			"Auto Attach: Disabled": "الإرفاق التلقائي: معطل",
+			"Auto Attach: Smart": "الإرفاق التلقائي: ذكي",
+			"Auto Attach: With Flag": "الإرفاق التلقائي: مع العلامة",
+			"Auto attach is disabled and not shown in status bar": "الإرفاق التلقائي معطل ولا يظهر في شريط الحالة",
+			"Auto attach to every Node.js process launched in terminal": "الإرفاق التلقائي لكل عملية Node.js يتم تشغيلها في الطرفية",
+			"Auto attach when running scripts that aren't in a node_modules folder": "الإرفاق التلقائي عند تشغيل السكربتات التي لا توجد في مجلد node_modules",
+			"Automatically attach to node.js processes in debug mode": "الإرفاق التلقائي تلقائياً إلى عمليات Node.js في وضع التصحيح",
+			"Debug Auto Attach": "الإرفاق التلقائي للتصحيح",
+			"Disabled": "معطل",
+			"Only With Flag": "فقط مع العلامة",
+			"Only auto attach when `--inspect` flag is given": "الإرفاق التلقائي فقط عند تحديد الوسم '--inspect'",
+			"Re-enable auto attach": "إعادة تفعيل الإرفاق التلقائي",
+			"Smart": "ذكي",
+			"Temporarily disable auto attach in this session": "تعطيل الإرفاق التلقائي مؤقتاً في هذه الجلسة",
+			"Toggle Auto Attach": "تبديل الإرفاق التلقائي",
+			"Toggle auto attach in this workspace": "تبديل الإرفاق التلقائي في مساحة العمل هذه",
+			"Toggle auto attach on this machine": "تبديل الإرفاق التلقائي على هذا الجهاز"
 		},
 		"package": {
-			"debug.server.ready.action.debugWithChrome.description": "ابدأ التصحيح باستخدام 'مصحح أخطاء كروم'.",
-			"debug.server.ready.action.description": "استخدام الرابط عندما يكون الخادم جاهزاً.",
-			"debug.server.ready.action.openExternally.description": "افتح الرابط خارجياً باستخدام التطبيق الافتراضي.",
-			"debug.server.ready.action.startDebugging.description": "قم بتشغيل تكوين تشغيل آخر.",
-			"debug.server.ready.debugConfig.description": "تكوين التصحيح المطلوب تشغيله.",
-			"debug.server.ready.debugConfigName.description": "اسم تكوين التشغيل المطلوب تشغيله.",
-			"debug.server.ready.killOnServerStop.description": "إيقاف الجلسة الفرعية عند توقف الجلسة الأصلية.",
-			"debug.server.ready.pattern.description": "الخادم جاهز إذا ظهر هذا النمط في وحدة تحكم التصحيح. يجب أن تتضمن مجموعة الالتقاط الأولى الرابط أو رقم منفذ.",
-			"debug.server.ready.serverReadyAction.description": "معالجة الرابط عندما يكون برنامج خادم قيد التصحيح جاهزاً (مشار إليه بإرسال مخرجات بالشكل 'Listening on port 3000' أو 'Now listening on: https://localhost:5001' في وحدة تحكم التصحيح).",
-			"debug.server.ready.uriFormat.description": "سلسلة تنسيق مستخدمة لبناء الرابط من رقم منفذ. يتم استبدال '%s' الأول برقم المنفذ.",
-			"debug.server.ready.webRoot.description": "قيمة ممررة إلى تكوين التصحيح لـ 'مصحح أخطاء كروم'.",
-			"description": "افتح الرابط في المتصفح إذا كان خادم التصحيح جاهزاً.",
-			"displayName": "إجراء الخادم الجاهز"
+			"description": "مساعدة في وظيفة الإرفاق التلقائي عند عدم تنشيط إضافات تصحيح Node.js.",
+			"displayName": "الإرفاق التلقائي لتصحيح Node.js",
+			"toggle.auto.attach": "تفعيل/تعطيل الإرفاق التلقائي"
 		}
 	}
 }

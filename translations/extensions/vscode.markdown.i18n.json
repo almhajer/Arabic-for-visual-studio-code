@@ -9,8 +9,8 @@
 	"version": "1.0.0",
 	"contents": {
 		"package": {
-			"description": "يوفر قصاصات برمجية وتمييزاً للصياغة لـ Markdown.",
-			"displayName": "أساسيات لغة Markdown"
+			"description": "يوفر قصاصات تعليمات برمجية وميزة تمييز بناء الجملة للغة Markdown.",
+			"displayName": "أساسيات Markdown"
 		}
 	}
 }

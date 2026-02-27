@@ -9,9 +9,9 @@
 	"version": "1.0.0",
 	"contents": {
 		"package": {
-			"config.markdown.math.enabled": "تفعيل/تعطيل عرض الرياضيات في المعاينة المدمجة لـ Markdown.",
-			"config.markdown.math.macros": "مجموعة من الماكروز المخصصة. كل ماكرو عبارة عن زوج مفتاح-قيمة حيث المفتاح هو اسم أمر جديد والقيمة هي توسيع الماكرو.",
-			"description": "يضيف دعم الرياضيات إلى Markdown في المفكرات.",
+			"config.markdown.math.enabled": "تفعيل أو تعطيل عرض الرياضيات في معاينة Markdown المدمجة.",
+			"config.markdown.math.macros": "مجموعة من الماكروز المخصصة. كل ماكرو عبارة عن زوج مفتاح-قيمة، حيث يكون المفتاح اسم الأمر الجديد والقيمة هي توسيع الماكرو.",
+			"description": "يوفر دعم الرياضيات في مستندات Markdown داخل المفكرات.",
 			"displayName": "رياضيات Markdown"
 		}
 	}

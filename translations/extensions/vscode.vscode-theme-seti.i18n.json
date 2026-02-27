@@ -9,9 +9,9 @@
 	"version": "1.0.0",
 	"contents": {
 		"package": {
-			"description": "سمة لأيقونات الملفات مصنوعة باستخدام أيقونات ملفات Seti UI",
-			"displayName": "سمة سيتي لأيقونات الملفات",
-			"themeLabel": "ليلتي (  فيجوال كود)"
+			"description": "سمة لأيقونات الملفات مبنية على أيقونات Seti UI.",
+			"displayName": "سمة Seti لأيقونات الملفات",
+			"themeLabel": "ليلتي (فيجوال ستوديو كود)"
 		}
 	}
 }

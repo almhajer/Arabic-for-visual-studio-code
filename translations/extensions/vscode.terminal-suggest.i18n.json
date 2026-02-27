@@ -9,8 +9,8 @@
 	"version": "1.0.0",
 	"contents": {
 		"package": {
-			"description": "إضافة إكمالات للطرفات للطرفات zsh و bash و fish.",
-			"displayName": "اقتراحات الطرفات لـ فيجوال كود",
+			"description": "إضافة إكمالات تلقائية للواجهات الطرفية لـ zsh و bash و fish.",
+			"displayName": "اقتراحات الطرفية في Visual Studio Code",
 			"terminal.integrated.suggest.clearCachedGlobals": "مسح الاقتراحات العامة المخزنة",
 			"view.name": "اسم العرض"
 		}

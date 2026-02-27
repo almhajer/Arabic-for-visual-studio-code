@@ -9,9 +9,9 @@
 	"version": "1.0.0",
 	"contents": {
 		"package": {
-			"description": "سمة ضوء شمسي لـ فيجوال كود",
-			"displayName": "سمة ضوء شمسي",
-			"themeLabel": "ضوء شمسي"
+			"description": "سمة \"الضوء الشمسي\" لبرنامج Visual Studio Code",
+			"displayName": "سمة الضوء الشمسي",
+			"themeLabel": "الضوء الشمسي"
 		}
 	}
 }

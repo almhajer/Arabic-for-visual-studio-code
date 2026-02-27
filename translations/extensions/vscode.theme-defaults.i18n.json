@@ -9,16 +9,16 @@
 	"version": "1.0.0",
 	"contents": {
 		"package": {
-			"darkColorThemeLabel": "سمة داكنة (فيجوال كود)",
+			"darkColorThemeLabel": "سمة داكنة (Visual Studio Code)",
 			"darkModernThemeLabel": "داكنة حديثة",
-			"description": "السمات الداكنة والفاتحة الافتراضية لـ فيجوال ستوديو كود",
+			"description": "السمات الداكنة والفاتحة الافتراضية في Visual Studio Code",
 			"displayName": "السمات الافتراضية",
 			"hcColorThemeLabel": "سمة عالية التباين",
 			"lightColorThemeLabel": "سمة فاتحة",
 			"lightHcColorThemeLabel": "فاتحة عالية التباين",
 			"lightModernThemeLabel": "فاتحة حديثة",
 			"lightPlusColorThemeLabel": "فاتحة +",
-			"minimalIconThemeLabel": "أقل (فيجوال كود)"
+			"minimalIconThemeLabel": "الأيقونات البسيطة (Visual Studio Code)"
 		}
 	}
 }
