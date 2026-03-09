@@ -2,7 +2,7 @@
 	"name": "vscode-ar",
 	"displayName": "Arabic Language Pack for VS Code",
 	"description": "اللغة العربية لـبرنامج فيجوال ستديو كود.",
-	"version": "0.0.11",
+	"version": "0.0.12",
 	"publisher": "Arabic-language",
 	"repository": {
 		"type": "git",
@@ -12,7 +12,7 @@
 		"url": "https://github.com/almhajer/Arabic-for-visual-studio-code/issues"
 	},
 	"homepage": "https://github.com/almhajer/Arabic-for-visual-studio-code",
-	"license": "MIT read file LICENSE.txt",
+	"license": "MIT",
 	"engines": {
 		"vscode": "^1.0.0"
 	},
