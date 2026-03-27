@@ -340,7 +340,7 @@ graph LR
 
 | الرابط | الوصف |
 |:------:|:------|
-| [![4Techs.net](https://img.shields.io/badge/4Techs.net-blue)](http://www.4Techs.net) | Official Website |
+| [![4Techs.net](https://img.shields.io/badge/almhajer.github.io/GraphicsProgrammingAtlas/-blue)](ttps://almhajer.github.io/GraphicsProgrammingAtlas/) | Official Website |
 | [![VS Marketplace](https://img.shields.io/badge/VS%20Marketplace-green)](https://marketplace.visualstudio.com/publishers/Arabic-language) |  صفحة الناشر |
 </div>
 
@@ -384,7 +384,7 @@ graph LR
 
 <div style="margin: 20px 0;">
 
-[![https://almhajer.github.io/GraphicsProgrammingAtlas/](https://img.shields.io/badge/https://almhajer.github.io/GraphicsProgrammingAtlas/-007ACC)](http://[www.4tiko.net](https://almhajer.github.io/GraphicsProgrammingAtlas/))
+[![https://almhajer.github.io/GraphicsProgrammingAtlas/](https://img.shields.io/badge/https://almhajer.github.io/GraphicsProgrammingAtlas/-007ACC)](http://[ttps://almhajer.github.io/GraphicsProgrammingAtlas/](https://almhajer.github.io/GraphicsProgrammingAtlas/))
 
 
 </div>
@@ -434,7 +434,7 @@ MIT License
 
 <div style="margin-top: 20px;">
 
-[![https://almhajer.github.io/GraphicsProgrammingAtlas/](https://img.shields.io/badge/https://almhajer.github.io/GraphicsProgrammingAtlas/-blue)](http://www.4Techs.net)
+[![https://almhajer.github.io/GraphicsProgrammingAtlas/](https://img.shields.io/badge/https://almhajer.github.io/GraphicsProgrammingAtlas/-blue)](https://almhajer.github.io/GraphicsProgrammingAtlas)
 [![VS Marketplace](https://img.shields.io/badge/VS%20Marketplace-green)](https://marketplace.visualstudio.com/publishers/Arabic-language)
 
 </div>
