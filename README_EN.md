@@ -380,7 +380,8 @@ To provide feedback on improving translations, please create an issue in the [vs
 
 <div style="margin: 20px 0;">
 
-[![https://almhajer.github.io/GraphicsProgrammingAtlas/](https://img.shields.io/badge/https://almhajer.github.io/GraphicsProgrammingAtlas/-007ACC)](http://[www.4tiko.net](https://almhajer.github.io/GraphicsProgrammingAtlas/))
+[![https://almhajer.github.io/GraphicsProgrammingAtlas/](https://img.shields.io/badge/https://almhajer.github.io/GraphicsProgrammingAtlas/-blue)](https://almhajer.github.io/GraphicsProgrammingAtlas)
+[![VS Marketplace](https://img.shields.io/badge/VS%20Marketplace-green)](https://marketplace.visualstudio.com/publishers/Arabic-language)
 
 </div>
 
@@ -429,7 +430,7 @@ See LICENSE file for details
 
 <div style="margin-top: 20px;">
 
-[![https://almhajer.github.io/GraphicsProgrammingAtlas/](https://img.shields.io/badge/https://almhajer.github.io/GraphicsProgrammingAtlas/-blue)](https://almhajer.github.io/GraphicsProgrammingAtlas/)
+[![https://almhajer.github.io/GraphicsProgrammingAtlas/](https://img.shields.io/badge/https://almhajer.github.io/GraphicsProgrammingAtlas/-blue)](https://almhajer.github.io/GraphicsProgrammingAtlas)
 [![VS Marketplace](https://img.shields.io/badge/VS%20Marketplace-green)](https://marketplace.visualstudio.com/publishers/Arabic-language)
 
 </div>
