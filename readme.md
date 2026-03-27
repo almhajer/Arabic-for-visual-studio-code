@@ -340,7 +340,7 @@ graph LR
 
 | الرابط | الوصف |
 |:------:|:------|
-| [![4Techs.net](https://img.shields.io/badge/almhajer.github.io/GraphicsProgrammingAtlas/-blue)](ttps://almhajer.github.io/GraphicsProgrammingAtlas/) | Official Website |
+| [![https://almhajer.github.io/GraphicsProgrammingAtlas/](https://img.shields.io/badge/https://almhajer.github.io/GraphicsProgrammingAtlas/-blue)](https://almhajer.github.io/GraphicsProgrammingAtlas) | موقع المطور |
 | [![VS Marketplace](https://img.shields.io/badge/VS%20Marketplace-green)](https://marketplace.visualstudio.com/publishers/Arabic-language) |  صفحة الناشر |
 </div>
 
