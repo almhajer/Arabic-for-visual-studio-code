@@ -2,7 +2,7 @@
 	"name": "vscode-ar",
 	"displayName": "حزمة اللغة العربية لـ فجوال كود",
 	"description": "توفّر هذه الحزمة تعريبًا عربيًا لبرنامج فجوال كود.",
-	"version": "0.0.13",
+	"version": "0.0.14",
 	"publisher": "Arabic-language",
 	"repository": {
 		"type": "git",

@@ -4,7 +4,7 @@
 
 <div align="center">
 
-![Version](https://img.shields.io/badge/version-0.0.13-blue)
+![Version](https://img.shields.io/badge/version-0.0.14-blue)
 ![VS Code](https://img.shields.io/badge/VS%20Code-1.0.0%2B-green)
 [![License](https://img.shields.io/badge/license-MIT-orange)](LICENSE.md)
 
@@ -358,7 +358,7 @@ To provide feedback on improving translations, please create an issue in the [vs
 
 | Extension | Description | Version | Link |
 |:---------:|:-----------|:--------:|:----:|
-| 🌐 **Arabic Language Pack** | Arabic Language Pack for VS Code | 0.0.13 | [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=Arabic-language.vscode-ar) |
+| 🌐 **Arabic Language Pack** | Arabic Language Pack for VS Code | 0.0.14 | [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=Arabic-language.vscode-ar) |
 | 🌐 **Arabic To HTML** | HTML programming in Arabic | - | [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=Arabic-language.arabictohtml) |
 | 🔄 **Auto Language** | Automatic language switcher | - | [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=Arabic-language.autolanguage) |
 | 🖥️ **4Techs Arabic Tools** | Integrated Arabic tools | - | [VS Marketplace](https://marketplace.visualstudio.com/publishers/Arabic-language) |
