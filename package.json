@@ -1,7 +1,7 @@
 {
 	"name": "vscode-ar",
-	"displayName": "حزمة اللغة العربية لـ VS Code",
-	"description": "توفّر هذه الحزمة تعريبًا عربيًا لبرنامج VS Code.",
+	"displayName": "حزمة اللغة العربية لـ فجوال كود",
+	"description": "توفّر هذه الحزمة تعريبًا عربيًا لبرنامج فجوال كود.",
 	"version": "0.0.13",
 	"publisher": "Arabic-language",
 	"repository": {
@@ -418,6 +418,6 @@
 		]
 	},
 	"scripts": {
-		"update": "cd ../vscode && npm run update-localization-extension fr"
+		"update": "cd ../vscode && npm run update-localization-extension ar"
 	}
 }
