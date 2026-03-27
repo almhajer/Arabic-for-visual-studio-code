@@ -1,7 +1,7 @@
 MIT License
 
 Arabic Language Pack for Visual Studio Code
-Version 0.0.12
+Version 0.0.13
 
 This project is released under the MIT License.
 For legal clarity, the official license text is provided below in English.

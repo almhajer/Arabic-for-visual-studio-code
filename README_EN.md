@@ -4,7 +4,7 @@
 
 <div align="center">
 
-![Version](https://img.shields.io/badge/version-0.0.12-blue)
+![Version](https://img.shields.io/badge/version-0.0.13-blue)
 ![VS Code](https://img.shields.io/badge/VS%20Code-1.0.0%2B-green)
 ![License](https://img.shields.io/badge/license-MIT-orange)
 
@@ -358,10 +358,11 @@ To provide feedback on improving translations, please create an issue in the [vs
 
 | Extension | Description | Version | Link |
 |:---------:|:-----------|:--------:|:----:|
-| 🌐 **Arabic Language Pack** | Arabic Language Pack for VS Code | 0.0.12 | [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=Arabic-language.vscode-ar) |
+| 🌐 **Arabic Language Pack** | Arabic Language Pack for VS Code | 0.0.13 | [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=Arabic-language.vscode-ar) |
 | 🌐 **Arabic To HTML** | HTML programming in Arabic | - | [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=Arabic-language.arabictohtml) |
 | 🔄 **Auto Language** | Automatic language switcher | - | [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=Arabic-language.autolanguage) |
 | 🖥️ **4Techs Arabic Tools** | Integrated Arabic tools | - | [VS Marketplace](https://marketplace.visualstudio.com/publishers/Arabic-language) |
+| 🖥️ **4Techs Arabic Tools** | 🔧 Arabic CMake Tools | - | [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=Arabic-language.cmake-tools-arabic) |
 
 </div>
 
@@ -379,7 +380,7 @@ To provide feedback on improving translations, please create an issue in the [vs
 
 <div style="margin: 20px 0;">
 
-[![4tiko.net](https://img.shields.io/badge/4tiko.net-007ACC)](http://www.4tiko.net)
+[![https://almhajer.github.io/GraphicsProgrammingAtlas/](https://img.shields.io/badge/https://almhajer.github.io/GraphicsProgrammingAtlas/-007ACC)](http://[www.4tiko.net](https://almhajer.github.io/GraphicsProgrammingAtlas/))
 
 </div>
 
@@ -428,7 +429,7 @@ See LICENSE file for details
 
 <div style="margin-top: 20px;">
 
-[![4Techs.net](https://img.shields.io/badge/4Techs.net-blue)](http://www.4Techs.net)
+[![https://almhajer.github.io/GraphicsProgrammingAtlas/](https://img.shields.io/badge/https://almhajer.github.io/GraphicsProgrammingAtlas/-blue)](http://www.4Techs.net)
 [![VS Marketplace](https://img.shields.io/badge/VS%20Marketplace-green)](https://marketplace.visualstudio.com/publishers/Arabic-language)
 
 </div>

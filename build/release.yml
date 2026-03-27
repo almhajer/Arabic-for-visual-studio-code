@@ -1,0 +1,47 @@
+name: $(Date:yyyyMMdd)$(Rev:.r)
+
+#*************
+#* IMPORTANT *
+#*************
+# This pipeline needs a variable called `languagePack` set to the name of the directory that
+# contains the language pack we want to work with. Set this via the Azure Pipelines UI.
+
+# Trigger a release when strings change in the main branch.
+trigger:
+  branches:
+    include:
+      - main
+  paths:
+    include:
+      - i18n
+
+pr: none
+
+resources:
+  repositories:
+    - repository: templates
+      type: github
+      name: microsoft/vscode-engineering
+      ref: main
+      endpoint: Monaco
+
+extends:
+  template: azure-pipelines/extension/pre-release.yml@templates
+  parameters:
+    publishExtension: true
+    useContinuousReleaseSignal: false
+    usePreReleaseChannel: false
+    ghCreateRelease: false
+    workingDirectory: $(Build.SourcesDirectory)/i18n/$(languagePack)
+    buildSteps:
+      - pwsh: |
+          [version]$version = Get-Content -Raw ./package.json | ConvertFrom-Json | Select-Object -ExpandProperty version
+          $patch = Get-Date -Format yyyyMMddHH
+          npm version "$($version.Major).$($version.Minor).$patch"
+        displayName: Update version
+        workingDirectory: $(Build.SourcesDirectory)/i18n/$(languagePack)
+
+      - pwsh: |
+          Join-Path $env:BUILD_SOURCESDIRECTORY LICENSE.md | Copy-Item -Destination .
+        displayName: Copy LICENSE.md file
+        workingDirectory: $(Build.SourcesDirectory)/i18n/$(languagePack)

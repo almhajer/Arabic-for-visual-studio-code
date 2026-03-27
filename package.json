@@ -1,8 +1,8 @@
 {
 	"name": "vscode-ar",
-	"displayName": "Arabic Language Pack for VS Code",
-	"description": "اللغة العربية لـبرنامج فيجوال ستديو كود.",
-	"version": "0.0.12",
+	"displayName": "حزمة اللغة العربية لـ VS Code",
+	"description": "توفّر هذه الحزمة تعريبًا عربيًا لبرنامج VS Code.",
+	"version": "0.0.13",
 	"publisher": "Arabic-language",
 	"repository": {
 		"type": "git",
@@ -39,7 +39,7 @@
 			{
 				"languageId": "ar",
 				"languageName": "Arabic",
-				"localizedLanguageName": "Arabic",
+				"localizedLanguageName": "العربية",
 				"translations": [
 					{
 						"id": "vscode",
@@ -342,6 +342,10 @@
 						"path": "./translations/extensions/vscode.terminal-suggest.i18n.json"
 					},
 					{
+						"id": "vscode.theme-2026",
+						"path": "./translations/extensions/vscode.theme-2026.i18n.json"
+					},
+					{
 						"id": "vscode.theme-abyss",
 						"path": "./translations/extensions/vscode.theme-abyss.i18n.json"
 					},
@@ -414,6 +418,6 @@
 		]
 	},
 	"scripts": {
-		"update": "cd ../vscode && npm run update-localization-extension ar"
+		"update": "cd ../vscode && npm run update-localization-extension fr"
 	}
 }
