@@ -2149,6 +2149,18 @@
 		"vs/platform/agentHost/node/agentHostMain": {
 			"agentHost": "مضيف العامل"
 		},
+		"vs/platform/agentHost/node/copilot/copilotAgentSession": {
+			"copilot.permission.default.message": "طلب التفويض",
+			"copilot.permission.default.title": "طلب التفويض",
+			"copilot.permission.mcp.defaultTool": "الأدوات MCP",
+			"copilot.permission.read.message": "تمت قراءة الملف",
+			"copilot.permission.read.title": "تمت قراءة الملف",
+			"copilot.permission.shell.message": "تنفيذ الأمر",
+			"copilot.permission.shell.title": "تشغيل في المحطة",
+			"copilot.permission.write.message": "تحرير {0}",
+			"copilot.permission.write.messageGeneric": "تحرير ملف",
+			"copilot.permission.write.title": "كتابة ملف"
+		},
 		"vs/platform/agentHost/node/copilot/copilotToolDisplay": {
 			"toolComplete.edit": "تم تعديل الملف",
 			"toolComplete.editFile": "تم تعديل {0}",
@@ -2191,6 +2203,14 @@
 			"toolName.webSearch": "بحث الويب",
 			"toolName.write": "كتابة ملف",
 			"toolName.writeShell": "كتابة إدخال إلى الصدفة"
+		},
+		"vs/platform/agentHost/node/sshRemoteAgentHostService": {
+			"sshProgressCheckingAgent": "جارٍ التحقق من وجود مضيف الوكيل... الرجاء الانتظار.",
+			"sshProgressConnecting": "جارٍ إنشاء الاتصال SSH... الرجاء الانتظار.",
+			"sshProgressDownloadingCLI": "جارٍ تثبيت واجهة CLI ​​​​VS Code على الوكيل البعيد... الرجاء الانتظار.",
+			"sshProgressForwarding": "يتم الآن الاتصال بمضيف الوكيل البعيد... الرجاء الانتظار.",
+			"sshProgressInstallingCLI": "جاري التحقق من تثبيت واجهة CLI ​​البعيدة... يرجى الانتظار.",
+			"sshProgressStartingAgent": "جارٍ تشغيل مضيف الوكيل البعيد... الرجاء الانتظار."
 		},
 		"vs/platform/browserView/common/browserView": {
 			"browserZoomAccessibilityLabel": "تكبير الصفحة: {0}٪",
@@ -2277,6 +2297,7 @@
 			"add": "أضف مجلدًا واحدًا أو أكثر إلى آخر نافذة نشطة.",
 			"addFile": "أضف ملفات كسياق إلى جلسة الدردشة.",
 			"addMcp": "يضيف تعريف خادم بروتوكول سياق النموذج (MCP) إلى ملف المستخدم. يقبل إدخالات JSON بالصيغة '{\"name\":\"server-name\",\"command\":...}'",
+			"agents": "يفتح نافذة الوكلاء.",
 			"category": "يرشّح الإضافات المثبتة وفق الفئة المقدمة عند استخدام --list-extensions.",
 			"chatMaximize": "كبّر عرض جلسة الدردشة.",
 			"chatMode": "الوضع المطلوب استخدامه لجلسة الدردشة. الخيارات المتاحة: «ask» أو «edit» أو «agent» أو معرّف وضع مخصص. القيمة الافتراضية هي «agent».",
@@ -2315,7 +2336,6 @@
 			"remove": "أزل المجلد أو المجلدات من آخر نافذة نشطة.",
 			"reuseWindow": "افرض فتح ملف أو مجلد في نافذة مفتوحة بالفعل.",
 			"reuseWindowForChat": "افرض استخدام آخر نافذة نشطة لجلسة الدردشة.",
-			"sessions": "افتح نافذة الجلسات.",
 			"showVersions": "اعرض إصدارات الإضافات المثبتة عند استخدام --list-extensions.",
 			"status": "اطبع معلومات استخدام العمليات والتشخيص.",
 			"stdinUsage": "للقراءة من stdin، أضف '-' (مثلًا «{0}»)",
@@ -2391,6 +2411,7 @@
 			"alreadyInstalled": "الإضافة '{0}' مثبتة بالفعل.",
 			"alreadyInstalled-checkAndUpdate": "الإضافة '{0}' بالإصدار v{1} مثبتة بالفعل. استخدم الخيار '--force' للتحديث إلى أحدث إصدار، أو حدّد '@<version>' لتثبيت إصدار معين، مثل '{2}@1.2.3'.",
 			"builtin": "الإضافة '{0}' إضافة مدمجة ولا يمكن إلغاء تثبيتها",
+			"builtinAutoUpdate": "يعد الامتداد \"{0}\" امتدادًا مضمنًا ولا يمكن تحديثه في مستوى جودة المنتج الحالي \"{1}\".",
 			"cancelVsixInstall": "تم إلغاء عملية تثبيت الإضافة '{0}'.",
 			"error while installing extensions": "خطأ أثناء تثبيت الإضافات: {0}",
 			"errorInstallingExtension": "خطأ أثناء تثبيت الإضافة {0}: {1}",
@@ -2431,6 +2452,8 @@
 			"jsonsParseReportErrors": "فشل تحليل {0}: {1}."
 		},
 		"vs/platform/extensionManagement/node/extensionManagementService": {
+			"builtinAutoUpdate": "يعد الامتداد \"{0}\" امتدادًا مضمنًا ولا يمكن تحديثه في مستوى جودة المنتج الحالي \"{1}\".",
+			"builtinVersion": "يعد الامتداد \"{0}\" امتدادًا مضمنًا بالإصدار \"{1}\" ولا يمكن الرجوع إلى الإصدار \"{2}\".",
 			"cannot read": "تعذر قراءة الإضافة من {0}",
 			"errorDeleting": "تعذر حذف المجلد الموجود '{0}' أثناء تثبيت الإضافة '{1}'. احذف المجلد يدويًا ثم أعد المحاولة",
 			"incompatible": "لا يمكن تثبيت الإضافة '{0}' لأنها غير متوافقة مع VS Code '{1}'.",
@@ -2676,8 +2699,12 @@
 			"trace.detail": "أبلغ عن المشكلة، وأرفق الملف التالي يدويًا:\r\n{0}",
 			"trace.message": "تم إنشاء ملف التتبع",
 			"trace.ok": "&&موافق",
+			"tracing.alreadyInProgress": "جلسة التتبع قيد التقدم بالفعل. استخدم الأمر `\"{0}\"` ​​لإيقافه أولاً.",
 			"warnEscalation": "سيطلب {0} الآن امتيازات المسؤول باستخدام «osascript» لتثبيت أمر الصدفة.",
 			"warnEscalationUninstall": "سيطلب {0} الآن امتيازات المسؤول باستخدام «osascript» لإلغاء تثبيت أمر الصدفة."
+		},
+		"vs/platform/networkFilter/common/networkFilterService": {
+			"networkFilter.blockedByPolicy": "تم حظر الوصول إلى {0} ​​بواسطة سياسة مجال الشبكة (راجع إعدادات `{1}` و`{2}`)."
 		},
 		"vs/platform/notification/common/notification": {
 			"severityPrefix.error": "خطأ: {0}",
@@ -3218,23 +3245,15 @@
 			"ok": "&&التراجع عن {0} ملفات"
 		},
 		"vs/platform/update/common/update.config.contribution": {
-			"actionable": "يظهر إدخال شريط الحالة عندما يكون هناك إجراء مطلوب (على سبيل المثال، التنزيل أو التثبيت أو إعادة التشغيل).",
 			"default": "قم بتمكين التحقق التلقائي من التحديثات حتى يتمكن فيجوال كود من التحقق من التحديثات تلقائيًا وبشكل منتظم.",
 			"deprecated": "تم إهمال هذا الإعداد، استخدم \"{0}\" بدلاً من ذلك.",
-			"detailed": "يتم عرض إدخال شريط الحالة لجميع حالات التحديث، بما في ذلك التقدم.",
 			"enableWindowsBackgroundUpdates": "تمكين تنزيل وتثبيت الإصدارات الجديدة من فيجوال كود في الخلفية على نظام التشغيل ويندوز.",
 			"enableWindowsBackgroundUpdatesTitle": "تمكين تحديثات الخلفية على نظام التشغيل ويندوز",
-			"hidden": "لا يتم عرض إدخال شريط الحالة أبدًا.",
 			"manual": "تعطيل التحقق التلقائي من الخلفية للحصول على التحديثات. تتوفر التحديثات إذا قمت بالتحقق منها يدويًا.",
 			"none": "قم بإيقاف تشغيل التحديثات.",
+			"showPostInstallInfo": "اعرض تلميح أداة معلومات التحديث في شريط العنوان بعد تثبيت إصدار جديد.",
 			"showReleaseNotes": "عرض ملاحظات الإصدار بعد التحديث. يتم تنزيل ملاحظات الإصدار من خدمة مايكروسوفت عبر الإنترنت.",
 			"start": "التحقق من وجود تحديثات فقط عند بدء التشغيل. تعطيل عمليات التحقق من التحديث التلقائي في الخلفية.",
-			"statusBar": "يتحكم في رؤية إدخال شريط حالة التحديث.",
-			"titleBar": "يتحكم في الإدخال التجريبي لشريط عنوان التحديث.",
-			"titleBarActionable": "يظهر إدخال شريط العنوان عندما يكون هناك إجراء مطلوب (على سبيل المثال، التنزيل أو التثبيت أو إعادة التشغيل).",
-			"titleBarAlways": "يتم عرض إدخال شريط العنوان لجميع حالات التحديث.",
-			"titleBarDetailed": "يتم عرض إدخال شريط العنوان للتقدم القابل للتنفيذ وحالات التحديث، ولكن ليس للحالات غير النشطة أو المعطلة.",
-			"titleBarNone": "لا يتم عرض إدخال شريط العنوان أبدًا.",
 			"updateConfigurationTitle": "للتحديث",
 			"updateMode": "اختر ما إذا كنت تريد تلقي التحديثات التلقائية. يتطلب إعادة التشغيل بعد التغيير. يتم استرداد التحديثات من خدمة مايكروسوفت عبر الإنترنت."
 		},
@@ -3343,21 +3362,10 @@
 		"vs/server/node/serverServices": {
 			"remoteExtensionLog": "الخادم"
 		},
-		"vs/sessions/browser/collapsedPartWidgets": {
-			"changesSummary": "الملف (الملفات) المعدلة {0}، الإدراج (الإدراجات) {1}، الحذف (الحذف) {2}",
-			"newSession": "جلسة جديدة",
-			"noSessions": "لا جلسة",
-			"sessionsFailed": "جلسة (جلسات) {0} بها أخطاء",
-			"sessionsInProgress": "{0} الجلسة (الجلسات) الحالية",
-			"sessionsNeedInput": "تتطلب جلسة (جلسات) {0} الدخول",
-			"sessionsUnread": "جلسة (جلسات) {0} غير المقروءة",
-			"showChanges": "إظهار التغييرات",
-			"toggleSidebar": "تمكين/تعطيل الشريط الجانبي"
-		},
 		"vs/sessions/browser/layoutActions": {
 			"agentPanelCloseIcon": "أيقونة لإغلاق اللوحة.",
-			"compositePart.hideSecondarySideBarLabel": "إخفاء الشريط الجانبي الثانوي",
-			"compositePart.hideSideBarLabel": "إخفاء الشريط الجانبي الرئيسي",
+			"agentSidebarToggleClosedIcon": "أيقونة الشريط الجانبي للجلسة بمجرد إغلاقها.",
+			"agentSidebarToggleOpenIcon": "رمز الشريط الجانبي للجلسات بمجرد فتحه.",
 			"openAndCloseSecondarySidebar": "فتح/إظهار وإغلاق/إخفاء الشريط الجانبي الثانوي",
 			"openAndCloseSidebar": "فتح/إظهار وإغلاق/إخفاء الشريط الجانبي",
 			"secondarySidebarHidden": "الشريط الجانبي الثانوي مخفي",
@@ -3369,21 +3377,37 @@
 			"toggleSidebar": "تبديل رؤية الشريط الجانبي الأساسي",
 			"toggleWindowAlwaysOnTop": "تمكين/تعطيل دائمًا في المقدمة"
 		},
+		"vs/sessions/browser/parts/auxiliaryBarPart": {
+			"auxiliaryBarAriaLabel": "تفاصيل الجلسة"
+		},
+		"vs/sessions/browser/parts/sessionCompositeBar": {
+			"deleteChat": "حذف",
+			"renameChat": "إعادة تسمية",
+			"renameChat.prompt": "إعادة تسمية المحادثة"
+		},
 		"vs/sessions/common/categories": {
-			"sessions": "الجلسات"
+			"agents": "الوكلاء"
 		},
 		"vs/sessions/common/contextkeys": {
 			"activeChatBar": "معرف لوحة شريط الدردشة النشط",
+			"activeSessionHasGitRepository": "يشير إلى ما إذا كانت الجلسة النشطة مرتبطة بمستودع Git",
+			"activeSessionProviderId": "معرف موفر الجلسة النشط",
+			"activeSessionType": "نوع الجلسة جلسة نشطة",
 			"chatBarFocus": "يشير إلى ما إذا كان شريط الدردشة يحتوي على تركيز لوحة المفاتيح",
 			"chatBarVisible": "يشير إلى ما إذا كان شريط الدردشة مرئيًا أم لا",
+			"chatSessionProviderId": "معرف موفر الجلسة في تراكبات قائمة السياق",
+			"isActiveSessionArchived": "يشير إلى ما إذا كانت الجلسة النشطة قد تمت أرشفتها (تم وضع علامة \"مكتملة\" عليها)",
+			"isActiveSessionBackgroundProvider": "يشير إلى ما إذا كانت الجلسة النشطة تستخدم موفر وكيل الخلفية",
 			"sessionsWelcomeVisible": "يشير إلى ما إذا كان تراكب الصفحة الرئيسية للجلسة مرئيًا أم لا"
 		},
 		"vs/sessions/common/theme": {
 			"agentFeedbackInputWidget.border": "لون الحدود لعنصر واجهة مستخدم إدخال تعليقات الوكيل المعروض في المحرر.",
 			"chatBarTitle.background": "لون خلفية منطقة العنوان لشريط الدردشة في نافذة جلسات الوكيل.",
 			"chatBarTitle.foreground": "اللون الأمامي لمنطقة عنوان شريط الدردشة في نافذة جلسات الوكيل.",
+			"sessionsAuxiliaryBar.background": "لون خلفية الشريط الوكيل في نافذة جلسات الوكيل.",
+			"sessionsChatBar.background": "لون خلفية شريط الدردشة في نافذة جلسات الوكيل.",
+			"sessionsPanel.background": "لون خلفية اللوحة في نافذة جلسات الوكيل.",
 			"sessionsSidebar.background": "لون خلفية عرض الشريط الجانبي في نافذة جلسات الوكيل.",
-			"sessionsSidebar.border": "لون حدود الشريط الجانبي في نافذة جلسات الوكيل.",
 			"sessionsSidebarHeader.background": "لون خلفية منطقة رأس الشريط الجانبي في نافذة جلسات الوكيل.",
 			"sessionsSidebarHeader.foreground": "اللون الأمامي لمنطقة رأس الشريط الجانبي في نافذة جلسات الوكيل.",
 			"sessionsUpdateButton.downloadedBackground": "لون خلفية زر التحديث بعد اكتمال التنزيل في نافذة جلسات الوكيل.",
@@ -3392,23 +3416,59 @@
 		"vs/sessions/electron-browser/sessions.main": {
 			"join.closeStorage": "حفظ حالة واجهة المستخدم"
 		},
+		"vs/sessions/services/sessions/common/session": {
+			"copilotCLI": "الخلفية",
+			"copilotCloud": "السحابة"
+		},
+		"vs/sessions/services/sessions/common/sessionsManagement": {
+			"activeSessionSupportsMultiChat": "يشير إلى ما إذا كان موفر الجلسة النشطة يدعم محادثات متعددة في كل جلسة"
+		},
 		"vs/sessions/contrib/accountMenu/browser/account.contribution": {
-			"downloadingUpdate": "جاري التحميل…",
-			"installingUpdate": "التثبيت…",
-			"loadingAccount": "جاري تحميل الحساب...",
-			"sessionsAccountWidget": "حساب الجلسات",
+			"accountMenuHeaderFallback": "حساب",
+			"agenticSignOutButton": "&&تسجيل الخروج",
+			"agenticSignOutDetail": "سيؤدي هذا إلى تسجيل الخروج \"{0}\" من تطبيق الوكلاء.",
+			"agenticSignOutMessage": "هل تريد تسجيل الخروج من تطبيق الوكلاء؟",
+			"agentsAccountStatusTitleBar": "حساب الوكيل وحالته",
+			"agentsUpdateTitleBar": "تحديث الوكيل",
+			"loadingAccountHeader": "جاري تحميل الحساب... الرجاء الانتظار.",
+			"sessionsTitleBarDownloading": "التنزيل قيد التقدم... الرجاء الانتظار.",
+			"sessionsTitleBarDownloadingAria": "جارٍ تنزيل التحديث",
+			"sessionsTitleBarInstallUpdate": "تثبيت التحديث",
+			"sessionsTitleBarInstallUpdateAria": "قم بتثبيت التحديث الذي تم تنزيله",
+			"sessionsTitleBarInstalling": "جارٍ التثبيت... يرجى الانتظار.",
+			"sessionsTitleBarInstallingAria": "جارٍ تثبيت التحديث",
+			"sessionsTitleBarRestartToUpdate": "إعادة التشغيل للتحديث",
+			"sessionsTitleBarRestartToUpdateAria": "أعد التشغيل لتطبيق التحديث",
+			"sessionsTitleBarUpdate": "تحديث",
+			"sessionsTitleBarUpdateAria": "تحديث",
+			"sessionsTitleBarUpdateAvailable": "التحديث متاح",
+			"sessionsTitleBarUpdateAvailableAria": "يتوفر تحديث",
+			"sessionsUpdateFromVSCode.detail": "يؤدي هذا إلى إغلاق تطبيق الوكلاء وفتح VS Code حتى تتمكن من تثبيت التحديث. أعد تشغيل الوكلاء بمجرد اكتمال التحديث.",
+			"sessionsUpdateFromVSCode.open": "أغلق وافتح رمز VS",
+			"sessionsUpdateFromVSCode.title": "التحديث من كود VS",
 			"settings": "الإعدادات",
 			"signIn": "تسجيل الدخول",
-			"signInLabel": "تسجيل الدخول",
 			"signOut": "تسجيل الخروج",
-			"update": "تحديث",
-			"updateAvailable": "التحديث متاح",
-			"updateFromVSCode.detail": "يؤدي هذا إلى إغلاق تطبيق الجلسات وفتح VS Code حتى تتمكن من تثبيت التحديث.\r\n\r\nأعد تشغيل الجلسات بمجرد اكتمال التحديث.",
-			"updateFromVSCode.open": "أغلق وافتح VS Code",
-			"updateFromVSCode.title": "التحديث من VS Code",
-			"updateInVSCodeHover": "تتم معالجة التحديثات بواسطة VS Code. انقر لفتح VS Code.",
-			"updating": "التحديث قيد التقدم…",
-			"updatingApp": "التحديث قيد التقدم…"
+			"signedInAsHeader": "تم تسجيل الدخول كـ {0}"
+		},
+		"vs/sessions/contrib/accountMenu/browser/accountTitleBarState": {
+			"accountSignedInAria": "متصل كـ {0} ​​​​مع {1}",
+			"accountSignedInAriaNameOnly": "تم تسجيل الدخول كـ {0}",
+			"agentsSignedOut": "تم قطع اتصال الوكلاء",
+			"agentsSignedOutAria": "تم قطع اتصال الوكلاء",
+			"copilotAllQuotaReachedAria": "GitHub ​​​​Copilot تم الوصول إلى حصة الاقتراحات والمحادثات المضمنة",
+			"copilotChatQuotaReachedAria": "تم الوصول إلى حصة الدردشة GitHub ​​​​Copilot",
+			"copilotCompletionsQuotaReachedAria": "GitHub ​​​​Copilot تم الوصول إلى حصة الاقتراحات المضمنة",
+			"copilotQuotaReached": "تم الوصول إلى الحصة",
+			"copilotTokensRemaining": "الرموز المتبقية",
+			"copilotTokensRemainingAria": "{0} ​​​​% من الرموز المميزة GitHub Copilot المتبقية",
+			"copilotUnavailable": "Copilot ​​غير متوفر",
+			"copilotUnavailableDisabledAria": "GitHub Copilot معطل",
+			"copilotUnavailableUntrustedAria": "GitHub ​​​​Copilot غير متوفر في مساحات العمل غير الموثوق بها",
+			"loadingAccount": "جاري تحميل الحساب... الرجاء الانتظار.",
+			"loadingAccountAria": "تحميل الحساب",
+			"signInAria": "قم بتسجيل الدخول إلى حسابك",
+			"signInLabel": "تسجيل الدخول"
 		},
 		"vs/sessions/contrib/accountMenu/browser/updateHoverWidget": {
 			"compactAgeDays": "منذ {0} يوم",
@@ -3463,21 +3523,18 @@
 			"collapse": "تقليل",
 			"convertComment": "تحويل إلى ردود فعل الوكيل",
 			"editComment": "تحرير",
-			"editPRCommentDisabled": "لا يمكن تحرير تعليقات مراجعة العلاقات العامة",
 			"expand": "تطوير",
 			"feedbackComment": "التعليقات",
 			"feedbackSuggestion": "التعليقات المقترحة",
 			"lineNumber": "الخط {0}",
 			"lineRange": "الخطوط من {0} إلى {1}",
 			"nComments": "تعليقات {0}",
-			"oneComment": "تعليق واحد",
 			"prReviewComment": "مراجعة طلب السحب",
 			"removeComment": "حذف",
 			"reviewComment": "مراجعة",
 			"reviewSuggestion": "مراجعة الاقتراح",
-			"suggestedChange": "التغيير المقترح",
-			"suggestionLineNumber": "الخط {0}",
-			"suggestionLineRange": "الخطوط من {0} إلى {1}"
+			"suggestedChangeLine": "التغيير المقترح • الخطوط {0}",
+			"suggestedChangeLines": "التغيير المقترح • الخطوط {0}-{1}"
 		},
 		"vs/sessions/contrib/agentFeedback/browser/agentFeedbackHover": {
 			"agentFeedbackHover.remove": "حذف",
@@ -3496,6 +3553,7 @@
 			"delete": "حذف",
 			"disable": "تعطيل",
 			"enable": "تفعيل",
+			"focusCustomizations": "التركيز على تخصيصات المحادثة",
 			"open": "مفتوح",
 			"runPrompt": "تشغيل الاستعلام"
 		},
@@ -3503,13 +3561,13 @@
 			"aiCustomizationTree": "عناصر تخصيص الدردشة",
 			"builtinWithCount": "متكامل ({0})",
 			"customAgents": "وكلاء مخصصون",
-			"extensionsWithCount": "الامتدادات ({0})",
+			"extensionsWithCount": "الإضافات ({0})",
 			"fileAriaLabel": "{0}, {1}",
 			"fileAriaLabelDisabled": "{0}، معطل",
-			"instructions": "تعليمات",
+			"instructions": "إرشادات",
 			"mcpServers": "خوادم MCP",
 			"pluginsWithCount": "الإضافات ({0})",
-			"prompts": "الاستعلامات",
+			"prompts": "المطالبات",
 			"skills": "المهارات",
 			"userWithCount": "المستخدم ({0})",
 			"workspaceWithCount": "مساحة العمل ({0})"
@@ -3524,65 +3582,70 @@
 			"applyChangesToParentRepo": "تطبيق التغييرات على المستودع الأصلي",
 			"openInVSCode": "فتح في VS Code"
 		},
+		"vs/sessions/contrib/changes/browser/changesTitleBarWidget": {
+			"changesSummary": "{0} ​​​​ملف (ملفات) معدلة، {1} إدراج (ملفات)، {2} حذف (ملفات)",
+			"showChanges": "إظهار التغييرات",
+			"toggleChanges": "تمكين-تعطيل التغييرات"
+		},
 		"vs/sessions/contrib/changes/browser/changesView": {
 			"changes": "التغييرات",
 			"changesView.noChanges": "لم يتم تعديل أية ملفات.",
-			"changesView.titleWithCount": "تغييرات {0}",
-			"changesView.titleWithCountOne": "1 تحرير",
 			"changesViewTree": "تغيير الشجرة",
 			"chatEditing.versionsAllChanges": "كل التغييرات",
+			"chatEditing.versionsAllChanges.description": "عرض جميع التغييرات التي تم إجراؤها خلال هذه الجلسة",
+			"chatEditing.versionsBranchChanges": "تغييرات الفرع",
 			"chatEditing.versionsLastTurnChanges": "تغييرات اللفة الأخيرة",
+			"chatEditing.versionsLastTurnChanges.description": "إظهار التغييرات فقط من الجولة الأخيرة",
+			"chatEditing.versionsPicker": "الإصدارات",
+			"sessionsChanges.versionsAllChanges": "كل التغييرات",
+			"sessionsChanges.versionsBranchChanges": "تغييرات الفرع",
+			"sessionsChanges.versionsLastTurn": "تغييرات اللفة الأخيرة",
 			"setListViewMode": "تظهر كقائمة",
-			"setTreeViewMode": "عرض كشجرة",
-			"updatePR": "تحديث طلب السحب",
-			"updatePRWithOutgoingChanges": "تحديث طلب السحب {0}↑",
-			"versionsActions": "الإصدارات"
+			"setTreeViewMode": "عرض كشجرة"
 		},
 		"vs/sessions/contrib/changes/browser/changesView.contribution": {
 			"changes": "التغييرات",
 			"changesViewIcon": "تغيير رمز عرض العرض."
 		},
 		"vs/sessions/contrib/changes/browser/changesViewActions": {
-			"openChangesView": "التغييرات"
+			"chatEditing.viewAllSessionChanges": "إظهار كافة التغييرات",
+			"focusChangesFileView": "ضع التركيز على طريقة عرض File Explorer",
+			"focusChangesView": "ضع التركيز على طريقة عرض التغييرات",
+			"focusChangesView.noChanges": "لا تعديلات.",
+			"openChangesView": "التغييرات",
+			"openPullRequest": "افتح طلب السحب"
 		},
-		"vs/sessions/contrib/changes/browser/ciStatusWidget": {
-			"ci.checkAriaLabel": "{0}, {1}",
-			"ci.checkTitle": "{0} : {1}",
+		"vs/sessions/contrib/changes/browser/checksActions": {
+			"ci.failedState": "فشل",
+			"ci.pendingState": "في الانتظار",
+			"ci.runningState": "جري",
+			"ci.successfulState": "نجاح",
+			"fixCIChecks": "إصلاح الشيكات CI"
+		},
+		"vs/sessions/contrib/changes/browser/checksWidget": {
+			"ci.checkAriaLabel": "{0}، {1}",
+			"ci.checkTitle": "{0}: {1}",
+			"ci.checksLabel": "التحقق",
 			"ci.checksListAriaLabel": "التحقق",
 			"ci.fixChecks": "إصلاح الشيكات",
-			"ci.headerTitle": "الشيكات: {0}",
-			"ci.manyFailed": "فشل {0}",
-			"ci.manyPending": "{0} في انتظار",
-			"ci.manyRunning": "تشغيل {0}",
-			"ci.manySuccessful": "لقد نجح {0}",
-			"ci.oneFailed": "1 فشل",
-			"ci.onePending": "1 انتظار",
-			"ci.oneRunning": "1 تشغيل",
-			"ci.oneSuccessful": "1 النجاح",
-			"ci.openOnGitHub": "افتح في جيثب"
-		},
-		"vs/sessions/contrib/changes/browser/fixCIChecksAction": {
-			"ci.failedState": "الفشل",
-			"ci.pendingState": "الانتظار",
-			"ci.runningState": "تشغيل",
-			"ci.successfulState": "ناجح",
-			"fixCIChecks": "فحوصات CI الصحيحة"
-		},
-		"vs/sessions/contrib/changes/common/changes": {
-			"activeSessionHasChanges": "يشير إلى ما إذا كانت الجلسة النشطة تحتوي على تغييرات."
+			"ci.openOnGitHub": "مفتوح في GitHub",
+			"ci.rerunCheck": "قم بتشغيل الفحص مرة أخرى",
+			"ci.toggleChecks": "تمكين/تعطيل الشيكات"
 		},
 		"vs/sessions/contrib/chat/browser/aiCustomizationWorkspaceService": {
 			"commitToRepoFailed": "تم حفظ التخصيص الخاص بك في شجرة العمل لهذه الجلسة، ولكن لم نتمكن من تطبيقه على الفرع الافتراضي. قد تحتاج إلى تطبيقه يدويًا.",
-			"deleteFromRepoFailed": "تمت إزالة التخصيص الخاص بك من شجرة العمل لهذه الجلسة، ولكن لم نتمكن من تطبيق التغيير على الفرع الافتراضي. قد تحتاج إلى حذفه يدويًا."
+			"deleteFromRepoFailed": "تمت إزالة التخصيص الخاص بك من شجرة العمل لهذه الجلسة، ولكن لم نتمكن من تطبيق التغيير على الفرع الافتراضي. قد تحتاج إلى حذفه يدويًا.",
+			"skillUI.actOnFeedback": "يُستخدم بواسطة زر إرسال التعليقات في شريط أدوات التغييرات",
+			"skillUI.commit": "يستخدم بواسطة زر التحقق من الصحة في شريط أدوات التغييرات",
+			"skillUI.createDraftPr": "يستخدم بواسطة زر إنشاء طلب سحب مسودة على شريط أدوات التغييرات",
+			"skillUI.createPr": "يستخدم بواسطة زر إنشاء طلب سحب على شريط أدوات التغييرات",
+			"skillUI.generateRunCommands": "يستخدم بواسطة زر التشغيل الموجود في شريط العنوان",
+			"skillUI.mergeChanges": "يتم استخدامه بواسطة زر الدمج الموجود على شريط أدوات التغييرات",
+			"skillUI.updatePr": "يستخدم بواسطة زر طلب سحب التحديث الموجود على شريط أدوات التغييرات"
 		},
 		"vs/sessions/contrib/chat/browser/branchChatSessionAction": {
 			"branchChatSession": "مناقشة الفرع",
 			"branchChatSessionTooltip": "التبديل إلى جلسة جديدة"
-		},
-		"vs/sessions/contrib/chat/browser/branchPicker": {
-			"branchPicker.ariaLabel": "محدد الفرع",
-			"branchPicker.filter": "تصفية الفروع...",
-			"branchPicker.select": "فرع"
 		},
 		"vs/sessions/contrib/chat/browser/chat.contribution": {
 			"chat.newEdits.label": "دردشة جديدة",
@@ -3590,16 +3653,6 @@
 			"chatViewIcon": "أيقونة عرض عرض الدردشة.",
 			"openInVSCode": "فتح في VS Code",
 			"sessions.newChat.view": "جلسة جديدة"
-		},
-		"vs/sessions/contrib/chat/browser/modelPicker": {
-			"modelPicker.ariaLabel": "محدد النموذج",
-			"modelPicker.auto": "تلقائي",
-			"modelPicker.filter": "نماذج التصفية..."
-		},
-		"vs/sessions/contrib/chat/browser/modePicker": {
-			"configureCustomAgents": "تكوين الوكلاء المخصصين...",
-			"modePicker.ariaLabel": "محدد الوضع",
-			"sessions.modePicker.ariaLabel": "حدد وضع الدردشة"
 		},
 		"vs/sessions/contrib/chat/browser/newChatContextAttachments": {
 			"attachAsContext": "إرفاق كسياق",
@@ -3628,13 +3681,18 @@
 			"permissions.autopilot.warning.title": "تمكين الطيار الآلي؟",
 			"permissions.default": "الموافقات الافتراضية",
 			"permissions.default.label": "الموافقات الافتراضية",
-			"permissions.default.subtext": "يستخدم Copilot الإعدادات التي تم تكوينها"
+			"permissions.default.subtext": "يستخدم Copilot الإعدادات التي تم تكوينها",
+			"permissions.learnMore": "تعرف على المزيد حول الأذونات"
 		},
 		"vs/sessions/contrib/chat/browser/newChatViewPane": {
 			"addContext": "إضافة سياق...",
 			"chatInput": "دخول الدردشة",
+			"chatInput.accessibilityHelp": "دخول الدردشة. اضغط على Enter لإرسال الطلب. استخدم {0} ​​للحصول على وكيلة في إمكانية الوصول إلى المحادثة.",
+			"chatInput.accessibilityHelpNoKb": "دخول الدردشة. اضغط على Enter لإرسال الطلب. لمزيد من المعلومات، استخدم الأمر Chat Accessibility Helper.",
 			"chatPlaceholder": "قم بتشغيل المهام في الخلفية، واكتب \"#\" لإضافة سياق",
 			"loading": "جار التحميل...",
+			"newSessionChooseWorkspace": "ابدأ باختيار أ",
+			"newSessionIn": "جلسة جديدة في",
 			"send": "أرسل",
 			"trustFolderMessage": "يمكن لجلسة الوكيل قراءة الملفات وتشغيل الأوامر وإجراء تغييرات في هذا المجلد."
 		},
@@ -3643,9 +3701,9 @@
 			"addActionTooltipDisabled": "لا يمكننا إضافة مهام إلى هذه الجلسة لأن مساحة تخزين العمل غير متوفرة",
 			"addActionWidgetDescription": "أنشئ مهمة صدفة وحدد كيفية حفظها وتشغيلها",
 			"addActionWidgetTitle": "إضافة مهمة...",
-			"addActionsCategory": "أضف",
 			"addExistingActionWidgetDescription": "تمكين مهمة موجودة للجلسات وتكوين متى يجب تشغيلها",
 			"addExistingActionWidgetTitle": "إضافة مهمة موجودة...",
+			"closeQuickWidget": "إغلاق",
 			"configureActionWidgetDescription": "قم بتحديث الاسم والتسجيل وتنفيذ هذه المهمة",
 			"configureActionWidgetTitle": "تكوين المهمة...",
 			"configureDefaultRunAction": "إضافة مهمة...",
@@ -3661,8 +3719,8 @@
 			"generateRunActionTooltip": "إنشاء مهمة مساحة عمل جديدة",
 			"npmTaskCommandPreview": "تشغيل npm {0}",
 			"pickRunAction": "حدد مهمة أو أنشئها",
-			"pinTask": "دبوس",
-			"pinTaskTooltip": "دبوس",
+			"pinTask": "تثبيت",
+			"pinTaskTooltip": "تثبيت",
 			"removeTask": "حذف",
 			"run": "تشغيل",
 			"runActionTooltip": "شغّل \"{0}\" في الطرفية",
@@ -3671,6 +3729,7 @@
 			"runPrimaryTask": "أداء المهمة الرئيسية",
 			"runPrimaryTaskTooltip": "أداء المهمة الرئيسية",
 			"runScriptNotAvailableTooltip": "تنفيذ المهمة غير متاح لهذا النوع من الجلسة",
+			"tasksActionsCategory": "المهام",
 			"unpinTask": "إزالة التثبيت",
 			"unpinTaskTooltip": "إزالة التثبيت",
 			"workspaceStorageUnavailableTooltip": "تخزين مساحة العمل غير متوفر لهذه الجلسة",
@@ -3680,7 +3739,7 @@
 			"cancelAddAction": "إلغاء",
 			"commandFieldLabel": "النظام",
 			"confirmAddTask": "أضف مهمة",
-			"confirmAddToSessions": "إضافة إلى نافذة الجلسات",
+			"confirmAddToAgents": "إضافة إلى نافذة الوكلاء",
 			"confirmMoveAndUpdateTask": "مهمة النقل والتحديث",
 			"confirmMoveTask": "نقل مهمة",
 			"confirmUpdateTask": "مهمة التحديث",
@@ -3699,12 +3758,48 @@
 			"workspaceStorageLabel": "مساحة العمل",
 			"workspaceStorageTooltip": "احفظ هذه المهمة في مساحة العمل الحالية"
 		},
-		"vs/sessions/contrib/chat/browser/sessionTargetPicker": {
-			"isolationMode.folder": "ملف",
-			"isolationMode.worktree": "شجرة العمل",
-			"isolationPicker.ariaLabel": "وضع العزل",
-			"sessionTarget.cli": "Copilot CLI",
-			"sessionTarget.cloud": "سحابة"
+		"vs/sessions/contrib/chat/browser/sessionsChatAccessibilityHelp": {
+			"sessionsChat.changes": "ضع التركيز على طريقة العرض Modifications{0} ​​​​.",
+			"sessionsChat.customizations": "ركز على عرض تخصيصات المحادثة{0} ​​​​.",
+			"sessionsChat.filesView": "ضع التركيز على عرض File Explorer {0}.",
+			"sessionsChat.history": "استخدم السهمين لأعلى ولأسفل لتصفح سجل الاستعلام الخاص بك في مربع الإدخال.",
+			"sessionsChat.input": "أنت في إدخال المحادثة. اكتب رسالة واضغط على Enter لإرسالها.",
+			"sessionsChat.overview": "أنت في تطبيق الوكلاء. يعد تطبيق الوكلاء مساحة عمل مخصصة لاستخدام وكلاء الذكاء الاصطناعي. فهو يوفر واجهة دردشة وعرض التغييرات لمراجعة التغييرات التي أنشأها الوكيل ومتصفح الملفات وخيارات التخصيص.",
+			"sessionsChat.sessionsView": "ضع التركيز على طريقة العرض Chat Sessions{0} ​​​​.",
+			"sessionsChat.workspace": "Shift+Tab للوصول إلى محدد مساحة العمل واختيار مساحة عمل لجلستك."
+		},
+		"vs/sessions/contrib/chat/browser/sessionTypePicker": {
+			"sessionTypePicker.ariaLabel": "نوع الجلسة"
+		},
+		"vs/sessions/contrib/chat/browser/sessionWorkspacePicker": {
+			"pickWorkspace": "مساحة العمل",
+			"workspacePicker.ariaLabel": "محدد مساحة العمل",
+			"workspacePicker.browseAction": "{0}...",
+			"workspacePicker.browseSelect": "يختار...",
+			"workspacePicker.browseSelectAction": "حدد {0}...",
+			"workspacePicker.copyAddress": "نسخ العنوان",
+			"workspacePicker.filter": "البحث عن مساحات العمل...",
+			"workspacePicker.hoverConnected": "مضيف الوكيل البعيد متصل وجاهز.",
+			"workspacePicker.hoverConnectedAddr": "مضيف الوكيل البعيد متصل وجاهز.\r\n\r\nالعنوان: {0}",
+			"workspacePicker.hoverConnecting": "جارٍ محاولة الاتصال بمضيف الوكيل البعيد... الرجاء الانتظار.",
+			"workspacePicker.hoverConnectingAddr": "جارٍ محاولة الاتصال بمضيف الوكيل البعيد... الرجاء الانتظار.\r\n\r\nالعنوان: {0}",
+			"workspacePicker.hoverDisconnected": "تم قطع اتصال مضيف الوكيل البعيد. انقر على أيقونة الترس لرؤية الخيارات.",
+			"workspacePicker.hoverDisconnectedAddr": "تم قطع اتصال مضيف الوكيل البعيد. انقر على أيقونة الترس لرؤية الخيارات.\r\n\r\nالعنوان: {0}",
+			"workspacePicker.offline": "غير متصل",
+			"workspacePicker.offlineSingle": "غير متصل",
+			"workspacePicker.openSettings": "فتح الإعدادات",
+			"workspacePicker.pickAriaLabel": "ابدأ باختيار مساحة العمل",
+			"workspacePicker.providerOffline": "{0} ​​​​(غير متصل)",
+			"workspacePicker.reconnect": "أعد الاتصال",
+			"workspacePicker.remoteOptions": "الخيارات",
+			"workspacePicker.remoteOptionsTitle": "{0} ​​​​الخيارات",
+			"workspacePicker.removeRemote": "حذف المستودع البعيد",
+			"workspacePicker.selectedAriaLabel": "جلسة جديدة في {0}",
+			"workspacePicker.showOutput": "عرض المخرجات",
+			"workspacePicker.statusConnecting": "اتصال",
+			"workspacePicker.statusOffline": "غير متصل",
+			"workspacePicker.statusOnline": "متصل",
+			"workspacePicker.tunnels": "الأنفاق..."
 		},
 		"vs/sessions/contrib/chat/browser/slashCommands": {
 			"slashCommand.agents": "عرض وإدارة الوكلاء المخصصين",
@@ -3713,17 +3808,9 @@
 			"slashCommand.prompts": "عرض وإدارة ملفات الاستعلام",
 			"slashCommand.skills": "عرض وإدارة المهارات"
 		},
-		"vs/sessions/contrib/chat/browser/workspacePicker": {
-			"browseFolders": "تصفح الملفات...",
-			"browseRemotes": "تصفح العناصر البعيدة...",
-			"browseRepositories": "تصفح المستودعات...",
-			"pickWorkspace": "اختيار مساحة العمل",
-			"selectFolder": "حدد مجلدًا",
-			"selectRemote": "حدد البعيد",
-			"selectRemoteFolder": "حدد مجلدًا على {0}",
-			"selectRemotePlaceholder": "اختر مضيف وكيل بعيد",
-			"workspacePicker.ariaLabel": "محدد مساحة العمل",
-			"workspacePicker.filter": "البحث عن مساحات العمل..."
+		"vs/sessions/contrib/chat/browser/variableCompletions": {
+			"activeFile": "الملف النشط",
+			"fileEntryDescription": "{0} ​​​​({1})"
 		},
 		"vs/sessions/contrib/chatDebug/browser/chatDebug.contribution": {
 			"chatDebug": "تصحيح الدردشة",
@@ -3742,25 +3829,162 @@
 			"sessions.runCodeReview.tooltip.oneUnresolved": "تعليق واحد لم يتم حله.",
 			"sessions.runCodeReview.tooltip.runAgain": "قم بإجراء مراجعة رمز أخرى."
 		},
+		"vs/sessions/contrib/copilotChatSessions/browser/branchPicker": {
+			"branchPicker.ariaLabel": "محدد الفرع",
+			"branchPicker.filter": "تصفية الفروع...",
+			"branchPicker.select": "فرع"
+		},
+		"vs/sessions/contrib/copilotChatSessions/browser/copilotChatSessions.contribution": {
+			"sessions.github.copilot.multiChatSessions": "حدد ما إذا كنت تريد تمكين محادثات متعددة خلال جلسة واحدة في Copilot ​​​​موفر جلسة الدردشة."
+		},
+		"vs/sessions/contrib/copilotChatSessions/browser/copilotChatSessionsActions": {
+			"branchPicker": "فرع",
+			"cloudModelPicker": "نموذج",
+			"isolationPicker": "وضع العزل",
+			"localModelPicker": "نموذج",
+			"modePicker": "الوضع",
+			"permissionPicker": "الأذونات"
+		},
+		"vs/sessions/contrib/copilotChatSessions/browser/copilotChatSessionsProvider": {
+			"copilotChatSessionsProvider": "دردشة Copilot",
+			"folders": "مجلدات",
+			"new chat": "دردشة جديدة",
+			"new session": "جلسة جديدة",
+			"repositories": "المستودعات"
+		},
+		"vs/sessions/contrib/copilotChatSessions/browser/isolationPicker": {
+			"isolationMode.folder": "مجلد",
+			"isolationMode.worktree": "شجرة العمل",
+			"isolationPicker.ariaLabel": "وضع العزل"
+		},
+		"vs/sessions/contrib/copilotChatSessions/browser/modelPicker": {
+			"modelPicker.ariaLabel": "محدد النموذج",
+			"modelPicker.auto": "تلقائي",
+			"modelPicker.filter": "نماذج التصفية..."
+		},
+		"vs/sessions/contrib/copilotChatSessions/browser/modePicker": {
+			"configureCustomAgents": "تكوين المعالجات المخصصة...",
+			"modePicker.ariaLabel": "محدد الوضع",
+			"sessions.modePicker.ariaLabel": "حدد وضع المحادثة"
+		},
 		"vs/sessions/contrib/files/browser/files.contribution": {
 			"collapseExplorerFolders": "تصغير المجلدات في المستكشف",
 			"files": "ملفات",
 			"sessionsFilesViewIcon": "قم بعرض أيقونة عرض الملف في نافذة الجلسات."
+		},
+		"vs/sessions/contrib/files/browser/filesView": {
+			"filesView.noFiles": "تظهر المجلدات والملفات هنا."
 		},
 		"vs/sessions/contrib/git/browser/git.contribution": {
 			"agentSessionGitHasUpstreamBranch": "صحيح عندما تحتوي شجرة عمل جلسة الوكيل النشط على فرع رئيسي.",
 			"synchronizeChanges": "مزامنة التغييرات مع Git ({0} متأخر، {1} مبكرًا)",
 			"synchronizeChangesTitle": "مزامنة التغييرات"
 		},
+		"vs/sessions/contrib/localAgentHost/browser/localAgentHostSessionsProvider": {
+			"cannotChangeExistingSessionType": "غير قادر على تغيير نوع الجلسة في جلسة مضيف وكيل محلي موجودة.",
+			"folders": "مجلدات",
+			"localAgentHostDescription": "محلي",
+			"localAgentHostLabel": "مضيف الوكيل المحلي",
+			"localAgentHostSessionType": "{0} ​​​​[{1}]",
+			"localAgentHostSessionTypeLocation": "محلي",
+			"noAgents": "لم يعلن مضيف الوكيل المحلي عن أي وكلاء حتى الآن.",
+			"selectLocalFolder": "حدد مجلدًا",
+			"unknownSessionType": "نوع الجلسة \"{0}\" غير متوفر على مضيف الوكيل المحلي."
+		},
 		"vs/sessions/contrib/logs/browser/logs.contribution": {
 			"logs": "السجلات",
 			"sessionsLogsViewIcon": "قم بعرض أيقونة عرض السجلات في نافذة الجلسات."
+		},
+		"vs/sessions/contrib/policyBlocked/browser/sessionsPolicyBlocked": {
+			"policyBlocked.aria": "تم تعطيل الوكلاء بواسطة سياسة المنظمة",
+			"policyBlocked.description": "قامت مؤسستك بتعطيل الوكلاء من خلال السياسة.",
+			"policyBlocked.learnMore": "معرفة المزيد",
+			"policyBlocked.openVSCode": "افتح رمز VS",
+			"policyBlocked.title": "وكلاء المعوقين"
 		},
 		"vs/sessions/contrib/remoteAgentHost/browser/remoteAgentHost.contribution": {
 			"chat.remoteAgentHosts": "قائمة بعناوين مضيف الوكيل البعيد للاتصال بها (على سبيل المثال \"المضيف المحلي:3000\").",
 			"chat.remoteAgentHosts.address": "عنوان المضيف للوكيل البعيد (على سبيل المثال \"المضيف المحلي: 3000\").",
 			"chat.remoteAgentHosts.connectionToken": "رمز اتصال اختياري للمصادقة على مضيف الوكيل البعيد.",
-			"chat.remoteAgentHosts.name": "اسم العرض لمضيف الوكيل البعيد هذا."
+			"chat.remoteAgentHosts.enabled": "تمكين الاتصال بمضيفي الوكيل البعيد.",
+			"chat.remoteAgentHosts.name": "اسم العرض لمضيف الوكيل البعيد هذا.",
+			"chat.remoteAgentHosts.sshConfigHost": "الاسم المستعار لمضيف التكوين SSH ​​لإعادة الاتصال تلقائيًا عبر النفق SSH.",
+			"chat.remoteAgentTunnels": "أسماء أنفاق التطوير الإضافية التي يجب البحث عنها عند الاتصال بمضيفي الوكلاء البعيدين. يتم البحث عنها بالإضافة إلى الأنفاق المدرجة تلقائيًا من حسابك.",
+			"chat.sshRemoteAgentHostCommand": "للتطوير: قم بتغيير الأمر المستخدم لبدء تشغيل مضيف الوكيل البعيد إلى SSH. بعد الإعداد، يتم تخطي التثبيت التلقائي للواجهة CLI ويتم تنفيذ هذا الأمر بدلاً من ذلك. يجب أن يطبع الأمر URL WebSocket المطابق لـ ws://127.0.0.1:PORT (اختياريًا باستخدام ?tkn=TOKEN) على stdout أو stderr./"
+		},
+		"vs/sessions/contrib/remoteAgentHost/browser/remoteAgentHostActions": {
+			"addRemoteAgentHost": "إضافة مضيف وكيل بعيد...",
+			"addRemoteFailed": "فشل الاتصال بمضيف الوكيل البعيد {0}.",
+			"addRemotePrompt": "الصق مضيفًا أو مضيفًا: منفذًا أو URL ​​​​WebSocket. مثال: {0}",
+			"addRemoteTitle": "إضافة مضيف وكيل بعيد",
+			"addRemoteValidationEmpty": "أدخل عنوان مضيف الوكيل البعيد.",
+			"addRemoteValidationInvalid": "أدخل مضيفًا صالحًا URL ​​أو مضيف: منفذ أو WebSocket.",
+			"connectViaSSH": "لا يمكننا الاتصال بمضيف الوكيل البعيد عبر SSH",
+			"connectViaTunnel": "الاتصال بمضيف الوكيل البعيد عبر نفق التطوير",
+			"nameRemotePlaceholder": "وكيلي البعيد",
+			"nameRemotePrompt": "أدخل اسم العرض لمضيف الوكيل البعيد هذا.",
+			"nameRemoteTitle": "قم بتسمية مضيف الوكيل البعيد",
+			"nameRemoteValidationEmpty": "أدخل اسمًا لمضيف الوكيل البعيد هذا.",
+			"sshAuthAgent": "الوكيل SSH",
+			"sshAuthAgentDesc": "استخدم وكيل SSH ​​للمصادقة",
+			"sshAuthKey": "ملف المفتاح الخاص",
+			"sshAuthKeyDesc": "المصادقة باستخدام ملف مفتاح خاص",
+			"sshAuthPassword": "كلمة المرور",
+			"sshAuthPasswordDesc": "المصادقة بكلمة مرور",
+			"sshAuthPlaceholder": "اختر وضع المصادقة باستخدام {0}",
+			"sshAuthTitle": "طريقة المصادقة",
+			"sshConnectFailed": "لم نتمكن من الاتصال عبر SSH ​​بـ {0}: {1}",
+			"sshConnecting": "جارٍ الاتصال بـ {0} ​​​​عبر SSH... يرجى الانتظار.",
+			"sshEnterManually": "ادخل يدويا...",
+			"sshEnterManuallyDesc": "أدخل المضيف واسم المستخدم والمنفذ",
+			"sshHostEmpty": "أدخل المضيف SSH.",
+			"sshHostInvalidPort": "أدخل رقم منفذ صالحًا.",
+			"sshHostMissingAfterAt": "أدخل اسم المضيف بعد \"@\".",
+			"sshHostPrompt": "أدخل المضيف SSH ​​​​(على سبيل المثال، user@hostname أو user@hostname:port).",
+			"sshHostTitle": "تواصل عبر SSH",
+			"sshKeyEmpty": "أدخل المسار إلى ملف المفتاح.",
+			"sshKeyPrompt": "أدخل المسار إلى ملف المفتاح الخاص SSH.",
+			"sshKeyTitle": "مسار المفتاح الخاص",
+			"sshManualHostTitle": "تواصل عبر SSH",
+			"sshNameEmpty": "أدخل اسماً.",
+			"sshNamePlaceholder": "المستودع الخاص بي عن بعد",
+			"sshNamePrompt": "أدخل اسم العرض لهذا المستودع البعيد SSH.",
+			"sshNameTitle": "اسم المستودع البعيد",
+			"sshPasswordEmpty": "أدخل كلمة المرور.",
+			"sshPasswordPrompt": "أدخل كلمة المرور لـ {0}{1}.",
+			"sshPasswordTitle": "كلمة المرور SSH",
+			"sshPickHostPlaceholder": "حدد مضيفًا SSH ​​أو أدخله يدويًا",
+			"sshResolveConfigFailed": "لم نتمكن من حل تكوين SSH ​​لـ {0}: {1}",
+			"sshUsernameEmpty": "أدخل اسم المستخدم.",
+			"sshUsernameMissingInHost": "أدخل اسم المستخدم قبل \"@\".",
+			"sshUsernamePrompt": "أدخل اسم المستخدم لـ {0}.",
+			"sshUsernameTitle": "اسم المستخدم SSH",
+			"tunnelAuthFailed": "فشلت المصادقة. يرجى المحاولة مرة أخرى.",
+			"tunnelAuthGitHub": "GitHub",
+			"tunnelAuthGitHubDesc": "سجّل الدخول باستخدام حساب GitHub الخاص بك",
+			"tunnelAuthMicrosoft": "حساب مايكروسوفت",
+			"tunnelAuthMicrosoftDesc": "قم بتسجيل الدخول إلى حساب مايكروسوفت الخاص بك",
+			"tunnelAuthPlaceholder": "اختر مزود المصادقة",
+			"tunnelAuthTitle": "الاتصال بأنفاق التطوير",
+			"tunnelConnectFailed": "فشل الاتصال بالنفق \"{0}\": {1}",
+			"tunnelConnecting": "جارٍ الاتصال بالنفق \"{0}\"...",
+			"tunnelListFailed": "فشل إدراج أنفاق التطوير: {0}",
+			"tunnelNoneFound": "لم يتم العثور على أنفاق تطوير مع دعم مضيف الوكيل. ابدأ نفقًا باستخدام \"نفق الكود\" على كمبيوتر آخر.",
+			"tunnelPickPlaceholder": "حدد نفق التطوير للاتصال به",
+			"tunnelPickTitle": "الاتصال عبر نفق التطوير"
+		},
+		"vs/sessions/contrib/remoteAgentHost/browser/remoteAgentHostSessionsProvider": {
+			"cannotChangeExistingSessionType": "غير قادر على تغيير نوع الجلسة في جلسة مضيف وكيل بعيد موجودة.",
+			"folders": "مجلدات",
+			"noAgents": "لم يقم مضيف الوكيل البعيد \"{0}\" بنشر أي عوامل بعد.",
+			"notConnected": "غير قادر على الاتصال بمضيف الوكيل البعيد '{0}'.",
+			"notConnectedSend": "غير قادر على إرسال الطلب: أنت غير متصل بمضيف الوكيل البعيد \"{0}\".",
+			"notConnectedSession": "فشل إنشاء الجلسة: أنت غير متصل بمضيف الوكيل البعيد \"{0}\".",
+			"selectRemoteFolder": "حدد مجلدًا على {0}",
+			"unknownSessionType": "نوع الجلسة \"{0}\" غير متوفر على مضيف الوكيل البعيد \"{1}\"."
+		},
+		"vs/sessions/contrib/remoteAgentHost/browser/tunnelAgentHost.contribution": {
+			"tunnelConnecting": "اتصال بالنفق \"{0}\".."
 		},
 		"vs/sessions/contrib/sessions/browser/aiCustomizationShortcutsWidget": {
 			"customizations": "التخصيصات"
@@ -3768,39 +3992,103 @@
 		"vs/sessions/contrib/sessions/browser/customizationsToolbar.contribution": {
 			"agents": "الوكلاء",
 			"customizationAction": "{0}",
-			"hooks": "خطافات",
-			"instructions": "تعليمات",
+			"hooks": "الخطافات",
+			"instructions": "الإرشادات",
 			"mcpServers": "خوادم MCP",
 			"plugins": "الإضافات",
-			"prompts": "الاستعلامات",
+			"prompts": "المطالبات",
 			"skills": "المهارات"
 		},
 		"vs/sessions/contrib/sessions/browser/sessions.contribution": {
 			"agentSessions.view.label": "الجلسات",
-			"agentSessionsViewIcon": "رمز لعرض جلسات الوكيل",
-			"newSessionForRepo": "جلسة جديدة"
+			"agentSessionsViewIcon": "رمز لعرض جلسات الوكيل"
 		},
-		"vs/sessions/contrib/sessions/browser/sessionsManagementService": {
-			"isActiveSessionBackgroundProvider": "يشير إلى ما إذا كانت الجلسة النشطة تستخدم موفر وكيل الخلفية"
+		"vs/sessions/contrib/sessions/browser/sessionsActions": {
+			"newSession": "جلسة جديدة",
+			"recentSessions": "الجلسات الأخيرة",
+			"searchSessions": "جلسات البحث بالاسم",
+			"showSessionsPicker": "عرض محوّل الجلسة",
+			"untitledSession": "جلسة جديدة"
 		},
 		"vs/sessions/contrib/sessions/browser/sessionsTitleBarWidget": {
 			"agentSessions.newSession": "جلسة جديدة",
 			"agentSessionsControl": "جلسات الوكيل",
 			"agentSessionsShowSessions": "عرض الجلسات",
-			"showSessions": "عرض الجلسات"
+			"showSessions": "عرض الجلسات",
+			"toggleSidebarA11y": "تبديل الشريط الجانبي الأساسي",
+			"toggleSidebarUnread": "{0}، {1} جلسة (جلسات) غير مقروءة"
 		},
-		"vs/sessions/contrib/sessions/browser/sessionsViewPane": {
-			"chat.session.providerLabel.background": "Copilot CLI",
-			"closeSession": "تسجيل الخروج",
+		"vs/sessions/contrib/sessions/browser/views/sessionsList": {
+			"allowAction": "السماح",
+			"allowActionOnce": "السماح مرة واحدة",
+			"archived": "تم",
+			"failed": "فشل",
+			"lastSevenDays": "آخر 7 أيام",
+			"needsInput": "الدخول مطلوب",
+			"older": "أقدم",
+			"secondsDuration": "الآن",
+			"sessionItemAria": "{0}، {1} تم إنشاؤه",
+			"sessionsList": "الجلسات",
+			"showMoreAria": "عرض {0} ​​جلسات أخرى",
+			"showMoreCompact": "+{0} ​​​​أخرى (أخرى)",
+			"today": "اليوم",
+			"unknown": "غير معروف",
+			"working": "جاري المعالجة...",
+			"yesterday": "أمس"
+		},
+		"vs/sessions/contrib/sessions/browser/views/sessionsView": {
+			"filterArchived": "تم",
+			"filterRead": "القراءة",
+			"newCompact": "جديد",
+			"newSessionButtonAriaLabel": "جلسة جديدة ({0})",
+			"newSessionButtonAriaLabelWithoutKeybinding": "جلسة جديدة",
+			"newSessionButtonTitle": "جلسة جديدة ({0})",
+			"newSessionButtonTitleWithoutKeybinding": "جلسة جديدة",
+			"resetFilters": "إعادة تعيين",
+			"sessionsHeader": "الجلسات",
+			"statusCompleted": "تم",
+			"statusFailed": "فشل",
+			"statusInProgress": "قيد التقدم",
+			"statusNeedsInput": "الدخول مطلوب"
+		},
+		"vs/sessions/contrib/sessions/browser/views/sessionsViewActions": {
+			"addChat": "أضف محادثة",
+			"addChat.placeholder": "أدخل مطالبة للمحادثة الجديدة",
+			"addChat.prompt": "إضافة محادثة جديدة إلى الجلسة النشطة",
+			"archiveSection": "وضع علامة على الكل كمكتمل",
+			"archiveSectionSessions.archive": "وضع علامة على الكل كمكتمل",
+			"archiveSectionSessions.confirm": "هل أنت متأكد أنك تريد وضع علامة على {0} ​​​​ كمكتملة لجلسات \"{1}\"؟",
+			"archiveSectionSessions.confirmSingle": "هل أنت متأكد أنك تريد وضع علامة على جلسة واحدة من \"{0}\" كمكتملة؟",
+			"archiveSectionSessions.detail": "يمكنك استعادة الجلسات لاحقًا في عرض الجلسات، إذا لزم الأمر.",
+			"archiveSession": "وضع علامة كمكتملة",
+			"closeSession": "إغلاق الجلسة",
+			"doNotAskAgain": "لا تسأل مرة أخرى",
+			"doNotAskAgain2": "لا تسأل مرة أخرى",
 			"filter": "تصفية",
-			"filterAgentSessions": "تصفية الجلسات",
+			"filterSessions": "تصفية الجلسات",
 			"find": "ابحث عن جلسة",
-			"groupByProject": "المجموعة حسب المشروع",
-			"groupByTime": "المجموعة حسب الوقت",
-			"newSession": "جلسة جديدة",
+			"groupByTime": "تجميع حسب الوقت",
+			"groupByWorkspace": "تجميع حسب مساحة العمل",
+			"markAllRead": "وضع علامة على الكل كمقروءة",
+			"markAsDone": "وضع علامة كمكتمل",
+			"markRead": "وضع علامة كمقروءة",
+			"markUnread": "وضع علامة كغير مقروءة",
+			"newSessionForWorkspace": "جلسة جديدة",
+			"openInNewWindow": "فتح في نافذة جديدة",
+			"pinSession": "تثبيت",
 			"refresh": "تحديث الجلسات",
+			"renameSession": "إعادة تسمية...",
+			"renameSession.empty": "لا يمكن أن يكون العنوان فارغًا",
+			"renameSession.prompt": "عنوان جلسة الوكيل الجديدة",
+			"showAllSessions": "عرض كافة الجلسات",
+			"showRecentSessions": "عرض الجلسات الأخيرة",
 			"sortByCreated": "الترتيب حسب تاريخ الإنشاء",
-			"sortByUpdated": "الترتيب حسب تاريخ التحديث"
+			"sortByUpdated": "الترتيب حسب تاريخ التحديث",
+			"unarchiveSection": "استعادة كل شيء",
+			"unarchiveSectionSessions.confirm": "هل أنت متأكد أنك تريد استعادة جلسات {0} ​​​​؟",
+			"unarchiveSectionSessions.unarchive": "استعادة كل شيء",
+			"unarchiveSession": "استعادة",
+			"unpinSession": "إزالة التثبيت"
 		},
 		"vs/sessions/contrib/terminal/browser/sessionsTerminalContribution": {
 			"dumpTerminalTracking": "تفريغ تتبّع الطرفية",
@@ -3808,18 +4096,33 @@
 			"openInTerminal": "فتح الطرفية",
 			"showAllTerminals": "عرض كل الطرفيات"
 		},
+		"vs/sessions/contrib/welcome/browser/sessionsWalkthrough": {
+			"walkthrough.aria": "إعداد الوكيل",
+			"walkthrough.canceledError": "تم إلغاء الاتصال. يرجى المحاولة مرة أخرى.",
+			"walkthrough.disclaimer.end": "في أي وقت.",
+			"walkthrough.disclaimer.final": "الاقتراحات واستخدام بياناتك لتحسين المنتج. يمكنك تعديل هذه",
+			"walkthrough.disclaimer.middle": "و",
+			"walkthrough.disclaimer.prefix": "بالمتابعة، فإنك توافق على شروط وأحكام GitHub",
+			"walkthrough.disclaimer.privacy": "بيان الخصوصية",
+			"walkthrough.disclaimer.publicCode": "الكود العام",
+			"walkthrough.disclaimer.settings": "الإعدادات",
+			"walkthrough.disclaimer.suffix": ". قد يعرض GitHub Copilot",
+			"walkthrough.disclaimer.terms": "الشروط العامة",
+			"walkthrough.finishingSubtitle": "جارٍ التحضير... يرجى الانتظار.",
+			"walkthrough.poweredBy": "أكمل تسجيل الدخول في المتصفح.",
+			"walkthrough.restart": "إنهاء إعداد الوكيل",
+			"walkthrough.settingUp": "جارٍ الاتصال... يرجى الانتظار.",
+			"walkthrough.signInError": "حدثت مشكلة. يرجى المحاولة مرة أخرى.",
+			"walkthrough.signin.apple": "المتابعة باستخدام Apple",
+			"walkthrough.signin.enterprise": "المتابعة باستخدام {0}",
+			"walkthrough.signin.github": "المتابعة باستخدام GitHub",
+			"walkthrough.signin.google": "المتابعة باستخدام Google",
+			"walkthrough.signingIn": "جارٍ إكمال الإعداد... يرجى الانتظار.",
+			"walkthrough.step1.subtitle": "سجّل الدخول لمتابعة التطوير بمساعدة الوكيل.",
+			"walkthrough.step1.title": "مرحبًا بك في الوكلاء"
+		},
 		"vs/sessions/contrib/welcome/browser/welcome.contribution": {
-			"resetSessionsWelcome": "إعادة تعيين الجلسات إلى المنزل",
-			"sessions.getStarted": "البدء",
-			"sessions.restarting": "الانتهاء من التكوين...",
-			"sessions.settingUp": "التكوين قيد التقدم...",
-			"sessions.setupError": "حدثت مشكلة. يرجى المحاولة مرة أخرى.",
-			"sessions.signinRequired": "قم بتسجيل الدخول لاستخدام الجلسات",
-			"sessions.startUsingSessions": "البدء في استخدام الجلسات",
-			"sessionsWelcome.restart": "الانتهاء من تكوين الجلسة",
-			"welcomeOverlay.aria": "قم بتسجيل الدخول لاستخدام الجلسات",
-			"welcomeSubtitle": "التطوير الأمثل للوكيل",
-			"welcomeTitle": "قم بتسجيل الدخول لاستخدام الجلسات"
+			"resetSessionsWelcome": "إعادة تعيين الجلسات إلى المنزل"
 		},
 		"vs/code/electron-main/app": {
 			"cancel": "&&إلغاء",
@@ -4926,6 +5229,7 @@
 			"toggleEditorGroupLock": "حجم تبديل مجموعات المحرر",
 			"toggleJoinEditorInGroup": "تمكين/تعطيل المحرر المقسم في المجموعة",
 			"toggleModalEditorMaximized": "تبديل تكبير المحرر المشروط",
+			"toggleModalEditorSidebar": "تمكين/تعطيل الشريط الجانبي لمحرر الحوار المشروط",
 			"toggleSplitEditorInGroupLayout": "تبديل تخطيط المحرر المقسم في المجموعة",
 			"unlockEditorGroup": "فتح مجموعة المحرر"
 		},
@@ -5061,7 +5365,8 @@
 			"modalEditorPart": "منطقة محرر مشروط",
 			"navigationCounter": "{0} من {1}",
 			"nextItem": "التالي",
-			"previousItem": "السابق"
+			"previousItem": "السابق",
+			"toggleSidebar": "تمكين/تعطيل الشريط الجانبي"
 		},
 		"vs/workbench/browser/parts/editor/multiEditorTabsControl": {
 			"ariaLabelTabActions": "إجراءات علامة التبويب"
@@ -5434,7 +5739,6 @@
 			"menuBarVisibility": "التحكم في رؤية شريط القوائم. يعني إعداد \"التبديل\" أن شريط القائمة مخفي وأن الضغط مرة واحدة على مفتاح Alt يعرضه. يقوم الإعداد \"المضغوط\" بنقل القائمة إلى الشريط الجانبي.",
 			"menuBarVisibility.mac": "التحكم في رؤية شريط القوائم. يعني إعداد \"التبديل\" أن شريط القائمة مخفي وأن تشغيل \"التركيز على قائمة التطبيق\" يعرضه. يقوم الإعداد \"المضغوط\" بنقل القائمة إلى الشريط الجانبي.",
 			"mergeWindow": "قم بتكوين فاصل زمني بالثواني يتم خلاله استبدال الإدخال الأخير في سجل الملفات المحلي بالإدخال الذي تتم إضافته. ويساعد هذا في تقليل العدد الإجمالي للإدخالات التي تتم إضافتها، على سبيل المثال عند تمكين الحفظ التلقائي. يتم تطبيق هذا الإعداد فقط على الإدخالات التي لها نفس المصدر الأصلي. ليس لتغيير هذا الإعداد أي تأثير على إدخالات محفوظات الملفات المحلية الموجودة.",
-			"modalMinWidth": "يتحكم في الحد الأدنى لعرض البكسل للتراكبات المشروطة للمحرر.",
 			"mouseBackForwardToNavigate": "يتيح استخدام زري الماوس الرابع والخامس لأوامر \"الخلف\" و\"الأمام\".",
 			"navigationControlEnabled": "التحكم في ما إذا كان سيتم عرض عنصر التحكم في التنقل في شريط العنوان المخصص. يكون لهذا الإعداد تأثير فقط عندما لا يتم تعيين {0} على {1}.",
 			"navigationControlEnabledWeb": "التحكم في عرض عنصر تحكم التنقل في شريط العنوان.",
@@ -5671,6 +5975,8 @@
 			"editorPartModal": "يشير إلى ما إذا كان التركيز موجودًا في جزء من محرر الوسائط",
 			"editorPartModalMaximized": "يشير إلى ما إذا كان جزء محرر الوسائط قد تم تكبيره أم لا",
 			"editorPartModalNavigation": "يشير إلى ما إذا كان الجزء المشروط من المحرر يحتوي على سياق تنقل",
+			"editorPartModalSidebar": "يشير إلى ما إذا كان جزء المحرر في مربع الحوار المشروط يحتوي على شريط جانبي",
+			"editorPartModalSidebarVisible": "يشير إلى ما إذا كان الشريط الجانبي لجزء محرر الحوار المشروط مرئيًا",
 			"editorPartMultipleEditorGroups": "يوضح ما إذا كانت هناك مجموعات محرر متعددة مفتوحة في مكون المحرر",
 			"editorTabsVisible": "يوضح ما إذا كانت علامات تبويب المحرر مرئية أم لا",
 			"embedderIdentifier": "معرف التضمين وفقًا لخدمة المنتج، إذا تم تعريف معرف",
@@ -5911,6 +6217,11 @@
 			"revealUserDataFolder": "الكشف عن مجلد بيانات المستخدم",
 			"showContentTracing": "عرض تتبع المحتوى",
 			"showGPUInfo": "عرض معلومات حول معالج الرسومي",
+			"startTracing": "ابدأ بالتتبع",
+			"startTracing.ariaLabel": "تسجيل تتبع مستوى الأداء. انقر لإيقاف التسجيل.",
+			"startTracing.name": "تتبع مستوى الأداء",
+			"startTracing.recording": "تتبع التسجيل (انقر للإيقاف)",
+			"startTracing.tooltip": "انقر لإيقاف التسجيل",
 			"stopTracing": "إيقاف التتبع",
 			"stopTracing.button": "&&إعادة التشغيل وتفعيل التتبع",
 			"stopTracing.detail": "قد تستغرق هذه العملية حتى دقيقة واحدة.",
@@ -6230,6 +6541,7 @@
 			"verbosity.notification": "قم بتوفير معلومات حول فتح الإشعار في طريقة عرض يمكن الوصول إليها.",
 			"verbosity.replEditor.description": "يوفر معلومات حول كيفية الوصول إلى قائمة المساعدة الخاصة بإمكانية الوصول إلى محرر REPL عندما يكون محرر REPL في نطاق التركيز.",
 			"verbosity.scm": "قم بتوفير معلومات حول كيفية الوصول إلى قائمة المساعدة الخاصة بإمكانية الوصول إلى التحكم بالمصدر عند تمكين الكتابة.",
+			"verbosity.sessionsChat": "يوفر معلومات حول كيفية الوصول إلى قائمة إرشادات إمكانية الوصول إلى تطبيق الوكلاء عندما يكون لحقل إدخال المحادثة الأولوية.",
 			"verbosity.terminal.description": "قم بتوفير معلومات حول كيفية الوصول إلى قائمة المساعدة الخاصة بإمكانية الوصول إلى الجهاز عند تمكين الجهاز.",
 			"verbosity.terminalChatOutput.description": "قم بتوفير معلومات حول كيفية فتح مخرجات محطة الدردشة في طريقة عرض يمكن الوصول إليها.",
 			"verbosity.walkthrough": "توفير معلومات حول كيفية فتح العرض التقديمي في طريقة عرض يمكن الوصول إليها.",
@@ -6444,6 +6756,7 @@
 			"browser.editorLabel": "المتصفح"
 		},
 		"vs/workbench/contrib/browserView/common/browserView": {
+			"browserView.shareBlocked.title": "غير قادر على المشاركة مع الوكيل",
 			"browserView.shareWithAgent.allow": "&&السماح",
 			"browserView.shareWithAgent.deny": "رفض",
 			"browserView.shareWithAgent.detail": "سيتمكن المساعد من قراءة وتعديل محتوى المتصفح بالإضافة إلى البيانات المخزنة، بما في ذلك ملفات تعريف الارتباط.",
@@ -6509,6 +6822,10 @@
 			"browser.addConsoleLogsToChatAction": "إضافة سجلات وحدة التحكم إلى الدردشة",
 			"browser.addElementToChatAction": "إضافة عنصر إلى الدردشة",
 			"browser.addFocusedElementToChat": "أضف العنصر المستهدف إلى الدردشة",
+			"browser.agentSharingContentWarning.detail": "قد تحتوي الصفحات على استعلامات مخفية يمكن أن تؤثر على سلوك الوكيل. يرجى التحقق من المحتوى المرفق بعناية قبل إرساله.",
+			"browser.agentSharingContentWarning.dontShowAgain": "عدم العرض مرة أخرى",
+			"browser.agentSharingContentWarning.message": "كن حذرًا عند إرفاق محتوى من مصادر غير معتمدة.",
+			"browser.agentSharingContentWarning.ok": "&&موافق",
 			"browser.elementSelectionActive": "يشير إلى ما إذا كان تحديد العنصر نشطًا",
 			"browser.enableChatTools": "عند التمكين، يمكن لمساعدي الدردشة استخدام أدوات المتصفح لفتح الصفحات والتفاعل معها في المتصفح المدمج.",
 			"browser.shareWithAgent": "المشاركة مع المساعد",
@@ -6543,6 +6860,7 @@
 			"browser.editorOpen": "يشير إلى ما إذا كان محرر المتصفح مفتوحًا حاليًا",
 			"browser.newTabAction": "علامة تبويب جديدة",
 			"browser.openAction": "افتح المتصفح المدمج",
+			"browser.openFromViewMenuAction": "المتصفح",
 			"browser.openLocalhostLinks": "عند التمكين، يتم فتح روابط المضيف المحلي من الطرفية والدردشة والمصادر الأخرى في المتصفح المدمج بدلًا من متصفح النظام.",
 			"browser.openNewTab": "علامة تبويب جديدة في المتصفح المضمّن",
 			"browser.quickOpenAction": "الفتح السريع لعلامات تبويب المتصفح...",
@@ -6552,6 +6870,7 @@
 			"browser.showInTitleBar.true": "يظهر الزر دائمًا في شريط العنوان.",
 			"browser.showInTitleBar.whenOpen": "يظهر الزر في شريط العنوان عندما يكون محرر المتصفح مفتوحًا.",
 			"browserEntryAriaLabelWithGroup": "{0}, {1}",
+			"miOpenBrowser": "&&المتصفح",
 			"toggle.browser": "المتصفح المضمّن",
 			"toggle.browserDescription": "تمكين/تعطيل ظهور زر المتصفح المضمّن في شريط العنوان"
 		},
@@ -6562,13 +6881,24 @@
 			"browser.certRevoke": "إبطال وإغلاق",
 			"browser.notSecure": "غير آمن"
 		},
+		"vs/workbench/contrib/browserView/electron-browser/tools/browserToolHelpers": {
+			"browser.blockedByPolicy": "تم حظره بواسطة سياسة مجال الشبكة",
+			"browser.element": "عنصر",
+			"browser.open.alreadyOpen": "مفتوح بالفعل: {0}"
+		},
 		"vs/workbench/contrib/browserView/electron-browser/tools/browserTools.contribution": {
 			"browserContext.label": "صفحات المتصفح",
 			"browserToolSet.description": "افتح صفحات المتصفح المضمنة وتفاعل معها"
 		},
 		"vs/workbench/contrib/browserView/electron-browser/tools/clickBrowserTool": {
 			"browser.click.invocation": "انقر فوق أحد العناصر في المتصفح",
+			"browser.click.invocation.middle": "انقر بزر الماوس الأوسط على {0} ​​​​في {1}",
+			"browser.click.invocation.right": "انقر بزر الماوس الأيمن على {0} ​​في {1}",
 			"browser.click.past": "العنصر الذي تم النقر عليه في المتصفح",
+			"browser.click.past.middle": "انقر بزر الماوس الأوسط على {0} ​​​​في {1}",
+			"browser.click.past.right": "انقر بزر الماوس الأيمن على {0} ​​في {1}",
+			"browser.dblClick.invocation": "انقر نقرًا مزدوجًا على {0} ​​​​في {1}",
+			"browser.dblClick.past": "انقر نقرًا مزدوجًا على {0} ​​​​في {1}",
 			"clickBrowserTool.displayName": "انقر على العنصر",
 			"clickBrowserTool.userDescription": "انقر فوق عنصر في صفحة المتصفح"
 		},
@@ -6609,6 +6939,7 @@
 			"browser.open.confirmTitle": "فتح صفحة المتصفح؟",
 			"browser.open.invocation": "فتح صفحة المتصفح على {0}",
 			"browser.open.past": "صفحة المتصفح مفتوحة على {0}",
+			"browser.open.result": "تم الافتتاح من {0}",
 			"openBrowserTool.displayName": "افتح صفحة المتصفح",
 			"openBrowserTool.userDescription": "افتح عنوان URL في المتصفح المدمج"
 		},
@@ -6616,7 +6947,8 @@
 			"browser.open.nonAgentic.confirmMessage": "سيؤدي هذا إلى فتح {0} في المتصفح المدمج. لن يتمكن المساعد من قراءة محتواه.",
 			"browser.open.nonAgentic.confirmTitle": "فتح صفحة المتصفح؟",
 			"browser.open.nonAgentic.invocation": "فتح صفحة المتصفح على {0}",
-			"browser.open.nonAgentic.past": "صفحة المتصفح مفتوحة على {0}"
+			"browser.open.nonAgentic.past": "صفحة المتصفح مفتوحة على {0}",
+			"browser.open.nonAgentic.result": "تم الافتتاح من {0}"
 		},
 		"vs/workbench/contrib/browserView/electron-browser/tools/readBrowserTool": {
 			"browser.read.invocation": "قراءة {0}",
@@ -6628,22 +6960,29 @@
 			"browser.runCode.confirmDisclaimer": "تأكد من أنك تثق في الكود قبل المتابعة.",
 			"browser.runCode.confirmTitle": "تشغيل رمز الكاتب المسرحي؟",
 			"browser.runCode.invocation": "تشغيل كود الكاتب المسرحي...",
-			"browser.runCode.outputLabel": "النتيجة:",
 			"browser.runCode.past": "تم تنفيذ كود الكاتب المسرحي",
+			"browser.runCode.waitInvocation": "في انتظار اكتمال رمز Playwright...",
+			"browser.runCode.waitPast": "انتظر رمز الكاتب المسرحي",
 			"runPlaywrightCodeTool.displayName": "تشغيل كود الكاتب المسرحي",
 			"runPlaywrightCodeTool.userDescription": "قم بتشغيل مقتطف التعليمات البرمجية للكاتب المسرحي على صفحة المتصفح"
 		},
 		"vs/workbench/contrib/browserView/electron-browser/tools/screenshotBrowserTool": {
 			"browser.screenshot.invocation": "التقاط لقطة شاشة للمتصفح",
+			"browser.screenshot.invocation.element": "لقطة شاشة من {0}",
 			"browser.screenshot.past": "لقطة شاشة للمتصفح",
+			"browser.screenshot.past.element": "لقطة شاشة مأخوذة من {0}",
 			"screenshotBrowserTool.displayName": "صفحة لقطة الشاشة",
 			"screenshotBrowserTool.userDescription": "التقاط لقطة شاشة لصفحة المتصفح"
 		},
 		"vs/workbench/contrib/browserView/electron-browser/tools/typeBrowserTool": {
 			"browser.pressKey.invocation": "اضغط على مفتاح {0} في المتصفح",
+			"browser.pressKey.invocation.element": "الضغط على مفتاح `{0}` ​​​​في {1} لـ {2}",
 			"browser.pressKey.past": "اضغط على مفتاح {0} في المتصفح",
+			"browser.pressKey.past.element": "تم الضغط على مفتاح `{0}` ​​في {1} لـ {2}",
 			"browser.type.invocation": "إدخال النص في المتصفح",
+			"browser.type.invocation.element": "إدخال النص في {0} ​​​​من {1}",
 			"browser.type.past": "تم إدخال النص في المتصفح",
+			"browser.type.past.element": "تم إدخال النص في {0} ​​​​من {1}",
 			"typeBrowserTool.displayName": "أدخل النص على الصفحة",
 			"typeBrowserTool.userDescription": "أدخل نصًا أو اضغط على المفاتيح في صفحة المتصفح"
 		},
@@ -6858,7 +7197,6 @@
 			"chatAndCompletionsQuotaExceeded": "لقد وصلت إلى الحد الشهري من رسائل الدردشة واقتراحات الإكمال المضمنة.",
 			"chatQuotaExceeded": "لقد وصلت إلى الحد الشهري من رسائل الدردشة. لا تزال لديك اقتراحات إكمال مضمنة مجانية.",
 			"completionsQuotaExceeded": "لقد وصلت إلى الحد الشهري من اقتراحات الإكمال المضمنة. لا تزال رسائل الدردشة المجانية متاحة.",
-			"config.label": "تكوين الدردشة",
 			"configureCompletions": "تكوين اقتراحات الإكمال المضمن...",
 			"copilotQuotaReached": "تم الوصول إلى حد استخدام GitHub Copilot",
 			"dismiss": "تجاهل",
@@ -6925,8 +7263,9 @@
 		"vs/workbench/contrib/chat/browser/actions/chatContext": {
 			"chatContext.attachScreenshot.labelElectron.Window": "نافذة لقطة الشاشة",
 			"chatContext.attachScreenshot.labelWeb": "لقطة شاشة",
-			"chatContext.debugEventsSnapshot": "لقطة من أحداث التصحيح",
 			"chatContext.editors": "فتح المحررات",
+			"chatContext.sessions": "الجلسات...",
+			"chatContext.sessions.placeholder": "حدد جلسة",
 			"chatContext.tools": "الأدوات...",
 			"chatContext.tools.placeholder": "اختر أداة",
 			"imageFromClipboard": "صورة من الحافظة",
@@ -6953,11 +7292,13 @@
 		"vs/workbench/contrib/chat/browser/actions/chatCopyActions": {
 			"chat.copyKatexMathSource.label": "نسخ المصدر الرياضي",
 			"interactive.copyAll.label": "نسخ الكل",
+			"interactive.copyFinalResponse.label": "انسخ الإجابة النهائية",
 			"interactive.copyItem.label": "نسخ"
 		},
 		"vs/workbench/contrib/chat/browser/actions/chatDeveloperActions": {
 			"workbench.action.chat.clearRecentlyUsedLanguageModels.label": "مسح أنماط اللغة المستخدمة مؤخرًا",
 			"workbench.action.chat.inspectChatModel.label": "فحص قالب الدردشة",
+			"workbench.action.chat.inspectChatModelReferences.label": "فحص مراجع نماذج المحادثة",
 			"workbench.action.chat.logChatIndex.label": "تسجيل فهرس الدردشة",
 			"workbench.action.chat.logInputHistory.label": "تسجيل سجل مدخلات الدردشة"
 		},
@@ -7154,6 +7495,28 @@
 			"newUntitledFile": "محرر جديد بدون عنوان",
 			"selectOption": "تحديد موقع تطبيق كتلة الكود"
 		},
+		"vs/workbench/contrib/chat/browser/actions/createPluginAction": {
+			"agents": "الوكلاء",
+			"chat.createPlugin": "إنشاء الملحق",
+			"createPluginTitle": "إنشاء الملحق",
+			"hooks": "خطافات",
+			"instructions": "الإرشادات",
+			"mcpServers": "خوادم MCP",
+			"pluginCreateError": "لم نتمكن من إنشاء الملحق: {0}",
+			"pluginCreated": "تم إنشاء الملحق \"{0}\" بنجاح.",
+			"pluginExists": "يوجد دليل يسمى \"{0}\" بالفعل في هذا الموقع. الرجاء اختيار اسم أو موقع آخر.",
+			"pluginNameConsecutive": "يجب ألا يحتوي اسم الملحق على واصلات أو فترات متتالية.",
+			"pluginNameInvalid": "يجب أن تحتوي أسماء المجموعات على أحرف أبجدية رقمية صغيرة وواصلات ونقاط فقط. ويجب أن تبدأ وتنتهي بحرف أبجدي رقمي.",
+			"pluginNamePrompt": "أدخل اسمًا للمكون الإضافي",
+			"pluginNameRequired": "اسم الملحق مطلوب.",
+			"pluginNameTooLong": "يجب أن يكون اسم الملحق 64 حرفا أو أقل.",
+			"prompts": "الاستعلامات",
+			"selectFolder": "حدد مجلدًا",
+			"selectPluginLocation": "حدد مكان حفظ الملحق",
+			"selectResources": "حدد الموارد لتضمينها في الملحق",
+			"showAll": "عرض الموارد المضمنة والإضافات والمكونات الإضافية",
+			"skills": "المهارات"
+		},
 		"vs/workbench/contrib/chat/browser/agentPluginActions": {
 			"disable": "تعطيل",
 			"disableForWorkspace": "تعطيل (مساحة العمل)",
@@ -7193,8 +7556,13 @@
 			"noAgentPlugins": "لم يتم العثور على أي مكونات إضافية للمعالج.",
 			"update": "تحديث"
 		},
+		"vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostEditingSession": {
+			"multiDiffEditorInput.name": "التعديلات المقترحة"
+		},
 		"vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionHandler": {
-			"agentHost.authRequired": "المصادقة مطلوبة لبدء الجلسة. الرجاء تسجيل الدخول مرة أخرى والمحاولة مرة أخرى."
+			"agentHost.authRequired": "المصادقة مطلوبة لبدء الجلسة. الرجاء تسجيل الدخول مرة أخرى والمحاولة مرة أخرى.",
+			"chat.forked.fallbackTitle": "جلسة مكررة",
+			"chat.forked.title": "مكررة: {0}"
 		},
 		"vs/workbench/contrib/chat/browser/agentSessions/agentSessionHoverWidget": {
 			"agentSessionCompleted": "تم",
@@ -7275,7 +7643,6 @@
 			"unarchive": "إلغاء الأرشفة",
 			"unarchiveSection": "إلغاء أرشفة الكل",
 			"unarchiveSectionSessions.confirm": "هل أنت متأكد أنك تريد إلغاء أرشفة جلسات وكيل {0}؟",
-			"unarchiveSectionSessions.confirmSingle": "هل أنت متأكد أنك تريد إلغاء أرشفة جلسة وكيل واحدة؟",
 			"unarchiveSectionSessions.unarchive": "إلغاء أرشفة الكل",
 			"unpin": "إزالة التثبيت"
 		},
@@ -7314,14 +7681,20 @@
 			"agentSessionInProgress": "قيد التقدم",
 			"agentSessionItemAriaLabel": "جلسة {0} {1} ({2})، تم إنشاؤها على {3}",
 			"agentSessionNeedsInput": "يتطلب الدخول",
-			"agentSessionSectionAriaLabel": "قسم جلسات {0}، جلسات {1}",
-			"agentSessions": "جلسات المساعد",
+			"agentSessionSectionAriaLabel.plural": "{0} ​​قسم الجلسات، {1} قسم الجلسات",
+			"agentSessionSectionAriaLabel.singular": "{0} ​​​​قسم الجلسة، {1} الجلسة",
+			"agentSessionShowLessAriaLabel": "عرض جلسات أقل",
+			"agentSessionShowMoreAriaLabel": "عرض {0} ​​جلسات أخرى",
+			"agentSessions": "جلسات مساعده",
 			"agentSessions.archivedSection": "مؤرشف",
 			"agentSessions.dragLabel": "{0} جلسات مساعد",
 			"agentSessions.moreSection": "المزيد",
 			"agentSessions.noRepository": "أخرى",
 			"agentSessions.olderSection": "أقدم",
 			"agentSessions.pinnedSection": "مثبت",
+			"agentSessions.showLess": "إظهار المزيد",
+			"agentSessions.showMore": "عرض {0} ​​المزيد...",
+			"agentSessions.showMoreCompact": "+{0} ​​​​أخرى (أخرى)",
 			"agentSessions.todaySection": "اليوم",
 			"agentSessions.weekSection": "آخر 7 أيام",
 			"agentSessions.yesterdaySection": "أمس",
@@ -7441,12 +7814,14 @@
 			"alwaysAddedTooltip": "يتم تضمين هذه التعليمات تلقائيًا في كل تفاعل.",
 			"builtinGroup": "متكامل",
 			"builtinGroupDescription": "التخصيصات المضمنة التي تأتي مع التطبيق.",
+			"builtinSource": "متكامل",
 			"collapsed": "مطوي",
+			"configureHooks": "تكوين الخطافات",
+			"configureHooksDisabled": "افتح مجلد مساحة العمل لتكوين الخطافات.",
 			"contextInstructionsGroup": "وشملت اعتمادا على السياق",
 			"contextInstructionsGroupDescription": "يتم تحميل التعليمات تلقائيًا عندما تكون الملفات المقابلة جزءًا من السياق.",
 			"copyFullPath": "نسخ المسار الكامل",
 			"copyRelativePath": "نسخ المسار النسبي",
-			"createDisabled": "افتح مجلد مساحة عمل لإنشاء التخصيصات.",
 			"createFirstAgent": "قم بإنشاء المعالج المخصص الأول للبدء",
 			"createFirstHook": "قم بإنشاء خطافات لتنفيذ الأوامر أثناء أحداث دورة حياة الوكيل",
 			"createFirstInstructions": "أضف تعليمات لتعليم Copilot حول قاعدة التعليمات البرمجية الخاصة بك",
@@ -7455,6 +7830,7 @@
 			"expanded": "المتقدمة",
 			"extensionGroup": "ملحقات",
 			"extensionGroupDescription": "تخصيصات للقراءة فقط توفرها الإضافات المثبتة.",
+			"fromExtension": "الإضافة: {0}",
 			"fromPlugin": "البرنامج المساعد: {0}",
 			"groupAriaLabel": "{0}، العناصر {1}، {2}",
 			"hook": "هوك",
@@ -7470,6 +7846,8 @@
 			"learnMorePrompts": "تعرف على المزيد حول ملفات الاستعلام",
 			"learnMoreSkills": "تعرف على المزيد حول مهارات المساعد",
 			"listAriaLabel": "تخصيصات الدردشة",
+			"localGroup": "محلي",
+			"localGroupDescription": "التخصيصات المحلية المتاحة للمزامنة مع الوكيل البعيد.",
 			"noAgents": "لا يوجد مساعدين في الوقت الراهن",
 			"noHooks": "لا توجد خطافات حاليًا",
 			"noInstructions": "لا توجد تعليمات حتى الآن",
@@ -7486,7 +7864,10 @@
 			"searchPlaceholder": "اضغط للبحث...",
 			"skill": "مهارة",
 			"skillsDescription": "مجلدات التعليمات والبرامج النصية والموارد التي يقوم Copilot بتحميلها عندما تكون ذات صلة بأداء مهام متخصصة.",
+			"syncItem": "أضف {0} ​​للمزامنة",
 			"tryDifferentSearch": "حاول استخدام مصطلح بحث مختلف",
+			"uiIntegrationBadge": "تكامل واجهة المستخدم",
+			"unsyncItem": "قم بإزالة {0} ​​​​من التطبيق",
 			"userGroup": "المستخدم",
 			"userGroupDescription": "التخصيصات المخزنة محليًا على جهازك في موقع مركزي. خاص ويمكن الوصول إليه في جميع مشاريعك.",
 			"workspaceGroup": "مساحة العمل",
@@ -7494,7 +7875,8 @@
 		},
 		"vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagement": {
 			"aiCustomizationManagementEditorFocused": "يشير إلى ما إذا كان محرر تخصيصات الدردشة مستهدفًا أم لا",
-			"aiCustomizationManagementSection": "القسم المحدد حاليًا في محرر تخصيصات الدردشة"
+			"chatCustomizationSection": "القسم المحدد حاليًا في محرر تخصيصات الوكيل",
+			"chatCustomizationSessionType": "الحزام النشط (نوع الجلسة) في محرر تخصيصات الوكيل"
 		},
 		"vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagement.contribution": {
 			"aiCustomizationManagementEditor": "محرر تخصيص الدردشة",
@@ -7505,16 +7887,21 @@
 			"cannotDeletePluginItemDetail": "لا يمكنك حذف المكونات الفردية للمكون الإضافي بشكل منفصل. هل تريد إلغاء تثبيت البرنامج المساعد بأكمله؟",
 			"confirmDelete": "هل أنت متأكد أنك تريد إزالة \"{0}\"؟",
 			"confirmDeleteDetail": "من المستحيل التراجع عن هذا الإجراء.",
+			"confirmDeleteHook": "هل أنت متأكد أنك تريد إزالة القوس \"{0}\"؟",
 			"confirmDeleteSkill": "هل أنت متأكد أنك تريد حذف المهارة \"{0}\" والمجلد الخاص بها؟",
 			"confirmUninstallPlugin": "يتم توفير هذا العنصر بواسطة البرنامج المساعد \"{0}\".",
 			"confirmUninstallPluginDetail": "لا يمكنك حذف المكونات الفردية للمكون الإضافي بشكل منفصل. هل تريد إلغاء تثبيت البرنامج المساعد بأكمله؟",
 			"copyPath": "نسخ المسار",
 			"delete": "حذف",
+			"deleteHookItemFailed": "لا يمكننا إزالة إدخال الارتباط هذا لأن محتويات الملف قد تغيرت.",
+			"deleteHookItemFailedDetail": "قم بتحديث الشاشة وحاول مرة أخرى.",
 			"disable": "تعطيل",
 			"enable": "تفعيل",
+			"generateDebugReport": "إنشاء تقرير تصحيح التخصيصات",
 			"open": "مفتوح",
 			"openAICustomizations": "فتح التخصيصات (معاينة)",
 			"openContainer": "افتح المجلد الذي يحتوي على",
+			"openMarketplace": "افتح السوق",
 			"readonlyPluginFile": "يتم توفير هذا الملف بواسطة مكون إضافي أو ملحق ولا يمكنك تعديله.",
 			"revealInMac": "كشف في الباحث",
 			"revealInWindows": "تظهر في مستكشف الملفات",
@@ -7524,41 +7911,96 @@
 			"uninstallPluginBtn": "قم بإلغاء تثبيت البرنامج المساعد"
 		},
 		"vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditor": {
-			"agents": "مساعدين",
-			"aiCustomizationManagementSashBorder": "محرر Splitview مائل لون الحدود إدارة تخصيص الدردشة.",
+			"agents": "الوكلاء",
+			"agentsDesc": "عرّف وكلاء مخصصين بشخصيات متخصصة مع إمكانية الوصول إلى الأدوات والإرشادات الخاصة بمهام محددة.",
+			"aiCustomizationManagementSashBorder": "لون حد الفاصل في محرر إدارة تخصيصات الدردشة.",
 			"backToList": "العودة إلى القائمة",
+			"backToListTooltip": "العودة إلى القائمة",
 			"backToMcpList": "العودة إلى خوادم MCP",
+			"backToMcpListTooltip": "العودة إلى خوادم MCP",
 			"backToPluginList": "العودة إلى الإضافات",
-			"browseFolder": "تصفح المجلد",
+			"backToPluginListTooltip": "العودة إلى الإضافات",
 			"cancelSaveTarget": "إلغاء",
-			"clearFolderOverride": "استعادة مجلد الجلسة",
 			"editorActionButtonFailed": "فشل تنفيذ الإجراء المطلوب.",
+			"homeButton": "نظرة عامة",
+			"homeButtonTooltip": "العودة إلى النظرة العامة",
 			"hooks": "خطافات",
+			"hooksDesc": "هيّئ الإجراءات التلقائية التي تُشغَّل عند وقوع أحداث مثل حفظ الملفات أو تشغيل المهام.",
 			"instructions": "تعليمات",
-			"learnMoreModels": "تعلم المزيد عن نماذج اللغة",
+			"instructionsDesc": "اضبط إرشادات دائمة توجه سلوك الذكاء الاصطناعي في مساحة العمل أو ملف تعريف المستخدم.",
+			"learnMoreModels": "تعرّف على المزيد حول نماذج اللغة",
 			"mcpServers": "خوادم MCP",
-			"models": "نماذج",
+			"mcpServersDesc": "صِل خوادم الأدوات الخارجية التي توسّع قدرات الذكاء الاصطناعي باستخدام أدوات مخصصة ومصادر بيانات.",
+			"models": "النماذج",
+			"modelsDesc": "هيّئ نماذج اللغة المتاحة وأدرها.",
 			"modelsDescription": "تصفح نماذج اللغة وإدارتها من موفري خدمات مختلفين. حدد القوالب لاستخدامها في الدردشة وإكمال التعليمات البرمجية وميزات الذكاء الاصطناعي الأخرى.",
-			"noFolder": "لا توجد ملفات",
+			"overview": "نظرة عامة",
 			"plugins": "الإضافات",
+			"pluginsDesc": "ثبّت ملحقات الوكلاء وأدرها لإضافة أدوات ومهارات وعمليات تكامل إضافية.",
 			"prompts": "الاستعلامات",
-			"saveBuiltinCopyAndChooseLocation": "حفظ النفقات العامة",
-			"saveBuiltinCopyAndChooseLocationTooltip": "حفظ الاستبدال (اختر مساحة العمل، أو المستخدم، أو إلغاء)",
-			"saveBuiltinCopyFailedUser": "غير قادر على حفظ التحميل الزائد في مجلد المستخدم الخاص بك.",
-			"saveBuiltinCopyFailedWorkspace": "غير قادر على حفظ التحميل الزائد في مساحة العمل.",
+			"promptsDesc": "قوالب مطالبات قابلة لإعادة الاستخدام يمكن استدعاؤها كأوامر مائلة.",
+			"saveBuiltinCopyAndChooseLocation": "حفظ نسخة مخصصة",
+			"saveBuiltinCopyAndChooseLocationTooltip": "احفظ نسخة مخصصة واختر مساحة العمل أو المستخدم أو الإلغاء",
+			"saveBuiltinCopyFailedUser": "تعذر حفظ النسخة المخصصة في مجلد المستخدم.",
+			"saveBuiltinCopyFailedWorkspace": "تعذر حفظ النسخة المخصصة في مساحة العمل.",
 			"saveBuiltinCopyPlaceholder": "حدد مساحة العمل أو المستخدم أو إلغاء الأمر",
 			"saveCustomizationOnExitFailed": "فشل حفظ التغييرات على {0}.",
-			"saved": "مسجل",
+			"saved": "تم الحفظ",
 			"sectionsAriaLabel": "أقسام تخصيص الدردشة",
-			"selectFolder": "حدد المجلد لاستكشافه",
-			"selectHarness": "حدد هدف التخصيص",
+			"selectHarness": "حدد موقع التخصيص",
 			"selectTargetDirectory": "حدد دليلاً لملف التخصيص الجديد",
 			"skills": "المهارات",
+			"skillsDesc": "أنشئ ملفات مهارات قابلة لإعادة الاستخدام توفر معرفة متخصصة ومسارات عمل خاصة بالمجال.",
 			"userSaveTarget": "المستخدم",
 			"workspaceSaveTarget": "مساحة العمل"
 		},
 		"vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationManagementEditorInput": {
 			"aiCustomizationManagementEditorName": "تخصيصات الدردشة"
+		},
+		"vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationWelcomePageClassic": {
+			"agents": "الوكلاء",
+			"agentsDesc": "تعريف الوكلاء المخصصين بشخصيات متخصصة، وإمكانية الوصول إلى الأدوات والتعليمات الخاصة بمهام محددة.",
+			"browse": "تصفح",
+			"generateWithAI": "إنشاء باستخدام الذكاء الاصطناعي",
+			"gettingStartedDesc": "قم بوصف مشروعك وأنماط الترميز. Copilot ​​​​سيقوم بإنشاء وكلاء ومهارات وتعليمات مصممة خصيصًا لسير العمل الخاص بك.",
+			"gettingStartedTitle": "قم بتكوين الذكاء الاصطناعي الخاص بك",
+			"hooks": "الخطافات",
+			"hooksDesc": "قم بتكوين الإجراءات التلقائية التي يتم تشغيلها بواسطة أحداث مثل حفظ الملفات أو تشغيل المهام.",
+			"instructions": "الإرشادات",
+			"instructionsDesc": "قم بتعيين التعليمات الدائمة التي توجه سلوك الذكاء الاصطناعي في مساحة العمل أو ملف تعريف المستخدم الخاص بك.",
+			"mcpServers": "خوادم MCP",
+			"mcpServersDesc": "قم بتوصيل خوادم الأدوات الخارجية التي تعمل على توسيع إمكانيات الذكاء الاصطناعي باستخدام الأدوات المخصصة ومصادر البيانات.",
+			"plugins": "الإضافات",
+			"pluginsDesc": "تثبيت وإدارة المكونات الإضافية للوكيل التي تضيف أدوات ومهارات وعمليات تكامل إضافية.",
+			"skills": "المهارات",
+			"skillsDesc": "قم بإنشاء ملفات مهارات قابلة لإعادة الاستخدام توفر المعرفة وسير العمل الخاصة بالمجال.",
+			"welcomeHeading": "تخصيصات المحادثة",
+			"welcomeSubtitle": "قم بتخصيص كيفية عمل الوكلاء في مشاريعك. قم بإعداد تخصيصات مساحة العمل للفريق بأكمله أو قم بإنشاء تخصيصات شخصية تنقلك من مشروع إلى آخر."
+		},
+		"vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationWelcomePagePromptLaunchers": {
+			"agents": "الوكلاء",
+			"agentsDesc": "تعريف الوكلاء المخصصين بشخصيات متخصصة، وإمكانية الوصول إلى الأدوات والتعليمات الخاصة بمهام محددة.",
+			"browse": "تصفح...",
+			"gettingStartedDesc": "صف تفضيلاتك واتفاقياتك لتصميم الوكلاء والمهارات والتعليمات.",
+			"gettingStartedTitle": "تخصيص الوكيل الخاص بك",
+			"hooks": "الخطافات",
+			"hooksDesc": "قم بتكوين الإجراءات التلقائية التي يتم تشغيلها بواسطة أحداث مثل حفظ الملفات أو تشغيل المهام.",
+			"instructions": "الإرشادات",
+			"instructionsDesc": "قم بتعيين التعليمات الدائمة التي توجه سلوك الذكاء الاصطناعي في مساحة العمل أو ملف تعريف المستخدم الخاص بك.",
+			"mcpServers": "خوادم MCP",
+			"mcpServersDesc": "قم بتوصيل خوادم الأدوات الخارجية التي تعمل على توسيع إمكانيات الذكاء الاصطناعي باستخدام الأدوات المخصصة ومصادر البيانات.",
+			"new": "جديد...",
+			"plugins": "الإضافات",
+			"pluginsDesc": "تثبيت وإدارة المكونات الإضافية للوكيل التي تضيف أدوات ومهارات وعمليات تكامل إضافية.",
+			"sentToChat": "تم الإرسال للدردشة ✓",
+			"skills": "المهارات",
+			"skillsDesc": "قم بإنشاء ملفات مهارات قابلة لإعادة الاستخدام توفر المعرفة وسير العمل الخاصة بالمجال.",
+			"welcomeHeading": "تخصيصات الدردشة",
+			"welcomeSubtitle": "قم بتخصيص كيفية عمل الوكلاء في مشاريعك. قم بإعداد تخصيصات مساحة العمل للفريق بأكمله أو قم بإنشاء تخصيصات شخصية تنقلك من مشروع إلى آخر.",
+			"workflowInputAriaLabel": "قم بوصف تفضيلاتك لتخصيص وكيلك",
+			"workflowInputPlaceholder": "تفضل الالتزامات المختصرة والمراجعات الشاملة والأكواد المختبرة...",
+			"workflowSubmitAriaLabel": "تخصيص الوكيل",
+			"workflowSubmitTooltip": "افتح في الدردشة"
 		},
 		"vs/workbench/contrib/chat/browser/aiCustomization/customizationCreatorService": {
 			"generateName": "اسم {0} الجديد",
@@ -7623,32 +8065,36 @@
 			"browseToAdd": "تصفح المتجر لاكتشاف المكونات الإضافية وتثبيتها",
 			"byPublisher": "بواسطة {0}",
 			"collapsed": "مطوي",
+			"createPlugin": "إنشاء الملحق",
+			"createPluginTooltip": "إنشاء الملحق",
 			"disabled": "معطل",
 			"disabledGroup": "معطل",
-			"disabledGroupDescription": "تم تثبيت المكونات الإضافية ولكنها معطلة حاليًا. السماح لهم باستخدام قدراتهم.",
-			"emptyMarketplace": "لا توجد مكونات إضافية متاحة",
+			"disabledGroupDescription": "هذه الملحقات مثبتة لكنها معطلة حاليًا. فعّلها لاستخدام إمكاناتها.",
+			"emptyMarketplace": "لا توجد ملحقات متاحة",
 			"enabled": "ممكّن",
 			"enabledGroup": "ممكّن",
-			"enabledGroupDescription": "المكونات الإضافية النشطة حاليًا، توفر الأوامر والمهارات والمعالجات والميزات الأخرى.",
-			"expanded": "المتقدمة",
+			"enabledGroupDescription": "الملحقات النشطة حاليًا، وهي توفر أوامر ومهارات ومعالجات وميزات أخرى.",
+			"expanded": "موسّع",
 			"install": "تثبيت",
-			"installFromSource": "قم بتثبيت البرنامج المساعد من المصدر",
-			"installFromSourceTooltip": "قم بتثبيت البرنامج المساعد من المصدر",
+			"installFromSource": "ثبّت الملحق من المصدر",
+			"installFromSourceTooltip": "ثبّت الملحق من المصدر",
 			"installed": "تم التثبيت",
 			"installing": "التثبيت…",
-			"learnMorePlugins": "تعرّف على المزيد حول إضافات المساعد",
+			"learnMorePlugins": "تعرّف على المزيد حول ملحقات الوكلاء",
 			"loadingMarketplace": "جارٍ تحميل المتجر...",
 			"marketplaceError": "تعذر تحميل المتجر",
-			"noMarketplaceResults": "لا يوجد مكون إضافي يطابق \"{0}\"",
-			"noMatchingPlugins": "لا يوجد مكون إضافي يطابق \"{0}\"",
-			"noPlugins": "لم يتم تثبيت أي مكونات إضافية",
+			"noMarketplaceResults": "لا يوجد ملحق يطابق \"{0}\"",
+			"noMatchingPlugins": "لا يوجد ملحق يطابق \"{0}\"",
+			"noPlugins": "لا توجد ملحقات مثبتة",
 			"pluginGroupAriaLabel": "{0}، العناصر {1}، {2}",
-			"pluginsDescription": "قم بتوسيع مساعد الذكاء الاصطناعي الخاص بك باستخدام المكونات الإضافية التي تضيف الأوامر والمهارات والمساعدين والخطافات وخوادم MCP من الحزم القابلة لإعادة الاستخدام.",
+			"pluginsDescription": "وسّع مساعد الذكاء الاصطناعي لديك بملحقات تضيف أوامر ومهارات ووكلاء وخطافات وخوادم MCP من حِزم قابلة لإعادة الاستخدام.",
 			"pluginsListAriaLabel": "الإضافات",
-			"searchMarketplacePlaceholder": "ابحث في متجر المكونات الإضافية...",
+			"searchMarketplacePlaceholder": "ابحث في متجر الملحقات...",
 			"searchPluginsPlaceholder": "اضغط للبحث...",
+			"syncPlugin": "أضف {0} إلى المزامنة",
 			"tryAgainLater": "تحقق من اتصالك وحاول مرة أخرى",
-			"tryDifferentSearch": "حاول استخدام مصطلح بحث مختلف"
+			"tryDifferentSearch": "حاول استخدام مصطلح بحث مختلف",
+			"unsyncPlugin": "أزل {0} من المزامنة"
 		},
 		"vs/workbench/contrib/chat/browser/attachments/chatAttachmentResolveService": {
 			"imageTooLarge": "الصورة كبيرة جدًا",
@@ -7675,6 +8121,8 @@
 			"chat.imageAttachmentHover": "{0} لا يدعم الصور.",
 			"chat.imageAttachmentPreviewFeaturesDisabled": "تم تعطيل الرؤية من قبل مؤسستك.",
 			"chat.imageAttachmentWarning": "لقد تم حذف ملف GIF هذا جزئيًا - سيتم إرسال الصورة الحالية.",
+			"chat.imageLimitExceededAttachment": "لم يتم إرسال الصورة بسبب الحد: {0}",
+			"chat.imageLimitExceededHover": "لم يتم إرسال هذه الصورة بسبب تجاوز الحد الأقصى لعدد الصور {0} ​​​​لكل طلب.",
 			"chat.instructionsAttachment": "التعليمات المرفقة، {0}",
 			"chat.omittedFileAttachment": "لقد حذفت هذا الملف: {0}",
 			"chat.omittedImageAttachment": "لقد حذفت هذه الصورة: {0}",
@@ -7733,10 +8181,17 @@
 		},
 		"vs/workbench/contrib/chat/browser/chat.contribution": {
 			"agentPlugin": "إضافة مساعد",
+			"agentSandbox.allowedNetworkDomains.deprecated": "استخدم {0} ​​​​بدلاً من ذلك",
+			"agentSandbox.allowedNetworkDomains2.deprecated": "استخدم {0} ​​​​بدلاً من ذلك",
+			"agentSandbox.deniedNetworkDomains.deprecated": "استخدم {0} ​​​​بدلاً من ذلك",
+			"agentSandbox.deniedNetworkDomains2.deprecated": "استخدم {0} ​​​​بدلاً من ذلك",
 			"autoApprove3.description": "تعمل الموافقة التلقائية الشاملة، والمعروفة أيضًا باسم \"وضع YOLO\"، على تعطيل الموافقة اليدوية تمامًا لجميع الأدوات في جميع مساحات العمل، مما يسمح للمساعد بالعمل بشكل مستقل تمامًا. يعد هذا أمرًا خطيرًا للغاية ولا يوصى به *على الإطلاق*، حتى في البيئات المعبأة في حاويات مثل [Codespaces](https://github.com/features/codespaces) و[Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)، حيث يتم نقل مفاتيح المستخدم إلى الحاوية ويمكن أن تتعرض للاختراق.\r\n\r\nتعمل هذه الميزة على تعطيل [وسائل الحماية الأمنية الأساسية](https://code.visualstudio.com/docs/copilot/security) وتسهل على المهاجم اختراق الجهاز.\r\n\r\nملاحظة: يتحكم هذا الإعداد فقط في الموافقة على الأداة ولا يمنع المعالج من طرح الأسئلة. للإجابة على أسئلة المعالج تلقائيًا، استخدم المعلمة `#chat.autoReply#`.",
 			"chat": "دردشة",
+			"chat.agent.allowedNetworkDomains": "النطاقات المسموح بها للوصول إلى الشبكة بواسطة أدوات الوكيل (أداة الاستخراج، المتصفح المضمن). يسري مفعوله فقط عند تمكين {0} ​​​​. عند تمكين {1}، تنطبق هذه القيود أيضًا على وضع الحماية الطرفي. يدعم أحرف البدل مثل {2}. عندما تكون قوائم السماح والرفض فارغة، يتم حظر جميع النطاقات. المجالات المرفوضة (راجع {3}) لها الأولوية.",
+			"chat.agent.deniedNetworkDomains": "تم رفض المجالات للوصول إلى الشبكة بواسطة أدوات الوكيل (أداة الاستخراج، المتصفح المضمن). يسري مفعوله فقط عند تمكين {0} ​​​​. عند تمكين {1}، تنطبق هذه القيود أيضًا على وضع الحماية الطرفي. له الأولوية على {2}. يدعم أحرف البدل مثل {3}.",
 			"chat.agent.enabled.description": "بمجرد تمكينه، يمكن تنشيط وضع المساعد من داخل الدردشة ويمكن استخدام الأدوات الموجودة في سياقات الوكيل ذات التأثيرات الجانبية.",
 			"chat.agent.maxRequests": "الحد الأقصى لعدد الاستعلامات المسموح بها في كل جولة عند استخدام المعالج. عند الوصول إلى الحد الأقصى، يطلب من المستخدم تأكيد المتابعة.",
+			"chat.agent.networkFilter": "عند تمكين هذا الخيار، يتم تقييد الوصول إلى الشبكة بواسطة أدوات الوكيل (أداة الاستخراج، المتصفح المدمج) بناءً على {0} ​​​​و{1}. عند التعطيل، لا يتم تطبيق أي تصفية للشبكة.",
 			"chat.agent.thinking.collapsedTools": "يتحكم في كيفية عرض استدعاءات الأداة بالنسبة لأقسام الانعكاس.",
 			"chat.agent.thinking.collapsedTools.always": "يتم دائمًا تقليل استدعاءات الأداة، حتى في حالة عدم وجود انعكاس.",
 			"chat.agent.thinking.collapsedTools.off": "تظهر استدعاءات الأداة بشكل منفصل، دون دمجها في أقسام الانعكاس.",
@@ -7751,6 +8206,7 @@
 			"chat.agent.thinkingMode.fixedScrolling": "عرض الانعكاس في لوحة بث ثابتة الارتفاع يتم تمريرها تلقائيًا؛ انقر فوق الرأس للتوسيع إلى أقصى ارتفاع.",
 			"chat.agent.thinkingStyle": "يتحكم في تقديم الانعكاس.",
 			"chat.agentHost.enabled": "عند التمكين، يعمل بعض الوكلاء في عملية مضيف وكيل منفصلة.",
+			"chat.agentHost.ipcLogging": "بمجرد تمكين هذا الخيار، يتم تسجيل كل حركة مرور IPC من كل مضيف وكيل إلى قناة إخراج مخصصة.",
 			"chat.agentLocations.invalidPath": "يجب أن تكون المسارات نسبية أو تبدأ بـ \"~/\". المسارات المطلقة والفواصل \"\\\" غير مدعومة.",
 			"chat.agentSessionProjection.enabled": "التحكم في تمكين وضع عرض جلسة الوكيل لفحص جلسات الوكيل في مساحة عمل مركزة.",
 			"chat.agentSkillsLocations.description": "حدد موقع (مواقع) مهارات الوكيل (`{0}`) التي يمكن استخدامها في جلسات الدردشة. [تعرّف على المزيد]({1}).\r\n\r\nيجب أن يحتوي كل مسار على مجلدات فرعية للمهارات مع ملفات SKILL.md (على سبيل المثال، أضف `my-skills` إذا كان لديك `my-skills/skillA/SKILL.md`). يتم حل المسارات النسبية من المجلد (المجلدات) الجذر لمساحة العمل الخاصة بك.",
@@ -7762,9 +8218,17 @@
 			"chat.agentsControl.compact": "يستبدل مربع بحث مركز الأوامر بمؤشر حالة الوكيل المدمج وأداة الدردشة الموحدة.",
 			"chat.agentsControl.enabled": "يتحكم في ظهور مؤشر \"حالة الوكيل\" في مركز الأوامر بشريط العنوان. عند الضبط على `hidden`، لا يتم عرض المؤشر. تعرض القيم الأخرى المؤشر وتقوم بتمكين {0} تلقائيًا. تتطلب إشارات الجلسة الحالية وغير المقروءة تمكين {1}.",
 			"chat.agentsControl.hidden": "مؤشر حالة الوكيل مخفي في شريط العنوان.",
-			"chat.aiCustomizationMenu.enabled": "التحكم في تمكين محرر تخصيصات الدردشة. بمجرد التمكين، يفتح رمز الترس في عرض الدردشة مباشرة محرر التخصيصات ويتم نقل الإجراءات الإضافية إلى القائمة الكاملة. عند التعطيل، يعرض رمز الترس القائمة المنسدلة للتكوين القديم.",
 			"chat.allowAnonymousAccess": "التحكم في السماح بالوصول المجهول في الدردشة.",
 			"chat.artifacts.enabled": "التحكم في إتاحة عرض العناصر في الدردشة.",
+			"chat.artifacts.rules.byFilePath": "قواعد استخراج القطع الأثرية من الملفات المكتوبة وفق نمط المسار. يسمح لك بتعيين القوالب العامة لتكوين المجموعة.",
+			"chat.artifacts.rules.byFilePath.groupName": "اسم العرض لمجموعة القطع الأثرية.",
+			"chat.artifacts.rules.byFilePath.onlyShowGroup": "إذا تم تمكينه، فسيتم عرض رأس المجموعة فقط بدلاً من العناصر الفردية.",
+			"chat.artifacts.rules.byMemoryFilePath": "قواعد استخراج العناصر من استدعاءات أدوات الذاكرة حسب نمط مسار ملف الذاكرة. ربط أنماط الكرة الأرضية بتكوين المجموعة.",
+			"chat.artifacts.rules.byMemoryFilePath.groupName": "اسم العرض لمجموعة القطع الأثرية.",
+			"chat.artifacts.rules.byMemoryFilePath.onlyShowGroup": "إذا تم تمكينه، فسيتم عرض رأس المجموعة فقط بدلاً من العناصر الفردية.",
+			"chat.artifacts.rules.byMimeType": "قواعد استخراج العناصر من نتائج الأداة حسب نوع MIME. تعيين قوالب نوع MIME (على سبيل المثال، \"صورة/*\") لتكوين المجموعة.",
+			"chat.artifacts.rules.groupName": "اسم العرض لمجموعة القطع الأثرية.",
+			"chat.artifacts.rules.onlyShowGroup": "إذا تم تمكينه، فسيتم عرض رأس المجموعة فقط بدلاً من العناصر الفردية.",
 			"chat.autoReply.description": "تخطي دائري الأسئلة تلقائيًا عن طريق إخبار المساعد بأن المستخدم غير متاح واستخدام حكمه الخاص. يعد هذا إعدادًا متقدمًا قد يؤدي إلى اختيارات أو إجراءات غير مقصودة بناءً على سياق غير مكتمل.",
 			"chat.autopilot.enabled": "التحكم في ما إذا كان وضع Autopilot متاحًا في محدد الأذونات. عند تمكينه، يوافق Autopilot تلقائيًا على جميع استدعاءات الأداة ويستمر في التنفيذ حتى تكتمل المهمة.",
 			"chat.checkpoints.enabled": "تمكين نقاط التفتيش في الدردشة. تتيح لك نقاط التفتيش استعادة الحالة السابقة للدردشة.",
@@ -7772,6 +8236,9 @@
 			"chat.codeBlock.showProgressAnimation.description": "عند تطبيق التغييرات، قم بعرض رسم متحرك للتقدم في شارة مقطع التعليمات البرمجية. إذا تم تعطيل الخيار، يتم عرض نسبة التقدم.",
 			"chat.contextUsage.enabled": "إظهار مؤشر استخدام نافذة السياق في مربع إدخال الدردشة.",
 			"chat.customizations.harnessSelector.enabled": "يتحكم في عرض مبدّل البيئة (محلي، Copilot CLI، Claude) في الشريط الجانبي لمحرر تخصيصات الدردشة. عند تعطيله، سيستمر المحرر في عرض جميع التخصيصات دون تصفية.",
+			"chat.customizations.welcomePageVariant": "يحدد أي تنفيذ للصفحة الرئيسية يتم عرضه في تخصيصات الوكيل.",
+			"chat.customizations.welcomePageVariant.classic": "يستخدم تخطيط الصفحة الرئيسية الأصلي للتنفيذ المرجعي.",
+			"chat.customizations.welcomePageVariant.promptLaunchers": "يستخدم الصفحة الرئيسية التجريبية مع قاذفات موجه الأوامر المجمعة.",
 			"chat.detectParticipant.enabled": "تمكين الاكتشاف التلقائي للمشاركين في الدردشة في الدردشة الجماعية.",
 			"chat.disableAIFeatures": "قم بتعطيل وإخفاء ميزات الذكاء الاصطناعي المضمنة التي يوفرها GitHub Copilot، بما في ذلك المناقشة والاقتراحات المضمنة.",
 			"chat.editMode.hidden": "إذا تم تمكين هذا الخيار، فسيتم إخفاء وضع التحرير في مبدل وضع الدردشة.",
@@ -7791,6 +8258,7 @@
 			"chat.extensionUnification.enabled": "تمكين توحيد ملحقات GitHub Copilot. عند التمكين، يتم توفير جميع ميزات GitHub Copilot بواسطة ملحق GitHub Copilot Chat. عند التعطيل، تعمل ملحقات GitHub Copilot وGitHub Copilot Chat بشكل مستقل.",
 			"chat.fontFamily": "التحكم في عائلة الخطوط في رسائل الدردشة.",
 			"chat.fontSize": "التحكم في حجم الخط بالبكسل في رسائل الدردشة.",
+			"chat.generalPurposeAgent.enabled": "يتيح لك التحكم فيما إذا كان وكيل الأغراض العامة المدمج متاحًا كوكيل فرعي.",
 			"chat.growthNotification": "يتحكم في ما إذا كان سيتم عرض إشعار تعريفي في عرض جلسات الوكيل لتشجيع المستخدمين الجدد على تجربة GitHub Copilot.",
 			"chat.hookFilesLocations.description": "حدد مسارات لملفات التكوين التي تعرّف أوامر صدفة مخصصة لتنفيذها في نقاط استراتيجية من سير عمل الوكيل. [تعرّف على المزيد]({0}).\r\n\r\nيتم حل المسارات النسبية انطلاقًا من المجلد أو المجلدات الجذرية لمساحة العمل. يدعم هذا خطافات Copilot (`*.json`) وخطافات Claude Code (`settings.json`، `settings.local.json`).",
 			"chat.hookFilesLocations.invalidPath": "يجب أن تكون المسارات نسبية أو تبدأ بـ \"~/\". المسارات المطلقة والفواصل \"\\\" غير مدعومة.",
@@ -7830,6 +8298,7 @@
 			"chat.mode.config.locations.deprecated": "تم إهمال هذا الإعداد وستتم إزالته في الإصدارات المستقبلية. تسمى أوضاع الدردشة الآن بالوكلاء المخصصين وتقع في \".github/agents\"",
 			"chat.mode.config.locations.description": "حدد موقع (مواقع) ملفات وضع الدردشة المخصصة (`*{0}`). [تعرّف على المزيد]({1}).\r\n\r\nيتم حل المسارات النسبية من المجلد (المجلدات) الجذر لمساحة العمل الخاصة بك.",
 			"chat.mode.config.locations.title": "مواقع ملفات الموضة",
+			"chat.newSession.defaultMode": "الوضع الافتراضي لجلسات الدردشة الجديدة. عندما يكون فارغًا، يتم استخدام وضع عرض المحادثة الافتراضي.",
 			"chat.notifyWindowOnConfirmation": "يتحكم في ما إذا كان ينبغي لجلسة الدردشة أن تُظهر للمستخدم إشعارًا بنظام التشغيل عندما يتطلب التأكيد أو السؤال إدخالاً. يتضمن ذلك شارة نافذة بالإضافة إلى الإشعار المنبثق.",
 			"chat.notifyWindowOnConfirmation.always": "قم دائمًا بعرض إشعارات نظام التشغيل للتأكيدات، حتى عندما يتم التركيز على النافذة.",
 			"chat.notifyWindowOnConfirmation.off": "لا تعرض أبدًا إشعارات نظام التشغيل للتأكيدات.",
@@ -7854,7 +8323,7 @@
 			"chat.sendElementsToChat.attachCSS": "يتحكم في ما إذا كان سيتم إضافة CSS للعنصر المحدد إلى الدردشة. يجب تمكين {0}.",
 			"chat.sendElementsToChat.attachImages": "التحكم في ما إذا كان سيتم إضافة لقطة شاشة للعنصر المحدد إلى الدردشة. يجب تمكين {0}.",
 			"chat.sendElementsToChat.enabled": "التحكم في إمكانية إرسال العناصر إلى الدردشة من المتصفح البسيط.",
-			"chat.statusWidget.anonymous.description": "يتحكم في ما إذا كان المستخدمون المجهولون يرون أداة الحالة في جلسات الدردشة الجديدة عندما يكون المعدل محدودًا.",
+			"chat.signInTitleBar": "يتيح لك التحكم في عرض زر تسجيل الدخول في شريط العنوان للمستخدمين الذين لم يقوموا بتسجيل الدخول.",
 			"chat.subagentTool.customAgents": "يشير إلى ما إذا كان بإمكان أداة runSubagent استخدام الوكلاء المخصصين. عند تمكينها، يمكن للأداة أن تأخذ الاسم الدقيق للوكيل المخصص.",
 			"chat.subagents.allowInvocationsFromSubagents": "السماح للوكلاء الفرعيين باستدعاء الوكلاء الفرعيين.",
 			"chat.subagents.allowInvocationsFromSubagents.md": "التحكم فيما إذا كان بإمكان الوكلاء الفرعيين استدعاء وكلاء فرعيين آخرين. عند تمكين هذا الخيار، يقتصر التداخل على حد أقصى للعمق يبلغ 5.",
@@ -7862,6 +8331,7 @@
 			"chat.toolReferenceName.description": "{0} – {1}",
 			"chat.tools.autoApprove.edits": "التحكم في ما إذا كانت التغييرات التي أجراها الوكيل تتم الموافقة عليها تلقائيًا. الإعداد الافتراضي هو الموافقة على كافة التغييرات باستثناء تلك التي تم إجراؤها على ملفات معينة والتي قد تسبب آثارًا جانبية فورية غير مقصودة، مثل `**/.vscode/*.json`.\r\n\r\nاضبط على `true` للموافقة تلقائيًا على التغييرات على الملفات المقابلة، أو على `false` لتتطلب موافقة صريحة دائمًا. يحدد النمط الأخير المطابق لملف معين ما إذا كان سيتم الموافقة على التغيير تلقائيًا أم لا.",
 			"chat.tools.autoExpandFailures": "عند التمكين، يتم توسيع حالات فشل الأداة تلقائيًا في واجهة مستخدم الدردشة لعرض تفاصيل الخطأ.",
+			"chat.tools.confirmationCarousel": "عند التمكين، يتم تجميع تأكيدات الأدوات المتعددة في دائرة أعلى الإدخال.",
 			"chat.tools.eligibleForAutoApproval": "يتحكم في الأدوات المؤهلة للموافقة التلقائية. الأدوات التي تم تعيينها على \"خطأ\" تطلب دائمًا التأكيد ولا تقدم أبدًا خيار الموافقة التلقائية. قد يؤدي السلوك الافتراضي (أو تعيين الأداة إلى \"صحيح\") إلى عرض الأداة لخيارات الموافقة التلقائية.",
 			"chat.tools.fetchPage.approvedUrls": "يتحكم في عناوين URL التي تتم الموافقة عليها تلقائيًا عند طلبها بواسطة أدوات الدردشة. تتوافق المفاتيح مع أنماط عنوان URL ويمكن أن تكون القيم \"صحيحة\" للموافقة على كل من الطلبات والاستجابات، أو \"خطأ\" للرفض، أو كائنًا له خصائص \"approveRequest\" و\"approveResponse\" لمزيد من التحكم الدقيق.\r\n\r\nأمثلة:\r\n- `\"https://example.com\": true` - يوافق على جميع الطلبات المقدمة إلى example.com\r\n- `\"https://*.example.com\": true` - يوافق على جميع الطلبات على أي مجال فرعي\r\n- `\"https://example.com/api/*\": { \"approveRequest\": true, \"approveResponse\": false }` - الموافقة على الطلبات، وليس الاستجابات لمسارات example.com/api",
 			"chat.tools.renameTool.enabled": "التحكم في إتاحة أداة إعادة التسمية لإعادة تسمية رموز التعليمات البرمجية في مساحة العمل.",
@@ -7912,12 +8382,23 @@
 		},
 		"vs/workbench/contrib/chat/browser/chatDebug/chatCustomizationDiscoveryRenderer": {
 			"chatDebug.configureLocations": "تهيئة المواقع",
+			"chatDebug.customization.customAgent": "الوكلاء ({0})",
+			"chatDebug.customization.hook": "الخطافات ({0})",
+			"chatDebug.customization.instructions": "الإرشادات ({0})",
+			"chatDebug.customization.referenced": "تمت الإشارة إليه ({0})",
+			"chatDebug.customization.skill": "الالمهارات ({0})",
+			"chatDebug.customization.skipped": "تم التجاهل ({0})",
+			"chatDebug.customizationSummary": "إرشادات {0}، {1} الالمهارات، {2} الوكلاء، {3} الالخطافات، {4} تم تجاهلها في {5} مللي ثانية",
+			"chatDebug.customizationTitle": "نتائج حل التخصيصات",
 			"chatDebug.discoveryResults": "نتائج الاكتشاف {0}",
 			"chatDebug.duplicateOf": "مكرر من {0}",
 			"chatDebug.loadedFiles": "محملة ({0})",
 			"chatDebug.loadedFilesList": "تم تحميل الملفات",
+			"chatDebug.noResolutionLogs": "لا يوجد سجل القرار",
 			"chatDebug.openExtension": "افتح {0} في الامتدادات",
 			"chatDebug.openSettingsTooltip": "تهيئة المواقع",
+			"chatDebug.plainText.customizationSummary": "إرشادات {0}، {1} الالمهارات، {2} الوكلاء، {3} الالخطافات، {4} تم تجاهلها في {5} مللي ثانية",
+			"chatDebug.plainText.customizationTitle": "نتائج حل التخصيصات",
 			"chatDebug.plainText.discoveryResults": "نتائج الاكتشاف {0}",
 			"chatDebug.plainText.duplicateOf": "مكرر من {0}",
 			"chatDebug.plainText.loaded": "محملة ({0})",
@@ -7932,10 +8413,6 @@
 			"chatDebug.sourcesNote": "تم اكتشاف {0} عن طريق التحقق من المصادر التالية بالترتيب:",
 			"chatDebug.totalFiles": "إجمالي الملفات: {0}",
 			"chatDebug.unknown": "غير معروف"
-		},
-		"vs/workbench/contrib/chat/browser/chatDebug/chatDebugAttachment": {
-			"debugEventsSnapshot.contextName": "لقطة من أحداث التصحيح",
-			"debugEventsSnapshot.noEvents": "لم يتم العثور على أحداث تصحيح لهذه الدردشة."
 		},
 		"vs/workbench/contrib/chat/browser/chatDebug/chatDebugDetailPanel": {
 			"chatDebug.closeDetail": "إغلاق",
@@ -8024,6 +8501,7 @@
 			"chatDebug.openSetting": "تمكين في الإعدادات",
 			"chatDebug.sessionItemActive": "{0} (نشط)",
 			"chatDebug.sessionList": "جلسات الدردشة",
+			"chatDebug.showMore": "أظهر المزيد ({0})",
 			"chatDebug.title": "سجلات تصحيح المعالج"
 		},
 		"vs/workbench/contrib/chat/browser/chatDebug/chatDebugHookContentRenderer": {
@@ -8063,12 +8541,14 @@
 			"chatDebug.logs": "سجلات النشاط",
 			"chatDebug.progressAriaLabel": "تقوم سجلات تصحيح أخطاء الدردشة بتحميل التقدم",
 			"chatDebug.search": "عامل التصفية (على سبيل المثال، النص،! استبعاد، قبل: YYYY-MM-DDTHH:MM:SS)",
+			"chatDebug.showMore": "أظهر المزيد ({0})",
+			"chatDebug.showMoreTitle": "تحميل أحداث أخرى",
+			"chatDebug.showingCount": "نقوم حاليًا بنشر أحداث {0} ​​​​على {1}",
 			"chatDebug.switchToListView": "قم بالتبديل إلى عرض القائمة",
 			"chatDebug.switchToTreeView": "التبديل إلى الشجرة",
 			"chatDebug.title": "سجلات تصحيح المعالج",
 			"chatDebug.toggleViewMode": "التبديل بين عرض القائمة وعرض الشجرة",
-			"chatDebug.treeView": "هيكل الشجرة",
-			"chatDebug.troubleshoot": "أضف لقطة إلى الدردشة"
+			"chatDebug.treeView": "هيكل الشجرة"
 		},
 		"vs/workbench/contrib/chat/browser/chatDebug/chatDebugMessageContentRenderer": {
 			"chatDebug.agentResponse": "رد مساعد",
@@ -8162,10 +8642,10 @@
 			"chat.restoreCheckpoint.none": "لا توجد نقاط تفتيش لاستعادة.",
 			"chat.restoreCheckpoint.tooltip": "استعادة مساحة العمل والدردشة إلى هذه النقطة",
 			"chat.restoreLastCheckpoint.label": "استعادة إلى آخر نقطة تفتيش",
+			"chat.startOver.label": "ابدأ مرة أخرى",
+			"chat.startOver.tooltip": "يسمح لك بمسح المحادثة والتراجع عن كافة التغييرات",
 			"chat.undoEdits.label": "إلغاء الطلبات",
-			"chatEditing.allChanges.title": "جميع التغييرات الدورة",
 			"chatEditing.snapshot": "{0} (لقطة)",
-			"chatEditing.viewAllSessionChanges": "إظهار كافة التغييرات",
 			"chatEditing.viewChanges": "عرض جميع التعديلات",
 			"chatEditing.viewPreviousEdits": "عرض التعديلات السابقة",
 			"discard": "إلغاء",
@@ -8265,31 +8745,13 @@
 			"chatImageCarousel.allImages": "صور الدردشة"
 		},
 		"vs/workbench/contrib/chat/browser/chatManagement/chatManagement.contribution": {
-			"chatManagementEditor": "محرر إدارة المحادثات",
 			"languageModelsOpenSettings": "أيقونة لفتح أوامر إعدادات نموذج اللغة.",
 			"models.clearResults": "مسح نتائج بحث النماذج",
 			"modelsManagementEditor": "محرر إدارة النماذج",
 			"openAiManagement": "إدارة نماذج اللغة",
 			"openLanguageModelsJson": "نماذج اللغة المفتوحة (JSON)"
 		},
-		"vs/workbench/contrib/chat/browser/chatManagement/chatManagementEditor": {
-			"chatManagementSashBorder": "لون حدود المزلاج في محرر إدارة الدردشة.",
-			"enableAIFeatures": "استخدام ميزات الذكاء الاصطناعي",
-			"enableCopilotButton": "فعّل ميزات الذكاء الاصطناعي",
-			"enableMoreAIFeatures": "تفعيل المزيد من ميزات الذكاء الاصطناعي",
-			"plan.copilot": "Copilot",
-			"plan.free": "مجاني",
-			"plan.models": "النماذج",
-			"plan.upgradeToPro": "ترقية إلى Copilot Pro",
-			"plan.upgradeToProPlus": "ترقية إلى Copilot Pro+",
-			"plan.usage": "الاستخدام",
-			"sectionsListAriaLabel": "الأقسام",
-			"signInToUseAIFeatures": "سجّل الدخول لاستخدام ميزات الذكاء الاصطناعي",
-			"upgradeToCopilotPro": "ترقية إلى Copilot Pro"
-		},
 		"vs/workbench/contrib/chat/browser/chatManagement/chatManagementEditorInput": {
-			"aiManagementEditorInputName": "إدارة Copilot",
-			"aiManagementEditorLabelIcon": "أيقونة تسمية محرر إدارة الذكاء الاصطناعي.",
 			"modelsManagementEditorInputName": "نماذج اللغة",
 			"modelsManagementEditorLabelIcon": "أيقونة تسمية محرر إدارة النماذج."
 		},
@@ -8357,19 +8819,6 @@
 			"vendor.ariaLabel": "موفر {0}",
 			"visible.ariaLabel": "نماذج مرئية"
 		},
-		"vs/workbench/contrib/chat/browser/chatManagement/chatUsageWidget": {
-			"chatsLabel": "رسائل الدردشة",
-			"completionsLabel": "الاقتراحات المضمنة",
-			"plan.allowanceResets": "إعادة تعيينات التخصيص {0}.",
-			"plan.chatMessages": "رسائل الدردشة",
-			"plan.included": "مضمن",
-			"plan.includedPremiumRequests": "وشملت طلبات قسط",
-			"plan.inlineSuggestions": "الاقتراحات المضمنة",
-			"plan.overageApprovedLine1": "تمت الموافقة على طلبات Premium الإضافية.",
-			"plan.overageApprovedLine2": "يمكنك المتابعة بمجرد وصول الحد الأقصى لطلبات Premium المضمنة إلى 100%.",
-			"plan.premiumRequests": "طلبات مدفوع",
-			"quotaLimited": "محدود"
-		},
 		"vs/workbench/contrib/chat/browser/chatOutputItemRenderer": {
 			"chatOutputRenderer.mimeTypes": "أنواع MIME التي يمكن لهذا العارض التعامل معها",
 			"chatOutputRenderer.viewType": "معرف فريد لمحرك العرض.",
@@ -8412,13 +8861,15 @@
 			"chat.repoInfo.enabled": "يتحكم في التقاط بيانات تعريف المستودع خفيفة الوزن (الفرع والالتزام والمستودعات البعيدة) عند إرسال طلب دردشة للتشخيصات الداخلية.",
 			"chatRepoInfoConfigurationTitle": "معلومات مستودع الدردشة"
 		},
+		"vs/workbench/contrib/chat/browser/chatSessions/chatSessionDescription": {
+			"chat.sessions.description.thinking": "التأمل قيد التقدم... يرجى التحلي بالصبر.",
+			"chat.sessions.description.waitingForConfirmation": "في انتظار التأكيد: {0}"
+		},
 		"vs/workbench/contrib/chat/browser/chatSessions/chatSessionPickerActionItem": {
 			"chat.sessionPicker.label": "اختيار خيار"
 		},
 		"vs/workbench/contrib/chat/browser/chatSessions/chatSessions.contribution": {
 			"chat": "دردشة",
-			"chat.sessions.description.thinking": "جاري التحليل…",
-			"chat.sessions.description.waitingForConfirmation": "في انتظار التأكيد: {0}",
 			"chatCommand": "الاسم المختصر الذي يشير إليه هذا الأمر في واجهة المستخدم، مثل \"إصلاح\" أو \"شرح\" للأوامر التي تعمل على إصلاح مشكلة أو شرح التعليمات البرمجية. يجب أن يكون الاسم فريدًا بين الأوامر التي يقدمها هذا المشارك.",
 			"chatCommandDescription": "وصف هذا الأمر.",
 			"chatCommandWhen": "الشرط الذي يجب أن يكون صحيحًا لتمكين هذا الأمر.",
@@ -8449,6 +8900,7 @@
 			"chatSessionsExtPoint.supportsSourceControlAttachments": "يشير إلى ما إذا كانت جلسة الدردشة هذه تدعم إرفاق تغييرات التحكم بالمصدر.",
 			"chatSessionsExtPoint.supportsSymbolAttachments": "يشير إلى ما إذا كانت جلسة الدردشة هذه تدعم إرفاق الرمز.",
 			"chatSessionsExtPoint.supportsToolAttachments": "يشير إلى ما إذا كانت جلسة الدردشة هذه تدعم أدوات الإرفاق أو مراجع الأدوات.",
+			"chatSessionsExtPoint.useRequestToPopulateBuiltInPickers": "ما إذا كان سيتم استخدام ChatRequestTurn2 لملء المحددات المضمنة مثل الوكيل والنموذج.",
 			"chatSessionsExtPoint.welcomeMessage": "نص الرسالة (يدعم ماركداون) ليتم عرضه في العرض الرئيسي للدردشة لهذا النوع من الجلسة.",
 			"chatSessionsExtPoint.welcomeTips": "نص التلميح (يدعم ماركداون وأيقونات السمات) لعرضه في عرض الصفحة الرئيسية للدردشة لهذا النوع من الجلسة.",
 			"chatSessionsExtPoint.welcomeTitle": "نص العنوان الذي سيتم عرضه في طريقة العرض الرئيسية للدردشة لهذا النوع من الجلسة.",
@@ -8460,12 +8912,6 @@
 			"interactiveSession.openNewSessionEditor": "جديد {0}",
 			"interactiveSession.openNewSessionSidebar": "جديد {0}",
 			"interactiveSession.openSessionWithPrompt": "جديد {0} مع موجه"
-		},
-		"vs/workbench/contrib/chat/browser/chatSessions/searchableOptionPickerActionItem": {
-			"seeMore": "عرض المزيد...",
-			"seeMore.tooltip": "ابحث عن خيارات أخرى",
-			"selectOption": "اختر...",
-			"selectOption.placeholder": "حدد {0}"
 		},
 		"vs/workbench/contrib/chat/browser/chatSetup/chatSetup": {
 			"enableAuthExtension": "تمكين مصادقة GitHub"
@@ -8483,6 +8929,7 @@
 			"retry": "محاولة جديدة",
 			"review": "مراجعة الكود",
 			"setupErrorDialog": "عذرًا، فشل تكوين الدردشة. هل تريد المحاولة مرة أخرى؟",
+			"signInIndicatorTitleBarAction": "تسجيل الدخول",
 			"triggerChatSetup": "استخدم ميزات الذكاء الاصطناعي مع Copilot مجانًا...",
 			"triggerChatSetupFromAccounts": "قم بتسجيل الدخول لاستخدام ميزات الذكاء الاصطناعي..."
 		},
@@ -8636,13 +9083,15 @@
 			"completionsSnoozedStatus": "تم إيقاف الاقتراحات المضمّنة مؤقتًا",
 			"copilotDisabledStatus": "Copilot معطّل",
 			"finishSetup": "الإعداد الكامل",
-			"notSignedIn": "غير متصل"
+			"notSignedIn": "غير متصل",
+			"signIn": "تسجيل الدخول"
 		},
 		"vs/workbench/contrib/chat/browser/chatTipCatalog": {
 			"tip.agenticBrowser": "قم بتمكين [{0}](command:workbench.action.openSettings?%5B%22workbench.browser.enableChatTools%22%5D \"فتح الإعدادات\") للسماح للمعالج بفتح الصفحات والتفاعل معها في المتصفح المدمج.",
 			"tip.attachFiles": "قم بالإشارة إلى الملفات أو المجلدات باستخدام الرمز # لتزويد المعالج بمزيد من السياق حول المهمة.",
 			"tip.autoAcceptDelay": "قم بتكوين [{0}](command:workbench.action.openSettings?%5B%22chat.editing.autoAcceptDelay%22%5D « فتح الإعدادات ») لقبول التغييرات تلقائيًا من الوكيل بعد عد تنازلي قصير.",
 			"tip.codeActions": "حدد مقطع التعليمات البرمجية في المحرر وانقر بزر الماوس الأيمن للوصول إلى إجراءات الذكاء الاصطناعي الأخرى.",
+			"tip.copilotCli": "قم بتشغيل الوكلاء بالتوازي مع [Copilot ​​​​CLI](command:workbench.action.chat.openNewChatSessionInPlace.coptctcli?%5B%22sidebar%22%5D \"التبديل إلى الواجهة Copilot CLI\").",
 			"tip.createAgent": "استخدم [{0}](command : {1} \"Run /create-agent\"){2} لإنشاء معالج مخصص لسير العمل الخاص بك.",
 			"tip.createPrompt": "استخدم [{0}](command: {1} \"تشغيل /create-prompt\"){2} لإنشاء ملف مطالبة قابل لإعادة الاستخدام باستخدام المعالج.",
 			"tip.createSkill": "استخدم [{0}](command : {1} \"Run /create-skill\"){2} لإنشاء مهارة يمكن للمعالج تحميلها عندما يكون ذلك مناسبًا.",
@@ -8650,6 +9099,7 @@
 			"tip.init": "استخدم [{0}](command : {1} \"Run /init\"){2} لإنشاء أو تحديث ملف تعليمات مساحة العمل لمساعدي ترميز الذكاء الاصطناعي.",
 			"tip.mermaid": "اطلب من المساعد رسم مخطط معماري أو مخطط تنظيمي. يمكنه عرض مخططات حورية البحر مباشرة في الدردشة.",
 			"tip.messageQueueing": "التحكم بالمساعد أثناء المهمة عن طريق إرسال رسائل متابعة له. يصطفون ويتقدمون بالترتيب.",
+			"tip.openAgentsWindow": "جرّب [تطبيق الوكلاء] (command:workbench.action.openAgentsWindow \"Open Agents app\") لتشغيل وكلاء متعددين في وقت واحد وإدارة جلسات البرمجة الخاصة بك.",
 			"tip.planMode": "جرب [{0}](command:workbench.action.chat.openPlan \"بدء وضع التخطيط\"){1} للبحث والتخطيط قبل تنفيذ التغييرات.",
 			"tip.subagents": "هل لديك مهمة أخرى عليك الحضور إليها؟ ابدأ جلسة جديدة لتشغيل معالجات متعددة في وقت واحد.",
 			"tip.switchToAuto": "هل تستخدم جي بي تي-4.1؟ حاول التغيير إلى [Auto](command:workbench.action.chat.openModelPicker \"فتح منتقي النماذج\") في منتقي النموذج للحصول على أداء أفضل للترميز.",
@@ -8699,6 +9149,9 @@
 		"vs/workbench/contrib/chat/browser/languageModelsConfigurationService": {
 			"settings.perModelConfig": "الإعدادات حسب الموديل"
 		},
+		"vs/workbench/contrib/chat/browser/pluginGitCommandService": {
+			"pluginsNotSupported": "المكونات الإضافية للوكيل غير متوفرة في هذه البيئة"
+		},
 		"vs/workbench/contrib/chat/browser/pluginInstallService": {
 			"cloneFailed": "فشل في استنساخ مصدر البرنامج المساعد \"{0}\".",
 			"cloneFailedDetail": "لم نتمكن من استنساخ مصدر البرنامج المساعد \"{0}\": {1}",
@@ -8709,6 +9162,7 @@
 			"noPluginsFound": "لم نتمكن من العثور على أي مكونات إضافية في \"{0}\". لا يبدو أن هذا سوقًا صالحًا للمكونات الإضافية.",
 			"pluginDirInvalid": "دليل مصدر البرنامج المساعد \"{0}\" غير صالح للمستودع \"{1}\".",
 			"pluginDirNotFound": "لم يتم العثور على دليل مصدر البرنامج المساعد \"{0}\" في المستودع \"{1}\".",
+			"pluginNotFound": "الملحق '{0}' غير موجود في '{1}'.",
 			"pluginSourceNotFound": "لم يتم العثور على مصدر البرنامج المساعد \"{0}\" بعد الاستنساخ.",
 			"selectPlugin": "حدد مكونًا إضافيًا للتثبيت من \"{0}\"",
 			"showOutput": "إظهار الإخراج",
@@ -8732,7 +9186,6 @@
 			"packagePluginNotFound": "لم يتم العثور على حزمة {0} \"{1}\" بعد التثبيت.",
 			"pluginInstallTerminal": "تثبيت البرنامج المساعد",
 			"pullPluginSourceFailed": "فشل تحديث البرنامج المساعد \"{0}\": {1}",
-			"showGitOutput": "إظهار إخراج جيت",
 			"terminalCommandExitCode": "اكتمل الطلب بالرمز {0}",
 			"terminalCommandFailed": "فشل أمر تثبيت البرنامج المساعد: {0}",
 			"updatingPluginSource": "تحديث البرنامج المساعد \"{0}\" ..."
@@ -8744,6 +9197,32 @@
 			"confirmInstallPlugin": "تثبيت البرنامج المساعد \"{0}\"؟",
 			"confirmInstallPluginDetail": "يريد تطبيق خارجي تثبيت مكون إضافي من هذا المصدر. يمكن للمكونات الإضافية تشغيل التعليمات البرمجية على جهازك. قم بتثبيت المكونات الإضافية من مصادر موثوقة فقط.\r\n\r\nالمصدر: {0}",
 			"installButton": "&&تثبيت"
+		},
+		"vs/workbench/contrib/chat/browser/promptsDebugContribution": {
+			"customizations.agent": "{0} ​​الوكيل",
+			"customizations.applying": "تطبيق {0}",
+			"customizations.listed": "{0} ​​​​مدرج",
+			"customizations.referenced": "{0} ​​​​المشار إليها",
+			"customizationsResolved": "إصلاح التخصيصات",
+			"customizationsResolved.details": "{0} ​​تم حل التخصيصات ({1}) في {2} مللي ثانية",
+			"customizationsResolved.none": "لم يتم حل أي تخصيص",
+			"hook.unknownCommand": "(أمر غير معروف)",
+			"promptsDebugContribution.resolvedAgent": "{0} ​​​​تم حل الوكيل في {1} مللي ثانية",
+			"promptsDebugContribution.resolvedAgents": "{0} ​​​​تم حل الوكلاء في {1} مللي ثانية",
+			"promptsDebugContribution.resolvedHook": "تم حل الخطاف {0} ​​في {1} مللي ثانية",
+			"promptsDebugContribution.resolvedHooks": "تم حل {0} من الخطافات في {1} مللي ثانية",
+			"promptsDebugContribution.resolvedHooksWithSkipped": "تم حل {0} من الخطافات من {1} ملفًا في {2} مللي ثانية، وتم تجاهل {3}",
+			"promptsDebugContribution.resolvedInstruction": "تم حل الإرشاد {0} في {1} مللي ثانية",
+			"promptsDebugContribution.resolvedInstructions": "تم حل {0} من الإرشادات في {1} مللي ثانية",
+			"promptsDebugContribution.resolvedSkill": "تم حل المهارة {0} في {1} مللي ثانية",
+			"promptsDebugContribution.resolvedSkills": "تم حل {0} من المهارات في {1} مللي ثانية",
+			"promptsDebugContribution.resolvedSlashCommand": "تم حل أمر الشرطة المائلة {0} ​​إلى {1}ms",
+			"promptsDebugContribution.resolvedSlashCommands": "أوامر الشرطة المائلة {0} ​​​​تم حلها إلى {1}ms",
+			"promptsService.loadAgents": "كشف الوكيل",
+			"promptsService.loadHooks": "كشف هوك",
+			"promptsService.loadInstructions": "كشف التعليمات",
+			"promptsService.loadSkills": "كشف المهارة",
+			"promptsService.loadSlashCommands": "كشف أمر القطع"
 		},
 		"vs/workbench/contrib/chat/browser/promptSyntax/attachInstructionsAction": {
 			"chatContext.attach.instructions.label": "التعليمات...",
@@ -8872,7 +9351,6 @@
 			"rename": "نقل و/أو إعادة تسمية",
 			"runInChat": "تشغيل في وضع الدردشة",
 			"searching": "البحث في نظام الملفات...",
-			"separator.builtin": "متكامل",
 			"separator.extensions": "الإضافات",
 			"separator.organization": "التنظيم",
 			"separator.plugins": "الإضافات",
@@ -8951,6 +9429,7 @@
 			"allowWorkspacePost": "عدم السماح بأي مراجعة في مساحة العمل هذه",
 			"allowWorkspacePostTooltip": "السماح بإرسال النتائج من هذه الأداة دون تأكيد في مساحة العمل هذه.",
 			"allowWorkspaceTooltip": "السماح بتشغيل هذه الأداة في مساحة العمل هذه دون تأكيد.",
+			"combinationArguments": "الحجج",
 			"configureGlobalToolApprovals": "تكوين موافقات الأداة العالمية",
 			"configureSessionToolApprovals": "تكوين موافقات أداة الجلسة",
 			"configureWorkspaceToolApprovals": "تكوين موافقات أداة مساحة العمل",
@@ -8958,6 +9437,7 @@
 			"continueWithoutReviewingResults": "دون الرجوع إلى النتيجة",
 			"runToolsWithoutApproval": "تشغيل أي أداة دون موافقة",
 			"runWithoutApproval": "دون موافقة",
+			"viewCombinationArguments": "إظهار الحجج",
 			"workspaceScope": "تكوين لمساحة العمل هذه فقط"
 		},
 		"vs/workbench/contrib/chat/browser/tools/languageModelToolsService": {
@@ -9027,9 +9507,16 @@
 			"viewExtensionLabel": "إظهار الامتداد"
 		},
 		"vs/workbench/contrib/chat/browser/widget/chatArtifactsWidget": {
-			"chat.artifacts.carousel": "التحف",
+			"chat.artifacts.clearSource": "مسح",
 			"chat.artifacts.count": "التحف {0}",
-			"chat.artifacts.one": "1 قطعة أثرية"
+			"chat.artifacts.group.aria": "{0} ​​​​({1} عناصر)",
+			"chat.artifacts.one": "1 قطعة أثرية",
+			"chat.artifacts.save": "حفظ قطعة أثرية",
+			"chat.artifacts.saveDialog.title": "حفظ قطعة أثرية",
+			"chat.artifacts.source.agent": "الوكيل",
+			"chat.artifacts.source.rules": "قواعد",
+			"chat.artifacts.source.subagent": "وكيل فرعي",
+			"chat.artifacts.widget.aria": "تحف المحادثة"
 		},
 		"vs/workbench/contrib/chat/browser/widget/chatContentParts/chatAgentCommandContentPart": {
 			"rerun": "أعد التشغيل بدون {0}{1}"
@@ -9117,9 +9604,11 @@
 		},
 		"vs/workbench/contrib/chat/browser/widget/chatContentParts/chatQuestionCarouselPart": {
 			"chat.questionCarousel.collapseTitle": "تقليل الأسئلة",
+			"chat.questionCarousel.deferredToTerminal": "تأجيل لإدخال المستخدم في المحطة",
 			"chat.questionCarousel.enterCustomAnswer": "أدخل استجابة مخصصة",
 			"chat.questionCarousel.enterText": "أدخل إجابتك",
 			"chat.questionCarousel.expandTitle": "قم بتوسيع الأسئلة",
+			"chat.questionCarousel.focusTerminalTitle": "ضع التركيز على المحطة",
 			"chat.questionCarousel.label": "سؤال الدردشة",
 			"chat.questionCarousel.labelWithKeybinding": "{0} ({1})",
 			"chat.questionCarousel.listSeparator": ", ",
@@ -9175,10 +9664,18 @@
 			"chat.saveResources.title": "حدد مجلدًا لحفظ الموارد"
 		},
 		"vs/workbench/contrib/chat/browser/widget/chatContentParts/chatSubagentContentPart": {
+			"chat.subagent.completedDefaultDescription": "تم تنفيذ الوكيل الفرعي",
 			"chat.subagent.defaultDescription": "تشغيل الوكيل الفرعي...",
 			"chat.subagent.modelTooltip": "الموديل: {0}",
+			"chat.subagent.pendingConfirmation": "1 تأكيد معلق",
+			"chat.subagent.pendingConfirmations": "{0} ​​​​في انتظار التأكيدات",
 			"chat.subagent.prefix": "وكيل فرعي",
 			"chat.subagent.prompt": "الاستعلام",
+			"chat.subagent.working.1": "المعالجة قيد التقدم",
+			"chat.subagent.working.2": "تحضير",
+			"chat.subagent.working.3": "جاري التحميل",
+			"chat.subagent.working.4": "التحليل",
+			"chat.subagent.working.5": "التقييم",
 			"hook.subagent.blocked": "تم حظر {0}",
 			"hook.subagent.blockedGeneric": "تم حظره بواسطة الخطاف",
 			"hook.subagent.warning": "تحذير لـ {0}",
@@ -9197,14 +9694,19 @@
 			"editsSummary": "تم إجراء التغييرات."
 		},
 		"vs/workbench/contrib/chat/browser/widget/chatContentParts/chatThinkingContentPart": {
+			"chat.thinking.deletions": "عمليات الحذف {0}",
+			"chat.thinking.deletions.one": "1 حذف",
 			"chat.thinking.editedFile": "تم تعديل {0}",
 			"chat.thinking.editingFile": "تم تعديل الملف",
 			"chat.thinking.editingFiles": "تحرير الملفات",
 			"chat.thinking.finished": "اكتمل العمل",
-			"chat.thinking.finished.withSteps": "تم ذلك باستخدام خطوة {0}{1}",
+			"chat.thinking.finished.withStepsPlural": "تم بخطوات {0}",
+			"chat.thinking.finished.withStepsSingular": "اكتمل بعد خطوة واحدة",
 			"chat.thinking.header": "انعكاس",
 			"chat.thinking.header.initial": "انعكاس",
 			"chat.thinking.header.working": "في حالة صالحة للعمل",
+			"chat.thinking.insertions": "إدراجات {0}",
+			"chat.thinking.insertions.one": "1 إدراج",
 			"chat.thinking.label": "{0} : {1}",
 			"chat.thinking.shimmer": "{0} : ",
 			"chat.thinking.started": "انعكاس",
@@ -9216,6 +9718,7 @@
 			"chat.thinking.thinking.3": "جاري النظر",
 			"chat.thinking.thinking.4": "التحليل",
 			"chat.thinking.thinking.5": "التقييم",
+			"chat.thinking.titleWithDiff": "{0}، {1}، {2}",
 			"chat.thinking.tool.1": "المعالجة قيد التقدم",
 			"chat.thinking.tool.2": "جاري التحضير",
 			"chat.thinking.tool.3": "جاري التحميل",
@@ -9292,6 +9795,10 @@
 			"mcpAppError": "خطأ في تحميل تطبيق MCP: {0}",
 			"retry": "حاول مرة أخرى"
 		},
+		"vs/workbench/contrib/chat/browser/widget/chatContentParts/toolInvocationParts/chatMissingSandboxDepsConfirmationSubPart": {
+			"missingDeps.cancel": "إلغاء",
+			"missingDeps.install": "تثبيت"
+		},
 		"vs/workbench/contrib/chat/browser/widget/chatContentParts/toolInvocationParts/chatModifiedFilesConfirmationSubPart": {
 			"manyFilesChanged": "{0} الملفات المعدلة",
 			"modifiedFilesAllChangesTitle": "كل التغييرات",
@@ -9338,10 +9845,23 @@
 			"continueInBackground": "الاستمرار في الخلفية",
 			"focusTerminal": "التركيز على الطرفية",
 			"hideTerminalOutput": "إخفاء الإخراج",
-			"showAndFocusTerminal": "إظهار الطرفية ونقلها إلى المقدمة",
 			"showTerminal": "إظهار الطرفية ونقلها إلى المقدمة",
 			"showTerminalOutput": "إظهار الإخراج",
 			"terminalToolCommand": "{0}"
+		},
+		"vs/workbench/contrib/chat/browser/widget/chatContentParts/toolInvocationParts/chatToolConfirmationCarouselPart": {
+			"allow": "السماح",
+			"allowAll": "السماح للجميع",
+			"collapse": "تقليل",
+			"confirmTool": "تأكيد الأداة؟",
+			"confirmTools": "تأكيد أدوات {0} ​​​​؟",
+			"expand": "تطوير",
+			"expandConfirmationUp": "قم بتوسيع التأكيد لأعلى",
+			"next": "التالي",
+			"previous": "السابق",
+			"restoreConfirmationSize": "استعادة حجم التأكيد",
+			"scrollToSubagent": "التمرير إلى {0}",
+			"toolConfirmationCarousel": "دائري تأكيد الأداة"
 		},
 		"vs/workbench/contrib/chat/browser/widget/chatContentParts/toolInvocationParts/chatToolConfirmationSubPart": {
 			"allow": "السماح مرة واحدة",
@@ -9392,22 +9912,15 @@
 			"chat.questionCarouselSignalOne": "الدردشة تتطلب تدخلك (سؤال واحد).",
 			"chatConfirmationAction": "تم تحديد \"{0}\"",
 			"checkpointRestore": "تمت استعادة نقطة التفتيش",
-			"didNotFollowInstructions": "لم يتبع التعليمات",
+			"confirmationPending": "1 تأكيد معلق",
+			"confirmationsPending": "{0} ​​​​في انتظار التأكيدات",
 			"hook.thinking.blocked": "تم حظر {0}",
 			"hook.thinking.blockedGeneric": "تم حظره بواسطة الخطاف",
 			"hook.thinking.warning": "تم استخدام {0}، ولكن تم تلقي تحذير",
 			"hook.thinking.warningGeneric": "تلقى استدعاء الأداة تحذيرًا",
-			"incompleteCode": "رمز غير مكتمل",
-			"incorrectCode": "الكود المقترح غير صحيح",
-			"missingContext": "سياق مفقود",
-			"offensiveOrUnsafe": "صادمة أو خطيرة",
-			"other": "أخرى",
-			"poorlyWrittenOrFormatted": "مكتوبة أو منسقة بشكل سيء",
 			"queuedDivider": "في قائمة الانتظار",
 			"queuedDividerTooltip": "سيتم إرسال الرسائل الموضوعة في قائمة الانتظار بمجرد اكتمال الطلب الحالي",
-			"refusedAValidRequest": "رفض الطلب الصحيح",
 			"renderFailMsg": "فشل في عرض المحتوى",
-			"reportIssue": "الإبلاغ عن مشكلة",
 			"requestMarkdownPartTitle": "انقر للتحرير",
 			"steeringDivider": "الإدارة",
 			"steeringDividerTooltip": "سيتم إرسال رسالة التوجيه بعد استدعاء الأداة التالي",
@@ -9486,7 +9999,6 @@
 			"chat.freeQuotaExceeded.upgrade.ariaLabel": "{0} {1}"
 		},
 		"vs/workbench/contrib/chat/browser/widget/input/delegationSessionPickerActionItem": {
-			"chat.cloudRequiresGit": "يتطلب مستودع Git",
 			"chat.learnMoreAgentHandOff": "تعرّف على المزيد حول تحويلات الوكيل...",
 			"chat.newChatSession": "جلسة دردشة جديدة",
 			"chat.newChatSession.category": "جلسة دردشة جديدة",
@@ -9495,12 +10007,12 @@
 		},
 		"vs/workbench/contrib/chat/browser/widget/input/editor/chatInputCompletions": {
 			"activeFile": "الملف النشط",
-			"debugEventsSnapshot.description": "إرفاق لقطة من أحداث التصحيح",
 			"fileEntryDescription": "{0} ({1})",
 			"installLabel": "تثبيت ملحقات الدردشة...",
 			"mcp.prompt.error": "خطأ في حل المطالبة: {0}",
 			"mcp.prompt.image": "صورة عاجلة",
 			"mcp.prompt.resource": "الموارد السريعة",
+			"session.description": "انضم إلى جلسة الدردشة",
 			"tool_source_completion": "{0} : {1}"
 		},
 		"vs/workbench/contrib/chat/browser/widget/input/editor/chatInputEditorContrib": {
@@ -9554,7 +10066,8 @@
 			"permissions.default": "الموافقات الافتراضية",
 			"permissions.default.description": "استخدم إعدادات الموافقة التي تم تكوينها",
 			"permissions.default.label": "الموافقات الافتراضية",
-			"permissions.default.subtext": "يستخدم Copilot الإعدادات التي تم تكوينها"
+			"permissions.default.subtext": "يستخدم Copilot الإعدادات التي تم تكوينها",
+			"permissions.learnMore": "تعرف على المزيد حول الأذونات"
 		},
 		"vs/workbench/contrib/chat/browser/widget/input/sessionTargetPickerActionItem": {
 			"chat.learnMoreAgentTypes": "تعرّف على المزيد حول أنواع الوكلاء...",
@@ -9630,6 +10143,7 @@
 			"chatEditingHasToolConfirmation": "صحيح عند وجود تأكيد الأداة.",
 			"chatEditingSentRequest": "نوع طلب التعديل الحالي.",
 			"chatExtensionInvalid": "صحيح عندما يكون ملحق الدردشة المثبت غير صالح ويحتاج إلى التحديث.",
+			"chatFirstRequest": "عنصر المحادثة هو الطلب الأول في الجلسة.",
 			"chatForegroundSessionCount": "عدد جلسات الدردشة الأمامية المرئية عبر واجهات الدردشة المختلفة.",
 			"chatHasAgents": "صحيح عندما يتوفر مساعدون مخصصون في الدردشة.",
 			"chatHasCanDelegateProviders": "يكون صحيحًا عند توفر موفري جلسة دردشة مع دعم التفويض.",
@@ -9655,6 +10169,7 @@
 			"chatResponseErrored": "صحيح عندما تولد استجابة الدردشة خطأ.",
 			"chatResponseFiltered": "صحيح عندما تتم تصفية استجابة الدردشة بواسطة الخادم.",
 			"chatResponseSupportsIssueReporting": "صحيح عندما تدعم استجابة الدردشة الحالية الإبلاغ عن المشكلة.",
+			"chatSessionHasActiveRequest": "صحيح عندما لا تنتهي استجابة المحادثة الحالية، بغض النظر عن الحالات المتوسطة مثل استدعاءات الأدوات أو مطالبات المعلومات.",
 			"chatSessionHasCustomAgentTarget": "صحيح عندما يتم تعيين customAgentTarget لتصفية الأوضاع في جلسة الدردشة.",
 			"chatSessionHasDebugData": "صحيح عندما تحتوي جلسة الدردشة النشطة على بيانات سجل تصحيح الأخطاء.",
 			"chatSessionHasDebugTools": "صحيح عند تمكين أدوات تصحيح الأخطاء في جلسة الدردشة الحالية.",
@@ -9713,12 +10228,8 @@
 			"newChat": "دردشة جديدة"
 		},
 		"vs/workbench/contrib/chat/common/customizationHarnessService": {
-			"addClaudeMd": "إضافة CLAUDE.md",
-			"claudeHooks": "قم بتكوين خطافات كلود",
-			"harness.claude": "Claude",
 			"harness.cli": "Copilot CLI",
-			"harness.local": "محلي",
-			"rule": "القاعدة"
+			"harness.local": "محلي"
 		},
 		"vs/workbench/contrib/chat/common/editing/chatEditingService": {
 			"chatEditingAgentSupportsReadonlyReferences": "يشير إلى ما إذا كان وكيل Chat Editor يدعم مراجع القراءة فقط (المؤقتة).",
@@ -9772,6 +10283,18 @@
 			"newChat": "دردشة جديدة",
 			"reportIssue": "الإبلاغ عن مشكلة"
 		},
+		"vs/workbench/contrib/chat/common/plugins/agentPluginServiceImpl": {
+			"chatPlugins": "ملحقات الدردشة",
+			"chatPlugins.property.path": "المسار إلى الدليل الجذر للمكون الإضافي للوكيل، بالنسبة إلى جذر الامتداد.",
+			"chatPlugins.property.when": "(اختياري) الشرط الذي يجب أن يكون صحيحًا لتمكين هذا الملحق.",
+			"chatPlugins.schema.description": "يساهم في المكونات الإضافية لوكيل الدردشة.",
+			"chatPluginsPath": "المسار",
+			"chatPluginsWhen": "متى",
+			"extension.plugin.invalid.path": "يتم حل إدخال chatالملحقs \"{1}\" للامتداد \"{0}\" خارج الامتداد.",
+			"extension.plugin.invalid.when": "يحتوي إدخال chatالملحقs \"{1}\" للملحق \"{0}\" على جملة غير صالحة: \"{2}\".",
+			"extension.plugin.missing.path": "لا يمكن للملحق \"{0}\" تسجيل إدخال chatالملحقs بدون مسار.",
+			"uninstallExtensionForPlugin": "يتم توفير هذا الملحق من خلال الامتداد \"{0}\". هل تريد إلغاء تثبيت الامتداد؟"
+		},
 		"vs/workbench/contrib/chat/common/promptSyntax/chatPromptFilesContribution": {
 			"chatAgents": "روبوتات الدردشة",
 			"chatContribution.property.description": "(اختياري) وصف الملف.",
@@ -9794,6 +10317,14 @@
 			"extension.registration.failed": "الامتداد \"{0}\" {1}. لم نتمكن من تسجيل {2}: {3}"
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/computeAutomaticInstructions": {
+			"debugDetail.agentInstruction": "يضاف دائما",
+			"debugDetail.agentNotInvocable": "لا يمكن استدعاؤه بواسطة النموذج",
+			"debugDetail.alreadyProcessed": "تمت معالجتها بالفعل",
+			"debugDetail.noMatch": "ApplyTo \"{0}\" لا يطابق أي ملفات مرفقة",
+			"debugDetail.noPattern": "لا يوجد نموذج ينطبق عليه",
+			"debugDetail.skillDebugDisabled": "تم تعطيل تسجيل التصحيح",
+			"debugDetail.skillNotModelInvocable": "تم تعطيل استدعاء القالب",
+			"debugDetail.skillWhenClause": "عندما يكون الشرط غير راض",
 			"instruction.file.description.agentsmd.folder": "التعليمات للمجلد '{0}'",
 			"instruction.file.description.agentsmd.root": "التعليمات لمساحة العمل",
 			"instruction.file.reason.allFiles": "مرفق تلقائياً كنموذج **",
@@ -9908,7 +10439,6 @@
 			"promptHeader.agent.target": "الهدف الذي تنطبق عليه سمات الرأس مثل الأدوات. القيم المحتملة هي \"github-copilot\" و\"vscode\".",
 			"promptHeader.agent.tools": "مجموعة من الأدوات التي يستطيع المساعد المخصص الوصول إليها.",
 			"promptHeader.agent.userInvocable": "يشير إلى ما إذا كان يمكن للمستخدمين تحديد الوكيل واستدعائه في واجهة المستخدم.",
-			"promptHeader.agent.userInvokable": "غير مستحسن. استخدم \"قابل للاستدعاء المستخدم\" بدلاً من ذلك.",
 			"promptHeader.instructions.applyToRange": "واحد أو أكثر من قوالب Glob (مفصولة بفواصل) تصف الملفات التي تنطبق عليها التعليمات. واستنادًا إلى هذه الأنماط، يتم تضمين الملف تلقائيًا في الموجه عندما يحتوي السياق على ملف يطابق واحدًا أو أكثر من هذه الأنماط. استخدم \"**\" عندما تريد إضافة هذا الملف دائمًا.\r\nمثال: \"**/*.ts\"، \"**/*.js\"، \"العميل/**\"",
 			"promptHeader.instructions.description": "وصف ملف التعليمات. يمكن استخدامه لتوفير سياق أو معلومات إضافية حول التعليمات ويتم تمريره إلى نموذج اللغة كجزء من الاستعلام.",
 			"promptHeader.instructions.excludeAgent": "سيتم استبعاد واحد أو أكثر من المساعدين من استخدام ملف التعليمات هذا.",
@@ -9926,8 +10456,7 @@
 			"promptHeader.skill.license": "معلومات ترخيص المهارة.",
 			"promptHeader.skill.metadata": "بيانات وصفية إضافية للمهارة.",
 			"promptHeader.skill.name": "اسم المهارة.",
-			"promptHeader.skill.userInvocable": "اضبط على \"خطأ\" للاختباء في / القائمة. استخدمه للمعرفة الأساسية التي لا ينبغي للمستخدمين الاستدعاء بها مباشرة. القيمة الافتراضية: صحيح.",
-			"promptHeader.skill.userInvokable": "غير مستحسن. استخدم \"قابل للاستدعاء المستخدم\" بدلاً من ذلك."
+			"promptHeader.skill.userInvocable": "اضبط على \"خطأ\" للاختباء في / القائمة. استخدمه للمعرفة الأساسية التي لا ينبغي للمستخدمين الاستدعاء بها مباشرة. القيمة الافتراضية: صحيح."
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/languageProviders/promptHeaderAutocompletion": {
 			"promptHeaderAutocompletion.addHeader": "أضف رأس الطلب",
@@ -10035,6 +10564,7 @@
 			"promptValidator.agentNotFound": "مساعد غير معروف '{0}'. المساعدون المتاحون: {1}.",
 			"promptValidator.agentsMustBeArray": "يجب أن تكون سمة \"الوكلاء\" مجموعة.",
 			"promptValidator.agentsRequiresAgentTool": "عند تحديد \"الوكلاء\" و\"الأدوات\"، يجب تضمين أداة \"الوكيل\" في سمة \"الأدوات\".",
+			"promptValidator.agentsRequiresConfig": "لاستخدام الوكلاء كوكلاء فرعيين، يجب عليك أيضًا تمكين الإعداد \"chat.customAgentInSubagent.enabled\".",
 			"promptValidator.applyToMustBeString": "يجب أن تكون السمة 'applyTo' سلسلة نصية.",
 			"promptValidator.applyToMustBeValidGlob": "يجب أن تكون السمة 'applyTo' نمط Glob صالح.",
 			"promptValidator.argumentHintMustBeString": "يجب أن تكون السمة 'argument-hint' سلسلة نصية.",
@@ -10081,6 +10611,7 @@
 			"promptValidator.hooksMustBeMap": "يجب أن تكون سمة \"الخطافات\" عبارة عن تعيين بين أنواع أحداث الخطاف ومصفوفات الأوامر.",
 			"promptValidator.ignoredAttribute.vscode-agent": "يتم تجاهل السمة '{0}' عند التشغيل المحلي في فيجوال كود.",
 			"promptValidator.inferDeprecated": "تم إهمال السمة \"استنتاج\" لصالح \"استدعاء المستخدم\" و\"تعطيل نموذج الاستدعاء\".",
+			"promptValidator.inferRequiresConfig": "لاستخدام الوكلاء كوكلاء فرعيين، يجب عليك أيضًا تمكين الإعداد \"chat.customAgentInSubagent.enabled\".",
 			"promptValidator.invalidFileReference": "مرجع ملف غير صالح '{0}'.",
 			"promptValidator.invalidPermissionValue": "قيمة الإذن \"{0}\" غير صالحة للنطاق \"{1}\". القيم المسموح بها: {2}.",
 			"promptValidator.missingHandoffProperties": "خصائص مطلوبة مفقودة {0} في كائن النقل.",
@@ -10126,28 +10657,11 @@
 			"promptValidator.unknownMatcherProperty": "خاصية غير معروفة \"{0}\" في مقارنة الخطاف.",
 			"promptValidator.unknownPermissionScope": "مجموعة أذونات غير معروفة \"{0}\". النطاقات الصالحة: {1}.",
 			"promptValidator.unknownVariableReference": "أداة أو مجموعة أدوات غير معروفة '{0}'.",
-			"promptValidator.userInvocableMustBeBoolean": "يجب أن تكون السمة \"القابلة للاستدعاء بواسطة المستخدم\" \"صحيحة\" أو \"خطأ\".",
-			"promptValidator.userInvokableDeprecated": "تم إهمال السمة \"القابلة للاستدعاء بواسطة المستخدم\". استخدم \"قابل للاستدعاء المستخدم\" بدلاً من ذلك."
+			"promptValidator.userInvocableMustBeBoolean": "يجب أن تكون السمة \"القابلة للاستدعاء بواسطة المستخدم\" \"صحيحة\" أو \"خطأ\"."
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/service/promptsServiceImpl": {
 			"extension.with.id": "إضافة: {0}",
-			"internal.builtIn": "متكامل",
 			"plugin.capitalized": "الإضافات",
-			"promptsService.loadAgents": "وكلاء التحميل",
-			"promptsService.loadHooks": "تحميل الخطافات",
-			"promptsService.loadInstructions": "تعليمات التحميل",
-			"promptsService.loadSkills": "مهارات التحميل",
-			"promptsService.loadSlashCommands": "تحميل الأوامر المائلة",
-			"promptsService.resolvedAgent": "تم حل عامل {0} في {1} مللي ثانية",
-			"promptsService.resolvedAgents": "تم حل عوامل {0} في {1} مللي ثانية",
-			"promptsService.resolvedHook": "تم حل الخطاف {0} في {1} مللي ثانية",
-			"promptsService.resolvedHooks": "تم حل خطافات {0} بوحدة {1} مللي ثانية",
-			"promptsService.resolvedInstruction": "تم حل تعليمات {0} في {1} مللي ثانية",
-			"promptsService.resolvedInstructions": "تم حل تعليمات {0} في {1} مللي ثانية",
-			"promptsService.resolvedSkill": "تم حل مهارة {0} في {1} مللي ثانية",
-			"promptsService.resolvedSkills": "تم حل مهارات {0} في {1} مللي ثانية",
-			"promptsService.resolvedSlashCommand": "تم حل أمر الشرطة المائلة {0} إلى {1}ms",
-			"promptsService.resolvedSlashCommands": "تم حل أوامر الشرطة المائلة {0} إلى {1}ms",
 			"user-data-dir.capitalized": "بيانات المستخدم"
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/utils/promptFilesLocator": {
@@ -10210,6 +10724,11 @@
 		"vs/workbench/contrib/chat/common/tools/builtinTools/runSubagentTool": {
 			"tool.runSubagent.displayName": "تشغيل الوكيل الفرعي",
 			"tool.runSubagent.userDescription": "ينفذ مهمة في سياق وكيل فرعي معزول لتمكين تنظيم المهام بكفاءة وإدارة نافذة السياق."
+		},
+		"vs/workbench/contrib/chat/common/tools/builtinTools/setArtifactRulesTool": {
+			"tool.setArtifactRules.displayName": "تحديد قواعد قطعة أثرية",
+			"tool.setArtifactRules.pastTense": "تحديث قواعد القطع الأثرية",
+			"tool.setArtifactRules.success": "تحديث قواعد القطع الأثرية"
 		},
 		"vs/workbench/contrib/chat/common/tools/builtinTools/setArtifactsTool": {
 			"tool.setArtifacts.displayName": "تحديد عناصر الجلسة",
@@ -10308,7 +10827,7 @@
 			"workbench.action.speech.stopReadAloud": "إيقاف القراءة بصوت عالٍ"
 		},
 		"vs/workbench/contrib/chat/electron-browser/agentSessions/agentSessionsActions": {
-			"openSessionsWindow": "افتح نافذة الجلسات"
+			"openAgentsWindow": "افتح تطبيق الوكلاء"
 		},
 		"vs/workbench/contrib/chat/electron-browser/builtInTools/fetchPageTool": {
 			"fetchWebPage.binaryNotSupported": "الملفات الثنائية غير مدعومة في الوقت الحالي.",
@@ -10588,7 +11107,17 @@
 			"toggleRenderControlCharacters": "تفعيل/تعطيل رموز التحكم"
 		},
 		"vs/workbench/contrib/codeEditor/browser/toggleRenderWhitespace": {
-			"miToggleRenderWhitespace": "عرض المسافات &&البيضاء",
+			"renderWhitespace": "إظهار المساحة البيضاء",
+			"renderWhitespace.all": "الجميع",
+			"renderWhitespace.boundary": "حد",
+			"renderWhitespace.none": "لا شيء",
+			"renderWhitespace.selection": "اختيار",
+			"renderWhitespace.setAll": "اضبط عرض المساحة البيضاء على الكل",
+			"renderWhitespace.setBoundary": "اضبط عرض المساحة البيضاء على الحد",
+			"renderWhitespace.setNone": "اضبط عرض المسافة البيضاء على لا شيء",
+			"renderWhitespace.setSelection": "اضبط عرض المساحة البيضاء على التحديد",
+			"renderWhitespace.setTrailing": "اضبط عرض المسافة البيضاء على النهاية",
+			"renderWhitespace.trailing": "نهاية",
 			"toggleRenderWhitespace": "تفعيل/تعطيل عرض المسافة"
 		},
 		"vs/workbench/contrib/codeEditor/browser/toggleWordWrap": {
@@ -12182,6 +12711,10 @@
 			"deprecated with alternate extension tooltip": "هذه الإضافة متقادمة. استخدم الإضافة {0} بدلاً من ذلك.",
 			"deprecated with alternate settings message": "هذه الإضافة غير موصى بها لأن هذه الميزة مدمجة الآن في فيجوال كود.",
 			"deprecated with alternate settings tooltip": "هذه الإضافة غير موصى بها لأن هذه الميزة مدمجة الآن في فيجوال كود. كوّن هذه {0} لاستخدام هذه الميزة.",
+			"disableAIGloballyAction": "تعطيل ميزات الذكاء الاصطناعي",
+			"disableAIGloballyActionToolTip": "تعطيل ميزات الذكاء الاصطناعي",
+			"disableAIInWorkspaceAction": "تعطيل ميزات الذكاء الاصطناعي (مساحة العمل)",
+			"disableAIInWorkspaceActionToolTip": "قم بتعطيل ميزات الذكاء الاصطناعي في مساحة العمل هذه",
 			"disableAutoUpdate": "التحديثات التلقائية معطلة لـ",
 			"disableForWorkspaceAction": "تعطيل (مساحة العمل)",
 			"disableForWorkspaceActionToolTip": "تعطيل هذه الإضافة فقط في مساحة العمل هذه",
@@ -12193,6 +12726,10 @@
 			"disabled by environment": "هذه الإضافة معطلة بواسطة البيئة.",
 			"do not sync": "عدم مزامنة هذه الإضافة",
 			"download": "محاولة التنزيل يدوياً...",
+			"enableAIGloballyAction": "تمكين ميزات الذكاء الاصطناعي",
+			"enableAIGloballyActionToolTip": "تمكين ميزات الذكاء الاصطناعي",
+			"enableAIInWorkspaceAction": "تمكين ميزات الذكاء الاصطناعي (مساحة العمل)",
+			"enableAIInWorkspaceActionToolTip": "تمكين ميزات الذكاء الاصطناعي في مساحة العمل هذه",
 			"enableAutoUpdate": "التحديثات التلقائية مفعلة لـ",
 			"enableAutoUpdateLabel": "التحديث التلقائي",
 			"enableForWorkspaceAction": "تفعيل (مساحة العمل)",
@@ -12269,6 +12806,7 @@
 			"report issue title": "فشل التحقق من توقيع الإضافة: {0}",
 			"restart extensions": "إعادة تشغيل الإضافات",
 			"restart product": "إعادة التشغيل للتحديث",
+			"restartExtensionHost.reason.disable": "تعطيل ميزات الذكاء الاصطناعي",
 			"review": "مراجعة",
 			"select and install local extensions": "تثبيت الإضافات المحلية في '{0}'...",
 			"select and install remote extensions": "تثبيت الإضافات البعيدة محلياً...",
@@ -13151,11 +13689,18 @@
 			"openImagesInCarousel": "افتح في معاينة الصورة"
 		},
 		"vs/workbench/contrib/imageCarousel/browser/imageCarouselEditor": {
+			"imageCarousel.ariaLabel": "معاينة الصور",
 			"imageCarousel.counter": "{0} / {1}",
+			"imageCarousel.kindImage": "صورة",
+			"imageCarousel.kindVideo": "فيديو",
 			"imageCarousel.nextImage": "الصورة التالية",
 			"imageCarousel.noImages": "لا توجد صور لعرضها",
 			"imageCarousel.previousImage": "الصورة السابقة",
-			"imageCarousel.thumbnailLabel": "الصورة {0} من {1}"
+			"imageCarousel.statusWithCaption": "{0} ​​​​{1} على {2}: {3}",
+			"imageCarousel.statusWithName": "{0} ​​​​{1} على {2}: {3}",
+			"imageCarousel.thumbnailLabelImage": "صورة {0} ​​​​على {1}",
+			"imageCarousel.thumbnailLabelVideo": "فيديو {0} ​​​​على {1}",
+			"imageCarousel.thumbnails": "الصور المصغرة للصورة"
 		},
 		"vs/workbench/contrib/inlayHints/browser/inlayHintsAccessibilty": {
 			"description": "كود مع معلومات تلميحات مضمنة",
@@ -13215,14 +13760,7 @@
 			"working": "جارٍ المعالجة... يُرجى الانتظار."
 		},
 		"vs/workbench/contrib/inlineChat/browser/inlineChatSessionServiceImpl": {
-			"chat.remove.confirmation.checkbox": "لا تطلب مني هذا السؤال مرة أخرى",
-			"confirm": "هل تريد المتابعة في وضع الدردشة؟",
-			"confirm.cancel": "إلغاء",
-			"confirm.detail": "الدردشة المضمنة مُصممة لتقديم تغييرات على كود الملف الواحد. واصل طلبك في عرض الدردشة أو أعد صياغته للدردشة المضمنة.",
-			"confirm.title": "هل تريد المتابعة في وضع الدردشة؟",
-			"confirm.yes": "المتابعة في وضع الدردشة",
 			"name": "نقل الدردشة المضمنة إلى دردشة اللوحة",
-			"resetChoice.label": "إعادة تعيين الخيار 'نقل الدردشة المضمنة إلى دردشة اللوحة'",
 			"response.description": "استجابة قصيرة اختيارية للدردشة المضمنة. حددها بـ 10 كلمات كحد أقصى.",
 			"terminated.message": "تم تصميم الدردشة لإجراء تغييرات على التعليمات البرمجية ذات الملف الواحد. تابع طلبك في عرض الدردشة أو أعد صياغته للدردشة عبر الإنترنت.",
 			"tool.cancel": "إلغاء"
@@ -13240,7 +13778,6 @@
 		"vs/workbench/contrib/inlineChat/common/inlineChat": {
 			"affordance": "التحكم في عرض خيار الدردشة عند تحديد النص.",
 			"affordance.editor": "إظهار خيار في المحرر في موضع المؤشر.",
-			"affordance.gutter": "إظهار مؤشر في الهامش.",
 			"affordance.off": "عذرا، لا يتم عرض أي مؤشرات.",
 			"askInChat": "التحكم في ما إذا كانت الملفات الموجودة في جلسة تحرير الدردشة تستخدم \"السؤال في الدردشة\" بدلاً من \"الدردشة المضمنة\".",
 			"editorMinimap.inlineChatInserted": "لون علامة خريطة مصغرة للمحتوى المضمن للدردشة المضمنة.",
@@ -14278,6 +14815,8 @@
 			"app.mcp.json.command": "أمر تنفيذ الخادم.",
 			"app.mcp.json.cwd": "دليل العمل لأمر الخادم هذا. القيمة الافتراضية تتوافق مع مجلد مساحة العمل عند التنفيذ في مساحة عمل.",
 			"app.mcp.json.headers": "عناوين إضافية مُرسلة إلى الخادم.",
+			"app.mcp.json.oauth": "التكوين OAuth ​​للمصادقة مع الخادم.",
+			"app.mcp.json.oauth.clientId": "معرف العميل OAuth ​​​​الذي سيتم استخدامه عند المصادقة مع الخادم.",
 			"app.mcp.json.sandbox": "تكوين Sandbox الذي يحدد الوصول إلى نظام الملفات والشبكة. يتم تمكين Sandboxing عند تعيين خاصية sandboxEnabled على مستوى الخادم، فقط على نظامي التشغيل Mac OS وLinux.",
 			"app.mcp.json.sandbox.filesystem": "إعدادات الوصول إلى نظام الملفات لخادم وضع الحماية. نماذج Glob مدعومة فقط على نظام التشغيل Mac OS.",
 			"app.mcp.json.sandbox.filesystem.allowWrite": "قائمة مسارات الملفات التي لا يسمح للخادم بكتابتها، على سبيل المثال. `~/src/`.",
@@ -15417,7 +15956,9 @@
 			"cycles": "دورات خدمة الطباعة",
 			"emitter": "طباعة الملفات الشخصية للمرسل",
 			"insta.trace": "تتبعات خدمة الطباعة",
-			"show.label": "مستوى أداء بدء التشغيل"
+			"performanceConfigurationTitle": "أداء",
+			"show.label": "مستوى أداء بدء التشغيل",
+			"telemetry.performance.inputLatencySamplingProbability": "الاحتمال (0 أو 1) أن يتم الإبلاغ عن القياس عن بعد لزمن وصول الإدخال لهذه الجلسة. اضبط على 0 للتعطيل، و1 للإبلاغ دائمًا."
 		},
 		"vs/workbench/contrib/performance/browser/perfviewEditor": {
 			"name": "مستوى أداء بدء التشغيل"
@@ -15449,10 +15990,10 @@
 			"editWhen": "تغيير في حالة التعبير",
 			"error": "خطأ '{0}' أثناء تعديل مجموعة المفاتيح. افتح ملف 'keybindings.json' ثم صحح الأخطاء.",
 			"extension label": "إضافة ({0})",
-			"foundResults": "{0} نتائج",
 			"keybinding": "مجموعة المفاتيح",
 			"keybindingsLabel": "مجموعات المفاتيح",
 			"keyboard shortcuts aria label": "استخدم مفتاح المسافة أو Enter لتعديل مجموعة المفاتيح.",
+			"navigateToResults": "استخدم{0} ​​للانتقال إلى جدول النتائج.",
 			"noKeybinding": "لم يتم تعيين أي مجموعة مفاتيح",
 			"noWhen": "لا يوجد سياق when.",
 			"recordKeysLabel": "تسجيل المفاتيح",
@@ -17207,7 +17748,7 @@
 			"JsonSchema.commandArray": "أمر للصدفة لتنفيذه. سيتم دمج عناصر المصفوفة باستخدام حرف مسافة",
 			"JsonSchema.customizations.customizes.type": "نوع المهمة لتخصيصه",
 			"JsonSchema.hide": "إخفاء هذه المهمة من الاختيار السريع لمهمة التنفيذ",
-			"JsonSchema.inSessions": "اعرض هذه المهمة في القائمة المنسدلة لتنفيذ جلسة الوكيل",
+			"JsonSchema.inAgents": "اعرض هذه المهمة في القائمة المنسدلة إجراءات تنفيذ الوكيل",
 			"JsonSchema.linux": "تكوين أوامر خاص بـ لينكس",
 			"JsonSchema.mac": "تكوين أوامر خاص بـ ماك",
 			"JsonSchema.shell": "يحدد ما إذا كان الأمر هو أمر موجه أوامر أو برنامج خارجي. القيمة الافتراضية هي false عند الحذف.",
@@ -17442,6 +17983,18 @@
 		},
 		"vs/workbench/contrib/telemetry/browser/telemetry.contribution": {
 			"showTelemetry": "عرض المقاييس عن بعد"
+		},
+		"vs/workbench/contrib/terminal/browser/agentHostTerminalContribution": {
+			"agentHostTerminal.channelLocal": "محطة مضيف الوكيل (محلي)",
+			"agentHostTerminal.channelRemote": "محطة مضيف الوكيل ({0})",
+			"agentHostTerminal.local": "محلي",
+			"agentHostTerminal.pick": "المضيف الوكيل...",
+			"agentHostTerminal.pickHost": "حدد مضيف وكيل لفتح محطة عليه",
+			"agentHostTerminal.profileName": "مضيف الوكيل ({0})"
+		},
+		"vs/workbench/contrib/terminal/browser/agentHostTerminalService": {
+			"agentHostTerminal.default": "محطة مضيف الوكيل",
+			"agentHostTerminal.tool": "محطة مضيف الوكيل"
 		},
 		"vs/workbench/contrib/terminal/browser/baseTerminalBackend": {
 			"nonResponsivePtyHost": "اتصال عملية البرنامج الوسيط بين الخاصة بالطرفية لا يستجيب، وقد تتوقف الطرفيات عن العمل. انقر لإعادة تشغيل البرنامج الوسيط بين يدويًا.",
@@ -17801,7 +18354,6 @@
 			"terminal.integrated.env.osx": "كائن ومتغيرات بيئة مضافة لعملية فيجوال كود لاستخدامها بواسطة الطرفية على نظام ماك. عيّن القيمة 'null' لحذف متغير البيئة.",
 			"terminal.integrated.env.windows": "كائن ومتغيرات بيئة مضافة لعملية فيجوال كود لاستخدامها بواسطة الطرفية على ويندوز. عيّن القيمة 'null' لحذف متغير البيئة.",
 			"terminal.integrated.environmentChangesRelaunch": "يوضح ما إذا كان يجب إعادة تشغيل المحطات تلقائياً عندما تريد الإضافات المساهمة في بيئتها ولم يحدث أي تفاعل حتى الآن.",
-			"terminal.integrated.experimental.aiProfileGrouping": "يشير إلى ما إذا كان سيتم تمييز ملفات تعريف الأجهزة التي تعمل بالذكاء الاصطناعي (مثل Copilot CLI وClaude Agent) في القائمة المنسدلة للجهاز الجديد.",
 			"terminal.integrated.fastScrollSensitivity": "مضاعف سرعة التمرير عند الضغط على مفتاح Alt.",
 			"terminal.integrated.focusAfterRun": "يحدد ما إذا كان سيتم توجيه الطرفية أو المخزن المؤقت القابل للوصول أو أي منهما بعد تنفيذ 'الطرفية: تنفيذ النص المحدد في الطرفية النشطة'.",
 			"terminal.integrated.focusAfterRun.accessible-buffer": "توجيه المخزن المؤقت القابل للوصول دائماً.",
@@ -18054,11 +18606,6 @@
 			"addTerminalSelection": "إضافة اختيار الطرفية إلى الدردشة",
 			"terminalSelection": "اختيار الطرفية"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/awaitTerminalTool": {
-			"await.past": "اكتمل انتظار الطرفية",
-			"await.progressive": "في انتظار اكتمال الطرفية",
-			"awaitTerminalTool.displayName": "انتظار الطرفية"
-		},
 		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/commandLineAnalyzer/autoApprove/npmScriptAutoApprover": {
 			"autoApprove.npmScript": "تم تحديد الموافقة التلقائية كـ {0} في package.json"
 		},
@@ -18085,8 +18632,8 @@
 			"terminalLastCommandTool.displayName": "الحصول على آخر أمر طرفية"
 		},
 		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/getTerminalOutputTool": {
-			"bg.past": "تم التحقق من مخرجات الطرفية الخلفية",
-			"bg.progressive": "جارٍ التحقق من مخرجات الطرفية الخلفية",
+			"getTerminalOutput.past": "تم التحقق من الإخراج الطرفي",
+			"getTerminalOutput.progressive": "التحقق من إخراج المحطة",
 			"getTerminalOutputTool.displayName": "الحصول على مخرجات الطرفية"
 		},
 		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/getTerminalSelectionTool": {
@@ -18103,13 +18650,6 @@
 			"closeTerminal": "ستُعاد استخدام الطرفية بواسطة المهام. اضغط على أي مفتاح لإغلاقها.",
 			"exitCode.closeTerminal": "اضغط على أي مفتاح لإغلاق الطرفية.",
 			"exitCode.reuseTerminal": "اضغط على أي مفتاح لإغلاق الطرفية.",
-			"poll.terminal.acceptRun": "السماح",
-			"poll.terminal.confirmRequired": "الطرفية تنتظر إدخالاً.",
-			"poll.terminal.confirmRunDetail": "{0}\r\n هل تريد إرسال '{1}'{2} متبوعاً بـ 'Enter' إلى الطرفية؟",
-			"poll.terminal.enterInput": "التركيز على الطرفية",
-			"poll.terminal.inputRequest": "الطرفية تنتظر إدخالاً.",
-			"poll.terminal.rejectRun": "التركيز على الطرفية",
-			"poll.terminal.requireInput": "{0}\r\nالرجاء توفير الإدخال المطلوب للطرفية.\r\n\r\n",
 			"reuseTerminal": "ستُعاد استخدام الطرفية بواسطة المهام. اضغط على أي مفتاح لإغلاقها.",
 			"reuseTerminal.pressClose": "ستُعاد استخدام الطرفية بواسطة المهام. اضغط على أي مفتاح لإغلاقها."
 		},
@@ -18118,29 +18658,57 @@
 			"confirmTerminalCommandTool.userDescription": "أداة تأكيد أوامر الطرفية"
 		},
 		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/runInTerminalTool": {
+			"allow": "السماح",
+			"backgroundTaskCompleted": "اكتملت مهمة الخلفية `{0}`",
+			"backgroundTaskNeedsInput": "تتطلب مهمة الخلفية `{0}` ​​الإدخال",
 			"runInTerminal": "هل تريد تشغيل الأمر `{0}`؟",
-			"runInTerminal.background": "تشغيل الأمر `{0}` في الطرفية في الخلفية؟",
-			"runInTerminal.background.inDirectory": "تشغيل الأمر `{0}` في الخلفية داخل `{1}`؟",
 			"runInTerminal.confirmationMessage": "الشرح: {0}\r\n\r\nالهدف: {1}",
 			"runInTerminal.inDirectory": "تنفيذ الأمر `{0}` داخل `{1}`؟",
 			"runInTerminal.invocation": "`{0}` قيد التشغيل",
-			"runInTerminal.invocation.background": "تشغيل `{0}` في الخلفية",
 			"runInTerminal.invocation.sandbox": "تشغيل `{0}` في وضع الحماية",
-			"runInTerminal.invocation.sandbox.background": "تشغيل `{0}` في وضع الحماية في الخلفية",
+			"runInTerminal.missingDeps.cancel": "إلغاء",
+			"runInTerminal.missingDeps.cancelled": "تم إلغاء تثبيت تبعية وضع الحماية من قبل المستخدم.",
+			"runInTerminal.missingDeps.failed": "فشل تثبيت تبعية Sandbox (رمز الخروج {0}). لم يتم تنفيذ الأمر.",
+			"runInTerminal.missingDeps.install": "تثبيت",
+			"runInTerminal.missingDeps.message": "لم يتم تثبيت التبعيات التالية، الضرورية للتشغيل في وضع الحماية: {0}. هل تريد تثبيتها؟",
+			"runInTerminal.missingDeps.title": "تبعيات وضع الحماية مفقودة",
+			"runInTerminal.missingDeps.unknown": "غير قادر على تحديد ما إذا كان تثبيت تبعية وضع الحماية ناجحًا. لم يتم تنفيذ الأمر.",
 			"runInTerminal.presentationOverride": "تشغيل الأمر `{0}` في `{1}`؟",
-			"runInTerminal.presentationOverride.background": "هل تريد تشغيل الأمر `{0}` في `{1}` في الخلفية؟",
-			"runInTerminal.presentationOverride.background.inDirectory": "هل تريد تنفيذ أمر `{0}` في `{1}` في الخلفية باستخدام `{2}`؟",
 			"runInTerminal.presentationOverride.inDirectory": "تنفيذ الأمر `{0}` في `{1}` داخل `{2}`؟",
+			"runInTerminal.presentationOverride.inDirectory.withoutLanguage": "هل تريد تشغيل الأمر في `{0}` ​​داخل `{1}`؟",
+			"runInTerminal.presentationOverride.withoutLanguage": "تنفيذ الأمر في `{0}`؟",
 			"runInTerminal.streaming": "`{0}` قيد التشغيل",
-			"runInTerminal.streaming.background": "تشغيل `{0}` في الخلفية",
 			"runInTerminal.streaming.default": "تنفيذ الأمر",
 			"runInTerminal.unsandboxed": "هل تريد تشغيل أمر `{0}` خارج وضع الحماية؟",
-			"runInTerminal.unsandboxed.background": "هل تريد تشغيل أمر `{0}` خارج وضع الحماية في الخلفية؟",
+			"runInTerminal.unsandboxed.autoRetry.confirmationMessage": "`{0}`",
+			"runInTerminal.unsandboxed.autoRetry.invocation": "تشغيل `{0}` ​​خارج نطاق الحماية",
+			"runInTerminal.unsandboxed.autoRetry.reason": "يشير إخراج تنفيذ وضع الحماية إلى أن وضع الحماية قام بحظر الأمر.",
 			"runInTerminal.unsandboxed.confirmationMessage": "شرح: {0}\r\n\r\nالهدف: {1}\r\n\r\nسبب ترك وضع الحماية: {2}",
 			"runInTerminal.unsandboxed.confirmationMessage.defaultReason": "أشار النموذج إلى أن هذا الأمر يحتاج إلى وصول خارج نطاق الحماية.",
+			"runInTerminal.unsandboxed.domain": "هل تريد تشغيل الأمر `{0}` ​​​​خارج [صندوق الحماية]({1}) للوصول إلى {2}؟",
+			"runInTerminal.unsandboxed.domain.reason.denied.multi": "يصل هذا الأمر إلى {0} ​​​​و {1} المجالات الأخرى المحظورة بواسطة chat.agent.deniedNetworkDomains.",
+			"runInTerminal.unsandboxed.domain.reason.denied.single": "يصل هذا الأمر إلى {0} ​​​​المحظور بواسطة chat.agent.deniedNetworkDomains.",
+			"runInTerminal.unsandboxed.domain.reason.mixed.multi": "يصل هذا الأمر إلى {0} ​​​​و {1} المجالات الأخرى المحظورة بواسطة chat.agent.deniedNetworkDomains أو التي لم تتم إضافتها إلى chat.agent.allowedNetworkDomains.",
+			"runInTerminal.unsandboxed.domain.reason.mixed.single": "يصل هذا الأمر إلى {0} ​​​​المحظور بواسطة chat.agent.eniedNetworkDomains أو الذي لم تتم إضافته إلى chat.agent.allowedNetworkDomains.",
+			"runInTerminal.unsandboxed.domain.reason.multi": "يصل هذا الأمر إلى {0} ​​​​و {1} إلى المجالات الأخرى غير المسموح بها بواسطة تكوين chat.agent.sandbox الحالي.",
+			"runInTerminal.unsandboxed.domain.reason.single": "يصل هذا الأمر إلى {0} ​​وهو أمر غير مسموح به بواسطة تكوين chat.agent.sandbox الحالي.",
+			"runInTerminal.unsandboxed.domain.summary": "`{0}` ​​​​و{1} المجالات الأخرى",
 			"runInTerminalTool.altBufferMessage": "أدى الأمر إلى فتح المخزن المؤقت البديل.",
 			"runInTerminalTool.displayName": "التنفيذ في الطرفية",
-			"runInTerminalTool.userDescription": "تشغيل الأوامر في الطرفية"
+			"runInTerminalTool.userDescription": "تشغيل الأوامر في الطرفية",
+			"skip": "تجاهل"
+		},
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/sendToTerminalTool": {
+			"focusTerminal": "ضع التركيز على المحطة",
+			"send.confirm.message": "قم بتشغيل {0} ​​​​في المحطة {1}",
+			"send.confirm.message.enter": "اضغط على `Enter` ​​في المحطة {0}",
+			"send.confirm.title": "إرسال إلى المحطة",
+			"send.past": "الإرسال من {0} ​​إلى المحطة",
+			"send.past.enter": "تم الضغط على `Enter` ​​​​في المحطة",
+			"send.progressive": "إرسال {0} ​​إلى المحطة",
+			"send.progressive.enter": "اضغط `Enter` ​​في المحطة",
+			"send.replyingTo": "الرد على:",
+			"sendToTerminalTool.displayName": "إرسال إلى المحطة"
 		},
 		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/task/createAndRunTaskTool": {
 			"allowTaskCreationExecution": "هل تريد السماح بإنشاء وتنفيذ المهام؟",
@@ -18184,6 +18752,21 @@
 			"copilotChat.taskFailedWithExitCode": "فشلت المهمة `{0}` مع رمز الخروج {1}."
 		},
 		"vs/workbench/contrib/terminalContrib/chatAgentTools/common/terminalChatAgentToolsConfiguration": {
+			"agentSandbox.enabled.deprecated": "استخدم {0} ​​​​بدلاً من ذلك",
+			"agentSandbox.enabledSetting": "يتحكم في ما إذا كان وضع المعالج يستخدم وضع الحماية لتقييد إجراءات الأداة. عند التمكين، تعمل أدوات مثل Terminal في بيئة وضع الحماية لتقييد الوصول إلى النظام.",
+			"agentSandbox.enabledSetting.offDescription": "قم بتعطيل وضع الحماية لأدوات وضع المعالج.",
+			"agentSandbox.enabledSetting.onDescription": "تمكين وضع الحماية للأدوات في وضع المعالج.",
+			"agentSandbox.fileSystemLinux.deprecated": "استخدم {0} ​​​​بدلاً من ذلك",
+			"agentSandbox.fileSystemMac.deprecated": "استخدم {0} ​​​​بدلاً من ذلك",
+			"agentSandbox.linuxFileSystemSetting": "ملاحظة: ينطبق هذا الإعداد فقط عند تمكين {0}. يتحكم في الوصول إلى نظام الملفات في وضع الحماية ضمن Linux. لا تدعم المسارات أنماط Glob، بل المسارات الحرفية فقط (على سبيل المثال: ./src/، ~/.ssh، .env). يجب تثبيت **bubblewrap** و**socat** و**ripgrep** حتى يعمل هذا الإعداد.",
+			"agentSandbox.linuxFileSystemSetting.allowWrite": "مجموعة من المسارات للسماح بالوصول للكتابة. اتركه فارغا لمنع أي كتابة.",
+			"agentSandbox.linuxFileSystemSetting.denyRead": "مجموعة من المسارات لمنع الوصول للقراءة. اتركه فارغًا للسماح بقراءة جميع المسارات.",
+			"agentSandbox.linuxFileSystemSetting.denyWrite": "قم بتجميع المسارات لرفض الوصول للكتابة إلى المسارات المسموح بها (يتجاوز المسموح بالكتابة).",
+			"agentSandbox.macFileSystemSetting": "ملاحظة: ينطبق هذا الإعداد فقط عند تمكين {0}. يتحكم في الوصول إلى نظام الملفات في وضع الحماية ضمن macOS. تدعم المسارات أيضًا قوالب Glob ذات نمط git (على سبيل المثال: *.ts، ./src، ./src/**/*.ts، file?.txt).",
+			"agentSandbox.macFileSystemSetting.allowWrite": "مجموعة من المسارات للسماح بالوصول للكتابة. اتركه فارغا لمنع أي كتابة.",
+			"agentSandbox.macFileSystemSetting.denyRead": "مجموعة من المسارات لمنع الوصول للقراءة. اتركه فارغًا للسماح بقراءة جميع المسارات.",
+			"agentSandbox.macFileSystemSetting.denyWrite": "قم بتجميع المسارات لرفض الوصول للكتابة إلى المسارات المسموح بها (يتجاوز المسموح بالكتابة).",
+			"agentSandbox.runtimeSetting": "ملاحظة: ينطبق هذا الإعداد فقط عند تمكين {0}. يتم تمرير أزواج المفاتيح/القيمة إلى جذر تكوين وقت تشغيل وضع الحماية.",
 			"autoApprove.defaults": "لاحظ أن هناك مجموعة من القواعد الافتراضية للسماح ورفض الأوامر. فكّر في تعيين {0} على {1} لتجاهل جميع القواعد الافتراضية لتجنب أي تعارض مع القواعد الخاصة بك. هذا على مسؤوليتك الخاصة، لأن القواعد الافتراضية للرفض مصممة لحمايتك من تنفيذ الأوامر الخطرة.",
 			"autoApprove.deprecated": "استخدم {0} بدلاً من ذلك",
 			"autoApprove.description.commandLine": "يمكن استخدام كائن لإنشاء مطابقة مع سطر الأوامر الكامل بدلًا من مطابقة الأوامر الفرعية والأوامر المضمنة، مثل {0}. للموافقة التلقائية، يجب ألا تُرفض الأوامر الفرعية أو سطر الأوامر صراحةً، ثم يجب أن تتم الموافقة على جميع الأوامر الفرعية أو على سطر الأوامر.",
@@ -18211,11 +18794,13 @@
 			"autoApprove.true": "الموافقة تلقائياً على النمط.",
 			"autoApproveMode.description": "يحدد ما إذا كان يجب السماح بالموافقة التلقائية عند التنفيذ في أداة الطرفية.",
 			"autoApproveWorkspaceNpmScripts.description": "ما إذا كان سيتم الموافقة تلقائيًا على أوامر تشغيل npm وغزل وpnpm عندما يتم تعريف البرنامج النصي في ملف package.json الخاص بمساحة العمل. نظرًا لأن مساحة العمل موثوقة، فإن البرامج النصية المحددة في package.json تعتبر آمنة ويمكن تشغيلها بدون ثقة صريحة.",
-			"autoReplyToPrompts.key": "يحدد ما إذا كان سيتم الاستجابة تلقائيًا للمطالبات في الوحدة الطرفية، على سبيل المثال `Confirm? y/n`. هذه ميزة تجريبية وقد لا تعمل في جميع السيناريوهات.\r\n\r\n** هذه الميزة لها مخاطر كامنة لأنك تعهد بقرارات حساسة محتملة إلى LLM. استخدمه على مسؤوليتك الخاصة.**",
+			"backgroundNotifications.deprecated": "لا ينصح بهذا الإعداد. يتم الآن تمكين إشعارات إكمال أمر المحطة الطرفية ومطالبات الإدخال دائمًا.",
+			"backgroundNotifications.description": "تم إهمال هذا الإعداد ولم يعد له أي تأثير. يتم الآن تمكين إشعارات إكمال أمر الوحدة الطرفية ومطالبات الإدخال دائمًا لأي أمر يستمر في التشغيل بعد عودة الأداة.",
 			"blockFileWrites.all": "منع جميع عمليات كتابة الملفات المكتشفة.",
 			"blockFileWrites.description": "يتحكم في ما إذا كانت عمليات كتابة الملفات المكتشفة محظورة في أداة وقت التشغيل في الوحدة الطرفية. عند اكتشاف عملية ما، تكون الموافقة الصريحة مطلوبة، حتى إذا تمت الموافقة على الأمر عادةً تلقائيًا. لاحظ أن هذا لا يكشف عن كافة الطرق الممكنة لكتابة الملفات. وهنا تلك الموجودة حاليا:\r\n\r\n- إعادة توجيه الملف (تم اكتشافه عبر قواعد bash أو حاضنة شجرة PowerShell)\r\n- التحرير الموضعي باستخدام `sed` (`-i`، `-I`، `--in-place`)",
 			"blockFileWrites.never": "السماح بجميع عمليات كتابة الملفات المكتشفة.",
 			"blockFileWrites.outsideWorkspace": "منع عمليات كتابة الملفات المكتشفة خارج مساحة العمل. يعتمد هذا على عمل ميزة تكامل الصدفة بشكل صحيح لتحديد دليل العمل الحالي للطرفية.",
+			"detachBackgroundProcesses.description": "ما إذا كان سيتم فصل العمليات المستمرة عن الجهاز الطرفي بحيث يستمر تشغيلها بعد إغلاق VS Code. بمجرد تمكين هذا الخيار، يتم تغليف الأوامر التي تم إطلاقها باستخدام `mode: \"async\"` ​​​​(سابقًا: `isBackground: true`) بـ `nohup` (POSIX) أو `Start-Process` (Windows) بحيث يستمر تنفيذ العملية بعد إزالة المحطة الطرفية.",
 			"enforceTimeoutFromModel.description": "يحدد ما إذا كان سيتم تطبيق قيمة المهلة التي يوفرها القالب في تنفيذ الأداة الطرفية. عند التمكين، إذا كان القالب يوفر معلمة مهلة، فستتوقف الأداة عن تتبع الطلب بعد هذه المدة وتقوم بإرجاع النتيجة التي تم جمعها حتى الآن.",
 			"idlePollInterval.description": "يسمح لك بتكوين الفاصل الزمني للاستقصاء الخامل بالمللي ثانية الذي تستخدمه أداة التنفيذ في الجهاز لاكتشاف نهاية تنفيذ الأمر. تعمل القيم المنخفضة على تسريع اكتشاف الأوامر، ولكنها قد تسبب نتائج إيجابية خاطئة على الأنظمة البطيئة. يؤثر هذا بشكل أساسي على نقاط النهاية دون تكامل الصدفة حيث يتجاوز اكتشاف عدم النشاط أحداث تكامل الصدفة.",
 			"ignoreDefaultAutoApproveRules.description": "يوضح ما إذا كان يجب تجاهل قواعد الموافقة التلقائية المدمجة الافتراضية المستخدمة بواسطة أداة التنفيذ في الطرفية، كما هو معرف في {0}. عند تفعيل هذا الإعداد، تتجاهل أداة التنفيذ في الطرفية أي قاعدة تأتي من المجموعة الافتراضية، لكنها تحترم دائماً القواعد المعرفة في إعدادات المستخدم والبعيد ومساحة العمل. استخدم هذا الإعداد على مسؤوليتك الخاصة، لأن قواعد الموافقة التلقائية الافتراضية مصممة لحمايتك من تنفيذ الأوامر الخطرة.",
@@ -18232,23 +18817,13 @@
 			"terminalChatAgentProfile.linux": "ملف تعريف الطرفية لاستخدامه على لينكس لتنفيذ عميل الدردشة في أداة الطرفية.",
 			"terminalChatAgentProfile.osx": "ملف تعريف الطرفية لاستخدامه على نظام ماك لتنفيذ عميل الدردشة في أداة الطرفية.",
 			"terminalChatAgentProfile.path": "مسار لملف تنفيذي للصدفة.",
-			"terminalChatAgentProfile.windows": "ملف تعريف الطرفية لاستخدامه على ويندوز لتنفيذ عميل الدردشة في أداة الطرفية.",
-			"terminalSandbox.enabledSetting": "يتحكم في ما إذا كانت الأوامر تعمل في محطة وضع الحماية لتنفيذها في الأداة الطرفية.",
-			"terminalSandbox.linuxFileSystemSetting": "ملاحظة: ينطبق هذا الإعداد فقط عند تمكين {0}. يتحكم في الوصول إلى نظام الملفات في وضع الحماية الطرفي على Linux. لا تدعم المسارات أنماط Glob، بل المسارات الحرفية فقط (على سبيل المثال: ./src/، ~/.ssh، .env). يجب تثبيت **bubblewrap** و**socat** و**ripgrep** حتى يعمل هذا الإعداد.",
-			"terminalSandbox.linuxFileSystemSetting.allowWrite": "مجموعة من المسارات للسماح بالوصول للكتابة. اتركه فارغا لمنع أي كتابة.",
-			"terminalSandbox.linuxFileSystemSetting.denyRead": "مجموعة من المسارات لمنع الوصول للقراءة. اتركه فارغًا للسماح بقراءة جميع المسارات.",
-			"terminalSandbox.linuxFileSystemSetting.denyWrite": "قم بتجميع المسارات لرفض الوصول للكتابة إلى المسارات المسموح بها (يتجاوز المسموح بالكتابة).",
-			"terminalSandbox.macFileSystemSetting": "ملاحظة: ينطبق هذا الإعداد فقط عند تمكين {0}. يتحكم في الوصول إلى نظام الملفات في وضع الحماية الطرفي على نظام التشغيل macOS. تدعم المسارات أيضًا قوالب Glob ذات نمط git (على سبيل المثال: *.ts، ./src، ./src/**/*.ts، file?.txt).",
-			"terminalSandbox.macFileSystemSetting.allowWrite": "مجموعة من المسارات للسماح بالوصول للكتابة. اتركه فارغا لمنع أي كتابة.",
-			"terminalSandbox.macFileSystemSetting.denyRead": "مجموعة من المسارات لمنع الوصول للقراءة. اتركه فارغًا للسماح بقراءة جميع المسارات.",
-			"terminalSandbox.macFileSystemSetting.denyWrite": "مجموعة المسار لرفض الوصول للكتابة إلى المسارات المسموح بها (تجاوز السماح بالكتابة).",
-			"terminalSandbox.networkSetting.allowTrustedDomains": "ملاحظة: ينطبق هذا الإعداد فقط عند تمكين {0}. بمجرد التمكين، يتم تضمين قائمة النطاقات الموثوقة في النطاقات المسموح بها للوصول إلى الشبكة في وضع الحماية لنقطة النهاية.",
-			"terminalSandbox.networkSetting.allowedDomains": "ملاحظة: ينطبق هذا الإعداد فقط عند تمكين {0}. النطاقات المسموح بها للوصول إلى الشبكة في وضع الحماية الطرفي. يدعم أحرف البدل مثل {1} والقائمة الفارغة تعني عدم إمكانية الوصول إلى الشبكة.",
-			"terminalSandbox.networkSetting.deniedDomains": "ملاحظة: ينطبق هذا الإعداد فقط عند تمكين {0}. جدول المجالات المرفوضة للوصول إلى الشبكة في وضع الحماية الطرفي (يتم تحديده أولاً، وله الأسبقية على {1}).",
-			"terminalSandboxNetwork.deprecated": "تم تقسيم هذه المعلمة إلى {0} و{1} و{2}."
+			"terminalChatAgentProfile.windows": "ملف تعريف الطرفية لاستخدامه على ويندوز لتنفيذ عميل الدردشة في أداة الطرفية."
 		},
 		"vs/workbench/contrib/terminalContrib/chatAgentTools/common/terminalSandboxService": {
-			"deleteFilesInSandboxTempDir": "حذف الملفات في الدليل المؤقت لصندوق الحماية"
+			"deleteFilesInSandboxTempDir": "حذف الملفات في الدليل المؤقت لصندوق الحماية",
+			"runInTerminal.missingDeps.focusTerminal": "التركيز على الطرفية",
+			"runInTerminal.missingDeps.passwordPromptMessage": "قد يطلب تثبيت تبعيات وضع الحماية المفقودة كلمة مرور Sudo الخاصة بك. حدد Focus Terminal لإدخاله في المحطة.",
+			"runInTerminal.missingDeps.passwordPromptTitle": "المحطة تنتظر الإدخال."
 		},
 		"vs/workbench/contrib/terminalContrib/clipboard/browser/terminal.clipboard.contribution": {
 			"workbench.action.terminal.copyAndClearSelection": "نسخ ومسح التحديد",
@@ -18349,6 +18924,8 @@
 			"terminal.integrated.shellIntegration.history": "يتحكم في عدد الأوامر المستخدمة مؤخراً للحفاظ عليها في سجل أوامر الطرفية. عيّن على 0 لتعطيل سجل أوامر الطرفية."
 		},
 		"vs/workbench/contrib/terminalContrib/inlineHint/browser/terminal.initialHint.contribution": {
+			"copilotCliHint": "اكتب [[وكيل الطيار]] لاستخدام واجهة Copilot ​​​​CLI.",
+			"copilotCliHintAriaLabel": "اكتب copilot لاستخدام الواجهة Copilot ​​​​CLI.",
 			"disableHint": " تمكين/تعطيل {0} في الإعدادات لتعطيل هذه العلامة.",
 			"disableInitialHint": "تعطيل العلامة الأولية",
 			"emptyHintText": "فتح الدردشة {0}. ",
@@ -18361,7 +18938,8 @@
 			"showSuggestHint": "عرض الاقتراحات {0}. "
 		},
 		"vs/workbench/contrib/terminalContrib/inlineHint/common/terminalInitialHintConfiguration": {
-			"terminal.integrated.initialHint": "يتحكم في ما إذا كانت الوحدة الطرفية الأولى بدون إدخال تعرض تلميحًا حول الإجراءات المتاحة عند استهدافها. يظهر هذا فقط عند تعطيل {0}."
+			"terminal.integrated.initialHint": "يتحكم في ما إذا كانت الوحدة الطرفية الأولى بدون إدخال تعرض تلميحًا حول الإجراءات المتاحة عند استهدافها. يظهر هذا فقط عند تعطيل {0}.",
+			"terminal.integrated.initialHint.copilotCli": "عند التمكين، يقترح مؤشر المحطة الأولي استخدام واجهة Copilot ​​​​CLI عن طريق كتابة {0} بدلاً من فتح Copilot Chat."
 		},
 		"vs/workbench/contrib/terminalContrib/links/browser/terminal.links.contribution": {
 			"workbench.action.terminal.openDetectedLink": "فتح الرابط المكتشف...",
@@ -18906,6 +19484,7 @@
 			"testing.coveredBackground": "لون خلفية النص الذي كان مغطياً.",
 			"testing.coveredBorder": "لون حد النص الذي كان مغطياً.",
 			"testing.coveredGutterBackground": "لون التجليد للمناطق التي تم تغطية الكود فيها.",
+			"testing.coveredMinimapBackground": "لون الخريطة المصغرة للمناطق التي تمت تغطية الإرشادات البرمجية فيها.",
 			"testing.iconErrored": "لون أيقونة الخطأ في مستكشف الاختبارات.",
 			"testing.iconErrored.retired": "اللون الملغى لأيقونة 'خطأ' في مستكشف الاختبارات.",
 			"testing.iconFailed": "لون أيقونة الفشل في مستكشف الاختبارات.",
@@ -18931,7 +19510,8 @@
 			"testing.uncoveredBackground": "لون خلفية النص الذي لم يكن مغطياً.",
 			"testing.uncoveredBorder": "لون حد النص الذي لم يكن مغطياً.",
 			"testing.uncoveredBranchBackground": "خلفية الويدجيت المعروض لفرع غير مغطى.",
-			"testing.uncoveredGutterBackground": "لون التجليد للمناطق التي لم يتم تغطية الكود فيها."
+			"testing.uncoveredGutterBackground": "لون التجليد للمناطق التي لم يتم تغطية الكود فيها.",
+			"testing.uncoveredMinimapBackground": "لون الخريطة المصغرة للمناطق التي لم يتم تغطية الكود فيها."
 		},
 		"vs/workbench/contrib/testing/common/configuration": {
 			"testConfigurationTitle": "اختبار",
@@ -18948,6 +19528,7 @@
 			"testing.countBadge.passed": "عرض عدد الاختبارات التي نجحت",
 			"testing.countBadge.skipped": "عرض عدد الاختبارات المتجاوزة",
 			"testing.coverageBarThresholds": "تكوّن الألوان المستخدمة للنسب المئوية في أشرطة تغطية الاختبار.",
+			"testing.coverageMinimapEnabled": "يتيح لك التحكم في عرض مؤشرات التغطية في الصورة المصغرة.",
 			"testing.coverageToolbarEnabled": "يحدد ما إذا كان شريط أدوات التغطية مُعرَضاً في المحرر.",
 			"testing.defaultGutterClickAction": "يتحكم في الإجراء المُتَّخذ عند النقر بالزر الأيسر على زخرفة اختبار في التجليد.",
 			"testing.defaultGutterClickAction.contextMenu": "افتح القائمة السياقية للحصول على مزيد من الخيارات.",
@@ -19154,9 +19735,6 @@
 			"tree.aria": "التسلسل الهرمي للأنواع"
 		},
 		"vs/workbench/contrib/update/browser/releaseNotesEditor": {
-			"releaseNotes.downloadUpdate": "قم بتنزيل التحديث",
-			"releaseNotes.installUpdate": "قم بتثبيت التحديث",
-			"releaseNotes.restartToUpdate": "أعد التشغيل للتحديث",
 			"releaseNotesInputName": "ملاحظات الإصدار: {0}",
 			"showOnUpdate": "عرض ملاحظات الإصدار بعد التحديث",
 			"unassigned": "غير مُسنَد"
@@ -19166,16 +19744,10 @@
 			"checkForUpdates": "البحث عن التحديثات...",
 			"checkingForUpdates": "جارٍ البحث عن تحديثات {0}...",
 			"checkingForUpdates2": "جارٍ البحث عن التحديثات...",
-			"download update": "تنزيل التحديث",
 			"download update_1": "تنزيل التحديث (1)",
 			"downloading": "جارٍ تنزيل {0} تحديث...",
-			"installUpdate": "تثبيت التحديث",
 			"installUpdate...": "تثبيت التحديث... (1)",
 			"installingUpdate": "جارٍ تثبيت التحديث...",
-			"later": "لاحقاً",
-			"learn more": "معرفة المزيد",
-			"newerUpdateDownloading": "لقد وجدنا تحديثًا أحدث متاحًا وبدأنا في تنزيله. سنقوم بإخطارك بمجرد أن يصبح جاهزًا للتثبيت.",
-			"newerUpdateReady": "التحديث الجديد جاهز للتثبيت.",
 			"noUpdatesAvailable": "لا توجد تحديثات متاحة حالياً.",
 			"read the release notes": "مرحبًا بك في {0} v{1}! هل تريد قراءة ملاحظات الإصدار؟",
 			"relaunchDetailInsiders": "اضغط على زر إعادة التحميل للتبديل إلى إصدار Insiders من فيجوال كود.",
@@ -19184,20 +19756,13 @@
 			"releaseNotes": "ملاحظات الإصدار",
 			"reload": "&&إعادة التحميل",
 			"restartToUpdate": "إعادة التشغيل للتحديث (1)",
-			"restartToUpdate2": "أعد التشغيل للتحديث",
 			"selectSyncService.detail": "يقوم إصدار Insiders من فيجوال كود بمزامنة إعداداتك وتركيبات المفاتيح والإضافات ومقتطفات الكود بالإضافة إلى حالة واجهة المستخدم الخاصة بك باستخدام خدمة مزامنة إعدادات Insiders منفصلة افتراضياً.",
 			"selectSyncService.message": "اختر خدمة مزامنة الإعدادات لاستخدامها بعد تغيير الإصدار",
 			"showUpdateReleaseNotes": "عرض ملاحظات إصدار التحديثات",
 			"switchToInsiders": "التبديل إلى إصدار Insiders...",
 			"switchToStable": "التبديل إلى الإصدار المستقر...",
-			"thereIsUpdateAvailable": "يتوفر تحديث.",
-			"update service": "خدمة التحديث",
-			"update service disabled": "التحديثات معطلة لأنك تشغل تثبيت نطاق المستخدم من {0} كمسؤول.",
 			"update.noReleaseNotesOnline": "لا تحتوي هذه الإصدارة من {0} على ملاحظات إصدار عبر الإنترنت",
-			"updateAvailable": "يتوفر تحديث: {0} {1}",
-			"updateAvailableAfterRestart": "أعد تشغيل {0} لتطبيق آخر تحديث.",
 			"updateIsReady": "تحديث جديد لـ {0} متوفر.",
-			"updateNow": "التحديث الآن",
 			"updating": "جارٍ تحديث {0}...",
 			"use insiders": "&&إنسايدر",
 			"use stable": "&&مستقر (الحالي)"
@@ -19215,28 +19780,17 @@
 			"restartToUpdate": "إعادة التشغيل للتحديث",
 			"showReleaseNotes": "عرض ملاحظات الإصدار",
 			"showReleaseNotesCurrentFile": "فتح الملف النشط كملاحظات إصدار",
+			"showUpdateInfo": "عرض معلومات التحديث",
+			"showUpdateInfo.prompt": "أدخل Markdown ​​​​للعرض (اتركه فارغًا للتحميل من URL)",
 			"update.noReleaseNotesOnline": "لا تحتوي هذه الإصدارة من {0} على ملاحظات إصدار عبر الإنترنت",
 			"updateButton": "&&تحديث"
 		},
-		"vs/workbench/contrib/update/browser/updateStatusBarEntry": {
-			"updateStatus": "تحديث الحالة",
-			"updateStatus.checkingForUpdates": "جارٍ التحقق من وجود تحديثات...",
-			"updateStatus.checkingForUpdatesAria": "التحقق من وجود تحديثات",
-			"updateStatus.downloadUpdateProgressStatus": "تنزيل التحديث: {0} / {1} • {2}%",
-			"updateStatus.downloadUpdateStatus": "جارٍ تنزيل التحديث...",
-			"updateStatus.downloadingNewerUpdateAria": "تنزيل تحديث أحدث",
-			"updateStatus.downloadingNewerUpdateStatus": "جارٍ تنزيل التحديث...",
-			"updateStatus.downloadingUpdateAria": "جارٍ تنزيل التحديث",
-			"updateStatus.installingUpdateProgressStatus": "تثبيت التحديث: {0} %",
-			"updateStatus.installingUpdateStatus": "جارٍ تثبيت التحديث...",
-			"updateStatus.restartToUpdateAria": "التحديث جاهز، انقر لإعادة التشغيل.",
-			"updateStatus.restartToUpdateStatus": "التحديث جاهز، انقر لإعادة التشغيل.",
-			"updateStatus.updateAvailableAria": "التحديث متوفر، انقر لتنزيله.",
-			"updateStatus.updateAvailableStatus": "التحديث متوفر، انقر لتنزيله.",
-			"updateStatus.updateReadyAria": "تم تنزيل التحديث، انقر لتثبيته.",
-			"updateStatus.updateReadyStatus": "تم تنزيل التحديث، انقر لتثبيته."
-		},
 		"vs/workbench/contrib/update/browser/updateTitleBarEntry": {
+			"updateIndicator.checking": "جاري التحقق... الرجاء الانتظار.",
+			"updateIndicator.downloading": "التنزيل قيد التقدم... الرجاء الانتظار.",
+			"updateIndicator.installing": "جارٍ التثبيت... يرجى الانتظار.",
+			"updateIndicator.overwriting": "التحديث قيد التقدم... الرجاء الانتظار.",
+			"updateIndicator.restarting": "جاري إعادة التشغيل... الرجاء الانتظار.",
 			"updateIndicator.update": "تحديث",
 			"updateIndicatorTitleBarAction": "تحديث"
 		},
@@ -19247,9 +19801,6 @@
 			"updateTooltip.autoUpdateStart": "سيتم تطبيق التحديثات عند إعادة التشغيل.",
 			"updateTooltip.checkingForUpdatesTitle": "التحقق من وجود تحديثات",
 			"updateTooltip.checkingPleaseWait": "جارٍ البحث عن التحديثات، يرجى الانتظار...",
-			"updateTooltip.clickToDownload": "انقر فوق الزر \"تحديث\" للتنزيل.",
-			"updateTooltip.clickToInstall": "انقر فوق الزر \"تحديث\" للتثبيت.",
-			"updateTooltip.clickToRestart": "انقر فوق الزر \"تحديث\" لإعادة التشغيل والتطبيق.",
 			"updateTooltip.copyVersion": "نسخ",
 			"updateTooltip.currentVersionLabel": "الإصدار الحالي: {0}",
 			"updateTooltip.currentVersionLabelWithCommit": "الإصدار الحالي: {0} ({1})",
@@ -19261,6 +19812,7 @@
 			"updateTooltip.disabledMissingConfig": "تم تعطيل التحديثات لأنه لم يتم تكوين عنوان URL للتحديث.",
 			"updateTooltip.disabledNotBuilt": "لا توجد تحديثات متوفرة لهذا الإصدار.",
 			"updateTooltip.disabledRunningAsAdmin": "لا تتوفر التحديثات عند تشغيل تثبيت مستخدم {0} كمسؤول.",
+			"updateTooltip.downloadButton": "تنزيل",
 			"updateTooltip.downloadSpeed": "{0} في الثانية",
 			"updateTooltip.downloadingNewerPleaseWait": "تم إصدار تحديث أحدث. جاري التحميل، الرجاء الإنتظار...",
 			"updateTooltip.downloadingNewerUpdateTitle": "تنزيل تحديث أحدث",
@@ -19268,6 +19820,7 @@
 			"updateTooltip.downloadingUpdateTitle": "جارٍ تنزيل التحديث",
 			"updateTooltip.initializingMessage": "جارٍ تهيئة خدمة التحديث...",
 			"updateTooltip.initializingTitle": "جارٍ التهيئة",
+			"updateTooltip.installButton": "تثبيت",
 			"updateTooltip.installedDefaultMessage": "راجع ملاحظات الإصدار للحصول على مزيد من التفاصيل حول الجديد في هذا الإصدار.",
 			"updateTooltip.installedDefaultTitle": "تم تثبيت التحديث الجديد",
 			"updateTooltip.installedTitle": "الجديد في {0}",
@@ -19278,16 +19831,19 @@
 			"updateTooltip.meteredConnectionMessage": "تم تعليق التحديثات التلقائية لأن اتصال الشبكة محدود.",
 			"updateTooltip.noUpdateAvailableMessage": "لا توجد تحديثات متاحة حاليا.",
 			"updateTooltip.noUpdateAvailableTitle": "لا توجد تحديثات متاحة",
-			"updateTooltip.releaseNotesLink": "ملاحظات الإصدار",
 			"updateTooltip.releasedLabel": "تم نشر {0}",
-			"updateTooltip.settingsTooltip": "تحديث الإعدادات",
+			"updateTooltip.restartButton": "إعادة التشغيل",
+			"updateTooltip.restartToUpdateTitle": "إعادة التشغيل للتحديث",
+			"updateTooltip.restartingPleaseWait": "جارٍ إعادة التشغيل للتحديث، يرجى الانتظار...",
+			"updateTooltip.restartingTitle": "إعادة التشغيل {0}",
 			"updateTooltip.timeRemaining": "متبقٍ",
 			"updateTooltip.upToDateTitle": "حتى الآن",
 			"updateTooltip.updateAvailableTitle": "التحديث متاح",
 			"updateTooltip.updateErrorTitle": "خطأ في التحديث",
 			"updateTooltip.updateInstalledTitle": "تم تثبيت التحديث",
 			"updateTooltip.updateReadyTitle": "التحديث جاهز للتثبيت",
-			"updateTooltip.updatesDisabledTitle": "تم تعطيل التحديثات"
+			"updateTooltip.updatesDisabledTitle": "تم تعطيل التحديثات",
+			"updateTooltip.viewReleaseNotes": "ملاحظات الإصدار"
 		},
 		"vs/workbench/contrib/update/common/updateUtils": {
 			"update.bytes": "{0} بايت",
@@ -19732,6 +20288,7 @@
 			"workbench.startupEditor.terminal": "افتح طرفية جديدة في منطقة المحررين.",
 			"workbench.startupEditor.welcomePage": "افتح صفحة الترحيب التي تقترح محتوى لتسهيل التعرف على فيجوال كود والإضافات.",
 			"workbench.startupEditor.welcomePageInEmptyWorkbench": "افتح صفحة الترحيب عند فتح بيئة العمل فارغة.",
+			"workbench.welcomePage.experimentalOnboarding": "عند التمكين، قم بعرض تجربة الإعداد الجديدة بدلاً من الإرشادات الكلاسيكية عند الإطلاق لأول مرة.",
 			"workbench.welcomePage.preferReducedMotion": "عند تفعيل هذا الخيار، قلل الحركة في صفحة الترحيب.",
 			"workbench.welcomePage.walkthroughs.openOnInstall": "عند تفعيله، يفتح دليل الإضافة التفصيلي عند تثبيت الإضافة.",
 			"workspacePlatform": "منصة مساحة العمل النشطة، التي قد تكون مختلفة عن واجهة المستخدم في السياقات البعيدة أو بدون خادم"
@@ -19965,6 +20522,97 @@
 			"dark": "حديث داكن",
 			"light": "حديث فاتح"
 		},
+		"vs/workbench/contrib/welcomeOnboarding/browser/onboardingVariationA": {
+			"onboarding.a.aria": "مرحبًا بك في VS Code",
+			"onboarding.aiPref.hint": "يمكنك تغيير هذا الإعداد في أي وقت في الإعدادات.",
+			"onboarding.aiPref.label": "اختر أسلوب تعاون الذكاء الاصطناعي المناسب لك",
+			"onboarding.back": "السابق",
+			"onboarding.continueWithoutSignIn": "المتابعة دون تسجيل الدخول",
+			"onboarding.ext.install": "تثبيت",
+			"onboarding.ext.installError": "تعذر تثبيت الإضافة. يمكنك تثبيتها لاحقًا من عرض الإضافات.",
+			"onboarding.ext.installed": "اكتمل التثبيت",
+			"onboarding.ext.installing": "جارٍ التثبيت... يرجى الانتظار.",
+			"onboarding.ext.listLabel": "الملحقات الموصى بها",
+			"onboarding.ext.row.aria": "{0} بواسطة {1}: {2}",
+			"onboarding.getStarted": "ابدأ",
+			"onboarding.keymap.installError": "تعذر تثبيت تعيين المفاتيح {0}. يمكنك تثبيته لاحقًا من عرض الإضافات.",
+			"onboarding.next": "متابعة",
+			"onboarding.personalize.keymap": "تعيين لوحة المفاتيح",
+			"onboarding.personalize.keymapHint": "هل انتقلت من محرر آخر؟ استورد تعيين لوحة المفاتيح لتبدأ بسرعة.",
+			"onboarding.personalize.keymapLabel": "اختر تعيين لوحة المفاتيح",
+			"onboarding.personalize.theme": "نسق الألوان",
+			"onboarding.personalize.themeHint": "يمكنك تصفح وتثبيت السمات الأخرى لاحقًا من عرض الإضافات.",
+			"onboarding.personalize.themeLabel": "اختر نسق الألوان",
+			"onboarding.personalize.tip.modifier": "{0}",
+			"onboarding.personalize.tip.p": "ص",
+			"onboarding.personalize.tip.prefix": "نصيحة: اضغط",
+			"onboarding.personalize.tip.shift": "Shift",
+			"onboarding.personalize.tip.suffix": "للوصول إلى جميع أوامر VS Code.",
+			"onboarding.sessions.agentsTutorial": "البرنامج التعليمي للوكيل",
+			"onboarding.sessions.cloud": "سحابي",
+			"onboarding.sessions.cloud.desc": "فوّض المهام إلى وكيل سحابي ينشئ فرعًا وينفذ التغييرات ويفتح طلب سحب. يواصل الوكيل العمل حتى إذا أغلقت VS Code.",
+			"onboarding.sessions.inline": "اقتراحات مضمنة",
+			"onboarding.sessions.inline.desc1": "أثناء الكتابة، يقترح الذكاء الاصطناعي عمليات إكمال وتنبؤات تحرير مضمنة. اضغط",
+			"onboarding.sessions.inline.desc2": "لقبول أو",
+			"onboarding.sessions.inline.desc3": "لتجاهل.",
+			"onboarding.sessions.inline.esc": "Esc",
+			"onboarding.sessions.inline.tab": "Tab",
+			"onboarding.sessions.local": "محلي",
+			"onboarding.sessions.local.desc": "شغّل الوكلاء تفاعليًا داخل المحرر مع وصول كامل إلى مساحة العمل والأدوات والطرفية. يناسب ذلك المهام العملية التي تريد فيها مراجعة التغييرات لحظة بلحظة.",
+			"onboarding.sessions.signInNudge": "يلزم تسجيل الدخول للوصول إلى الميزات المدعومة بالذكاء الاصطناعي",
+			"onboarding.sessions.worktree": "Copilot CLI",
+			"onboarding.sessions.worktree.desc": "شغّل الوكلاء بشكل مستقل في شجرة عمل معزولة على جهازك. واصل العمل على شيء آخر بينما يتولى الوكيل البناء والاختبار والتكرار في الخلفية.",
+			"onboarding.signIn.apple": "المتابعة باستخدام Apple",
+			"onboarding.signIn.disclaimer.copilotPrefix": "قد يعرض GitHub Copilot {0}",
+			"onboarding.signIn.disclaimer.improveSuffix": "الاقتراحات واستخدام بياناتك لتحسين المنتج.",
+			"onboarding.signIn.disclaimer.middle": "و",
+			"onboarding.signIn.disclaimer.prefix": "بتسجيل الدخول، فإنك توافق على {0}",
+			"onboarding.signIn.disclaimer.privacy": "بيان الخصوصية",
+			"onboarding.signIn.disclaimer.publicCode": "الكود العام",
+			"onboarding.signIn.disclaimer.settings": "إعدادات",
+			"onboarding.signIn.disclaimer.settingsPrefix": "يمكنك تعديل هذه",
+			"onboarding.signIn.disclaimer.suffix": "في أي وقت.",
+			"onboarding.signIn.disclaimer.terms": "الشروط العامة",
+			"onboarding.signIn.enterprise.error": "تعذر الاتصال بـ GitHub Enterprise. تحقق من عنوان URL للمثيل وحاول مرة أخرى.",
+			"onboarding.signIn.enterprise.invalid": "يجب عليك إدخال مثيل {0} صالح (على سبيل المثال، \"octocat\" أو \"https://octocat.ghe.com\")",
+			"onboarding.signIn.enterprise.placeholder": "على سبيل المثال \"octocat\" أو \"https://octocat.ghe.com\"...",
+			"onboarding.signIn.enterprise.prompt": "ما هو مثيل {0} الخاص بك؟",
+			"onboarding.signIn.enterprise.resolve": "سيُحل إلى {0}",
+			"onboarding.signIn.error": "لم نتمكن من الاتصال. يمكنك المحاولة مرة أخرى لاحقًا من قائمة الحسابات.",
+			"onboarding.signIn.ghe": "GitHub Enterprise",
+			"onboarding.signIn.ghe.aria": "المتابعة باستخدام GitHub Enterprise",
+			"onboarding.signIn.github": "المتابعة باستخدام GitHub",
+			"onboarding.signIn.github.aria": "المتابعة باستخدام GitHub",
+			"onboarding.signIn.google": "المتابعة باستخدام Google",
+			"onboarding.signIn.heroSubtitle": "سجّل الدخول لمتابعة التطوير المدعوم بالذكاء الاصطناعي.",
+			"onboarding.signIn.heroTitle": "مرحبًا بك في VS Code",
+			"onboarding.skip": "تخطي",
+			"onboarding.step.agentSessions.subtitle.after": "لفتح محادثة",
+			"onboarding.step.agentSessions.subtitle.before": "نصيحة: اضغط",
+			"onboarding.step.aria": "الخطوة {0} ​​إلى {1}: {2}",
+			"onboarding.stepOf": "{0} من {1}"
+		},
+		"vs/workbench/contrib/welcomeOnboarding/browser/welcomeOnboarding.contribution": {
+			"welcomeOnboarding2026": "مرحبًا بكم في التكامل 2026"
+		},
+		"vs/workbench/contrib/welcomeOnboarding/common/onboardingTypes": {
+			"onboarding.aiPref.agentForward": "الذكاء الاصطناعي يأخذ زمام المبادرة",
+			"onboarding.aiPref.agentForward.desc": "دع الوكيل يتلقى الأوامر. صف ما تريد وراجع النتيجة. مثالية لإنشاء النماذج واستكشافها تلقائيًا.",
+			"onboarding.aiPref.balanced": "جنبًا إلى جنب",
+			"onboarding.aiPref.balanced.desc": "اقتراحات مضمنة بالإضافة إلى لوحة محادثة لتعاون أعمق. التوازن بين الكتابة والتفويض.",
+			"onboarding.aiPref.codeFirst": "أنا أكتب الرمز",
+			"onboarding.aiPref.codeFirst.desc": "يوفر لك الذكاء الاصطناعي اقتراحات وإجابات عند طرح الأسئلة. يمكنك الحفاظ على السيطرة على كل تعديل.",
+			"onboarding.step.agentSessions": "تعرف على شريك الترميز الوكيل الخاص بك",
+			"onboarding.step.agentSessions.subtitle": "نصيحة: اضغط على {0} ​​لفتح المحادثة",
+			"onboarding.step.aiPreference": "أسلوب الذكاء الاصطناعي الخاص بك",
+			"onboarding.step.aiPreference.subtitle": "اختر مستوى تعاون الذكاء الاصطناعي الذي يناسب سير عملك",
+			"onboarding.step.extensions": "تعزيز المحرر الخاص بك",
+			"onboarding.step.extensions.subtitle": "قم بتثبيت الملحقات لتحسين سير عملك",
+			"onboarding.step.personalize": "اجعلها خاصة بك",
+			"onboarding.step.personalize.subtitle": "اختيار موضوع لوحة المفاتيح ورسم الخرائط",
+			"onboarding.step.signIn": "تسجيل الدخول",
+			"onboarding.step.signIn.subtitle": "مزامنة الإعدادات وفتح ميزات الذكاء الاصطناعي والاتصال بـ GitHub"
+		},
 		"vs/workbench/contrib/welcomeOverlay/browser/welcomeOverlay": {
 			"hideWelcomeOverlay": "إخفاء نظرة عامة لواجهة المستخدم",
 			"welcomeOverlay": "نظرة عامة على واجهة المستخدم",
@@ -20191,8 +20839,11 @@
 			"menus.artifactGroupContext": "قائمة السياق لمجموعة أدوات التحكم في الكود المصدري",
 			"menus.changeTitle": "قائمة التغيير المضمن للتحكم في الكود المصدري",
 			"menus.chatContextUsageActions": "الإجراءات في تفاصيل استخدام سياق الدردشة المنبثقة.",
+			"menus.chatCustomizationsCreate": "زر \"إنشاء\" في محرر إدارة تخصيص المحادثة.",
 			"menus.chatEditingSessionApplySubmenu": "القائمة الفرعية \"إجراءات التطبيق\" في شريط أدوات \"تحرير الدردشة\".",
+			"menus.chatEditingSessionChangeToolbar": "قائمة شريط أدوات تحرير الدردشة لتحرير الجلسة.",
 			"menus.chatEditingSessionChangesToolbar": "قائمة شريط أدوات تحرير الدردشة لتحرير الجلسة.",
+			"menus.chatEditingSessionTitleToolbar": "قائمة شريط أدوات تحرير المحادثة لعنوان الجلسة.",
 			"menus.chatEditorInlineGutter": "القائمة الجانبية مدمجة في محرر الدردشة.",
 			"menus.chatMultiDiffContext": "قائمة السياق متعدد الفروقات للدردشة.",
 			"menus.chatNewSession": "قائمة جلسة الدردشة الجديدة.",
@@ -20356,6 +21007,7 @@
 			"learnMore": "معرفة المزيد",
 			"ok": "موافق",
 			"plan.businessName": "Copilot Business",
+			"plan.eduName": "Copilot ​​​​EDU",
 			"plan.enterpriseName": "Copilot Enterprise",
 			"plan.freeName": "Copilot Free",
 			"plan.proName": "Copilot Pro",
@@ -21152,7 +21804,8 @@
 		},
 		"vs/workbench/services/themes/browser/workbenchThemeService": {
 			"error.cannotloadtheme": "تعذر تحميل {0}: {1}",
-			"newDefaultTheme": "تتوفر السمات الافتراضية الجديدة لـ VS Code.",
+			"noThanks": "لا، شكرا لك",
+			"themeUpdatedNotification": "يحتوي VS Code على سمة افتراضية جديدة: \"{0}\".",
 			"tryNewTheme": "جرّبها"
 		},
 		"vs/workbench/services/themes/common/colorExtensionPoint": {
@@ -21477,7 +22130,7 @@
 			"keybindings": "اختصارات لوحة المفاتيح",
 			"mcp": "خوادم MCP",
 			"profiles": "ملفات التعريف",
-			"prompts": "الطلبات والتعليمات",
+			"prompts": "المطالبات والإرشادات",
 			"settings": "الإعدادات",
 			"snippets": "المقتطفات",
 			"sync category": "مزامنة الإعدادات",

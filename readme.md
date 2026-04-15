@@ -4,7 +4,7 @@
 
 <div align="center">
 
-![Version](https://img.shields.io/badge/version-0.0.14-blue?style=for-the-badge&logo=visual-studio-code)
+![Version](https://img.shields.io/badge/version-0.0.15-blue?style=for-the-badge&logo=visual-studio-code)
 ![VS Code](https://img.shields.io/badge/VS%20Code-1.0.0+-green?style=for-the-badge&logo=visual-studio-code)
 [![License](https://img.shields.io/badge/license-MIT-orange?style=for-the-badge&logo=opensource)](LICENSE.md)
 
@@ -362,7 +362,7 @@ graph LR
 
 | الإضافة | الوصف | الإصدار | الرابط |
 |:-------:|:------|:-------:|:------:|
-| 🌐 **Arabic Language Pack** | حزمة اللغة العربية لـ VS Code | 0.0.14 | [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=Arabic-language.vscode-ar) |
+| 🌐 **Arabic Language Pack** | حزمة اللغة العربية لـ VS Code | 0.0.15 | [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=Arabic-language.vscode-ar) |
 | 🌐 **Arabic To HTML** | برمجة صفحات HTML بالعربي | - | [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=Arabic-language.arabictohtml) |
 | 🔄 **Auto Language** | مبدل اللغة التلقائي | - | [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=Arabic-language.autolanguage) |
 | 🖥️ **4Techs Arabic Tools** | أدوات عربية متكاملة | - | [VS Marketplace](https://marketplace.visualstudio.com/publishers/Arabic-language) |

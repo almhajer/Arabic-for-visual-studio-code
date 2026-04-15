@@ -22,6 +22,20 @@ This file follows a simple format inspired by Keep a Changelog.
 
 ---
 
+## [0.0.15]
+
+### العربية
+
+- رفع رقم الإصدار إلى `0.0.15`.
+- تحديث مراجع الإصدار في ملفات الحزمة والتوثيق.
+
+### English
+
+- Bumped the extension version to `0.0.15`.
+- Updated version references across package metadata and documentation.
+
+---
+
 ## [0.0.14]
 
 ### العربية
