@@ -1,0 +1,9 @@
+.git/**
+.codex/**
+.npm-cache/**
+.DS_Store
+*.log
+*.vsix
+AGENTS.md
+CONTRIBUTING.md
+TERMINOLOGY.md

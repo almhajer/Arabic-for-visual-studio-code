@@ -1,0 +1,20 @@
+0 verbose cli /usr/local/bin/node /Users/abdulkafi/.npm-global/bin/npm
+1 info using npm@11.11.0
+2 info using node@v24.14.0
+3 silly config load:file:/Users/abdulkafi/.npm-global/lib/node_modules/npm/npmrc
+4 warn config production Use `--omit=dev` instead.
+5 silly config load:file:/Users/abdulkafi/Desktop/الملفات/ملفات عبد الكافي/extension visual code/Arabic-language/.npmrc
+6 silly config load:file:/Users/abdulkafi/.npmrc
+7 silly config load:file:/Users/abdulkafi/.npm-global/etc/npmrc
+8 verbose title npm list
+9 verbose argv "list" "--production" "--parseable" "--depth" "99999" "--loglevel" "error"
+10 verbose logfile logs-max:10 dir:/Users/abdulkafi/Desktop/الملفات/ملفات عبد الكافي/extension visual code/Arabic-language/.npm-cache/_logs/2026-04-15T22_14_18_667Z-
+11 verbose logfile /Users/abdulkafi/Desktop/الملفات/ملفات عبد الكافي/extension visual code/Arabic-language/.npm-cache/_logs/2026-04-15T22_14_18_667Z-debug-0.log
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+14 verbose cwd /Users/abdulkafi/Desktop/الملفات/ملفات عبد الكافي/extension visual code/Arabic-language
+15 verbose os Darwin 25.4.0
+16 verbose node v24.14.0
+17 verbose npm  v11.11.0
+18 verbose exit 0
+19 info ok

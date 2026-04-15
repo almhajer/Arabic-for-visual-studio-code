@@ -1,0 +1,19 @@
+0 verbose cli /usr/local/bin/node /Users/abdulkafi/.npm-global/bin/npm
+1 info using npm@11.11.0
+2 info using node@v24.14.0
+3 silly config load:file:/Users/abdulkafi/.npm-global/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/abdulkafi/Desktop/الملفات/ملفات عبد الكافي/extension visual code/Arabic-language/.npmrc
+5 silly config load:file:/Users/abdulkafi/.npmrc
+6 silly config load:file:/Users/abdulkafi/.npm-global/etc/npmrc
+7 verbose title npm show @vscode/vsce version
+8 verbose argv "show" "@vscode/vsce" "version"
+9 verbose logfile logs-max:10 dir:/Users/abdulkafi/Desktop/الملفات/ملفات عبد الكافي/extension visual code/Arabic-language/.npm-cache/_logs/2026-04-15T22_14_51_610Z-
+10 verbose logfile /Users/abdulkafi/Desktop/الملفات/ملفات عبد الكافي/extension visual code/Arabic-language/.npm-cache/_logs/2026-04-15T22_14_51_610Z-debug-0.log
+11 silly logfile done cleaning log files
+12 http fetch GET 200 https://registry.npmjs.org/@vscode%2fvsce 428ms (cache miss)
+13 verbose cwd /Users/abdulkafi/Desktop/الملفات/ملفات عبد الكافي/extension visual code/Arabic-language
+14 verbose os Darwin 25.4.0
+15 verbose node v24.14.0
+16 verbose npm  v11.11.0
+17 verbose exit 0
+18 info ok
