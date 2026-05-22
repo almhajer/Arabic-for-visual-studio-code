@@ -9,19 +9,19 @@
 	"version": "1.0.0",
 	"contents": {
 		"package": {
+			"dark2026ThemeLabel": "2026 داكن",
 			"darkColorThemeLabel": "سمة داكنة (VS Code)",
 			"darkModernThemeLabel": "داكنة حديثة",
 			"darkPlusColorThemeLabel": "داكن+",
 			"description": "السمات الداكنة والفاتحة الافتراضية في VS Code.",
 			"displayName": "السمات الافتراضية",
 			"hcColorThemeLabel": "سمة عالية التباين",
+			"light2026ThemeLabel": "2026 فاتح",
 			"lightColorThemeLabel": "سمة فاتحة",
 			"lightHcColorThemeLabel": "فاتحة عالية التباين",
 			"lightModernThemeLabel": "فاتحة حديثة",
 			"lightPlusColorThemeLabel": "فاتحة +",
-			"minimalIconThemeLabel": "الأيقونات البسيطة (VS Code)",
-			"vsCodeDarkThemeLabel": "VS Code الداكن",
-			"vsCodeLightThemeLabel": "VS Code الفاتح"
+			"minimalIconThemeLabel": "الأيقونات البسيطة (VS Code)"
 		}
 	}
 }

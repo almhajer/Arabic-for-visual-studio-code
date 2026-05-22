@@ -10,14 +10,11 @@
 	"contents": {
 		"bundle": {
 			"A reload is required for the fetch setting change to take effect.": "يلزم إعادة التحميل حتى يسري تغيير إعداد الجلب.",
-			"Apple": "أبل",
 			"Continue to GitHub": "المتابعة إلى GitHub",
 			"Continue to GitHub to create a Personal Access Token (PAT)": "المتابعة إلى GitHub لإنشاء رمز وصول شخصي (PAT)",
-			"Copy & Continue to {0}": "نسخ والاستمرار إلى {0}",
-			"GitHub": "GitHub",
+			"Copy & Continue to Browser": "نسخ ومتابعة إلى المتصفح",
 			"GitHub Authentication - Reload required": "مصادقة GitHub: يلزم إعادة التحميل",
 			"GitHub Enterprise Server URI is not a valid URI: {0}": "عنوان URI لخادم GitHub Enterprise غير صالح: {0}",
-			"Google": "Google",
 			"Having trouble logging in? Would you like to try a different way? ({0})": "هل تواجه مشكلة في تسجيل الدخول؟ هل ترغب في تجربة طريقة مختلفة؟ ({0})",
 			"No": "لا",
 			"Open [{0}]({0}) in a new tab and paste your one-time code: {1}/The [{0}]({0}) will be a url and the {1} will be a code, e.g. 123-456{Locked=\"[{0}]({0})\"}": "افتح [{0}]({0}) في علامة تبويب جديدة ثم الصق الرمز الأحادي الاستخدام: {1}",

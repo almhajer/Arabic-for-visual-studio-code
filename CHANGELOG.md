@@ -22,6 +22,26 @@ This file follows a simple format inspired by Keep a Changelog.
 
 ---
 
+## [0.0.16]
+
+### العربية
+
+- رفع رقم الإصدار إلى `0.0.16`.
+- مزامنة `translations/main.i18n.json` مع مفاتيح Microsoft الحالية وإزالة المفاتيح الزائدة.
+- مزامنة ملفات `translations/extensions` مع مرجع Microsoft الحالي.
+- إضافة ترجمة `vscode.mermaid-markdown-features`.
+- إضافة المفاتيح الناقصة في ملفات الإضافات المدمجة، مع الحفاظ على سلامة JSON والرموز النائبة.
+
+### English
+
+- Bumped the extension version to `0.0.16`.
+- Synced `translations/main.i18n.json` with the current Microsoft keys and removed extra keys.
+- Synced `translations/extensions` with the current Microsoft reference.
+- Added `vscode.mermaid-markdown-features` localization.
+- Added missing bundled extension keys while preserving JSON validity and placeholders.
+
+---
+
 ## [0.0.15]
 
 ### العربية
