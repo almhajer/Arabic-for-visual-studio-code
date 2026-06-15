@@ -2,7 +2,7 @@
 	"name": "vscode-ar",
 	"displayName": "حزمة اللغة العربية لـ Visual Studio Code",
 	"description": "حزمة لغة عربية لواجهة Visual Studio Code متوافقة مع أحدث ملفات الترجمة الرسمية من Microsoft.",
-	"version": "1.125.0",
+	"version": "0.0.17",
 	"publisher": "Arabic-language",
 	"repository": {
 		"type": "git",

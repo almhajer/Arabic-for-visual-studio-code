@@ -2,7 +2,7 @@
 
 ## Metadata Improvements
 
-- Updated extension version from `0.0.16` to `1.125.0`.
+- Updated extension version from `0.0.16` to `0.0.17`.
 - Updated VS Code engine compatibility from `^1.0.0` to `^1.125.0`.
 - Improved `displayName` to use the product name `Visual Studio Code`.
 - Rewrote the extension description to reflect official-source synchronization.
