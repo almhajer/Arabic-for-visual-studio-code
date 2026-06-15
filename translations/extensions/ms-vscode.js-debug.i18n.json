@@ -84,7 +84,7 @@
 			"configuration.enableNetworkView": "تفعيل عرض الشبكة التجريبي للأهداف التي تدعمه",
 			"configuration.npmScriptLensLocation": "يحدد مكان عرض عدسة الكود لـ \"تشغيل\" و\"تصحيح\" في سكربتات npm الخاصة بك. الخيارات هي: \"all\" جميع السكربتات، أو \"top\" أعلى قسم السكربت، أو \"never\"",
 			"configuration.pickAndAttachOptions": "الخيارات الافتراضية المستخدمة لتصحيح عملية عبر الأمر تصحيح: الارتباط بعملية عقدة Node.js",
-			"configuration.resolveDebugEntrypoint": "Quand la valeur est true (par défaut), js-debug utilise des remappages de sources pour remapper un chemin `program` non-`.js` vers sa sortie compilée avant le lancement. Définissez cette valeur sur false pour exécuter le chemin `program` exactement tel qu’il a été écrit.",
+			"configuration.resolveDebugEntrypoint": "عندما تكون القيمة true (افتراضيًا)، يستخدم js-debug عمليات إعادة تعيين المصدر لتحويل مسار `program` غير المنتهي بـ `.js` إلى ناتجه المترجم قبل التشغيل. عيّن هذه القيمة إلى false لتنفيذ مسار `program` تمامًا كما كُتب.",
 			"configuration.resourceRequestOptions": "خيارات الطلب المطلوب استخدامها أثناء تحميل الموارد، مثل خرائط المصدر، في المصحح. قد تحتاج إلى تكوين هذا الإعداد إذا كانت خرائط المصدر الخاصة بك تتطلب مصادقة أو تستخدم شهادة موقعة ذاتياً. يتم استخدام الخيارات لإنشاء طلب باستخدام مكتبة [`got`](https://github.com/sindresorhus/got).\r\n\r\nطريقة شائعة لتعطيل التحقق من الشهادة هي تمرير `{ \"https\": { \"rejectUnauthorized\": false } }`",
 			"configuration.terminalOptions": "خيارات التشغيل الافتراضية لطرفية تصحيح جافا سكربت وسكربتات npm",
 			"configuration.unmapMissingSources": "تكوين ما إذا كان سيتم إلغاء التعيين تلقائياً للملف المعين بخريطة المصدر عندما لا يمكن قراءة الملف الأصلي. إذا كانت القيمة false (الافتراضي)، تظهر مطالبة",

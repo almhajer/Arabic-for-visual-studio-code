@@ -20,7 +20,7 @@ This PR performs a full synchronization and repository modernization for the Ara
 - obsolete translation files: `0`
 - upstream keys added: `1133`
 - obsolete keys removed: `146`
-- newly imported entries still needing human Arabic translation: `1016`
+- newly imported entries translated in this follow-up: `1016`
 
 See:
 
@@ -37,5 +37,5 @@ See:
 
 ## Notes
 
-- New untranslated entries currently retain upstream source text and are tracked separately for human completion.
+- Newly imported entries have now been translated to Arabic, with placeholder validation and targeted terminology cleanup.
 - The sync intentionally preserves current Arabic translations where matching keys already exist.

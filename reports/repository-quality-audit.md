@@ -15,7 +15,7 @@
 - Removed 146 obsolete keys.
 - No missing translation files.
 - No obsolete translation files.
-- Tracked 1016 imported entries that still need human Arabic translation.
+- Translated 1016 imported entries that previously needed human Arabic translation.
 
 ## Documentation Improvements
 
@@ -45,5 +45,5 @@
 
 ## Remaining Follow-up
 
-- Complete human Arabic translation for the 1016 newly imported entries listed in `reports/needs-translation.json`.
+- Continue human review for nuanced UI phrasing in newly added Agent/Copilot surfaces.
 - Optionally automate upstream sync and validation in CI.

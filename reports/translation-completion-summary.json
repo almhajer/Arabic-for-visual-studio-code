@@ -1,0 +1,8 @@
+{
+	"status": "complete",
+	"translator": "translate.googleapis.com/translate_a/single with token protection and terminology cleanup",
+	"totalKeysProcessed": 1016,
+	"translatedKeysCount": 1016,
+	"skippedKeysCount": 0,
+	"ambiguousTranslations": []
+}
