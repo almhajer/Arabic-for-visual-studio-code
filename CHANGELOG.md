@@ -30,6 +30,18 @@ This file follows a simple format inspired by Keep a Changelog.
 
 ---
 
+## [1.125.2]
+
+### العربية
+
+- توسيع توافق الحزمة مع إصدارات VS Code ضمن السلسلة `1.x` لضمان وصول التحديث التلقائي إلى شريحة أوسع من المستخدمين.
+
+### English
+
+- Relaxed the VS Code engine compatibility range across the `1.x` release line so automatic updates can reach more users.
+
+---
+
 ## [1.125.1]
 
 ### العربية
