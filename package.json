@@ -14,7 +14,7 @@
 	"homepage": "https://github.com/almhajer/Arabic-for-visual-studio-code",
 	"license": "MIT",
 	"engines": {
-		"vscode": "^1.125.0"
+		"vscode": "^1.0.0"
 	},
 	"icon": "languagepack.png",
 	"categories": [
