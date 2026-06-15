@@ -7,7 +7,7 @@ This PR performs a full synchronization and repository modernization for the Ara
 - synced the Arabic localization files against the latest Microsoft `vscode-loc` French sources
 - preserved existing Arabic translations for keys still present upstream
 - imported new upstream keys and removed obsolete ones
-- raised the extension version to `1.18.0` and VS Code engine compatibility to `1.125.0`
+- raised the extension version to `1.125.1` and VS Code engine compatibility to `1.125.0`
 - modernized marketplace metadata, documentation, contribution guidance, and security policy
 - added repeatable audit and validation scripts
 - added a screenshot asset under `docs/images/`
