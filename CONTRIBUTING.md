@@ -1,97 +1,103 @@
-# المساهمة | Contributing
+# Contributing | المساهمة
 
-شكرًا لاهتمامك بالمساهمة في مشروع حزمة اللغة العربية لـ فيجوال ستوديو كود.
+Thank you for helping improve the Arabic Language Pack for Visual Studio Code.
 
-Thank you for your interest in contributing to the Arabic Language Pack for Visual Studio Code.
+شكرًا لمساهمتك في تحسين حزمة اللغة العربية لـ Visual Studio Code.
 
----
+## Development Setup | إعداد بيئة التطوير
 
-## العربية
+### English
 
-### قبل البدء
+1. Fork and clone the repository.
+2. Install Node.js 20 or later.
+3. Run `npm install`.
+4. Keep a local checkout of `microsoft/vscode-loc` when preparing a sync release.
+5. Use the validation scripts in `package.json` before opening a pull request.
 
-- راجع الملفات الحالية قبل تعديل أي ترجمة.
-- حافظ على اتساق المصطلحات في جميع ملفات الترجمة.
-- اجعل الصياغة العربية واضحة وطبيعية ومناسبة لواجهة المستخدم.
+### العربية
 
-### قواعد الترجمة
+1. انسخ المستودع ثم استنسخه محليًا.
+2. ثبّت Node.js 20 أو أحدث.
+3. شغّل `npm install`.
+4. احتفظ بنسخة محلية من `microsoft/vscode-loc` عند تجهيز مزامنة إصدار جديد.
+5. استخدم أوامر التحقق الموجودة في `package.json` قبل فتح طلب السحب.
 
-- عدّل القيم النصية فقط، ولا تعدّل مفاتيح JSON.
-- حافظ على بنية JSON كما هي بدون حذف أو إضافة عناصر غير مطلوبة.
-- لا تغيّر العناصر الديناميكية مثل `{0}` و `${name}` و `\n`.
-- لا تغيّر النصوص البرمجية داخل `code` أو الأوامر أو المسارات أو الوسوم.
-- لا تغيّر أسماء لغات البرمجة أو البرامج أو الشركات إلا إذا كان المشروع يعتمد تعريبًا لفظيًا ثابتًا لها.
-- حافظ على الاتساق في الأزرار والعناصر الشائعة مثل: `فتح` و`إغلاق` و`حفظ` و`إلغاء`.
+## Translation Workflow | سير عمل الترجمة
 
-### إرشادات المراجعة
+### English
 
-- تجنّب الترجمة الحرفية إذا كانت الصياغة الطبيعية أوضح للمستخدم.
-- حسّن الرسائل الطويلة لتكون أسهل في الفهم بدون تغيير معناها.
-- راجع النصوص المكررة وتأكد من توحيدها.
-- عند الشك، اختر الصياغة الأبسط والأوضح.
+1. Sync against the latest upstream French localization files.
+2. Review the generated audit report in `reports/`.
+3. Preserve existing Arabic strings when the upstream key still exists.
+4. Translate only user-visible text.
+5. Keep placeholders, command ids, paths, and configuration keys unchanged.
+6. Record terminology decisions in `TERMINOLOGY.md`.
 
-### التحقق قبل إرسال التعديل
+### العربية
 
-- تأكد أن ملفات JSON ما زالت صالحة.
-- راجع أي placeholders أو سلاسل خاصة لم يتم كسرها.
-- اختبر التعديلات داخل فيجوال ستوديو كود إن أمكن.
-- إذا كان التعديل ظاهرًا للمستخدم، حدّث ملف `CHANGELOG.md`.
+1. نفّذ مزامنة مع أحدث ملفات الترجمة الفرنسية من upstream.
+2. راجع تقرير التدقيق الناتج داخل `reports/`.
+3. احتفظ بالنص العربي الحالي ما دام المفتاح ما زال موجودًا upstream.
+4. ترجم النصوص الظاهرة للمستخدم فقط.
+5. اترك placeholders ومعرّفات الأوامر والمسارات ومفاتيح الإعدادات كما هي.
+6. دوّن قرارات المصطلحات في `TERMINOLOGY.md`.
 
-### أسلوب المساهمة
+## Pull Request Process | آلية طلبات السحب
 
-- أنشئ فرعًا واضح الاسم للتعديل.
-- اجعل كل تعديل مركزًا على موضوع واحد قدر الإمكان.
-- استخدم رسائل commit مختصرة وواضحة.
-- افتح Pull Request مع وصف موجز لما تم تغييره ولماذا.
+### English
 
-### عند فتح Issue أو Pull Request
+1. Create a focused branch.
+2. Keep commits logical and readable.
+3. Include a short summary, validation notes, and any remaining translation gaps.
+4. Link related issues when applicable.
 
-- اذكر الملف أو الملفات المتأثرة.
-- أضف أمثلة قبل/بعد عند تحسين الصياغة.
-- وضّح إن كان التغيير تصحيح ترجمة أو تحسين أسلوب أو توحيد مصطلحات.
+### العربية
 
----
+1. أنشئ فرعًا واضحًا ومخصصًا للتعديل.
+2. اجعل الالتزامات منطقية وسهلة المراجعة.
+3. أضف ملخصًا قصيرًا ونتائج التحقق وأي فجوات ترجمة متبقية.
+4. اربط القضايا ذات الصلة عند الحاجة.
 
-## English
+## Commit Conventions | أسلوب رسائل الالتزام
 
-### Before You Start
+Use Conventional Commits whenever possible:
 
-- Review the existing files before changing any translation.
-- Keep terminology consistent across all translation files.
-- Prefer Arabic wording that is clear, natural, and suitable for UI text.
+- `feat:` for repository or tooling additions
+- `fix:` for translation fixes or validation corrections
+- `docs:` for documentation updates
+- `chore:` for release prep, sync scripts, or metadata cleanup
 
-### Translation Rules
+استخدم رسائل Conventional Commits قدر الإمكان:
 
-- Edit text values only. Do not edit JSON keys.
-- Preserve the JSON structure exactly as it is.
-- Do not change dynamic tokens such as `{0}`, `${name}`, or `\n`.
-- Do not alter code snippets, commands, paths, or tags.
-- Do not rename programming languages, products, or companies unless the project already uses an established Arabic transliteration.
-- Keep common UI terms consistent, such as `فتح`, `إغلاق`, `حفظ`, and `إلغاء`.
+- `feat:` للإضافات الوظيفية أو الأدوات
+- `fix:` لإصلاحات الترجمة أو التحقق
+- `docs:` لتحديثات التوثيق
+- `chore:` للتحضير للإصدار أو التنظيفات العامة
 
-### Review Guidelines
+## Issue Reporting Guidelines | إرشادات الإبلاغ عن المشكلات
 
-- Avoid literal translation when a more natural phrasing is clearer.
-- Improve long messages so they are easier to understand without changing meaning.
-- Review repeated strings and keep them uniform.
-- When in doubt, choose the simplest and clearest phrasing.
+### English
 
-### Validation Before Submitting
+- Identify the affected file and key when reporting a translation issue.
+- Include screenshots for UI wording problems when possible.
+- Describe expected wording, current wording, and context.
 
-- Make sure JSON files are still valid.
-- Verify that placeholders and special sequences were not broken.
-- Test the changes in Visual Studio Code when possible.
-- If the change is user-facing, update `CHANGELOG.md`.
+### العربية
 
-### Contribution Workflow
+- حدّد الملف والمفتاح المتأثرين عند الإبلاغ عن مشكلة ترجمة.
+- أرفق لقطة شاشة عند الإمكان إذا كانت المشكلة ظاهرة في الواجهة.
+- اذكر الصياغة الحالية والصياغة المقترحة والسياق.
 
-- Create a clearly named branch for your change.
-- Keep each change focused on one topic when possible.
-- Use short and clear commit messages.
-- Open a Pull Request with a brief explanation of what changed and why.
+## Code Review Expectations | توقعات المراجعة
 
-### When Opening an Issue or Pull Request
+### English
 
-- Mention the affected file or files.
-- Include before/after examples for wording improvements.
-- Clarify whether the change is a translation fix, style improvement, or terminology cleanup.
+- Reviewers check meaning accuracy, terminology consistency, placeholder safety, and JSON validity.
+- Large syncs should include audit output and validation results.
+- Avoid unrelated formatting churn in translation files.
+
+### العربية
+
+- يراجع المراجعون دقة المعنى واتساق المصطلحات وسلامة placeholders وصحة JSON.
+- يجب أن تتضمن المزامنات الكبيرة تقرير التدقيق ونتائج التحقق.
+- تجنّب التغييرات الشكلية غير المرتبطة في ملفات الترجمة.

@@ -1,0 +1,862 @@
+{
+	"generatedAt": "2026-06-15T21:15:00.153Z",
+	"upstreamRoot": "/tmp/vscode-loc-sync/i18n/vscode-language-pack-fr",
+	"apply": true,
+	"upstreamVersion": "1.125.0",
+	"upstreamEngine": "^1.125.0",
+	"localFileCount": 94,
+	"upstreamFileCount": 94,
+	"missingFiles": [],
+	"obsoleteFiles": [],
+	"totalMissingKeys": 0,
+	"totalObsoleteKeys": 0,
+	"totalNeedsTranslation": 0,
+	"files": [
+		{
+			"file": "extensions/ms-vscode.js-debug.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 461,
+			"localKeys": 461,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.bat.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.builtin-notebook-renderers.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.clojure.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.coffeescript.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.configuration-editing.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 61,
+			"localKeys": 61,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.cpp.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.csharp.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.css-language-features.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 351,
+			"localKeys": 351,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.css.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.dart.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.debug-auto-launch.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 22,
+			"localKeys": 22,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.debug-server-ready.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 16,
+			"localKeys": 16,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.diff.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.docker.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.dotenv.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.emmet.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 67,
+			"localKeys": 67,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.extension-editing.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 16,
+			"localKeys": 16,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.fsharp.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.git-base.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 14,
+			"localKeys": 14,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.git.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 817,
+			"localKeys": 817,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.github-authentication.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 28,
+			"localKeys": 28,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.github.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 57,
+			"localKeys": 57,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.go.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.groovy.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.grunt.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 9,
+			"localKeys": 9,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.gulp.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 8,
+			"localKeys": 8,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.handlebars.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.hlsl.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.html-language-features.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 289,
+			"localKeys": 289,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.html.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.ini.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.ipynb.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 13,
+			"localKeys": 13,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.jake.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 8,
+			"localKeys": 8,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.java.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.javascript.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.json-language-features.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 187,
+			"localKeys": 187,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.json.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.julia.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.latex.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.less.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.log.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.lua.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.make.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.markdown-language-features.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 176,
+			"localKeys": 176,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.markdown-math.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 4,
+			"localKeys": 4,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.markdown.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.media-preview.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 29,
+			"localKeys": 29,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.merge-conflict.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 33,
+			"localKeys": 33,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.mermaid-chat-features.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 8,
+			"localKeys": 8,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.mermaid-markdown-features.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 32,
+			"localKeys": 32,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.microsoft-authentication.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 35,
+			"localKeys": 35,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.npm.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 113,
+			"localKeys": 113,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.objective-c.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.perl.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.php-language-features.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 15,
+			"localKeys": 15,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.php.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.powershell.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.prompt.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.pug.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.python.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.r.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.razor.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.references-view.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 45,
+			"localKeys": 45,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.restructuredtext.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.ruby.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.rust.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.scss.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.search-result.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.shaderlab.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.shellscript.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.simple-browser.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 12,
+			"localKeys": 12,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.sql.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.swift.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.terminal-suggest.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 4,
+			"localKeys": 4,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.theme-2026.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 4,
+			"localKeys": 4,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.theme-abyss.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 3,
+			"localKeys": 3,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.theme-defaults.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 13,
+			"localKeys": 13,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.theme-kimbie-dark.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 3,
+			"localKeys": 3,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.theme-monokai-dimmed.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 3,
+			"localKeys": 3,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.theme-monokai.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 3,
+			"localKeys": 3,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.theme-quietlight.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 3,
+			"localKeys": 3,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.theme-red.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 3,
+			"localKeys": 3,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.theme-solarized-dark.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 3,
+			"localKeys": 3,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.theme-solarized-light.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 3,
+			"localKeys": 3,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.theme-tomorrow-night-blue.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 3,
+			"localKeys": 3,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.tunnel-forwarding.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 11,
+			"localKeys": 11,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.typescript-language-features.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 449,
+			"localKeys": 449,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.typescript.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.vb.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.vscode-theme-seti.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 3,
+			"localKeys": 3,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.xml.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "extensions/vscode.yaml.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 2,
+			"localKeys": 2,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		},
+		{
+			"file": "main.i18n.json",
+			"existsLocally": true,
+			"upstreamKeys": 21156,
+			"localKeys": 21156,
+			"missingKeys": [],
+			"obsoleteKeys": [],
+			"needsTranslation": []
+		}
+	]
+}

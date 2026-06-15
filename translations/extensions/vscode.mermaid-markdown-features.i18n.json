@@ -34,6 +34,12 @@
 			"config.markdown-mermaid.mouseNavigation.enabled.description": "يتحكم في وقت تفعيل التنقل باستخدام الماوس على مخططات Mermaid.",
 			"config.markdown-mermaid.mouseNavigation.enabled.never": "تعطيل التنقل بالماوس.",
 			"config.markdown-mermaid.resizable.description": "السماح بتغيير حجم المخططات عموديًا عن طريق سحب الحافة السفلية.",
+			"config.markdown-mermaid.theme.base.description": "سمة Mermaid مدمجة. السمة الوحيدة في Mermaid التي يمكن تخصيصها باستخدام متغيرات السمات.",
+			"config.markdown-mermaid.theme.dark.description": "سمة Mermaid مدمجة للخلفيات الداكنة.",
+			"config.markdown-mermaid.theme.default.description": "سمة Mermaid المدمجة الافتراضية. تعمل جيدًا على الخلفيات الفاتحة.",
+			"config.markdown-mermaid.theme.forest.description": "سمة Mermaid مدمجة تستخدم درجات من اللون الأخضر.",
+			"config.markdown-mermaid.theme.neutral.description": "سمة Mermaid مدمجة تستخدم لوحة ألوان رمادية محايدة. مناسبة للطباعة بالأبيض والأسود.",
+			"config.markdown-mermaid.theme.vscode.description": "سمة Mermaid مشتقة من سمة ألوان VS Code الحالية.",
 			"config.title": "Mermaid",
 			"description": "يضيف دعم مخططات Mermaid إلى الدردشات المضمنة ومعاينات Markdown ودفاتر الملاحظات.",
 			"displayName": "ميزات Mermaid لـ Markdown"

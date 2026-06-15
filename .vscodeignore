@@ -1,9 +1,17 @@
 .git/**
 .codex/**
+.fallow/**
 .npm-cache/**
 .DS_Store
+.gitignore
+.markdownlint-cli2.jsonc
+build/**
 *.log
 *.vsix
 AGENTS.md
 CONTRIBUTING.md
 TERMINOLOGY.md
+reports/**
+scripts/**
+README_EN.md
+docs/images/*.psd

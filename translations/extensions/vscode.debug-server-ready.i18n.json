@@ -16,6 +16,7 @@
 			"debug.server.ready.action.debugWithChrome.description": "بدء التصحيح باستخدام `Debugger for Chrome`.",
 			"debug.server.ready.action.description": "الإجراء المتخذ لعنوان URI عند جاهزية الخادم.",
 			"debug.server.ready.action.openExternally.description": "فتح عنوان URI خارجيًا باستخدام التطبيق الافتراضي.",
+			"debug.server.ready.action.openIntegratedBrowser.description": "افتح URI في المتصفح المضمّن.",
 			"debug.server.ready.action.startDebugging.description": "تشغيل إعداد تصحيح آخر.",
 			"debug.server.ready.debugConfig.description": "إعداد التصحيح المطلوب تشغيله.",
 			"debug.server.ready.debugConfigName.description": "اسم إعداد التشغيل المطلوب تنفيذه.",

@@ -114,6 +114,7 @@
 			"config.npm.scriptRunner.node": "استخدام Node.js كمشغّل برامج نصية.",
 			"config.npm.scriptRunner.npm": "استخدام npm كمشغّل برامج نصية.",
 			"config.npm.scriptRunner.pnpm": "استخدام pnpm كمشغّل برامج نصية.",
+			"config.npm.scriptRunner.vp": "استخدم Vite+ (vp) كمشغّل للبرامج النصية.",
 			"config.npm.scriptRunner.yarn": "استخدام yarn كمشغّل برامج نصية.",
 			"description": "إضافة توفّر دعم المهام لبرامج npm النصية.",
 			"displayName": "دعم npm في VS Code",

@@ -24,6 +24,7 @@
 			"Disable preview security warning in this workspace": "تعطيل تحذيرات أمان المعاينة في مساحة العمل هذه",
 			"Disable validation of Markdown links": "تعطيل التحقق من صحة روابط Markdown",
 			"Does not affect the content security level": "لا يؤثر على مستوى أمان المحتوى",
+			"Don't Show Again": "لا تظهر مرة أخرى",
 			"Enable": "تفعيل",
 			"Enable loading content over http": "تفعيل تحميل المحتوى عبر http",
 			"Enable loading content over http served from localhost": "تفعيل تحميل المحتوى عبر http المقدم من localhost",
@@ -76,6 +77,9 @@
 			"Remove duplicate link definition": "إزالة تعريف الرابط المكرر",
 			"Remove unused link definition": "إزالة تعريف الرابط غير المستخدم",
 			"Renaming is not supported here. Try renaming a header or link.": "إعادة التسمية غير مدعومة هنا. حاول إعادة تسمية عنوان أو رابط.",
+			"Rendered Markdown Diff Warning": "تحذير مقارنة Markdown المعروض",
+			"Rendered Markdown diffs may hide important changes such as formatting, whitespace, links, or HTML. Switch to the text diff if you need to review them.": "قد تخفي مقارنات Markdown المعروضة تغييرات مهمة مثل التنسيق أو المسافات البيضاء أو الروابط أو HTML. انتقل إلى مقارنة النص إذا كنت بحاجة إلى مراجعتها.",
+			"Rendered Markdown diffs may hide important changes. Click for details.": "قد تخفي مقارنات Markdown المعروضة تغييرات مهمة. انقر للتفاصيل.",
 			"Select security settings for Markdown previews in this workspace": "اختر إعدادات الأمان لمعاينات Markdown في مساحة العمل هذه",
 			"Some content has been disabled in this document": "تم تعطيل بعض المحتوى في هذا المستند",
 			"Strict": "صارم",
@@ -83,6 +87,7 @@
 			"Update Markdown links for the following {0} files?": "تحديث روابط Markdown للملفات {0} التالية؟",
 			"Yes": "نعم",
 			"[Preview] {0}": "[معاينة] {0}",
+			"{0} Rendered Diff": "مقارنة {0} المعروضة",
 			"{0} cannot be found": "تعذر العثور على {0}"
 		},
 		"package": {
