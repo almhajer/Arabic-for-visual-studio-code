@@ -34,6 +34,12 @@
 			"config.markdown-mermaid.mouseNavigation.enabled.description": "يتحكم في وقت تفعيل التنقل باستخدام الماوس على مخططات Mermaid.",
 			"config.markdown-mermaid.mouseNavigation.enabled.never": "تعطيل التنقل بالماوس.",
 			"config.markdown-mermaid.resizable.description": "السماح بتغيير حجم المخططات عموديًا عن طريق سحب الحافة السفلية.",
+			"config.markdown-mermaid.theme.base.description": "Thème Mermaid intégré. Le seul thème Mermaid pouvant être personnalisé à l’aide de variables de thème.",
+			"config.markdown-mermaid.theme.dark.description": "Thème Mermaid intégré pour les fonds sombres.",
+			"config.markdown-mermaid.theme.default.description": "Le thème Mermaid intégré par défaut. Fonctionne bien sur des arrière-plans clairs.",
+			"config.markdown-mermaid.theme.forest.description": "Thème Mermaid intégré utilisant des nuances de vert.",
+			"config.markdown-mermaid.theme.neutral.description": "Thème Mermaid intégré utilisant une palette de niveaux de gris neutres. Convient aux impressions en noir et blanc.",
+			"config.markdown-mermaid.theme.vscode.description": "Thème Mermaid dérivé du thème de couleurs actuel de VS Code.",
 			"config.title": "Mermaid",
 			"description": "يضيف دعم مخططات Mermaid إلى الدردشات المضمنة ومعاينات Markdown ودفاتر الملاحظات.",
 			"displayName": "ميزات Mermaid لـ Markdown"
