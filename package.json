@@ -1,8 +1,8 @@
 {
 	"name": "vscode-ar",
-	"displayName": "حزمة اللغة العربية لـ فجوال كود",
-	"description": "توفّر هذه الحزمة تعريبًا عربيًا لبرنامج فجوال كود.",
-	"version": "0.0.16",
+	"displayName": "حزمة اللغة العربية لـ Visual Studio Code",
+	"description": "حزمة لغة عربية لواجهة Visual Studio Code متوافقة مع أحدث ملفات الترجمة الرسمية من Microsoft.",
+	"version": "1.125.0",
 	"publisher": "Arabic-language",
 	"repository": {
 		"type": "git",
@@ -14,7 +14,7 @@
 	"homepage": "https://github.com/almhajer/Arabic-for-visual-studio-code",
 	"license": "MIT",
 	"engines": {
-		"vscode": "^1.0.0"
+		"vscode": "^1.125.0"
 	},
 	"icon": "languagepack.png",
 	"categories": [
@@ -29,10 +29,14 @@
 		"RTL Support",
 		"BiDi",
 		"Arabic Language Pack",
+		"Visual Studio Code Arabic",
+		"VS Code Arabic",
+		"VSCode localization",
+		"developer tools",
 		"عربي",
 		"اللغة العربية",
 		"لغة البرنامج",
-		"ترجمة فيجوال كود"
+		"تعريب فيجوال ستوديو كود"
 	],
 	"contributes": {
 		"localizations": [
@@ -422,6 +426,12 @@
 		]
 	},
 	"scripts": {
-		"update": "cd ../vscode && npm run update-localization-extension ar"
+		"update": "cd ../vscode && npm run update-localization-extension ar",
+		"validate:json": "node -e \"const fs=require('fs'); const path=require('path'); const walk=d=>fs.readdirSync(d,{withFileTypes:true}).flatMap(e=>{const p=path.join(d,e.name); return e.isDirectory()?walk(p):p.endsWith('.json')?[p]:[]}); walk('translations').concat(['package.json']).forEach(f=>JSON.parse(fs.readFileSync(f,'utf8'))); console.log('JSON validation passed');\"",
+		"validate:loc": "node scripts/validate-localization.js",
+		"lint:md": "npx markdownlint-cli2 \"**/*.md\" \"#node_modules\" \"#.git\"",
+		"package:extension": "npx @vscode/vsce package --no-dependencies",
+		"audit:sync": "node scripts/sync-vscode-loc.js",
+		"sync:apply": "node scripts/sync-vscode-loc.js --apply"
 	}
 }
