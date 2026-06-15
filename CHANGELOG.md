@@ -30,11 +30,11 @@ This file follows a simple format inspired by Keep a Changelog.
 
 ---
 
-## [0.0.17]
+## [1.18.0]
 
 ### العربية
 
-- رفع إصدار الحزمة إلى `0.0.17` مع الحفاظ على التوافق مع مرجع ترجمة Microsoft `1.125.0`.
+- رفع إصدار الحزمة إلى `1.18.0` مع الحفاظ على التوافق مع مرجع ترجمة Microsoft `1.125.0`.
 - إضافة `1133` مفتاحًا من upstream وإزالة `146` مفتاحًا لم تعد موجودة.
 - الحفاظ على الترجمات العربية الحالية لكل المفاتيح المستمرة.
 - ترجمة `1016` إدخالًا جديدًا كانت بحاجة إلى ترجمة عربية.
@@ -42,7 +42,7 @@ This file follows a simple format inspired by Keep a Changelog.
 
 ### English
 
-- Bumped the extension to `0.0.17` while keeping compatibility with the Microsoft localization baseline `1.125.0`.
+- Bumped the extension to `1.18.0` while keeping compatibility with the Microsoft localization baseline `1.125.0`.
 - Added `1133` upstream keys and removed `146` obsolete keys.
 - Preserved existing Arabic translations for keys still present upstream.
 - Translated `1016` newly imported entries that previously needed Arabic localization.
