@@ -14,11 +14,37 @@ This file follows a simple format inspired by Keep a Changelog.
 
 ### العربية
 
-- ستُوثّق هنا التغييرات غير المنشورة بعد.
+- مزامنة ملفات الترجمة مع مرجع Microsoft `vscode-loc` حتى الإصدار `1.125.0`.
+- تحديث `package.json` لرفع توافق VS Code وتحسين الوصف والكلمات المفتاحية وسكربتات التحقق.
+- تحديث ملفات التوثيق والسياسات: `README.md` و`README_EN.md` و`CONTRIBUTING.md` و`SECURITY.md`.
+- إضافة تقارير تدقيق المزامنة وملفات دعم التحقق الآلي.
 
 ### English
 
-- Unreleased changes will be documented here.
+- Synced localization files against Microsoft `vscode-loc` version `1.125.0`.
+- Updated `package.json` compatibility, metadata, keywords, and validation scripts.
+- Refreshed repository documentation and policy files.
+- Added sync audit output and repeatable validation helpers.
+
+---
+
+## [1.125.0]
+
+### العربية
+
+- رفع إصدار الحزمة إلى `1.125.0` ليتوافق مع أحدث مرجع ترجمة من Microsoft.
+- إضافة `1133` مفتاحًا من upstream وإزالة `146` مفتاحًا لم تعد موجودة.
+- الحفاظ على الترجمات العربية الحالية لكل المفاتيح المستمرة.
+- تسجيل `1016` إدخالًا جديدًا بحاجة إلى ترجمة بشرية داخل `reports/needs-translation.json`.
+- تحديث README وإضافة قسم Impact ولقطة شاشة وسياسات المساهمة والأمان.
+
+### English
+
+- Bumped the extension to `1.125.0` to match the latest Microsoft localization baseline.
+- Added `1133` upstream keys and removed `146` obsolete keys.
+- Preserved existing Arabic translations for keys still present upstream.
+- Tracked `1016` newly imported entries that still need human Arabic translation in `reports/needs-translation.json`.
+- Modernized the README, added Impact metrics, screenshot coverage, and contribution/security guidance.
 
 ---
 

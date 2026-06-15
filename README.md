@@ -1,460 +1,128 @@
-<div align="center">
+# Arabic Language Pack for Visual Studio Code | حزمة اللغة العربية لـ Visual Studio Code
 
-# 🌐 اللغة العربية لـ VS Code
+[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/Arabic-language.vscode-ar?label=Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=Arabic-language.vscode-ar)
+[![Downloads](https://img.shields.io/visual-studio-marketplace/d/Arabic-language.vscode-ar?label=Downloads)](https://marketplace.visualstudio.com/items?itemName=Arabic-language.vscode-ar)
+[![Rating](https://img.shields.io/visual-studio-marketplace/r/Arabic-language.vscode-ar?label=Rating)](https://marketplace.visualstudio.com/items?itemName=Arabic-language.vscode-ar)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE.md)
 
-<div align="center">
+Arabic localization for Visual Studio Code, synchronized with the latest Microsoft language-pack sources and maintained for Arabic-speaking developers.
 
-![Version](https://img.shields.io/badge/version-0.0.16-blue?style=for-the-badge&logo=visual-studio-code)
-![VS Code](https://img.shields.io/badge/VS%20Code-1.0.0+-green?style=for-the-badge&logo=visual-studio-code)
-[![License](https://img.shields.io/badge/license-MIT-orange?style=for-the-badge&logo=opensource)](LICENSE.md)
+تعريب عربي لبرنامج Visual Studio Code، متزامن مع أحدث ملفات الترجمة الرسمية من Microsoft ومهيأ لتجربة استخدام طبيعية للمطورين الناطقين بالعربية.
 
-</div>
+## Impact
 
-### حزمة اللغة العربية توفر تجربة واجهة مستخدم محلية لـ **Visual Studio Code**
+| Metric | Value |
+| --- | ---: |
+| Total Downloads | 16,757 |
+| Downloads Last 30 Days | 1,685 |
+| Releases | 7 |
 
-<div align="center">
+The extension has seen steady adoption across the Arabic developer community and continues to help teams use VS Code with a more approachable interface.
 
-![Language Pack Banner](languagepack.png)
+تشير هذه الأرقام إلى اعتماد متزايد لحزمة اللغة العربية داخل مجتمع المطورين العرب، مع استخدام فعلي ومستمر في بيئات العمل والتعلّم.
 
-</div>
+## Screenshots
 
----
+![Arabic Language Pack in VS Code](docs/images/vscode-arabic-language-pack.png)
 
-</div>
+## Features
 
-## 📋 جدول المحتويات
+- Synchronizes with the latest upstream VS Code localization structure.
+- Covers the VS Code workbench and bundled extension translations.
+- Preserves placeholders, command identifiers, and JSON integrity.
+- Uses consistent Arabic UI terminology across the project.
 
-<div align="center">
+- مزامنة مع أحدث بنية ترجمة رسمية لواجهة VS Code.
+- تغطية لترجمة واجهة VS Code والإضافات المدمجة.
+- الحفاظ على placeholders والمعرّفات التقنية وسلامة JSON.
+- توحيد المصطلحات العربية المناسبة لواجهات الاستخدام.
 
-| القسم | الوصف |
-|:-----:|:------|
-| [🌟 نظرة عامة](#-نظرة-عامة) | تعرف على حزمة اللغة العربية |
-| [✨ المميزات](#-المميزات) | اكتشف ما تقدمه الحزمة |
-| [📥 التثبيت](#-التثبيت) | كيفية تثبيت الحزمة |
-| [🚀 الاستخدام](#-الاستخدام) | دليل الاستخدام الشامل |
-| [⌨️ اختصارات مفيدة](#-اختصارات-مفيدة) | اختصارات سريعة |
-| [🤝 المساهمة](#-المساهمة) | كيف تساهم في التطوير |
-| [📞 الدعم](#-الدعم) | روابط الدعم والمساعدة |
+## Installation
 
-</div>
+### English
 
----
+1. Open Extensions in Visual Studio Code.
+2. Search for `Arabic Language Pack`.
+3. Install the extension published by `Arabic-language`.
+4. Run `Configure Display Language`.
+5. Choose `العربية`, then reload VS Code.
 
-<div align="center">
+### العربية
 
-# 🌟 نظرة عامة
+1. افتح قسم الإضافات في Visual Studio Code.
+2. ابحث عن `Arabic Language Pack`.
+3. ثبّت الإضافة المنشورة من `Arabic-language`.
+4. نفّذ الأمر `Configure Display Language`.
+5. اختر `العربية` ثم أعد تحميل VS Code.
 
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 10px; color: #333;">
+## Usage
 
-> **حزمة اللغة العربية** هي إضافة متكاملة لـ Visual Studio Code توفر تجربة واجهة مستخدم عربية كاملة.
+### English
 
-</div>
+- Open the Command Palette with `Ctrl+Shift+P` or `Cmd+Shift+P`.
+- Run `Configure Display Language`.
+- Select Arabic and restart the editor if prompted.
 
-### 🎯 لماذا حزمة اللغة العربية؟
+### العربية
 
-</div>
+- افتح لوحة الأوامر عبر `Ctrl+Shift+P` أو `Cmd+Shift+P`.
+- نفّذ الأمر `Configure Display Language`.
+- اختر العربية ثم أعد تشغيل المحرر عند الطلب.
 
-<div align="center">
+## Contributing
 
-| الميزة | الوصف |
-|:------:|:------|
-| 🌍 | **ترجمة شاملة** - تغطية كاملة لواجهة VS Code |
-| 🔄 | **تحديث مستمر** - تحديثات دورية للترجمة |
-| 📦 | **سهولة التثبيت** - تثبيت سريع وبسيط |
-| 🎨 | **توافق كامل** - دعم جميع الإضافات |
-| 👥 | **مجتمع قوي** - دعم نشط من المجتمع العربي |
+Contributions are welcome for translation quality, terminology consistency, release tooling, and documentation.
 
-</div>
+نرحّب بالمساهمات في تحسين جودة الترجمة، وتوحيد المصطلحات، وأدوات الإصدار، والتوثيق.
 
----
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for the full workflow.
 
-<div align="center">
+راجع [CONTRIBUTING.md](./CONTRIBUTING.md) لمعرفة آلية العمل بالتفصيل.
 
-# ✨ المميزات
+## Security
 
-</div>
+Please report vulnerabilities privately as described in [SECURITY.md](./SECURITY.md).
 
-### 1️⃣ ترجمة شاملة لواجهة المستخدم
+يرجى الإبلاغ عن الثغرات أمنيًا وبشكل خاص وفق ما هو موضح في [SECURITY.md](./SECURITY.md).
 
-<div align="center">
+## Release Process
 
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 25px; border-radius: 15px; color: white; box-shadow: 0 10px 30px rgba(0,0,0,0.2); margin: 20px 0;">
+### English
 
-| الميزة |
-|:------|
-| 🎨 ترجمة القوائم والأشرطة |
-| 📝 ترجمة الرسائل والإشعارات |
-| ⚙️ ترجمة الإعدادات والخيارات |
-| 🔧 ترجمة الأدوات والقوائم |
+1. Sync the repository with the latest Microsoft `vscode-loc` French sources.
+2. Review new keys and complete Arabic translation coverage.
+3. Run JSON, localization, markdown, and packaging validation.
+4. Update `CHANGELOG.md`.
+5. Publish a tagged release and the packaged extension.
 
-</div>
+### العربية
 
-</div>
+1. مزامنة المستودع مع أحدث ملفات `vscode-loc` الفرنسية من Microsoft.
+2. مراجعة المفاتيح الجديدة واستكمال الترجمة العربية.
+3. تشغيل تحقق JSON والتعريب وMarkdown والتغليف.
+4. تحديث `CHANGELOG.md`.
+5. نشر إصدار موسوم وملف الإضافة النهائي.
 
-### 2️⃣ دعم الإضافات المدمجة
+## Roadmap
 
-<details>
-<summary><b>📁 الإضافات المدعومة (اضغط للعرض)</b></summary>
+- Complete human translation for all newly imported upstream keys.
+- Automate upstream diff reporting in CI.
+- Add release automation for VSIX packaging and validation.
+- Expand reviewer guidance for terminology and UI tone.
 
-<div align="center">
+- استكمال الترجمة البشرية لجميع المفاتيح الجديدة المستوردة من upstream.
+- أتمتة تقارير الفروقات مع upstream ضمن CI.
+- إضافة أتمتة لتغليف VSIX والتحقق قبل الإصدار.
+- توسيع إرشادات المراجعة الخاصة بالمصطلحات وأسلوب الواجهة.
 
-| الفئة | عدد الإضافات |
-|:-----:|:------------:|
-| 🎨 المحررات | 10+ |
-| 🐛 التصحيح | 5+ |
-| 🌐 اللغات | 15+ |
-| ⚙️ الإعدادات | 20+ |
-| 🎨 السمات | 10+ |
+## Repository Links
 
-</div>
+- Marketplace: https://marketplace.visualstudio.com/items?itemName=Arabic-language.vscode-ar
+- Repository: https://github.com/almhajer/Arabic-for-visual-studio-code
+- Issues: https://github.com/almhajer/Arabic-for-visual-studio-code/issues
 
-</details>
+## License
 
-### 3️⃣ تحديثات دورية
+This project is licensed under the MIT License. See [LICENSE.md](./LICENSE.md).
 
-<div align="center">
-
-<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 25px; border-radius: 15px; color: white; box-shadow: 0 10px 30px rgba(0,0,0,0.2); margin: 20px 0;">
-
-| الميزة |
-|:------|
-| 🔄 تحديثات منتظمة للترجمة |
-| 🆕 إضافة ميزات جديدة |
-| 🐛 إصلاح الأخطاء |
-| 📊 تحسين الأداء |
-
-</div>
-
-</div>
-
----
-
-<div align="center">
-
-# 📥 التثبيت
-
-</div>
-
-### 🛒 من VS Code Marketplace
-
-<div align="center">
-
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; border-radius: 15px; color: white; box-shadow: 0 10px 30px rgba(0,0,0,0.2); margin: 20px 0;">
-
-| الخطوة | الإجراء |
-|:------:|:--------|
-| 1️⃣ | افتح VS Code |
-| 2️⃣ | اضغط `Ctrl+Shift+X` (أو `Cmd+Shift+X` على Mac) |
-| 3️⃣ | ابحث عن "Arabic Language Pack" |
-| 4️⃣ | اضغط "Install" ✅ |
-
-</div>
-
-</div>
-
-### 📦 من ملف VSIX
-
-<div align="center">
-
-<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 30px; border-radius: 15px; color: white; box-shadow: 0 10px 30px rgba(0,0,0,0.2); margin: 20px 0;">
-
-| الخطوة | الإجراء |
-|:------:|:--------|
-| 1️⃣ | حمّل ملف `.vsix` من الرابط أدناه |
-| 2️⃣ | افتح VS Code |
-| 3️⃣ | اضغط `Ctrl+Shift+P` (أو `Cmd+Shift+P` على Mac) |
-| 4️⃣ | اكتب "Extensions: Install from VSIX" |
-| 5️⃣ | اختر الملف المحمّل ✅ |
-
-</div>
-
-</div>
-
-<div align="center">
-
-[![تثبيت من VSIX](https://img.shields.io/badge/Download-Direct-blue?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=Arabic-language.vscode-ar)
-
-</div>
-
----
-
-<div align="center">
-
-# 🚀 الاستخدام
-
-</div>
-
-### 🎬 تفعيل اللغة العربية
-
-```mermaid
-graph LR
-    A[تثبيت الحزمة] --> B[فتح VS Code]
-    B --> C[الضغط على Ctrl+Shift+P]
-    C --> D[كتابة: display]
-    D --> E[اختيار: Configure Display Language]
-    E --> F[اختيار العربية]
-    F --> G[🎉 تم التفعيل!]
-
-```
-
-### 📝 خطوات التفصيلية
-
-<div align="center">
-
-| الخطوة | الإجراء |
-|:------:|:--------|
-| 1️⃣ | اضغط على `Ctrl+Shift+P` لفتح **لوحة الأوامر** |
-| 2️⃣ | ابدأ بكتابة `display` لتصفية وعرض أمر **تكوين لغة العرض** |
-| 3️⃣ | اضغط على `Enter` وستظهر قائمة باللغات المثبتة |
-| 4️⃣ | اختر **العربية** لتغيير لغة واجهة المستخدم |
-| 5️⃣ | أعد تشغيل VS Code لتفعيل التغييرات |
-
-</div>
-
-### 📖 مزيد من المعلومات
-
-<div align="center">
-
-[![الوثائق الرسمية](https://img.shields.io/badge/Official-Documentation-blue?style=for-the-badge)](https://go.microsoft.com/fwlink/?LinkId=761051)
-
-</div>
-
----
-
-<div align="center">
-
-# ⌨️ اختصارات مفيدة
-
-</div>
-
-<div align="center">
-
-| الإجراء | الاختصار |
-|:-------:|:--------:|
-| فتح لوحة الأوامر | `Ctrl+Shift+P` |
-| فتح الإعدادات | `Ctrl+,` |
-| فتح لوحة الأوامر (Mac) | `Cmd+Shift+P` |
-| إعادة تشغيل VS Code | `Ctrl+Shift+P` → "Developer: Reload Window" |
-
-</div>
-
----
-
-<div align="center">
-
-# 🤝 المساهمة
-
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; border-radius: 15px; color: #333; margin-bottom: 20px;">
-
-### نرحب بمساهماتكم! 🙌
-
-</div>
-
-</div>
-
-<div align="center">
-
-| نوع المساهمة | الرابط |
-|:------------:|:------:|
-| 🐛 الإبلاغ عن مشكلة | [فتح Issue](https://github.com/almhajer/Arabic-for-visual-studio-code/issues/new) |
-| 💡 طلب ميزة جديدة | [طلب Feature](https://github.com/almhajer/Arabic-for-visual-studio-code/compare) |
-| 🔧 المساهمة في الكود | [فتح Pull Request](https://github.com/almhajer/Arabic-for-visual-studio-code/pulls) |
-
-</div>
-
-### 📝 ملاحظات هامة
-
-<div style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); padding: 20px; border-radius: 10px; border-left: 5px solid #f5576c;">
-
-> يتم صيانة سلاسل الترجمة في منصة الترجمة التابعة لمايكروسوفت. يمكن إجراء التغييرات فقط في منصة الترجمة ثم تصديرها إلى مستودع **vscode-loc**. لذلك، لن يتم قبول طلبات السحب (pull requests) في مستودع **vscode-loc**.
-
-لإبداء ملاحظات حول تحسين الترجمة، يرجى إنشاء قضية في مستودع [vscode-loc](https://github.com/microsoft/vscode-loc).
-
-</div>
-
----
-
-<div align="center">
-
-# 📞 الدعم
-
-</div>
-
-### 👥 المساهمون الرئيسيون
-
-<div align="center">
-
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin: 20px 0;">
-
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 15px; color: #333; min-width: 200px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
-
-| المساهم | الدور |
-|:-------:|:-----:|
-| **بشير الحسن** | 👨‍💻 مطور رئيسي |
-
-</div>
-
-<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 20px; border-radius: 15px; color: #333; min-width: 200px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
-
-| المساهم | الدور |
-|:-------:|:-----:|
-| **عبدالكافي الحسن** | 👨‍💻 مطور رئيسي |
-
-</div>
-
-<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 20px; border-radius: 15px; color: #333; min-width: 200px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
-
-| المساهم | الدور |
-|:-------:|:-----:|
-| **شكري الحسن** | 👨‍💻 مطور رئيسي |
-
-</div>
-
-<div style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); padding: 20px; border-radius: 15px; color: #333; min-width: 200px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
-
-| المساهم | الدور |
-|:-------:|:-----:|
-| **عبدالقادر الحسن** | 👨‍💻 مطور رئيسي |
-
-</div>
-
-</div>
-
-</div>
-
-<div align="center">
-
-<div style="background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 99%, #fecfef 100%); padding: 25px; border-radius: 15px; margin: 20px 0;">
-
-> 💚 **توكل على الله وابدأ على بركته!** 
-> 
-> الدعاء لوالدي ولجميع المسلمين.
-
-</div>
-
-</div>
-
-### 🌐 روابط مفيدة
-
-<div align="center">
-
-| الرابط | الوصف |
-|:------:|:------|
-| [![https://almhajer.github.io/GraphicsProgrammingAtlas/](https://img.shields.io/badge/https://almhajer.github.io/GraphicsProgrammingAtlas/-blue)](https://almhajer.github.io/GraphicsProgrammingAtlas) | موقع المطور |
-| [![VS Marketplace](https://img.shields.io/badge/VS%20Marketplace-green)](https://marketplace.visualstudio.com/publishers/Arabic-language) |  صفحة الناشر |
-</div>
-
----
-
-### 📦 جميع إضافات فريق 4Techs
-
-<div align="center">
-
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; border-radius: 15px; color: #333; margin: 20px 0;">
-
-**اكتشف مجموعة الإضافات العربية المتكاملة من 4Techs!**
-
-</div>
-
-</div>
-
-<div align="center">
-
-| الإضافة | الوصف | الإصدار | الرابط |
-|:-------:|:------|:-------:|:------:|
-| 🌐 **Arabic Language Pack** | حزمة اللغة العربية لـ VS Code | 0.0.16 | [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=Arabic-language.vscode-ar) |
-| 🌐 **Arabic To HTML** | برمجة صفحات HTML بالعربي | - | [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=Arabic-language.arabictohtml) |
-| 🔄 **Auto Language** | مبدل اللغة التلقائي | - | [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=Arabic-language.autolanguage) |
-| 🖥️ **4Techs Arabic Tools** | أدوات عربية متكاملة | - | [VS Marketplace](https://marketplace.visualstudio.com/publishers/Arabic-language) |
-| 🖥️ **4Techs Arabic Tools** | 🔧 Arabic CMake Tools | - | [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=Arabic-language.cmake-tools-arabic) |
-
-</div>
-
----
-
-### 🌐 زيارة متجر البرامج
-
-<div align="center">
-
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; border-radius: 15px; color: #333; margin: 20px 0;">
-
-**اكتشف المزيد من البرامج والأدوات العربية على موقعنا**
-
-</div>
-
-<div style="margin: 20px 0;">
-
-[![https://almhajer.github.io/GraphicsProgrammingAtlas/](https://img.shields.io/badge/https://almhajer.github.io/GraphicsProgrammingAtlas/-blue)](https://almhajer.github.io/GraphicsProgrammingAtlas)
-[![VS Marketplace](https://img.shields.io/badge/VS%20Marketplace-green)](https://marketplace.visualstudio.com/publishers/Arabic-language)
-
-
-
-</div>
-
-<div style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); padding: 20px; border-radius: 10px; border-left: 5px solid #f5576c;">
-
-> 💡 **نصيحة:** قم بزيارة موقعنا لاكتشاف المزيد من البرامج والأدوات المفيدة للمطورين العرب.
-
-</div>
-
-</div>
-
----
-
-<div align="center">
-
-# 📄 الترخيص
-
-</div>
-
-<div align="center">
-
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 10px; color: #333;">
-
-```bash
-MIT License
-
-هذا المشروع مرخص تحت رخصة MIT
-راجع ملف LICENSE للتفاصيل
-```
-
-</div>
-
-</div>
-
----
-
-<div align="center">
-
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 40px; border-radius: 20px; color: #333; margin: 30px 0;">
-
-### 🌟 إذا أعجبك المشروع، لا تنسَ إضافة ⭐!
-
----
-
-**صنع بـ ❤️ للمجتمع العربي**
-
-<div style="margin-top: 20px;">
-
-[![https://almhajer.github.io/GraphicsProgrammingAtlas/](https://img.shields.io/badge/https://almhajer.github.io/GraphicsProgrammingAtlas/-blue)](https://almhajer.github.io/GraphicsProgrammingAtlas)
-[![VS Marketplace](https://img.shields.io/badge/VS%20Marketplace-green)](https://marketplace.visualstudio.com/publishers/Arabic-language)
-
-</div>
-
-</div>
-
----
-
-<div align="center">
-
-<div style="background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 99%, #fecfef 100%); padding: 20px; border-radius: 10px;">
-
-**شكراً لاستخدامك حزمة اللغة العربية!** 🎉
-
-</div>
-
-</div>
-
----
-
-</div>
+هذا المشروع مرخّص بموجب رخصة MIT. راجع [LICENSE.md](./LICENSE.md).
