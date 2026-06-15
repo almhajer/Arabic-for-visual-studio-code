@@ -4647,7 +4647,7 @@
 			"agentHostAutoApprove.autopilot.warning.title": "تمكين الطيار الآلي؟",
 			"agentHostAutoApprove.bypass.warning.detail": "سيوافق خيار \"تجاوز الموافقات\" تلقائيًا على جميع استدعاءات الأداة دون طلب التأكيد. يتضمن ذلك تعديلات الملفات والأوامر الطرفية واستدعاء الأدوات الخارجية.",
 			"agentHostAutoApprove.bypass.warning.title": "هل تريد تمكين تجاوز الموافقة؟",
-			"agentHostAutoApprove.warning.cancel": "يلغي",
+			"agentHostAutoApprove.warning.cancel": "الغاء",
 			"agentHostAutoApprove.warning.confirm": "يُمكَِن",
 			"agentHostAutoApprove.warning.detailWithDefaultSetting": "{0}\r\n\r\nلجعل هذا مستوى إذن البداية لجلسات الدردشة الجديدة، قم بتغيير الإعداد [{1}](command:workbench.action.openSettings?%5B%22{1}%22%5D).",
 			"agentHostNewSessionApprovePicker": "موافقات الجلسة",
@@ -5367,7 +5367,7 @@
 		"vs/workbench/api/browser/mainThreadAuthentication": {
 			"addClientRegistrationDetails": "إضافة تفاصيل تسجيل العميل",
 			"allow": "&&السماح",
-			"cancel": "يلغي",
+			"cancel": "الغاء",
 			"clientIdPlaceholder": "معرف عميل OAuth (azye39d...)",
 			"clientIdPrompt": "أدخل معرف العميل الحالي الذي تم تسجيله باستخدام عناوين الرابط التالية لإعادة التوجيه: http://127.0.0.1:33418، https://vscode.dev/redirect",
 			"clientIdRequired": "معرف العميل مطلوب",
@@ -5464,7 +5464,7 @@
 			"mcpAuthSessionRemoved": "تم حذف جلسة المصادقة لـ {0}، وتم إيقاف تشغيل الخادم"
 		},
 		"vs/workbench/api/browser/mainThreadMessageService": {
-			"cancel": "يلغي",
+			"cancel": "الغاء",
 			"defaultSource": "امتداد",
 			"manageExtension": "إدارة التمديد",
 			"ok": "&&موافق"
@@ -5918,11 +5918,11 @@
 		},
 		"vs/workbench/browser/actions/textInputActions": {
 			"copy": "ينسخ",
-			"cut": "يقطع",
-			"paste": "يلزق",
-			"redo": "يعيد",
+			"cut": "قص",
+			"paste": "لصق",
+			"redo": "إعادة",
 			"selectAll": "حدد الكل",
-			"undo": "يلغي"
+			"undo": "تراجع"
 		},
 		"vs/workbench/browser/actions/windowActions": {
 			"about": "حول",
@@ -9080,7 +9080,7 @@
 		},
 		"vs/workbench/contrib/chat/browser/agentSessions/agentHost/agentHostSessionHandler": {
 			"agentHost.authRequired": "المصادقة مطلوبة لبدء الجلسة. الرجاء تسجيل الدخول مرة أخرى والمحاولة مرة أخرى.",
-			"agentHost.elicit.url.cancel": "يلغي",
+			"agentHost.elicit.url.cancel": "الغاء",
 			"agentHost.elicit.url.instruction": "هل تريد فتح عنوان URL هذا؟",
 			"agentHost.elicit.url.open": "افتح {0}",
 			"agentHost.elicit.url.title": "الترخيص مطلوب",
@@ -9347,7 +9347,7 @@
 			"aiCustomizationWorkspaceIcon": "أيقونة عناصر مساحة العمل"
 		},
 		"vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationItemSource": {
-			"hookUnset": "(يلغي)",
+			"hookUnset": "(الغاء التعيين)",
 			"uiIntegrationBadge": "تكامل واجهة المستخدم"
 		},
 		"vs/workbench/contrib/chat/browser/aiCustomization/aiCustomizationListWidget": {
@@ -9701,7 +9701,7 @@
 		"vs/workbench/contrib/chat/browser/aiCustomization/promptsServiceCustomizationItemProvider": {
 			"alwaysAdded": "يضاف دائما",
 			"alwaysAddedTooltip": "يتم تضمين هذه التعليمات تلقائيًا في كل تفاعل.",
-			"hookUnset": "(يلغي)",
+			"hookUnset": "(الغاء التعيين)",
 			"onContextTooltip": "يتم تضمين هذا البيان تلقائيًا عندما تكون الملفات المطابقة \"{0}\" في السياق.",
 			"uiIntegrationBadge": "تكامل واجهة المستخدم"
 		},
@@ -11568,11 +11568,11 @@
 		},
 		"vs/workbench/contrib/chat/browser/widget/chatContentParts/chatPlanReviewPart": {
 			"chat.planReview.ariaLabel": "مراجعة الخطة: {0}",
-			"chat.planReview.autopilot.cancel": "يلغي",
+			"chat.planReview.autopilot.cancel": "الغاء",
 			"chat.planReview.autopilot.confirm": "يُمكَِن",
 			"chat.planReview.autopilot.detail": "Autopilot will automatically approve all tool calls and continue working autonomously until the task is completed. يتضمن ذلك الأوامر الطرفية وتعديلات الملفات واستدعاءات الأدوات الخارجية. سيتخذ الوكيل القرارات نيابةً عنك دون طلب التأكيد.\r\n\r\nيمكنك إيقاف الوكيل في أي وقت عن طريق النقر على زر الإيقاف. وهذا ينطبق فقط على الجلسة الحالية.",
 			"chat.planReview.autopilot.title": "تمكين الطيار الآلي؟",
-			"chat.planReview.cancelButtonLabel": "يلغي",
+			"chat.planReview.cancelButtonLabel": "الغاء",
 			"chat.planReview.cancelTooltip": "الخروج من وضع التعليق",
 			"chat.planReview.clearAll": "مسح الكل",
 			"chat.planReview.clearAllConfirm": "هل تريد حذف التعليق (التعليقات) المضمنة {0}؟",
@@ -12359,11 +12359,11 @@
 			"editsDescription": "تعديل أو إعادة هيكلة الكود المحدد"
 		},
 		"vs/workbench/contrib/chat/common/chatPermissionWarnings": {
-			"permissions.autoApprove.warning.cancel": "يلغي",
+			"permissions.autoApprove.warning.cancel": "الغاء",
 			"permissions.autoApprove.warning.confirm": "يُمكَِن",
 			"permissions.autoApprove.warning.detail": "سيوافق خيار \"تجاوز الموافقات\" تلقائيًا على جميع استدعاءات الأداة دون طلب التأكيد. يتضمن ذلك تعديلات الملفات والأوامر الطرفية واستدعاء الأدوات الخارجية.\r\n\r\nلجعل هذا مستوى إذن البداية لجلسات الدردشة الجديدة، قم بتغيير الإعداد [{0}](command:workbench.action.openSettings?%5B%22{0}%22%5D).",
 			"permissions.autoApprove.warning.title": "هل تريد تمكين تجاوز الموافقة؟",
-			"permissions.autopilot.warning.cancel": "يلغي",
+			"permissions.autopilot.warning.cancel": "الغاء",
 			"permissions.autopilot.warning.confirm": "يُمكَِن",
 			"permissions.autopilot.warning.detail": "سيوافق الطيار الآلي تلقائيًا على جميع استدعاءات الأداة ويستمر في العمل بشكل مستقل حتى تكتمل المهمة. يتضمن ذلك الأوامر الطرفية وتعديلات الملفات واستدعاءات الأدوات الخارجية. سيتخذ الوكيل القرارات نيابةً عنك دون طلب التأكيد.\r\n\r\nيمكنك إيقاف الوكيل في أي وقت عن طريق النقر على زر الإيقاف. وهذا ينطبق فقط على الجلسة الحالية.\r\n\r\nلجعل هذا مستوى إذن البداية لجلسات الدردشة الجديدة، قم بتغيير الإعداد [{0}](command:workbench.action.openSettings?%5B%22{0}%22%5D).",
 			"permissions.autopilot.warning.title": "تمكين الطيار الآلي؟",
