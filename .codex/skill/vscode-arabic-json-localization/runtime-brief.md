@@ -3,15 +3,8 @@
 ## Project
 VS Code Arabic JSON Localization
 
-## Model
-gpt-5.4
-
-## Reasoning
-- default: high
-- heavy-review: xhigh
-
 ## Mission
-Translate and review VS Code JSON localization files from French to Arabic with maximum accuracy while preserving:
+Translate and review VS Code JSON localization files from the current Microsoft French language pack to Arabic with maximum accuracy while preserving:
 - JSON validity
 - placeholders
 - escape sequences
@@ -28,6 +21,8 @@ Always read and follow:
 1. AGENTS.md
 2. SKILL.md
 3. TERMINOLOGY.md
+
+For upstream comparison, use the current `microsoft/vscode-loc/i18n/vscode-language-pack-fr` checkout.
 
 ## Core Priorities
 1. JSON validity
@@ -68,6 +63,11 @@ When reviewing:
 - normalize keyboard terms
 - check for mixed Arabic/English/French strings
 - check JSON validity after edits
+- compare all files and `(section, key)` pairs with the French source
+- report present, missing, and obsolete key counts and the upstream package version
+- translate every new user-facing source value; do not count copied French or English as Arabic
+- do not keep temporary reports or files outside the project
+- do not send project text to external automatic translation services
 
 ## package.json Policy
 Translate only user-visible fields such as:
@@ -96,6 +96,13 @@ For translation tasks:
 For review tasks:
 - edit only the necessary parts
 - optionally provide a very short summary after finishing
+
+## Release Review
+- Verify Node and npm runtime versions before packaging.
+- Validate JSON, placeholders, localization coverage, Markdown, and VSIX contents using available project commands.
+- Check Marketplace Insights before updating metrics; include the check date because figures change.
+- Review staged and unstaged changes separately and keep unrelated files out of the release.
+- Never place publisher tokens in source files, command history, or chat.
 
 ## Final Goal
 Deliver Arabic localization that reads naturally to Arabic-speaking VS Code users, preserves all technical integrity, and stays consistent across the full project.

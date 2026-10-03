@@ -9,53 +9,55 @@ Thank you for helping improve the Arabic Language Pack for Visual Studio Code.
 ### English
 
 1. Fork and clone the repository.
-2. Install Node.js 20 or later.
-3. Run `npm install`.
-4. Keep a local checkout of `microsoft/vscode-loc` when preparing a sync release.
-5. Use the validation scripts in `package.json` before opening a pull request.
+2. Use a supported Node.js release and check `node -v` and `npm exec -- node -v` before build or package work.
+3. The project has no runtime dependencies; do not run `npm install` unless dependencies are added intentionally.
+4. Keep a local checkout of `microsoft/vscode-loc` and use its French language pack as the comparison source.
+5. Run the available validation and packaging commands in `package.json` before opening a pull request.
 
 ### العربية
 
-1. انسخ المستودع ثم استنسخه محليًا.
-2. ثبّت Node.js 20 أو أحدث.
-3. شغّل `npm install`.
-4. احتفظ بنسخة محلية من `microsoft/vscode-loc` عند تجهيز مزامنة إصدار جديد.
-5. استخدم أوامر التحقق الموجودة في `package.json` قبل فتح طلب السحب.
+1. أنشئ نسخة متفرعة من المستودع ثم استنسخها محليًا.
+2. استخدم إصدارًا مدعومًا من Node.js، وتحقق من `node -v` و`npm exec -- node -v` قبل البناء أو التغليف.
+3. لا يحتاج المشروع إلى تبعيات تشغيل؛ لا تشغّل `npm install` إلا عند إضافة تبعيات عمدًا.
+4. احتفظ بنسخة محلية من `microsoft/vscode-loc` واستخدم حزمة اللغة الفرنسية للمقارنة.
+5. شغّل أوامر التحقق والتغليف المتاحة في `package.json` قبل فتح طلب السحب.
 
 ## Translation Workflow | سير عمل الترجمة
 
 ### English
 
-1. Sync against the latest upstream French localization files.
-2. Review the generated audit report in `reports/`.
-3. Preserve existing Arabic strings when the upstream key still exists.
-4. Translate only user-visible text.
-5. Keep placeholders, command ids, paths, and configuration keys unchanged.
-6. Record terminology decisions in `TERMINOLOGY.md`.
+1. Compare every upstream file with its Arabic counterpart using the `(section, key)` pair.
+2. Record missing, obsolete, and present key counts in the review; do not retain generated audit reports in the repository.
+3. Preserve an existing Arabic value when its upstream key still exists.
+4. Translate every new user-visible value into natural Arabic; do not copy the French source value as the translation.
+5. Keep placeholders, escape sequences, command ids, paths, and configuration keys unchanged.
+6. Review Arabic quality and terminology, then validate JSON and key coverage.
+7. Record new terminology decisions in `TERMINOLOGY.md`.
 
 ### العربية
 
-1. نفّذ مزامنة مع أحدث ملفات الترجمة الفرنسية من upstream.
-2. راجع تقرير التدقيق الناتج داخل `reports/`.
-3. احتفظ بالنص العربي الحالي ما دام المفتاح ما زال موجودًا upstream.
-4. ترجم النصوص الظاهرة للمستخدم فقط.
-5. اترك placeholders ومعرّفات الأوامر والمسارات ومفاتيح الإعدادات كما هي.
-6. دوّن قرارات المصطلحات في `TERMINOLOGY.md`.
+1. قارن كل ملف upstream بنظيره العربي باستخدام زوج `(section, key)`.
+2. سجّل أعداد المفاتيح الموجودة والناقصة والقديمة ضمن المراجعة، ولا تحتفظ بتقارير التدقيق المؤقتة في المستودع.
+3. احتفظ بالقيمة العربية الحالية إذا ظل مفتاحها موجودًا في المصدر.
+4. ترجم كل قيمة جديدة ظاهرة للمستخدم إلى عربية طبيعية، ولا تنسخ قيمة المصدر الفرنسية بوصفها ترجمة.
+5. حافظ على placeholders وتسلسلات الهروب ومعرّفات الأوامر والمسارات ومفاتيح الإعدادات.
+6. راجع جودة العربية والمصطلحات، ثم تحقق من JSON وتغطية المفاتيح.
+7. دوّن المصطلحات الجديدة في `TERMINOLOGY.md`.
 
 ## Pull Request Process | آلية طلبات السحب
 
 ### English
 
 1. Create a focused branch.
-2. Keep commits logical and readable.
-3. Include a short summary, validation notes, and any remaining translation gaps.
+2. Keep commits logical and readable; do not include unrelated workspace changes.
+3. Include a short summary, validation results, source version, key counts, and any unresolved translation questions.
 4. Link related issues when applicable.
 
 ### العربية
 
 1. أنشئ فرعًا واضحًا ومخصصًا للتعديل.
-2. اجعل الالتزامات منطقية وسهلة المراجعة.
-3. أضف ملخصًا قصيرًا ونتائج التحقق وأي فجوات ترجمة متبقية.
+2. اجعل الالتزامات منطقية وسهلة المراجعة، ولا تضمّن تغييرات محلية غير مرتبطة.
+3. أضف ملخصًا قصيرًا ونتائج التحقق وإصدار المصدر وأعداد المفاتيح وأي مواضع ترجمة غير محسومة.
 4. اربط القضايا ذات الصلة عند الحاجة.
 
 ## Commit Conventions | أسلوب رسائل الالتزام

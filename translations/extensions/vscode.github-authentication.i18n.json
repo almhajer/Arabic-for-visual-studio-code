@@ -44,7 +44,7 @@
 			"This build of {0} is not configured to sign in to GitHub with Microsoft.": "لم يُعَدّ هذا الإصدار من {0} لتسجيل الدخول إلى GitHub باستخدام Microsoft.",
 			"Use a Different Microsoft Account": "استخدام حساب Microsoft آخر",
 			"Your Microsoft account is now linked to a different GitHub account.": "أصبح حساب Microsoft مرتبطًا الآن بحساب GitHub آخر.",
-			"Your organization's Microsoft sign-in is linked to this GitHub account:\n\n{0}\n\nSign in to GitHub with this account?": "Your organization's Microsoft sign-in is linked to this GitHub account:\n\n{0}\n\nSign in to GitHub with this account?"
+			"Your organization's Microsoft sign-in is linked to this GitHub account:\n\n{0}\n\nSign in to GitHub with this account?": "يرتبط تسجيل الدخول إلى Microsoft الخاص بمؤسستك بحساب GitHub هذا:\n\n{0}\n\nهل تريد تسجيل الدخول إلى GitHub بهذا الحساب؟"
 		},
 		"package": {
 			"config.github-authentication.preferDeviceCodeFlow.description": "عندما تكون القيمة `true`، يُفضَّل تدفق رمز الجهاز للمصادقة على أي تدفقات أخرى متاحة. يفيد هذا في بيئات مثل WSL حيث قد لا تعمل تدفقات الخادم المحلي أو معالج عناوين URL كما هو متوقع.",

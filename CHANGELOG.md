@@ -12,21 +12,19 @@ This file follows a simple format inspired by Keep a Changelog.
 
 ## [Unreleased]
 
+## [1.125.3] - 2026-10-03
+
 ### العربية
 
-- مزامنة ملفات الترجمة مع مرجع Microsoft `vscode-loc` حتى الإصدار `1.125.0`.
-- تحديث `package.json` لرفع توافق VS Code وتحسين الوصف والكلمات المفتاحية وسكربتات التحقق.
-- تحديث ملفات التوثيق والسياسات: `README.md` و`README_EN.md` و`CONTRIBUTING.md` و`SECURITY.md`.
-- إضافة تقارير تدقيق المزامنة وملفات دعم التحقق الآلي.
-- ترجمة جميع المفاتيح الجديدة التي كانت موثقة في `reports/needs-translation.json`.
+- استكمال مراجعة الترجمات وإصلاح نصوص واجهة بقيت بالإنجليزية في رسائل JSON وMarkdown ومصادقة GitHub.
+- توثيق أحدث إحصاءات الاكتساب ومشاهدات Marketplace مع تاريخ التحقق.
+- تحسين إرشادات المزامنة والتدقيق والإصدار بالعربية والإنجليزية.
 
 ### English
 
-- Synced localization files against Microsoft `vscode-loc` version `1.125.0`.
-- Updated `package.json` compatibility, metadata, keywords, and validation scripts.
-- Refreshed repository documentation and policy files.
-- Added sync audit output and repeatable validation helpers.
-- Translated all newly imported keys previously tracked in `reports/needs-translation.json`.
+- Reviewed localization coverage and translated remaining English UI strings in JSON, Markdown, and GitHub authentication messages.
+- Refreshed Marketplace acquisition and page-view metrics with their verification date.
+- Clarified synchronization, audit, and release guidance in English and Arabic.
 
 ---
 

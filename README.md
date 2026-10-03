@@ -7,19 +7,20 @@
 
 Arabic localization for Visual Studio Code, synchronized with the latest Microsoft language-pack sources and maintained for Arabic-speaking developers.
 
-تعريب عربي لبرنامج Visual Studio Code، متزامن مع أحدث ملفات الترجمة الرسمية من Microsoft ومهيأ لتجربة استخدام طبيعية للمطورين الناطقين بالعربية.
+تعريب واجهة Visual Studio Code إلى العربية، متزامن مع ملفات الترجمة الرسمية من Microsoft ومهيأ لتجربة استخدام واضحة للمطورين الناطقين بالعربية.
 
 ## Impact
 
 | Metric | Value |
 | --- | ---: |
-| Total Downloads | 16,757 |
-| Downloads Last 30 Days | 1,685 |
-| Releases | 7 |
+| Acquisitions — last 30 days | 1,511 |
+| Acquisitions — till date | 22,205 |
+| Page views — last 30 days | 291 |
+| Acquisition funnel | 519.24% (1.5K) |
 
-The extension has seen steady adoption across the Arabic developer community and continues to help teams use VS Code with a more approachable interface.
+Marketplace Insights reports 1,511 acquisitions in the last 30 days and 22,205 acquisitions to date. Its conversion funnel shows 291 page views and 1.5K acquisitions (519.24%). Checked on 2026-10-03; Marketplace metrics change over time.
 
-تشير هذه الأرقام إلى اعتماد متزايد لحزمة اللغة العربية داخل مجتمع المطورين العرب، مع استخدام فعلي ومستمر في بيئات العمل والتعلّم.
+تعرض إحصاءات Marketplace عدد 1,511 عملية اكتساب خلال آخر 30 يومًا و22,205 عملية حتى الآن. ويعرض مسار التحويل 291 مشاهدة للصفحة و1.5 ألف عملية اكتساب (519.24%). تم التحقق من الأرقام في 2026-10-03، وهي تتغير بمرور الوقت.
 
 ## Screenshots
 
@@ -89,19 +90,19 @@ Please report vulnerabilities privately as described in [SECURITY.md](./SECURITY
 
 ### English
 
-1. Sync the repository with the latest Microsoft `vscode-loc` French sources.
-2. Review new keys and complete Arabic translation coverage.
-3. Run JSON, localization, markdown, and packaging validation.
-4. Update `CHANGELOG.md`.
-5. Publish a tagged release and the packaged extension.
+1. Compare every localization file and `(section, key)` pair with the current French package.
+2. Translate every new user-facing value and review terminology and placeholders.
+3. Run the available JSON, localization, Markdown, and packaging checks.
+4. Update `CHANGELOG.md` and the package version.
+5. Inspect the VSIX, then publish the tagged release and extension.
 
 ### العربية
 
-1. مزامنة المستودع مع أحدث ملفات `vscode-loc` الفرنسية من Microsoft.
-2. مراجعة المفاتيح الجديدة واستكمال الترجمة العربية.
-3. تشغيل تحقق JSON والتعريب وMarkdown والتغليف.
-4. تحديث `CHANGELOG.md`.
-5. نشر إصدار موسوم وملف الإضافة النهائي.
+1. قارن كل ملف ترجمة وزوج `(section, key)` بأحدث حزمة فرنسية.
+2. ترجم كل قيمة واجهة جديدة وراجع المصطلحات والـ placeholders.
+3. شغّل فحوص JSON والتعريب وMarkdown والتغليف المتاحة في المشروع.
+4. حدّث `CHANGELOG.md` ورقم النسخة.
+5. افحص ملف VSIX ثم انشر الإصدار الموسوم والإضافة.
 
 ## Roadmap
 

@@ -174,8 +174,8 @@
 			"no JSON schema configured": "لم يتم تكوين أي مخطط JSON",
 			"only {0} document symbols shown for performance reasons": "يتم عرض رموز المستند {0} فقط لأسباب الأداء",
 			"{0} is a directory, not a file": "{0} هو مجلد، وليس ملفاً",
-			"String is not a valid UUID.": "String is not a valid UUID.",
-			"String is not an ISO 8601 duration.": "String is not an ISO 8601 duration."
+			"String is not a valid UUID.": "السلسلة ليست معرّف UUID صالحًا.",
+			"String is not an ISO 8601 duration.": "السلسلة ليست مدة زمنية صالحة وفق ISO 8601."
 		},
 		"package": {
 			"description": "يوفر دعم اللغة لملفات JSON",
