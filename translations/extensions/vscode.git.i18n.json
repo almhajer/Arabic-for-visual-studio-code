@@ -462,7 +462,9 @@
 			"{0} yr ago": "منذ {0} سنة",
 			"{0} yrs": "{0} سنة",
 			"{0} yrs ago": "منذ {0} سنة",
-			"{0} ș {1}": "{0} و {1}"
+			"{0} ș {1}": "{0} و {1}",
+			"The worktree for session \"{0}\" contains modified or untracked files. Do you want to force delete?": "تحتوي شجرة العمل للجلسة \"{0}\" على ملفات معدّلة أو غير متتبعة. هل تريد حذفها قسرًا؟",
+			"Worktree: {0}": "شجرة العمل: {0}"
 		},
 		"package": {
 			"colors.added": "لون الملفات المضافة.",

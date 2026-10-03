@@ -22,7 +22,8 @@
 			"This activation event can be removed as VS Code generates these automatically from your package.json contribution declarations.": "يمكن إزالة حدث التنشيط هذا لأن VS Code يُنشئه تلقائيًا من تعريفات المساهمات في package.json.",
 			"This activation event cannot be explicitly listed by your extension.": "لا يمكن لإضافتك إدراج حدث التنشيط هذا صراحةً.",
 			"This proposal cannot be used because for this extension the product defines a fixed set of API proposals. You can test your extension but before publishing you MUST reach out to the VS Code team.": "لا يمكن استخدام هذا الاقتراح لأن المنتج يحدد لهذه الإضافة مجموعة ثابتة من مقترحات واجهة برمجة التطبيقات. يمكنك اختبار الإضافة، لكن يجب التواصل مع فريق VS Code قبل النشر.",
-			"Using '*' activation is usually a bad idea as it impacts performance.": "استخدام التنشيط '*' عادةً فكرة سيئة لأنه يؤثر على الأداء."
+			"Using '*' activation is usually a bad idea as it impacts performance.": "استخدام التنشيط '*' عادةً فكرة سيئة لأنه يؤثر على الأداء.",
+			"API proposal versions are no longer supported. Remove the '@<version>' suffix.": "لم تعد إصدارات مقترحات API مدعومة. أزل اللاحقة '@<version>'."
 		},
 		"package": {
 			"description": "يوفّر وظائف التحقق من الكود لإنشاء إضافات VS Code.",

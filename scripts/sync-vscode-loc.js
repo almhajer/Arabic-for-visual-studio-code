@@ -91,11 +91,11 @@ function syncFile(relPath, translationIndex, apply) {
 	const synced = {
 		'': local && local[''] ? local[''] : upstream[''],
 		version: upstream.version,
-		contents: {}
+		contents: local && local.contents ? { ...local.contents } : {}
 	};
 
 	for (const [section, upstreamValues] of Object.entries(upstream.contents || {})) {
-		synced.contents[section] = {};
+		synced.contents[section] = { ...(synced.contents[section] || {}) };
 		for (const [key, upstreamValue] of Object.entries(upstreamValues || {})) {
 			const composite = `${section}\u0000${key}`;
 			if (localFlat.has(composite)) {
